@@ -1,0 +1,55 @@
+{
+  "id": "lesson4",
+  "title": "The Code of Pashtunwali",
+  "category": "Culture",
+  "description": "A deep dive into the traditional ethical code of honor, hospitality, and justice.",
+  "duration": "15 min",
+  "level": "Advanced",
+  "author": "Poha Editorial",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "The Way of the Pashtun",
+      "lines": [
+        "To understand Pashtun culture, one must understand 'Pashtunwali' (پښتونولي). It is an unwritten, ancient ethical code and traditional lifestyle that predates modern legal systems by centuries.",
+        "Pashtunwali governs all aspects of behavior, emphasizing honor (Nang), self-respect, and independence. It is so deeply ingrained that a Pashtun is often judged by their adherence to this code rather than by religious piety alone."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "The Core Pillars",
+      "lines": [
+        "**Melmastia (Hospitality):** The obligation to show profound hospitality and protection to all visitors, without hope of remuneration or favor, regardless of the guest's religion or nationality.",
+        "**Nanawatai (Asylum):** The requirement to give sanctuary to anyone seeking refuge, even one's bitter enemy. Once a person invokes Nanawatai, their host must protect them at all costs.",
+        "**Badal (Justice/Revenge):** To seek justice or take revenge against the wrongdoer. There is no time limit on Badal; a famous Pashtun proverb states, 'A Pashtun took revenge after a hundred years and said, I was too quick.'"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "The story of Marcus Luttrell (the 'Lone Survivor') is a famous modern example of Pashtunwali. A Pashtun villager invoked 'Nanawatai' to protect the wounded American soldier from the Taliban, risking his own village to uphold the code of asylum."
+    },
+    {
+      "type": "quiz",
+      "question": "Under the pillar of 'Nanawatai', what is a Pashtun obligated to do?",
+      "options": [
+        "Take revenge for a wronged family member",
+        "Provide asylum and protection to anyone seeking refuge, even an enemy",
+        "Host a feast for the village elders",
+        "Speak only the truth during a Jirga"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nanawatai translates to 'coming in' or 'sanctuary'. It mandates that a Pashtun must provide protection to anyone who requests asylum, even at the cost of their own life or property."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Continuing Your Journey",
+      "lines": [
+        "You have completed the introductory lessons to Pashto and Pashtun culture. The language and the code of Pashtunwali are deeply intertwined.",
+        "We invite you to explore further: listen to the rhythm of the Attan, explore the verses of Pashtun poets like Rahman Baba, and practice the 44 letters of the alphabet. Dera manana (Thank you very much) for learning!"
+      ]
+    }
+  ]
+}

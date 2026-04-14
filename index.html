@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="An interactive learning platform with Afghan cultural design." />
+  <title>Learn Pashto Today</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <pattern id="afghan-tile" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+        <polygon points="30,2 58,30 30,58 2,30" fill="none" stroke="var(--pattern-color)" stroke-width="1"/>
+        <polygon points="30,12 48,30 30,48 12,30" fill="none" stroke="var(--pattern-color)" stroke-width="0.75"/>
+        <circle cx="30" cy="2"  r="1.5" fill="var(--pattern-color)"/>
+        <circle cx="58" cy="30" r="1.5" fill="var(--pattern-color)"/>
+        <circle cx="30" cy="58" r="1.5" fill="var(--pattern-color)"/>
+        <circle cx="2"  cy="30" r="1.5" fill="var(--pattern-color)"/>
+        <polygon points="30,22 38,30 30,38 22,30" fill="var(--pattern-color)" opacity="0.4"/>
+        <line x1="30" y1="2"  x2="30" y2="12" stroke="var(--pattern-color)" stroke-width="0.5"/>
+        <line x1="30" y1="48" x2="30" y2="58" stroke="var(--pattern-color)" stroke-width="0.5"/>
+        <line x1="2"  y1="30" x2="12" y2="30" stroke="var(--pattern-color)" stroke-width="0.5"/>
+        <line x1="48" y1="30" x2="58" y2="30" stroke="var(--pattern-color)" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+  </svg>
+
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="brand">
+        <svg class="brand-icon" viewBox="0 0 40 40" aria-hidden="true">
+          <polygon points="20,2 24,16 38,16 27,25 31,39 20,30 9,39 13,25 2,16 16,16" fill="var(--saffron)" opacity="0.9"/>
+          <polygon points="20,8 23,17 32,17 25,22 28,31 20,26 12,31 15,22 8,17 17,17" fill="var(--lapis-dark)"/>
+        </svg>
+        <span class="brand-name">Learn Pashto Today</span>
+        <span class="brand-tagline">Interactive Learning</span>
+      </div>
+
+      <div class="header-progress" aria-live="polite">
+        <span class="progress-label">Progress</span>
+        <div class="progress-bar-wrap" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="progress-bar-fill" id="global-progress-bar"></div>
+        </div>
+        <span class="progress-text" id="global-progress-text">0 / 0</span>
+      </div>
+    </div>
+
+    <div class="header-border-strip" aria-hidden="true">
+      <svg viewBox="0 0 1200 12" preserveAspectRatio="none">
+        <rect width="1200" height="12" fill="var(--saffron)"/>
+        <g fill="var(--lapis-dark)" opacity="0.5">
+          <use href="#border-motif" x="0"/>
+          <script>/* generated via CSS repeat */</script>
+        </g>
+      </svg>
+    </div>
+  </header>
+
+  <div class="app-layout">
+
+    <nav class="lesson-nav" id="lesson-nav" aria-label="Lesson navigation">
+      <div class="nav-header">
+        <h2 class="nav-title">Lessons</h2>
+      </div>
+      <ul class="nav-list" id="nav-list" role="list">
+        <li class="nav-skeleton" aria-hidden="true"><span></span></li>
+        <li class="nav-skeleton" aria-hidden="true"><span></span></li>
+        <li class="nav-skeleton" aria-hidden="true"><span></span></li>
+      </ul>
+    </nav>
+
+    <main class="content-area" id="content-area" role="main" aria-live="polite" aria-atomic="false">
+      <div class="welcome-splash" id="welcome-splash">
+        <div class="welcome-card">
+          <svg class="splash-medallion" viewBox="0 0 120 120" aria-hidden="true">
+            <circle cx="60" cy="60" r="56" fill="none" stroke="var(--lapis)" stroke-width="1.5" opacity="0.3"/>
+            <polygon points="60,10 68,44 102,44 76,64 86,98 60,78 34,98 44,64 18,44 52,44" fill="var(--lapis)" opacity="0.15"/>
+            <polygon points="60,22 66,44 88,44 71,57 77,79 60,66 43,79 49,57 32,44 54,44" fill="var(--lapis)" opacity="0.25"/>
+            <circle cx="60" cy="60" r="12" fill="var(--saffron)" opacity="0.6"/>
+            <circle cx="60" cy="60" r="6"  fill="var(--lapis-dark)" opacity="0.7"/>
+          </svg>
+          <h1 class="welcome-title">Welcome to Learn Pashto Today</h1>
+          <p class="welcome-sub">Select a lesson from the menu to begin your journey.</p>
+          <div class="welcome-dots" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+
+      <article class="lesson-wrapper" id="lesson-wrapper" hidden>
+        <div class="lesson-card" id="lesson-card">
+          </div>
+        <div class="lesson-footer" id="lesson-footer">
+          <button class="btn-finish" id="btn-finish" type="button">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16.7 5.3a1 1 0 00-1.4 0L8 12.6 4.7 9.3a1 1 0 00-1.4 1.4l4 4a1 1 0 001.4 0l8-8a1 1 0 000-1.4z"/></svg>
+            Mark Lesson Complete
+          </button>
+        </div>
+      </article>
+
+      <div class="loading-state" id="loading-state" hidden aria-label="Loading lesson…">
+        <div class="loader-medallion" aria-hidden="true">
+          <div class="loader-ring"></div>
+          <div class="loader-ring loader-ring--2"></div>
+        </div>
+        <p>Loading lesson…</p>
+      </div>
+
+      <div class="error-state" id="error-state" hidden role="alert">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <h3>Could not load lesson</h3>
+        <p id="error-message">Please check the data files and try again.</p>
+      </div>
+    </main>
+
+  </div>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-pattern" aria-hidden="true"></div>
+    <p>Learn Pashto Today &mdash; Built with care &amp; culture.</p>
+  </footer>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "lessons": [
+    {
+      "id": "lesson1",
+      "title": "Introduction to Pashto",
+      "category": "Language",
+      "description": "An overview of the Pashto language — its origins, retroflex sounds, and 44-letter script.",
+      "duration": "8 min",
+      "level": "Beginner"
+    },
+    {
+      "id": "lesson2",
+      "title": "Ahmad Shah & The Durrani Empire",
+      "category": "History",
+      "description": "Explore the founding of modern Afghanistan and the historical roots of the Pashtun people.",
+      "duration": "12 min",
+      "level": "Intermediate"
+    },
+    {
+      "id": "lesson3",
+      "title": "Pashto Poetry & The Attan",
+      "category": "Culture",
+      "description": "Discover the powerful two-line Landay poetic form and the traditional Attan dance.",
+      "duration": "10 min",
+      "level": "Beginner"
+    },
+    {
+      "id": "lesson4",
+      "title": "The Code of Pashtunwali",
+      "category": "Culture",
+      "description": "A deep dive into the traditional ethical code of honor, hospitality, and justice.",
+      "duration": "15 min",
+      "level": "Advanced"
+    }
+  ]
+}
