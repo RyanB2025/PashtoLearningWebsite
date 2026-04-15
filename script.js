@@ -85,17 +85,24 @@ async function fetchJSON(path) {
 }
 
 /**
- * Sanitize user-supplied text to avoid XSS when using innerHTML.
- * Use this for all JSON string values inserted as HTML text content.
+ * Sanitize user-supplied text to avoid XSS, 
+ * while decoding pesky HTML entities like &#39;
  */
 function sanitize(str) {
   if (typeof str !== 'string') return '';
-  return str
+  
+  // 1. Decode any existing glitches (like &#39;) coming from the JSON
+  const textArea = document.createElement('textarea');
+  textArea.innerHTML = str;
+  const decodedStr = textArea.value;
+  
+  // 2. Re-sanitize for security, but LEAVE the apostrophes alone!
+  return decodedStr
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
+    .replace(/"/g, '&quot;');
+    // We completely removed the .replace(/'/g, '&#39;') line!
 }
 
 /**

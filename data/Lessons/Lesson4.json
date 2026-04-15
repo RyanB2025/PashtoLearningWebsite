@@ -1,55 +1,49 @@
 {
-  "id": "lesson4",
-  "title": "The Code of Pashtunwali",
-  "category": "Culture",
-  "description": "A deep dive into the traditional ethical code of honor, hospitality, and justice.",
+  "id": "lesson-04-questions",
+  "title": "Lesson 04: Asking Basic Questions",
+  "category": "Language",
+  "description": "Learn the essential interrogative words (Who, What, Where) and how to form questions naturally.",
   "duration": "15 min",
-  "level": "Advanced",
+  "level": "Beginner",
   "author": "Poha Editorial",
   "content": [
     {
       "type": "paragraph",
-      "heading": "The Way of the Pashtun",
+      "heading": "The Question Words",
       "lines": [
-        "To understand Pashtun culture, one must understand 'Pashtunwali' (پښتونولي). It is an unwritten, ancient ethical code and traditional lifestyle that predates modern legal systems by centuries.",
-        "Pashtunwali governs all aspects of behavior, emphasizing honor (Nang), self-respect, and independence. It is so deeply ingrained that a Pashtun is often judged by their adherence to this code rather than by religious piety alone."
+        "In Pashto, question words typically sit right before the verb.",
+        "What: Tse [Tsay]",
+        "Who: Tsok [Tsoak]",
+        "Where: Chera [Cheh-rah]"
       ]
-    },
-    {
-      "type": "paragraph",
-      "heading": "The Core Pillars",
-      "lines": [
-        "**Melmastia (Hospitality):** The obligation to show profound hospitality and protection to all visitors, without hope of remuneration or favor, regardless of the guest's religion or nationality.",
-        "**Nanawatai (Asylum):** The requirement to give sanctuary to anyone seeking refuge, even one's bitter enemy. Once a person invokes Nanawatai, their host must protect them at all costs.",
-        "**Badal (Justice/Revenge):** To seek justice or take revenge against the wrongdoer. There is no time limit on Badal; a famous Pashtun proverb states, 'A Pashtun took revenge after a hundred years and said, I was too quick.'"
-      ]
-    },
-    {
-      "type": "callout",
-      "text": "The story of Marcus Luttrell (the 'Lone Survivor') is a famous modern example of Pashtunwali. A Pashtun villager invoked 'Nanawatai' to protect the wounded American soldier from the Taliban, risking his own village to uphold the code of asylum."
-    },
-    {
-      "type": "quiz",
-      "question": "Under the pillar of 'Nanawatai', what is a Pashtun obligated to do?",
-      "options": [
-        "Take revenge for a wronged family member",
-        "Provide asylum and protection to anyone seeking refuge, even an enemy",
-        "Host a feast for the village elders",
-        "Speak only the truth during a Jirga"
-      ],
-      "correctIndex": 1,
-      "explanation": "Nanawatai translates to 'coming in' or 'sanctuary'. It mandates that a Pashtun must provide protection to anyone who requests asylum, even at the cost of their own life or property."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Continuing Your Journey",
+      "heading": "Forming Questions",
       "lines": [
-        "You have completed the introductory lessons to Pashto and Pashtun culture. The language and the code of Pashtunwali are deeply intertwined.",
-        "We invite you to explore further: listen to the rhythm of the Attan, explore the verses of Pashtun poets like Rahman Baba, and practice the 44 letters of the alphabet. Dera manana (Thank you very much) for learning!"
+        "What is this?: Da tse day? [Dah tsay day?] (Literally: This what is?)",
+        "Who is this?: Da tsok day? [Dah tsoak day?] (Literally: This who is?)",
+        "Where are you?: Te chera ye? [Tuh cheh-rah yay?] (Literally: You where are?)"
       ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Pro-Tip: In Kabul, 'Da tse day?' is incredibly useful at the bazaar when pointing at fruits or items you don't know the name of yet. Merchants love it when foreigners try to learn item names!"
+    },
+    {
+      "type": "quiz",
+      "question": "How do you ask 'Where are you?' in Pashto?",
+      "options": [
+        "Chera te ye?",
+        "Te ye chera?",
+        "Te chera ye?",
+        "Ye chera te?"
+      ],
+      "correctIndex": 2,
+      "explanation": "Subject (Te) + Question Word (chera) + Verb (ye)."
     }
   ]
 }

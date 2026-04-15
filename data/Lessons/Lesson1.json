@@ -1,30 +1,19 @@
 {
-  "id": "lesson1",
-  "title": "Introduction to Pashto",
+  "id": "lesson-01-greetings",
+  "title": "Lesson 01: Essential Greetings and 'To Be'",
   "category": "Language",
-  "description": "An overview of the Pashto language — its origins, unique sounds, and script.",
-  "duration": "8 min",
+  "description": "Start your Pashto journey with standard Kabul greetings, introductions, and the essential 'To Be' verb.",
+  "duration": "15 min",
   "level": "Beginner",
   "author": "Poha Editorial",
   "content": [
     {
       "type": "paragraph",
-      "heading": "What is Pashto?",
+      "heading": "The First Encounter",
       "lines": [
-        "Pashto (پښتو) is an Eastern Iranian language. It is one of the two official languages of Afghanistan and the second-largest regional language of Pakistan. It is the native and historical tongue of the Pashtun people.",
-        "Unlike Persian, Pashto has preserved many ancient phonological features of the Indo-Iranian language family, making it uniquely rich in its sound structure."
-      ]
-    },
-    {
-      "type": "callout",
-      "text": "Pashto is known for its distinct retroflex consonants (sounds made by curling the tongue back), which are not found in standard Persian or Arabic."
-    },
-    {
-      "type": "paragraph",
-      "heading": "The Alphabet & Script",
-      "lines": [
-        "Pashto is written in a modified Perso-Arabic script, read from right to left. The Pashto alphabet consists of 44 letters.",
-        "It includes specialized letters to represent its unique sounds, such as ټ (tt), ډ (dd), ړ (rr), ږ (zh), and ښ (sh/kh)."
+        "In Pashto, the most common greeting is universal across the Islamic world: Salaam Alaykum [Sa-laam A-lay-koom] (Peace be upon you).",
+        "To ask 'How are you?' informally in the Kabul dialect, we say: Senga ye? [Sen-gah yay?]",
+        "To reply 'I am fine / good', say: Khah yam [Kh-ah yum]. Notice the 'kh' is a raspy sound from the back of the throat."
       ]
     },
     {
@@ -32,31 +21,29 @@
     },
     {
       "type": "paragraph",
-      "heading": "Essential Greetings",
+      "heading": "The 'To Be' Verb (Present Tense)",
       "lines": [
-        "Pashtun culture places a heavy emphasis on warm, elaborate greetings. The most common daily greeting is 'Staray mashe' (ستړی مه شې), which literally translates to 'May you not be tired.'",
-        "Other essential phrases include: 'Pakhair raghlay' (په خیر راغلئ) — Welcome; 'Manana' (مننه) — Thank you; and 'De khuday pa aman' (د خدای په امان) — Goodbye."
+        "In Pashto's Subject-Object-Verb (SOV) structure, the verb ALWAYS goes at the end of the sentence.",
+        "I am: Ze ... yam [Zuh ... yum]",
+        "You are: Te ... ye [Tuh ... yay]",
+        "Example: Ze khah yam [Zuh kh-ah yum] means 'I good am'."
       ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Pro-Tip: When greeting someone, place your right hand over your heart. It shows deep respect and sincerity, instantly elevating you from a tourist to a guest."
     },
     {
       "type": "quiz",
-      "question": "What does the common Pashto greeting 'Staray mashe' literally mean?",
+      "question": "If you want to say 'I am fine' in the Kabul dialect, what is the correct sentence order?",
       "options": [
-        "Peace be upon you",
-        "May you not be tired",
-        "Welcome to my home",
-        "God protect you"
+        "Yam ze khah",
+        "Ze khah yam",
+        "Khah ze yam",
+        "Ze yam khah"
       ],
       "correctIndex": 1,
-      "explanation": "'Staray mashe' (ستړی مه شې) means 'May you not be tired.' It is a deeply ingrained greeting acknowledging the hard work and resilience of the person you are meeting."
-    },
-    {
-      "type": "paragraph",
-      "heading": "Next Steps",
-      "lines": [
-        "In the next lesson, you will explore the historical foundation of the Pashtun people and the empire that shaped modern Afghanistan.",
-        "Continue to Lesson 2 when you are ready!"
-      ]
+      "explanation": "Pashto follows an SOV structure. 'Ze' (I) is the subject, 'khah' (fine) describes the state, and 'yam' (am) is the verb that must go at the end."
     }
   ]
 }

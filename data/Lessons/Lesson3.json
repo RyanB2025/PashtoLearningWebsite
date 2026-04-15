@@ -1,52 +1,49 @@
 {
-  "id": "lesson3",
-  "title": "Pashto Poetry & The Attan",
-  "category": "Culture",
-  "description": "Discover the powerful two-line Landay poetic form and the traditional Attan dance.",
-  "duration": "10 min",
+  "id": "lesson-03-action-verbs",
+  "title": "Lesson 03: Your First Action Verbs",
+  "category": "Language",
+  "description": "Transition from identifying objects to describing actions using the present tense and the SOV framework.",
+  "duration": "20 min",
   "level": "Beginner",
   "author": "Poha Editorial",
   "content": [
     {
       "type": "paragraph",
-      "heading": "The Power of the Landay",
+      "heading": "Subject + Object + Action",
       "lines": [
-        "Pashto has a remarkably rich oral poetry tradition. The most unique and powerful form is the 'Landay' (لنډۍ), which means 'short, poisonous snake' in Pashto.",
-        "A Landay is an anonymous, two-line folk poem with exactly 22 syllables (9 in the first line, 13 in the second). Historically created and sung by Pashtun women, Landays are fierce, emotional verses addressing love, grief, war, and honor."
+        "Now we apply the SOV rule to real actions. In English we say 'I drink tea' (SVO). In Pashto, we say 'I tea drink' (SOV).",
+        "Let's look at two essential verbs for the first person 'I' (Ze):",
+        "Eat: Khoram [Kho-rum]",
+        "Drink: Tskam [Tsk-um] (Note: The 'ts' is pronounced like the end of 'cats')"
       ]
-    },
-    {
-      "type": "callout",
-      "text": "Because they are shared orally and anonymously, Landays represent the collective, uncensored voice of everyday Pashtun life."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "The Attan: A Dance of Unity",
+      "heading": "Putting It Together",
       "lines": [
-        "The Attan (اتڼ) is a traditional Pashtun communal dance that has evolved into the national dance of Afghanistan. Originally performed by warriors before going into battle or to celebrate a victory, it is now the centerpiece of weddings and festivals.",
-        "Dancers form a circle, following the accelerating rhythm of the Dhol (a double-headed drum) and the melody of the Sorna (a reedy woodwind). The dance can last for hours, requiring immense stamina."
+        "I eat bread: Ze dod-day khoram. [Zuh doad-day kho-rum]",
+        "I drink tea: Ze chay tskam. [Zuh ch-eye tsk-um]",
+        "I drink water: Ze oba tskam. [Zuh oh-ba tsk-um]"
       ]
     },
     {
-      "type": "image",
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Afghan_soldiers_dance_the_Attan.jpg/800px-Afghan_soldiers_dance_the_Attan.jpg",
-      "alt": "A group of men in a circle performing the Attan dance",
-      "caption": "The Attan is performed in a circle, with movements growing increasingly faster and more complex as the drumbeat accelerates."
+      "type": "callout",
+      "text": "Fluency Tip: Pashto is a 'pro-drop' language. Because the verb ending '-am' already tells us the subject is 'I', native speakers often drop the word 'Ze'. You can simply say 'Chay tskam' to mean 'I drink tea'."
     },
     {
       "type": "quiz",
-      "question": "What is the syllable structure of a traditional Pashto Landay?",
+      "question": "Translate the following to Pashto: 'I eat bread'.",
       "options": [
-        "10 syllables total",
-        "22 syllables (9 in the first line, 13 in the second)",
-        "14 syllables per line",
-        "It varies depending on the region"
+        "Ze khoram dod-day",
+        "Ze dod-day khoram",
+        "Dod-day ze khoram",
+        "Khoram ze dod-day"
       ],
       "correctIndex": 1,
-      "explanation": "A Landay always consists of exactly 22 syllables: 9 in the first line and 13 in the second. This strict meter allows them to be easily sung to a specific drumbeat."
+      "explanation": "The order must be Subject (Ze) + Object (dod-day) + Verb (khoram)."
     }
   ]
 }

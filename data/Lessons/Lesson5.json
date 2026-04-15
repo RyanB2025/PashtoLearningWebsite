@@ -1,0 +1,51 @@
+{
+  "id": "lesson-05-numbers",
+  "title": "Lesson 05: Counting 1 to 5",
+  "category": "Language",
+  "description": "Master the first five numbers in Pashto and learn how they interact with objects.",
+  "duration": "10 min",
+  "level": "Beginner",
+  "author": "Poha Editorial",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "The Numbers (1-5)",
+      "lines": [
+        "One: Yaw [Yow]",
+        "Two: Dwa [Dwah]",
+        "Three: Dre [Dray]",
+        "Four: Tsalor [Tsa-loar]",
+        "Five: Pindza [Pin-dzah]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Using Numbers with Nouns",
+      "lines": [
+        "When using numbers, the number always comes before the noun, just like in English.",
+        "One book: Yaw ketab [Yow keh-taab]",
+        "Two teas: Dwa chay [Dwah ch-eye]",
+        "Three waters: Dre oba [Dray oh-ba]"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Grammar Hack: Pluralizing nouns in Pashto can be complex depending on gender and endings. But as a beginner, simply placing a number higher than one before the singular noun will be universally understood by native speakers!"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the Pashto word for the number 'Three'?",
+      "options": [
+        "Yaw",
+        "Tsalor",
+        "Dwa",
+        "Dre"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dre [Dray] is the number three."
+    }
+  ]
+}

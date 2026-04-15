@@ -1,49 +1,58 @@
 {
-  "id": "lesson2",
-  "title": "Ahmad Shah & The Durrani Empire",
-  "category": "History",
-  "description": "Explore the founding of modern Afghanistan and the historical roots of the Pashtun people.",
-  "duration": "12 min",
-  "level": "Intermediate",
+  "id": "lesson-02-objects-gender",
+  "title": "Lesson 02: Everyday Objects and Noun Gender",
+  "category": "Language",
+  "description": "Learn to identify everyday items using basic nouns, demonstratives, and understand Pashto's grammatical gender.",
+  "duration": "15 min",
+  "level": "Beginner",
   "author": "Poha Editorial",
   "content": [
     {
       "type": "paragraph",
-      "heading": "The Father of the Nation",
+      "heading": "The Logic of Things",
       "lines": [
-        "The history of modern Afghanistan is inextricably linked to the Pashtun tribes. In 1747, a young military commander named Ahmad Shah Abdali was chosen by a Loya Jirga (grand assembly) to lead the Pashtun tribes.",
-        "He took the title 'Durr-i-Durrani' (Pearl of Pearls) and founded the Durrani Empire. Today, he is affectionately known by Pashtuns as Ahmad Shah Baba — the Father of the Nation."
+        "To say 'This is [Object]', we start with 'Da' [Dah] (This), followed by the noun, and end with the verb 'is'.",
+        "Crucially, Pashto nouns are gendered. If the object is masculine, 'is' translates to 'day' [day]. If feminine, it translates to 'da' [dah]."
       ]
     },
     {
-      "type": "image",
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tomb_of_Ahmad_Shah_Durrani_in_Kandahar.jpg/800px-Tomb_of_Ahmad_Shah_Durrani_in_Kandahar.jpg",
-      "alt": "The blue-domed shrine of Ahmad Shah Durrani in Kandahar",
-      "caption": "The tomb of Ahmad Shah Durrani in Kandahar, the first capital of the Durrani Empire."
-    },
-    {
-      "type": "callout",
-      "text": "At its peak in the late 18th century, the Durrani Empire was one of the largest Islamic empires in the world, stretching from eastern Iran to northern India (including modern-day Pakistan and Kashmir)."
+      "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "The Loya Jirga Tradition",
+      "heading": "Essential Vocabulary: Things Around You",
       "lines": [
-        "Ahmad Shah's rise to power highlights a core Pashtun institution: the Jirga. A Jirga is a traditional assembly of tribal elders that makes decisions by consensus.",
-        "The 'Loya Jirga' (Grand Council) remains a vital political mechanism in the region today, invoked during times of national crisis or to ratify constitutions."
+        "Ketab [Keh-taab] (Masculine) - Book",
+        "Chay [Ch-eye] (Masculine) - Tea",
+        "Dod-day [Doad-day] (Feminine) - Bread",
+        "Oba [Oh-ba] (Feminine) - Water"
       ]
     },
     {
+      "type": "paragraph",
+      "heading": "Building Sentences",
+      "lines": [
+        "1. This is a book: Da ketab day. [Dah keh-taab day]",
+        "2. This is tea: Da chay day. [Dah ch-eye day]",
+        "3. This is bread: Da dod-day da. [Dah doad-day dah]",
+        "4. This is water: Da oba da. [Dah oh-ba dah]"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Grammar Hack: Most nouns ending in a consonant or 'ay' are masculine, while those ending in an 'a' sound are often feminine."
+    },
+    {
       "type": "quiz",
-      "question": "What is the traditional Pashtun assembly of elders used for decision-making called?",
+      "question": "How would you correctly say 'This is water'?",
       "options": [
-        "Shura",
-        "Jirga",
-        "Wolesi",
-        "Darbar"
+        "Da oba day",
+        "Oba da day",
+        "Da oba da",
+        "Da day oba"
       ],
-      "correctIndex": 1,
-      "explanation": "A Jirga is a traditional assembly of leaders that makes decisions by consensus according to Pashtunwali. A 'Loya Jirga' is a grand, national-level assembly."
+      "correctIndex": 2,
+      "explanation": "Because 'oba' (water) is a feminine noun, the verb 'to be' at the end of the sentence must be the feminine 'da'."
     }
   ]
 }
