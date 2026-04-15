@@ -2,35 +2,43 @@
   "lessons": [
     {
       "id": "lesson1",
-      "title": "Introduction to Pashto",
+      "title": "Greeting And To Be",
       "category": "Language",
-      "description": "An overview of the Pashto language — its origins, retroflex sounds, and 44-letter script.",
+      "description": "Start your Pashto journey with standard Kabul greetings, introductions, and the essential 'To Be' verb.",
       "duration": "8 min",
       "level": "Beginner"
     },
     {
       "id": "lesson2",
-      "title": "Ahmad Shah & The Durrani Empire",
-      "category": "History",
-      "description": "Explore the founding of modern Afghanistan and the historical roots of the Pashtun people.",
+      "title": "Everyday Objects And Noun Objects",
+      "category": "Language",
+      "description": "Learn to identify everyday items using basic nouns, demonstratives, and understand Pashto's grammatical gender.",
       "duration": "12 min",
       "level": "Intermediate"
     },
     {
       "id": "lesson3",
-      "title": "Pashto Poetry & The Attan",
-      "category": "Culture",
-      "description": "Discover the powerful two-line Landay poetic form and the traditional Attan dance.",
+      "title": "Action Verb And SOV",
+      "category": "Language",
+      "description": "Transition from identifying objects to describing actions using the present tense and the SOV framework.",
       "duration": "10 min",
       "level": "Beginner"
     },
     {
       "id": "lesson4",
-      "title": "The Code of Pashtunwali",
-      "category": "Culture",
-      "description": "A deep dive into the traditional ethical code of honor, hospitality, and justice.",
+      "title": "Basic Questions",
+      "category": "Language",
+      "description": "Learn the essential interrogative words (Who, What, Where) and how to form questions naturally.",
       "duration": "15 min",
       "level": "Advanced"
+    },
+    {
+      "id": "lesson5",
+      "title": "Numbers 1-5",
+      "category": "Language",
+      "description": "Master the first five numbers in Pashto and learn how they interact with objects.",
+      "duration": "10 min",
+      "level": "Beginner"
     }
   ]
 }

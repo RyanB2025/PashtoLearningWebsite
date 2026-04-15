@@ -126,7 +126,6 @@ a:hover { text-decoration: underline; }
   gap: var(--sp-5);
 }
 
-/* Brand */
 .brand {
   display: flex;
   align-items: center;
@@ -159,7 +158,6 @@ a:hover { text-decoration: underline; }
   display: none;
 }
 
-/* Progress bar */
 .header-progress {
   display: flex;
   align-items: center;
@@ -204,7 +202,6 @@ a:hover { text-decoration: underline; }
   white-space: nowrap;
 }
 
-/* Afghan border strip below header */
 .header-border-strip {
   position: absolute;
   bottom: -6px;
@@ -246,7 +243,6 @@ a:hover { text-decoration: underline; }
   top: calc(var(--header-h) + 6px);
   height: calc(100vh - var(--header-h) - 6px);
   overflow-y: auto;
-  /* Scrollbar styling */
   scrollbar-width: thin;
   scrollbar-color: var(--gray-200) transparent;
 }
@@ -273,7 +269,6 @@ a:hover { text-decoration: underline; }
   letter-spacing: 0.18em;
 }
 
-/* Nav list */
 .nav-list {
   padding: var(--sp-3) var(--sp-3);
   display: flex;
@@ -281,7 +276,6 @@ a:hover { text-decoration: underline; }
   gap: var(--sp-2);
 }
 
-/* Nav item (injected by JS) */
 .nav-item {
   position: relative;
 }
@@ -330,7 +324,6 @@ a:hover { text-decoration: underline; }
   transform: scaleY(1);
 }
 
-/* Lesson number badge */
 .nav-num {
   display: flex;
   align-items: center;
@@ -369,7 +362,6 @@ a:hover { text-decoration: underline; }
   margin-bottom: 1px;
 }
 
-/* Checkmark for completed lessons */
 .nav-check {
   flex-shrink: 0;
   width: 16px;
@@ -390,7 +382,6 @@ a:hover { text-decoration: underline; }
   fill: var(--success);
 }
 
-/* Skeleton loaders */
 .nav-skeleton {
   height: 52px;
   border-radius: var(--radius-md);
@@ -417,7 +408,7 @@ a:hover { text-decoration: underline; }
 .content-area {
   flex: 1;
   padding: var(--sp-6) var(--sp-5);
-  min-width: 0; /* prevent flex overflow */
+  min-width: 0; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -446,7 +437,6 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
 }
 
-/* Decorative corner patterns on welcome card */
 .welcome-card::before,
 .welcome-card::after {
   content: '';
@@ -532,7 +522,6 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
 }
 
-/* Top accent border on lesson card */
 .lesson-card::before {
   content: '';
   position: absolute;
@@ -541,7 +530,6 @@ a:hover { text-decoration: underline; }
   background: linear-gradient(90deg, var(--lapis) 0%, var(--lapis-light) 50%, var(--saffron) 100%);
 }
 
-/* Corner ornament */
 .lesson-card::after {
   content: '';
   position: absolute;
@@ -553,8 +541,6 @@ a:hover { text-decoration: underline; }
 }
 
 /* ─── 9. Content Block Types ─────────────────────────────────── */
-
-/* Lesson header (injected) */
 .lesson-header {
   margin-bottom: var(--sp-6);
   padding-bottom: var(--sp-5);
@@ -588,7 +574,6 @@ a:hover { text-decoration: underline; }
   line-height: 1.6;
 }
 
-/* Lesson meta (duration, level) */
 .lesson-meta {
   display: flex;
   gap: var(--sp-4);
@@ -612,7 +597,6 @@ a:hover { text-decoration: underline; }
   letter-spacing: 0.08em;
 }
 
-/* Content blocks wrapper */
 .content-blocks { display: flex; flex-direction: column; gap: var(--sp-5); }
 
 /* ── Paragraph block ── */
@@ -669,7 +653,6 @@ a:hover { text-decoration: underline; }
   font-style: italic;
 }
 
-/* Image error state */
 .image-error {
   background: var(--gray-50);
   border: 2px dashed var(--gray-200);
@@ -728,7 +711,6 @@ a:hover { text-decoration: underline; }
   accent-color: var(--saffron-light);
 }
 
-/* Custom audio player skin for Webkit */
 .block-audio audio::-webkit-media-controls-panel {
   background: transparent;
 }
@@ -770,7 +752,6 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
 }
 
-/* Subtle geometric accent */
 .block-quiz::before {
   content: '';
   position: absolute;
@@ -841,7 +822,6 @@ a:hover { text-decoration: underline; }
   outline-offset: 2px;
 }
 
-/* Option letter badge */
 .option-letter {
   width: 26px;
   height: 26px;
@@ -860,7 +840,6 @@ a:hover { text-decoration: underline; }
   text-transform: uppercase;
 }
 
-/* Quiz answered states */
 .quiz-option.correct {
   border-color: var(--success);
   background: var(--success-bg);
@@ -894,7 +873,6 @@ a:hover { text-decoration: underline; }
 
 .quiz-option:disabled { pointer-events: none; }
 
-/* Quiz feedback message */
 .quiz-feedback {
   margin-top: var(--sp-4);
   padding: var(--sp-3) var(--sp-4);
@@ -927,7 +905,6 @@ a:hover { text-decoration: underline; }
   fill: currentColor;
 }
 
-/* Quiz retry button */
 .btn-retry {
   margin-top: var(--sp-3);
   font-family: var(--font-ui);
@@ -1000,7 +977,6 @@ a:hover { text-decoration: underline; }
   width: 100%;
 }
 
-/* Loader: spinning diamond rings */
 .loader-medallion {
   position: relative;
   width: 64px;
@@ -1035,7 +1011,6 @@ a:hover { text-decoration: underline; }
   color: var(--gray-400);
 }
 
-/* Error state */
 .error-state svg {
   width: 48px;
   height: 48px;
@@ -1132,7 +1107,6 @@ a:hover { text-decoration: underline; }
     flex-direction: column;
   }
 
-  /* Nav becomes horizontal scroll strip on mobile */
   .lesson-nav {
     width: 100%;
     height: auto;

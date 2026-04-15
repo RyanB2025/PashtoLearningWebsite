@@ -8,11 +8,7 @@
 
 'use strict';
 
-/* ─── Configuration ──────────────────────────────────────────────
-   Adjust DATA_BASE to match your GitHub Pages repo structure.
-   For root deployment: DATA_BASE = './data'
-   For sub-folder:      DATA_BASE = './my-subfolder/data'
-   ──────────────────────────────────────────────────────────────── */
+/* ─── Configuration ────────────────────────────────────────────── */
 const CONFIG = {
   DATA_BASE:      './data',
   INDEX_FILE:     'index.json',
@@ -22,11 +18,10 @@ const CONFIG = {
 
 /* ─── State ─────────────────────────────────────────────────────── */
 const State = {
-  lessons: [],          // Full lesson index from index.json
+  lessons: [],
   currentLessonId: null,
   completedIds: new Set(),
 
-  /** Persist completed IDs to localStorage */
   save() {
     try {
       localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify([...this.completedIds]));
@@ -35,7 +30,6 @@ const State = {
     }
   },
 
-  /** Restore completed IDs from localStorage */
   load() {
     try {
       const raw = localStorage.getItem(CONFIG.STORAGE_KEY);
@@ -55,7 +49,7 @@ const State = {
 
   isComplete(lessonId) {
     return this.completedIds.has(lessonId);
-  },
+  }
 };
 
 /* ─── DOM Refs ──────────────────────────────────────────────────── */
@@ -75,39 +69,36 @@ const DOM = {
 
 /* ─── Utilities ─────────────────────────────────────────────────── */
 
-/**
- * Fetch JSON from a path, throws a descriptive error on failure.
- */
 async function fetchJSON(path) {
   const res = await fetch(path);
   if (!res.ok) throw new Error(`HTTP ${res.status} — ${path}`);
   return res.json();
 }
 
-/**
- * Sanitize user-supplied text to avoid XSS, 
- * while decoding pesky HTML entities like &#39;
- */
-function sanitize(str) {
-  if (typeof str !== 'string') return '';
-  
-  // 1. Decode any existing glitches (like &#39;) coming from the JSON
-  const textArea = document.createElement('textarea');
-  textArea.innerHTML = str;
-  const decodedStr = textArea.value;
-  
-  // 2. Re-sanitize for security, but LEAVE the apostrophes alone!
-  return decodedStr
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-    // We completely removed the .replace(/'/g, '&#39;') line!
+/** Sanitize URLs to prevent javascript: XSS payloads */
+function sanitizeUrl(url) {
+  if (typeof url !== 'string' || !url) return '';
+  const dangerousProtocols = /^(javascript|vbscript|data):/i;
+  if (dangerousProtocols.test(url.trim())) {
+    console.warn('[Security] Blocked dangerous URL protocol');
+    return '#';
+  }
+  return url;
 }
 
-/**
- * Create an element with optional attributes and children.
- */
+/** Safely decodes HTML entities (like &#39;) without XSS risk */
+function sanitize(str) {
+  if (typeof str !== 'string') return '';
+  const doc = new DOMParser().parseFromString(str, 'text/html');
+  return doc.documentElement.textContent || '';
+}
+
+/** Strictly escape HTML characters for the rare innerHTML insertions */
+function escapeHTML(str) {
+  if (typeof str !== 'string') return '';
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
 function el(tag, attrs = {}, ...children) {
   const e = document.createElement(tag);
   for (const [k, v] of Object.entries(attrs)) {
@@ -123,12 +114,10 @@ function el(tag, attrs = {}, ...children) {
   return e;
 }
 
-/** Option letter A, B, C, D … */
 function optionLetter(i) {
   return String.fromCharCode(65 + i);
 }
 
-/** Show/hide utility */
 function show(node) { node.hidden = false; }
 function hide(node) { node.hidden = true; }
 
@@ -145,16 +134,12 @@ function updateProgressUI() {
   if (bar)  bar.style.width  = `${pct}%`;
   if (text) text.textContent = `${done} / ${total}`;
 
-  // Update aria
   const wrap = bar?.parentElement;
   if (wrap) wrap.setAttribute('aria-valuenow', pct);
 }
 
 /* ─── Navigation ────────────────────────────────────────────────── */
 
-/**
- * Build the sidebar nav from the loaded lesson index.
- */
 function buildNav() {
   const list = DOM.navList();
   if (!list) return;
@@ -171,19 +156,16 @@ function buildNav() {
       'data-lesson-id': lesson.id,
     });
 
-    // Number badge
     const numBadge = el('span', { className: 'nav-num', 'aria-hidden': 'true' },
       isComplete ? '✓' : String(idx + 1)
     );
 
-    // Label container
     const labelWrap = el('span', { className: 'nav-label-text' });
     if (lesson.category) {
       labelWrap.append(el('span', { className: 'nav-label-category' }, lesson.category));
     }
-    labelWrap.append(document.createTextNode(lesson.title));
+    labelWrap.append(document.createTextNode(sanitize(lesson.title)));
 
-    // Check icon (visible when complete)
     const checkWrap = el('span', { className: 'nav-check', 'aria-hidden': 'true' });
     checkWrap.innerHTML = `<svg viewBox="0 0 20 20"><path d="M16.7 5.3a1 1 0 00-1.4 0L8 12.6 4.7 9.3a1 1 0 00-1.4 1.4l4 4a1 1 0 001.4 0l8-8a1 1 0 000-1.4z"/></svg>`;
 
@@ -195,9 +177,6 @@ function buildNav() {
   });
 }
 
-/**
- * Refresh nav active + completed states without rebuilding.
- */
 function syncNavState() {
   const list = DOM.navList();
   if (!list) return;
@@ -210,11 +189,10 @@ function syncNavState() {
     btn.classList.toggle('active', isActive);
     btn.classList.toggle('completed', isComplete);
     btn.setAttribute('aria-current', isActive ? 'page' : 'false');
-    btn.setAttribute('aria-label',
-      `${State.lessons.find(l => l.id === id)?.title ?? id}${isComplete ? ' (completed)' : ''}`
-    );
+    
+    const lessonTitle = State.lessons.find(l => l.id === id)?.title ?? id;
+    btn.setAttribute('aria-label', `${lessonTitle}${isComplete ? ' (completed)' : ''}`);
 
-    // Update number badge
     const numBadge = btn.querySelector('.nav-num');
     if (numBadge) {
       const idx = State.lessons.findIndex(l => l.id === id);
@@ -225,21 +203,16 @@ function syncNavState() {
 
 /* ─── Router ────────────────────────────────────────────────────── */
 
-/**
- * Navigate to a lesson by ID — updates URL hash, fetches and renders content.
- */
 async function navigateTo(lessonId) {
   if (lessonId === State.currentLessonId) return;
 
   State.currentLessonId = lessonId;
-  // Update URL hash for deep-linking / back-button support
   history.pushState({ lessonId }, '', `#${lessonId}`);
 
   syncNavState();
   await loadAndRenderLesson(lessonId);
 }
 
-/** Handle back/forward navigation */
 window.addEventListener('popstate', (e) => {
   const id = e.state?.lessonId ?? location.hash.slice(1);
   if (id && id !== State.currentLessonId) {
@@ -249,36 +222,57 @@ window.addEventListener('popstate', (e) => {
   }
 });
 
-/* ─── Lesson Loader ──────────────────────────────────────────────── */
+/* ─── Lesson Loader (Smart Fetcher for Path Mismatches) ─────────── */
 
 async function loadAndRenderLesson(lessonId) {
-  // Show loading
   hide(DOM.welcomeSplash());
   hide(DOM.lessonWrapper());
   hide(DOM.errorState());
   show(DOM.loadingState());
 
   try {
-    const path = `${CONFIG.DATA_BASE}/${CONFIG.LESSONS_FOLDER}/${lessonId}.json`;
-    const data = await fetchJSON(path);
+    let data = null;
+    const capitalizedId = lessonId.charAt(0).toUpperCase() + lessonId.slice(1); // 'lesson1' -> 'Lesson1'
+    
+    // Array of paths to try, fixing common case-sensitivity deployment errors
+    const pathsToTry = [
+      `${CONFIG.DATA_BASE}/${CONFIG.LESSONS_FOLDER}/${lessonId}.json`,     // data/lessons/lesson1.json
+      `${CONFIG.DATA_BASE}/Lessons/${lessonId}.json`,                      // data/Lessons/lesson1.json
+      `${CONFIG.DATA_BASE}/Lessons/${capitalizedId}.json`,                 // data/Lessons/Lesson1.json
+      `${CONFIG.DATA_BASE}/${CONFIG.LESSONS_FOLDER}/${capitalizedId}.json` // data/lessons/Lesson1.json
+    ];
+
+    for (const path of pathsToTry) {
+      try {
+        const res = await fetch(path);
+        if (res.ok) {
+          data = await res.json();
+          break; // Break the loop once we successfully find the file!
+        }
+      } catch (e) {
+        // Network error for this path, ignore and try the next one
+      }
+    }
+
+    if (!data) {
+      throw new Error("File not found. Searched multiple paths, verify file exists.");
+    }
+
     renderLesson(data);
     show(DOM.lessonWrapper());
+    
   } catch (err) {
     console.error('[Learn Pashto Today] Failed to load lesson:', err);
     DOM.errorMessage().textContent = `Could not load "${lessonId}". ${err.message}`;
     show(DOM.errorState());
   } finally {
     hide(DOM.loadingState());
-    // Scroll content area to top
     DOM.lessonWrapper()?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
 
 /* ─── Rendering Engine ──────────────────────────────────────────── */
 
-/**
- * Master render function — orchestrates lesson card assembly.
- */
 function renderLesson(data) {
   const card   = DOM.lessonCard();
   const footer = DOM.lessonFooter();
@@ -286,10 +280,8 @@ function renderLesson(data) {
 
   card.innerHTML = '';
 
-  // ── Header
   card.append(renderLessonHeader(data));
 
-  // ── Content blocks
   if (Array.isArray(data.content) && data.content.length > 0) {
     const blocksWrap = el('div', { className: 'content-blocks' });
     data.content.forEach((block, i) => {
@@ -299,18 +291,14 @@ function renderLesson(data) {
     card.append(blocksWrap);
   }
 
-  // ── Completed banner (if already done)
-  if (State.isComplete(data.id)) {
+  // Uses State.currentLessonId to ensure we match the nav index
+  if (State.isComplete(State.currentLessonId)) {
     card.append(renderCompletedBanner());
   }
 
-  // ── Finish button
-  wireFinishButton(data.id);
+  wireFinishButton(State.currentLessonId);
 }
 
-/**
- * Render the lesson header section.
- */
 function renderLessonHeader(data) {
   const header = el('div', { className: 'lesson-header' });
 
@@ -324,7 +312,6 @@ function renderLessonHeader(data) {
     header.append(el('p', { className: 'lesson-description' }, sanitize(data.description)));
   }
 
-  // Meta chips (duration, level, etc.)
   const metaFields = [
     data.duration && { icon: '⏱', text: data.duration },
     data.level    && { icon: '◈', text: data.level },
@@ -342,9 +329,6 @@ function renderLessonHeader(data) {
   return header;
 }
 
-/**
- * Route a single content block to its renderer.
- */
 function renderBlock(block, idx) {
   if (!block || typeof block.type !== 'string') return null;
 
@@ -369,7 +353,6 @@ function renderBlock(block, idx) {
 
 /* ── Block Renderers ─────────────────────────────────────────────── */
 
-/** PARAGRAPH block */
 function renderParagraphBlock(block) {
   const wrapper = el('div', { className: 'block-paragraph' });
 
@@ -377,7 +360,6 @@ function renderParagraphBlock(block) {
     wrapper.append(el('h3', {}, sanitize(block.heading)));
   }
 
-  // Support either `text` (string) or `lines` (array of strings)
   const lines = Array.isArray(block.lines)
     ? block.lines
     : [block.text ?? ''].filter(Boolean);
@@ -390,32 +372,28 @@ function renderParagraphBlock(block) {
   return wrapper;
 }
 
-/** CALLOUT block */
 function renderCalloutBlock(block) {
   const wrapper = el('div', { className: 'block-callout' });
-  wrapper.textContent = block.text ?? '';
+  wrapper.textContent = sanitize(block.text ?? '');
   return wrapper;
 }
 
-/** DIVIDER block */
 function renderDividerBlock() {
   return el('hr', { className: 'block-divider', 'aria-hidden': 'true' });
 }
 
-/** IMAGE block */
 function renderImageBlock(block) {
   const wrapper = el('div', { className: 'block-image' });
 
   const img = el('img', {
-    src:     block.src ?? '',
+    src:     sanitizeUrl(block.src), 
     alt:     block.alt ?? 'Lesson image',
     loading: 'lazy',
   });
 
-  // Handle broken images gracefully
   img.addEventListener('error', () => {
     const errorEl = el('div', { className: 'image-error' });
-    errorEl.innerHTML = `<p>⚠ Image could not be loaded</p><code>${sanitize(block.src ?? '')}</code>`;
+    errorEl.innerHTML = `<p>⚠ Image could not be loaded</p><code>${escapeHTML(block.src ?? '')}</code>`;
     img.replaceWith(errorEl);
   });
 
@@ -428,11 +406,9 @@ function renderImageBlock(block) {
   return wrapper;
 }
 
-/** AUDIO block */
 function renderAudioBlock(block) {
   const wrapper = el('div', { className: 'block-audio' });
 
-  // Icon
   const iconWrap = el('div', { className: 'audio-icon', 'aria-hidden': 'true' });
   iconWrap.innerHTML = `<svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 110 18A9 9 0 0112 3zm0 2a7 7 0 100 14A7 7 0 0012 5zm0 3a4 4 0 110 8 4 4 0 010-8zm0 2a2 2 0 100 4 2 2 0 000-4z"/></svg>`;
 
@@ -443,13 +419,15 @@ function renderAudioBlock(block) {
   }
 
   const audio = el('audio', { controls: '' });
-  audio.setAttribute('aria-label', block.title ?? 'Audio player');
+  audio.setAttribute('aria-label', sanitize(block.title ?? 'Audio player'));
 
-  // Support multiple sources for format fallback
-  const sources = Array.isArray(block.sources) ? block.sources : [{ src: block.src, type: block.mimeType }];
+  const sources = Array.isArray(block.sources) 
+    ? block.sources 
+    : (block.src ? [{ src: block.src, type: block.mimeType }] : []);
+    
   sources.filter(s => s?.src).forEach(s => {
-    const source = el('source', { src: s.src });
-    if (s.type) source.setAttribute('type', s.type);
+    const source = el('source', { src: sanitizeUrl(s.src) });
+    if (s.type) source.setAttribute('type', sanitize(s.type));
     audio.append(source);
   });
 
@@ -460,21 +438,19 @@ function renderAudioBlock(block) {
   return wrapper;
 }
 
-/** VIDEO block — supports YouTube iframes and raw MP4 */
 function renderVideoBlock(block) {
   const wrapper = el('div', { className: 'block-video' });
   const vWrap   = el('div', { className: 'video-wrapper' });
 
   if (block.youtubeId || block.embedUrl) {
-    // Build embed URL
-    let embedUrl = block.embedUrl;
+    let embedUrl = sanitizeUrl(block.embedUrl);
     if (!embedUrl && block.youtubeId) {
       embedUrl = `https://www.youtube-nocookie.com/embed/${sanitize(block.youtubeId)}?rel=0&modestbranding=1`;
     }
 
     const iframe = el('iframe', {
       src:             embedUrl,
-      title:           block.title ?? 'Video player',
+      title:           sanitize(block.title ?? 'Video player'),
       frameborder:     '0',
       allow:           'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
       allowfullscreen: '',
@@ -483,14 +459,16 @@ function renderVideoBlock(block) {
 
     vWrap.append(iframe);
   } else if (block.src) {
-    // Native video
     const video = el('video', { controls: '', preload: 'metadata' });
-    video.setAttribute('aria-label', block.title ?? 'Video player');
+    video.setAttribute('aria-label', sanitize(block.title ?? 'Video player'));
 
-    const sources = Array.isArray(block.sources) ? block.sources : [{ src: block.src, type: block.mimeType ?? 'video/mp4' }];
+    const sources = Array.isArray(block.sources) 
+      ? block.sources 
+      : (block.src ? [{ src: block.src, type: block.mimeType ?? 'video/mp4' }] : []);
+
     sources.filter(s => s?.src).forEach(s => {
-      const source = el('source', { src: s.src });
-      if (s.type) source.setAttribute('type', s.type);
+      const source = el('source', { src: sanitizeUrl(s.src) });
+      if (s.type) source.setAttribute('type', sanitize(s.type));
       video.append(source);
     });
 
@@ -506,20 +484,15 @@ function renderVideoBlock(block) {
   return wrapper;
 }
 
-/** QUIZ block — fully interactive, with retry support */
 function renderQuizBlock(block, blockIdx) {
   const wrapper = el('div', { className: 'block-quiz' });
 
-  // Header label
   const label = el('div', { className: 'quiz-label' });
   label.innerHTML = `<svg viewBox="0 0 20 20" width="12" style="fill:currentColor"><path d="M10 1a9 9 0 110 18A9 9 0 0110 1zm0 13a1 1 0 100 2 1 1 0 000-2zm1-9H9v5h2V5z"/></svg> Quiz`;
 
   wrapper.append(label);
-
-  // Question
   wrapper.append(el('p', { className: 'quiz-question' }, sanitize(block.question ?? '')));
 
-  // Options
   if (!Array.isArray(block.options) || block.options.length === 0) {
     wrapper.append(el('p', {}, 'No options provided.'));
     return wrapper;
@@ -535,7 +508,7 @@ function renderQuizBlock(block, blockIdx) {
       className: 'quiz-option',
       type: 'button',
       'data-option-idx': String(i),
-      'aria-label': `Option ${optionLetter(i)}: ${optText}`,
+      'aria-label': `Option ${optionLetter(i)}: ${sanitize(optText)}`,
     });
 
     const letter = el('span', { className: 'option-letter', 'aria-hidden': 'true' }, optionLetter(i));
@@ -549,12 +522,10 @@ function renderQuizBlock(block, blockIdx) {
 
   wrapper.append(optionsList);
 
-  // Feedback area (hidden until answered)
   const feedbackEl = el('div', { className: 'quiz-feedback', 'aria-live': 'polite' });
   feedbackEl.hidden = true;
   wrapper.append(feedbackEl);
 
-  // Retry button
   const retryBtn = el('button', { className: 'btn-retry', type: 'button' }, '↺ Try Again');
   retryBtn.hidden = true;
   retryBtn.addEventListener('click', () => resetQuiz(optionsList, feedbackEl, retryBtn));
@@ -563,11 +534,7 @@ function renderQuizBlock(block, blockIdx) {
   return wrapper;
 }
 
-/**
- * Handle a quiz answer click — apply visual states and feedback.
- */
 function handleQuizAnswer(clickedBtn, selectedIdx, correctIdx, optionsList, feedbackEl, retryBtn, explanation) {
-  // Disable all options
   const allBtns = optionsList.querySelectorAll('.quiz-option');
   allBtns.forEach(b => {
     b.disabled = true;
@@ -583,30 +550,25 @@ function handleQuizAnswer(clickedBtn, selectedIdx, correctIdx, optionsList, feed
 
   const isCorrect = selectedIdx === correctIdx;
 
-  // Show feedback
   feedbackEl.hidden = false;
   feedbackEl.className = `quiz-feedback ${isCorrect ? 'is-correct' : 'is-incorrect'}`;
 
   let icon, message;
   if (isCorrect) {
     icon    = `<svg viewBox="0 0 20 20"><path d="M16.7 5.3a1 1 0 00-1.4 0L8 12.6 4.7 9.3a1 1 0 00-1.4 1.4l4 4a1 1 0 001.4 0l8-8a1 1 0 000-1.4z"/></svg>`;
-    message = explanation ? `Correct! ${sanitize(explanation)}` : 'Correct! Well done.';
+    message = explanation ? `Correct! ${escapeHTML(explanation)}` : 'Correct! Well done.';
   } else {
     icon    = `<svg viewBox="0 0 20 20"><path d="M14.3 5.7a1 1 0 00-1.4 0L10 8.6 7.1 5.7a1 1 0 00-1.4 1.4L8.6 10l-2.9 2.9a1 1 0 001.4 1.4L10 11.4l2.9 2.9a1 1 0 001.4-1.4L11.4 10l2.9-2.9a1 1 0 000-1.4z"/></svg>`;
-    message = explanation ? `Not quite. ${sanitize(explanation)}` : 'Not quite — give it another try!';
+    message = explanation ? `Not quite. ${escapeHTML(explanation)}` : 'Not quite — give it another try!';
   }
 
   feedbackEl.innerHTML = `${icon}<span>${message}</span>`;
 
-  // Show retry only if wrong
   if (!isCorrect) {
     retryBtn.hidden = false;
   }
 }
 
-/**
- * Reset a quiz to its initial unanswered state.
- */
 function resetQuiz(optionsList, feedbackEl, retryBtn) {
   const allBtns = optionsList.querySelectorAll('.quiz-option');
   allBtns.forEach(b => {
@@ -634,7 +596,6 @@ function wireFinishButton(lessonId) {
   const btn = DOM.btnFinish();
   if (!btn) return;
 
-  // Reset state
   btn.classList.remove('is-done');
   btn.disabled = false;
 
@@ -654,7 +615,6 @@ function wireFinishButton(lessonId) {
     Mark Lesson Complete
   `;
 
-  // Clone to strip old listeners
   const newBtn = btn.cloneNode(true);
   btn.parentNode.replaceChild(newBtn, btn);
 
@@ -666,7 +626,6 @@ function completeLesson(lessonId, btn) {
   syncNavState();
   updateProgressUI();
 
-  // Update button
   btn.classList.add('is-done');
   btn.innerHTML = `
     <svg viewBox="0 0 20 20"><path d="M10 1a9 9 0 110 18A9 9 0 0110 1zm4.7 5.7a1 1 0 00-1.4 0L9 11 6.7 8.7a1 1 0 10-1.4 1.4l3 3a1 1 0 001.4 0l5-5a1 1 0 000-1.4z"/></svg>
@@ -674,7 +633,6 @@ function completeLesson(lessonId, btn) {
   `;
   btn.disabled = true;
 
-  // Append completed banner to lesson card
   const card = DOM.lessonCard();
   if (card && !card.querySelector('.completed-banner')) {
     card.append(renderCompletedBanner());
@@ -686,10 +644,8 @@ function completeLesson(lessonId, btn) {
 /* ─── Initialization ────────────────────────────────────────────── */
 
 async function init() {
-  // 1. Restore saved progress
   State.load();
 
-  // 2. Fetch lesson index
   try {
     const indexData = await fetchJSON(`${CONFIG.DATA_BASE}/${CONFIG.INDEX_FILE}`);
 
@@ -707,18 +663,15 @@ async function init() {
     return;
   }
 
-  // 3. Build nav + update progress
   buildNav();
   updateProgressUI();
 
-  // 4. Handle initial URL hash (deep linking)
   const hash = location.hash.slice(1);
   if (hash && State.lessons.some(l => l.id === hash)) {
     State.currentLessonId = hash;
     syncNavState();
     await loadAndRenderLesson(hash);
   } else {
-    // Show welcome splash if no valid hash
     hide(DOM.loadingState());
     show(DOM.welcomeSplash());
   }
