@@ -1,0 +1,86 @@
+{
+  "id": "L6",
+  "title": "Lesson 6: Time Words, Telling Time & Daily Schedules   د وخت کلمې، ساعت ویل او ورځنۍ مهالویش",
+  "category": "Beginning Pashto",
+  "description": "Master temporal reference by learning lexical time expressions, the 24-hour official clock convention, and navigating Afghan daily routines structured around cultural and Islamic prayer times.",
+  "duration": "Textbook pp. 81–90 (approx. 10-15 pages of primary instruction plus Workbook exercises)",
+  "level": "Intermediate-Low (ILR 1+)",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "Module 1: Time Words & Days of the Week",
+      "lines": [
+        "Welcome to Unit 6! As you transition into Intermediate-Low proficiency, we shift our focus from static descriptions to navigating time.",
+        "Let's start with times of the day (presented with transliteration for introduction only): [səhār] (سهار) 'morning', [mazmāshi] (غرمه/مزماښي) 'midday', [māspar] (ماسپښین) 'afternoon', [māxam] (ماښام) 'evening', [shpa] (شپه) 'night'.",
+        "Key temporal adverbs: [nna] (نن) 'now/today', [mākhkhe] (مخکې) 'before/earlier', [wróste] (وروسته) 'after/later', [biyā] (بیا) 'again/then', [her waxṭ] (هر وخت) 'always', [kāla kāla] (کله کله) 'sometimes', [hēč kāla] (هیڅکله) 'never'.",
+        "Days of the week follow a numeric pattern added to 'shamba' (Saturday): [dushamba] (دوشنبه - Monday), [seshamba] (سه شنبه - Tuesday)... leading to the holy day of rest: [jomā] (جمعه - Friday)."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 2: The Pashto Clock System",
+      "lines": [
+        "Telling time in Pashto relies on hour-noun constructions combined with prepositional directional phrases to indicate quarter-past or quarter-to.",
+        "Clock Vocabulary: [baje] (بجې) 'o'clock', [nim] (نیم) 'half', [rob] (ربع) 'quarter', [daqiqa] (دقیقه) 'minute'.",
+        "Note the distinction between systems: In informal conversation, a 12-hour system with time-of-day markers is used. In official Afghan contexts (government, broadcasting, transportation), a strict 24-hour clock is utilized."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "⏱️ Interactive Clock Reading",
+      "lines": [
+        "[Interactive Clock Diagram]: Explore the interactive clock face below. Note: The labels on this diagram are exclusively in Pashto script, in accordance with your learning progression.",
+        "When reading clock time, accurate stress on the word [baje] and the number forms is critical.",
+        "[Audio Player]: Listen to the monosyllabic pronunciation of [nim] (half) and [rob] (quarter), contrasting them with the two-syllable number forms."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Phonetics Hack: Watch out for minimal-pair potential between [māxam] (evening) and [māspar] (afternoon). Mispronouncing these can completely change your scheduled meeting time!"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 3: Daily Schedules & Sentence Structures",
+      "lines": [
+        "Let's build time-telling sentences using our SOV (Subject-Object-Verb) framework.",
+        "ساعت درې بجې دي. [Sāat ṭəlo baje di.] (It is three o'clock.)",
+        "ماسپښین نیمه بجه په کور کې یم. [Māspar nim baje pa kor ke yəm.] (At half past twelve I am at home. Note: 12:30 PM literally translated involves 'afternoon half o'clock').",
+        "[Interactive Drill Matrix]: Practice combining different hour markers with times of day in complete SOV sentences."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Context: The Afghan day is deeply structured by Islamic prayer times: Fajr (dawn), Dhuhr (midday), Asr (afternoon), Maghrib (sunset), and Isha (night). These are frequently used as authentic temporal references rather than clock times. Additionally, Friday ([jomā]) is the holy day and weekend, which is critical for scheduling. You will also encounter 'nīm-rōz' — the cultural practice of resting or napping after the midday meal."
+    },
+    {
+      "type": "quiz",
+      "question": "If you are scheduling a business meeting in Kabul and the counterpart suggests meeting on '[jomā]', what should you consider?",
+      "options": [
+        "It is the first day of the official work week.",
+        "It refers to the late afternoon nap time, so you should be quiet.",
+        "It is Friday, the Islamic holy day and traditional day of rest, so a business meeting is likely inappropriate.",
+        "It means you should strictly use the 24-hour clock to set the time."
+      ],
+      "correctIndex": 2,
+      "explanation": "In Afghanistan and Islamic culture, [jomā] (Friday) is the day of congregational prayer and the primary weekend day, making it an inappropriate day for standard business scheduling."
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following time-related words are phonologically monosyllabic and require careful stress differentiation when speaking?",
+      "options": [
+        "[baje] and [daqiqa]",
+        "[səhār] and [māxam]",
+        "[nna] and [biyā]",
+        "[nim] and [rob]"
+      ],
+      "correctIndex": 3,
+      "explanation": "The words [nim] (half) and [rob] (quarter) are monosyllabic. Phonetic accuracy requires you to contrast these sharply with multisyllabic numbers and time words."
+    }
+  ]
+}

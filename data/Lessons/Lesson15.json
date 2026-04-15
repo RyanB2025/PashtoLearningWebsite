@@ -1,0 +1,69 @@
+{
+  "id": "L0",
+  "title": "Lesson 0: Front Matter & Materials Overview   مقدمه",
+  "category": "Beginning Pashto",
+  "description": "Welcome to the CAL Pashto curriculum! This orientation module sets your expectations, outlines the pedagogical philosophy, and introduces the scope of your learning journey.",
+  "duration": "Textbook PDF pp. 1–14 (Pre-Instructional)",
+  "level": "Novice-Low (ILR 0)",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "Welcome to the Program",
+      "lines": [
+        "This module functions as your orientation to the Beginning Pashto program.",
+        "Our curriculum spans a 28-unit arc (Beginning + Intermediate). Your learning will be supported by a Textbook, Workbook, Tapescript, Teacher's Manual, and a Pashto-English Glossary.",
+        "Our target dialect is Kabul/Central Afghan Pashto, as used in official broadcast media. However, Kandahari and Peshawari dialect forms are highly intelligible and will be flagged throughout the course.",
+        "Your ultimate proficiency exit target for the full program is ILR 2+ / ACTFL Advanced."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Script & Grammar Expectations: You will be exposed to dual script (Pashto + Transliteration) in Units 1–3 only. From Unit 2 onward, Pashto script is the primary medium! Additionally, prepare your mind for a major shift: Pashto is strictly an SOV (Subject-Object-Verb) language."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Learning Contract & Scope",
+      "lines": [
+        "[Infographic Placeholder: 14 textbook units × ~10 hrs each = ~140 hrs of classroom instruction.]",
+        "Throughout this course, you will encounter essential meta-linguistic terminology. Do not be intimidated by terms like 'imperfective', 'perfective', 'ergative', or 'SOV'—we will guide you through them step-by-step."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "The Romanisation Key",
+      "lines": [
+        "Before we dive into the Pashto alphabet in Lesson 1, familiarize yourself with the IPA-adjacent romanisation key we use for pronunciation.",
+        "Pay special attention to unique notation for Pashto sounds:",
+        "Affricates and Fricatives: [dz], [ts], [x], [gh], [kh].",
+        "Retroflex Consonants: [ṭ], [ḍ], [ṇ], [ṛ]."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Cultural Foundations",
+      "lines": [
+        "Language cannot be separated from culture. Throughout this course, your dialogues and interactions will be framed by 'Pashtunwali'—the traditional Pashtun code of ethics.",
+        "You will notice register differences between formal Kabuli media Pashto and rural or tribal varieties.",
+        "Crucially, male-female interaction norms deeply affect how dialogues are designed and how you should speak in authentic contexts."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "According to the curriculum's script policy, when are learners expected to transition to reading primarily in the Pashto script, with transliteration used only for introducing new vocabulary?",
+      "options": [
+        "Immediately in Lesson 1.",
+        "After Unit 3.",
+        "At the Intermediate level (Unit 15).",
+        "Never; transliteration is always the primary text."
+      ],
+      "correctIndex": 1,
+      "explanation": "Transliteration acts as scaffolding in Units 1–3. After Unit 3, Pashto script becomes the primary reading medium, and transliteration is only used when introducing brand-new vocabulary."
+    }
+  ]
+}

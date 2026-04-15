@@ -1,0 +1,89 @@
+{
+  "id": "L13",
+  "title": "Lesson 13: The Past Perfective Tense & Transitive Verb Agreement — The Ergative Construction   تیر کامل زمان او د متعدي کریا مطابقت — اِرکتیف جوړښت",
+  "category": "Beginning Pashto",
+  "description": "Conquer the most challenging and remarkable feature of Pashto grammar: the split-ergative system. Learn to narrate completed events, write formal correspondence, and discover traditional Landai poetry[cite: 60, 61, 62].",
+  "duration": "Textbook pp. 147–159 (approx. 10-15 pages of instruction) [cite: 60, 63]",
+  "level": "Intermediate-Mid → Intermediate-High (ILR 2+) [cite: 60]",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "Module 1: The Ergative Pivot",
+      "lines": [
+        "Welcome to Unit 13! You are about to learn the most linguistically complex and typologically remarkable feature of Pashto grammar: the ergative-absolutive alignment in past transitive sentences[cite: 62].",
+        "Until now, your verbs have always agreed with the subject. However, in the past perfective tense, Pashto transitive verbs DO NOT agree with the subject[cite: 62].",
+        "Instead, the verb agrees with the direct object (the patient) in person and number, while the subject (the agent) takes the oblique case[cite: 62].",
+        "This split-ergative system (present = nominative-accusative, past transitive = ergative-absolutive) is the single most challenging structural feature for English speakers[cite: 62]."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Morphology Hack: When the subject is forced into the oblique case, its form changes! For example, masculine nouns in the oblique case often lose their final consonant or take an [ə] ending[cite: 63]. Be extremely careful to match the verb ending to the OBJECT of your sentence, not the subject."
+    },
+    {
+      "type": "paragraph",
+      "heading": "Present vs. Past Perfective Contrast",
+      "lines": [
+        "Let's look at a direct contrast to see this system in action[cite: 62].",
+        "Present (Nominative): دا کتاب لیکي. [Dā kitāb liki.] (He writes the book. -> Verb agrees with 'He' [Dā])[cite: 62].",
+        "Past Perfective (Ergative): ده کتاب ولیکلو. [Dā yā kitāb wəlikəl.] (He wrote the book. -> The subject becomes oblique [Dā yā], and the verb [wəlikəl] agrees with the object, 'book' [kitāb])[cite: 62]."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "In a Pashto past perfective transitive sentence (like 'She ate the apple'), which word does the verb grammatically agree with? [cite: 62]",
+      "options": [
+        "The subject ('She')",
+        "The direct object ('the apple')",
+        "Neither, the verb remains in the infinitive form",
+        "The preposition"
+      ],
+      "correctIndex": 1,
+      "explanation": "Due to Pashto's ergative-absolutive alignment in the past perfective tense, transitive verbs agree with the direct object in person and number, while the subject takes the oblique case[cite: 62]."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 2: Epistolary Register & Correspondence",
+      "lines": [
+        "Our communicative context for this unit introduces the epistolary (letter-writing) register, a new formal genre[cite: 62].",
+        "Correspondence Vocabulary: [līk] (لیک) 'letter', [likəl] (لیکل) 'to write', [lēgawa] (لیږل) 'to send', [ākhistəl] (اخیستل) 'to receive/take', [warkawa] (ورکول) 'to give', [paysāge] (ټاپه/پسته) 'stamp'[cite: 62].",
+        "Root-change verb paradigms (past perfective forms to memorize): [tləl → lāṛ shəw], [rātləl → rāghəl], [lēdəl → wəlīd-], [wiyəl → wəwayi-][cite: 62]."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Protocol: Formal Afghan letter-writing conventions are highly structured. You must use formal openings like [muhtaram] (محترم - 'honoured'), closing formulas, and traditional Islamic blessings[cite: 62]. Also, note that for stress-shift verbs like [rāwṛ-] (bring), the entire verb complex shifts stress in the ergative past! [cite: 63]"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 3: Diversion — Classical Landai Poetry",
+      "lines": [
+        "This unit's cultural diversion introduces traditional Pashto oral folk poetry through the 'landai' (لنډۍ) or 'charbait' form[cite: 62].",
+        "A landai is a strictly 22-syllable oral two-line poem. It is uniquely and primarily composed by Pashtun women, making it a highly significant cultural tradition that addresses themes of love, war, grief, and honour[cite: 62].",
+        "Textbook Assignment: You will read and translate one landai in Pashto script (with gloss commentary) to practice reading poetic register[cite: 62, 63]."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Sociolinguistic Taboo: Landai poetry has historically been a powerful medium for female resistance and emotional expression. Because of this, many landais touch on intimate or rebellious themes. In formal classroom or professional contexts, it is crucial to select war or homeland-themed landais and strictly avoid examples touching on sexual themes to maintain cultural sensitivity[cite: 62]."
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following best describes the traditional Pashto 'landai'? [cite: 62]",
+      "options": [
+        "A 50-line epic poem written exclusively by male scholars in Kabul.",
+        "A 22-syllable oral two-line poem primarily composed by Pashtun women, addressing themes like war and honour.",
+        "A formal prose letter written to government officials.",
+        "A modern, free-verse poem popular only in standard broadcast media."
+      ],
+      "correctIndex": 1,
+      "explanation": "The landai is a profound Pashtun oral tradition consisting of a 22-syllable two-line verse, historically and primarily composed by women to express grief, love, war, and honour[cite: 62]."
+    }
+  ]
+}

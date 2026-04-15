@@ -1,0 +1,104 @@
+{
+  "id": "L7",
+  "title": "Lesson 7: Perfective Aspect, Commands & Future Expressions   کامل اسپکټ، امر او راتلونکی وخت",
+  "category": "Beginning Pashto",
+  "description": "Cross the most critical grammatical threshold in Pashto: the perfective vs. imperfective aspect. Learn to form commands, express future intent, and navigate authentic Afghan hospitality rituals.",
+  "duration": "Textbook pp. 91–112 (approx. 10-15 pages of instruction)",
+  "level": "Intermediate-Low (ILR 1+)",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "Module 1: The Aspectual Pivot",
+      "lines": [
+        "Welcome to Unit 7! You have reached the aspectual pivot of the Beginning Pashto curriculum. For the first time, you will encounter the perfective/imperfective opposition—the most fundamental grammatical distinction in the Pashto verb system.",
+        "Until now, you have used the Present Imperfective to describe habitual, ongoing, or unbounded actions.",
+        "The Present Perfective is formed by adding the prefix [w-/wu-/wā-] (و/وا) to the imperfective stem. It signals a bounded, completed, or goal-directed action.",
+        "CRITICAL RULE: The perfective aspect is NOT a past-tense marker. It is an aspectual marker indicating the completeness of an action."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Dialect & Pronunciation Hack: The perfective prefix varies by region. Kabuli speakers typically use [wu-] (و), while Kandahari speakers use [wā-] (وا). Phonetically, before back vowels, [w] is distinct; before front vowels, it surfaces as [wu]."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Verb Contrast: Imperfective vs. Perfective",
+      "lines": [
+        "Let's look at motion and activity verbs. Notice how the prefix attaches in Pashto script:",
+        "Imperfective Script | Perfective Script | English Gloss",
+        "لولي | ولولي | reads (habitual) vs. reads/will read through (perfective)",
+        "لیکي | ولیکي | writes (habitual) vs. writes/will write (perfective)",
+        "Example 1 (Imperfective): احمد کتاب لولي. [Ahmad kitāb waḍi.] (Ahmad reads books — habitual routine.)",
+        "Example 2 (Perfective): احمد کتاب ولولي. [Ahmad kitāb wəwaḍi.] (Ahmad will read / intends to read the book through.)"
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "What is the primary function of the perfective prefix [w-/wu-/wā-] in the Pashto present tense?",
+      "options": [
+        "It changes the verb into the past tense.",
+        "It indicates that an action is bounded, completed, or goal-directed.",
+        "It makes the sentence negative.",
+        "It changes the word order from SOV to SVO."
+      ],
+      "correctIndex": 1,
+      "explanation": "The perfective prefix is an aspectual marker, not a tense marker. It signals that an action is viewed as a complete, bounded whole (often implying prospective or future action in the present tense)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 2: Commands (Imperatives)",
+      "lines": [
+        "Commands in Pashto are directly derived from the perfective stem!",
+        "To tell someone to do something, take the perfective stem and add the singular suffix [-a] or the plural/formal suffix [-ay].",
+        "Singular Command: کتاب ولوله! [kitāb wəwaḍa!] (Read the book!)",
+        "Plural/Formal Command: کتاب ولولئ! [kitāb wəwaḍay!] (Read the book!)",
+        "Pronunciation Note: Singular commands are stressed on the verb stem, whereas plural commands are stressed on the suffix."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Hospitality & Social Direction Verbs",
+      "lines": [
+        "Some of the most important commands you will learn involve social direction and movement:",
+        "[rā-sha] (راشه) 'come (sg)' | [rā-shay] (راشئ) 'come (pl)'",
+        "[kēna] (کښېنه / کینه) 'sit down'",
+        "[pātsā] (پاڅه) 'stand up'"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Protocol: In Afghan hospitality, inviting someone to enter, sit, and eat involves specific command forms like [rā-sha, kēna] (Come in, sit down). These are socially obligatory hospitality rituals, not optional vocabulary. Using direct commands here is a sign of warmth and welcome, not rudeness!"
+    },
+    {
+      "type": "quiz",
+      "question": "When a Pashtun host says 'rā-sha, kēna' to a guest at their door, how should this be interpreted linguistically and culturally?",
+      "options": [
+        "As a rude and aggressive order to sit down.",
+        "As an optional vocabulary phrase used only with children.",
+        "As a socially obligatory hospitality ritual extending warmth and welcome.",
+        "As a habitual present imperfective statement meaning 'he comes and sits'."
+      ],
+      "correctIndex": 2,
+      "explanation": "In Pashtun culture, direct command forms like 'rā-sha, kēna' (come, sit) are culturally embedded hospitality rituals that demonstrate warmth, urgency, and respect toward a guest."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 3: Expressing the Future",
+      "lines": [
+        "Pashto does not have a distinct morphological future tense. Instead, future expressions are formed by combining the Present Perfective with future-pointing adverbials.",
+        "Future Adverbials: [sābā] (سبا) 'tomorrow', [bele] (بله ورځ) 'the day after tomorrow'.",
+        "Example: سبا احمد راشي. [sābā Ahmad rāghli.] (Tomorrow Ahmad will come.)",
+        "By placing 'sābā' (tomorrow) in front of the perfective verb, the aspect shifts to a prospective future action within the SOV framework."
+      ]
+    }
+  ]
+}

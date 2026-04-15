@@ -1,57 +1,103 @@
 {
-  "id": "lesson-02-objects-gender",
-  "title": "Lesson 02: Everyday Objects and Noun Gender",
-  "category": "Language",
-  "description": "Learn to identify everyday items using basic nouns, demonstratives, and understand Pashto's grammatical gender.",
-  "duration": "15 min",
-  "level": "Beginner",
+  "id": "L2",
+  "title": "Lesson 2: Basic Sentence Structure & the Verb 'To Be'   د جملې جوړښت او 'وي' کریا [cite: 16]",
+  "category": "Beginning Pashto",
+  "description": "Unit 2 delivers your first full structural insight into Pashto. We will master the SOV (Subject-Object-Verb) word order, the copular verb 'to be' in all six persons, and navigate university campus vocabulary. [cite: 18]",
+  "duration": "Textbook pp. 28–39 (approx. 10-15 pages of primary instruction plus Workbook exercises) [cite: 19]",
+  "level": "Novice-Low → Novice-Mid (ILR 0+) [cite: 16]",
   "content": [
     {
       "type": "paragraph",
-      "heading": "The Logic of Things",
+      "heading": "The Foundational Pivot: SOV Word Order",
       "lines": [
-        "To say 'This is [Object]', we start with 'Da' [Dah] (This), followed by the noun, and end with the verb 'is'.",
-        "Crucially, Pashto nouns are gendered. If the object is masculine, 'is' translates to 'day' [day]. If feminine, it translates to 'da' [dah]."
+        "Welcome to Unit 2! This lesson introduces the most critical cognitive shift in learning Pashto: understanding its sentence structure. [cite: 18]",
+        "Unlike English, which uses Subject-Verb-Object (SVO) order, Pashto is strictly an SOV (Subject-Object-Verb) or Subject-Complement-Verb language. [cite: 18]",
+        "Let's look at a 3-column contrast comparing English SVO with Pashto SCVerb structures: [cite: 18]",
+        "English: Farah is in Afghanistan. | Transliteration: farā pa afghānistān ke da. | Pashto: فرا په افغانستان کې ده. [cite: 14, 18]"
       ]
+    },
+    {
+      "type": "callout",
+      "text": "Grammar Pro-Tip: In Pashto, yes/no questions have the exact same word order as statements! You distinguish a question purely by using rising intonation at the end of the sentence. This is a critical listening cue for English speakers accustomed to subject-auxiliary inversion. [cite: 18, 19]"
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Essential Vocabulary: Things Around You",
+      "heading": "Campus Vocabulary & Prepositions",
       "lines": [
-        "Ketab [Keh-taab] (Masculine) - Book",
-        "Chay [Ch-eye] (Masculine) - Tea",
-        "Dod-day [Doad-day] (Feminine) - Bread",
-        "Oba [Oh-ba] (Feminine) - Water"
+        "Our communicative domain for this unit is the American university campus, keeping vocabulary immediately relevant to your daily life. [cite: 18]",
+        "Nouns: kor (کور) 'house', sinf (صنف) 'class', rughsṭiya (روغتون / روغستیا) 'hospital', leyliā (لیلیه) 'dormitory', shāgerd (شاګرد) 'student'. [cite: 18]",
+        "Adjectives: nāway (نوی) 'new', munṭazir (منتظر) 'waiting', nast (ناست) 'sitting'. [cite: 18]",
+        "Prepositions: pa … ke (په ... کې) 'in/at', la … sera (له ... سره) 'with', ta (ته) 'to/for'. [cite: 18]",
+        "Notice the locative prepositional phrase 'pa ... ke' wraps around the noun (e.g., pa sinf ke = in class). In fast speech, the 'pa' preposition often reduces to just 'p' before consonant-initial words! [cite: 18, 19]"
       ]
     },
     {
       "type": "paragraph",
-      "heading": "Building Sentences",
+      "heading": "The Verb 'To Be' & Dropped Subjects",
       "lines": [
-        "1. This is a book: Da ketab day. [Dah keh-taab day]",
-        "2. This is tea: Da chay day. [Dah ch-eye day]",
-        "3. This is bread: Da dod-day da. [Dah doad-day dah]",
-        "4. This is water: Da oba da. [Dah oh-ba dah]"
+        "Here is the full paradigm for the verb 'to be' in the present tense: [cite: 18]",
+        "1st Person: I am = zə yam (زه یم) / We are = mung yu (موږ یو). [cite: 18]",
+        "2nd Person: You (sg) are = tə ye (ته یې) / You (pl) are = tāso yəstay (تاسو یاست). [cite: 18]",
+        "3rd Person: He/She/It is = hagha da (هغه دی/ده) / They are = hagho di (هغوی دي). [cite: 18]",
+        "Note on Gender: The 3rd person singular 'da' can mean 'he is' or 'she is' depending entirely on context. [cite: 18]",
+        "Drop-Subject Rule: Pashto frequently omits pronouns when the subject is recoverable from the context or the verb ending! [cite: 18]"
       ]
     },
     {
       "type": "callout",
-      "text": "Grammar Hack: Most nouns ending in a consonant or 'ay' are masculine, while those ending in an 'a' sound are often feminine."
+      "text": "Negation Hack: To make a sentence negative, place the negative particle 'na' (نه) directly before the verb. For example, 'pa kor ke na da' means 'He/she is not at home'. [cite: 18]"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Script Practice: The Second Letter Family",
+      "lines": [
+        "As we deepen script exposure, we integrate the second set of alphabet letters: the alef, wāw, ye diacritics, and the b/p/t/s shape-family. [cite: 18]",
+        "[Video Embed: Animated writing guide for the b/p/t/s shape family.]",
+        "[Interactive Writing Canvas]: Practice combining these letters to form basic campus vocabulary.",
+        "Remember our policy: Pashto script is required for all vocabulary items and example sentences, alongside romanised transliteration. [cite: 19]"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Cultural Context: Titles & Academic Settings",
+      "lines": [
+        "When addressing male teachers, use the title 'sāyib' (صاحب - sir/Mr.) as a respectful sociolinguistic register marker. [cite: 18]",
+        "Example: Ghaldzay sāyib pa sinf ke da. (Ghaldzay sir is in class.) [cite: 18]",
+        "While mixed-gender academic settings are presented as normal for Afghan university contexts, always be aware that more conservative rural alternatives exist regarding gender interaction. [cite: 18]"
+      ]
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "quiz",
-      "question": "How would you correctly say 'This is water'?",
+      "question": "How do you form a yes/no question in Pashto? [cite: 18]",
       "options": [
-        "Da oba day",
-        "Oba da day",
-        "Da oba da",
-        "Da day oba"
+        "By moving the verb to the beginning of the sentence.",
+        "By adding a question word at the start of the sentence.",
+        "By keeping the statement word order and using rising intonation.",
+        "By adding the particle 'na' before the verb."
       ],
       "correctIndex": 2,
-      "explanation": "Because 'oba' (water) is a feminine noun, the verb 'to be' at the end of the sentence must be the feminine 'da'."
+      "explanation": "In Pashto, questions have the identical word order to statements. They are distinguished purely by rising intonation at the end of the sentence. [cite: 18, 19]"
+    },
+    {
+      "type": "quiz",
+      "question": "Translate 'He/she is not at home' observing the strict Pashto SOV and negation rules. [cite: 18]",
+      "options": [
+        "hagha da na pa kor ke",
+        "pa kor ke na da",
+        "na da pa kor ke",
+        "hagha na pa kor ke da"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Pashto, the negative particle [na] strictly precedes the verb [da], yielding [pa kor ke na da]. Thanks to the drop-subject rule, the pronoun can be omitted! [cite: 18]"
     }
   ]
 }

@@ -1,0 +1,95 @@
+{
+  "id": "L11",
+  "title": "Lesson 11: Large Numbers, Strong Pronouns & Demonstratives   لوی اعداد، قوي ضمیرونه او اشاري ضمیرونه",
+  "category": "Beginning Pashto",
+  "description": "Complete the numeral system up to the millions and master emphatic communication. You will learn to use strong pronouns for contrast and demonstratives for spatial reference, all set within the context of Kabul's urban banking life.",
+  "duration": "Textbook pp. 123–135 (approx. 10-15 pages of instruction)",
+  "level": "Intermediate-Mid (ILR 2)",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "Module 1: Large Numbers (31 to 1,000,000)",
+      "lines": [
+        "Welcome to Unit 11! This lesson completes the numeral system by extending our count from 30 up to the millions[cite: 54].",
+        "Large numbers in Pashto follow a base-10 multiplicative system[cite: 54]. Here are the key milestones:",
+        "100 = سل [yaw-sey] | 1,000 = زر [dzəl] | 100,000 = لک [lak] | 1,000,000 = میلیون [milyōn][cite: 54].",
+        "When writing these out, remember a crucial convention: numbers are never written with commas in Pashto[cite: 54]. They are presented using Arabic-Indic numerals (e.g., ١٠٠٠٠٠٠)."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Phonetics Hack: In large number compounds, the stress falls on the unit digit (e.g., in [yaw-sey], the stress is on [yaw])[cite: 55]. Also, be careful with the word [dzəl] (thousand) — it is a homophone with [dzəl] (eyelash), so context is necessary for disambiguation[cite: 55]!"
+    },
+    {
+      "type": "paragraph",
+      "heading": "🏙️ Urban Context: Banking & Currency",
+      "lines": [
+        "To practice these large numbers, we are shifting our communicative frame to urban Afghan life, specifically Kabul city traffic, banking, and government institutions[cite: 54].",
+        "Essential Vocabulary: [bank] (بانک) 'bank', [hesāb] (حساب) 'account', [nawəy] (نوی) 'exchange'[cite: 54].",
+        "Sentence Example: په بانک کې یو میلیون افغانۍ شته. [Pa bank ke yaw milyōn afghāni shta.] (In the bank there is one million afghānis.)[cite: 54]."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Context: While modern banking exists, the 'hawāla' system—an informal, trust-based money transfer network—is a socially critical institution in Afghanistan. You will frequently encounter money-changing markets in urban centers where large sums of afghānis are negotiated[cite: 54]."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 2: Strong Pronouns & Emphatic Contrast",
+      "lines": [
+        "In previous units, we learned weak (clitic) pronouns. Now we introduce Strong Pronouns[cite: 54].",
+        "Unlike weak pronouns, strong pronouns carry full stress and are used specifically for emphasis, contrast, and in syntactic positions where clitics cannot dock[cite: 54].",
+        "The Full Paradigm:",
+        "1st Person: زه [zə] (I) | موږ [mūng] (we) [cite: 54]",
+        "2nd Person: تا [tā] (you sg.) | تاسو [tāso] (you pl.) [cite: 54]",
+        "3rd Person: دا/هغه [dā/hagha] (he/she/it) | هغوی [doy/hāghuy] (they) [cite: 54]",
+        "Contrast Example: زه یم، نه هغه. [Zə yəm, nə hagha.] (It is I, not him.) [cite: 54]"
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "What is the primary grammatical and communicative function of using a Strong Pronoun like 'Zə' (زه) instead of its weak clitic counterpart 'me' (مې)?",
+      "options": [
+        "Strong pronouns are only used when speaking to elders.",
+        "Strong pronouns carry full stress and are used for emphasis or contrast.",
+        "Strong pronouns attach to the end of verbs.",
+        "Strong pronouns indicate that the sentence is taking place in the past tense."
+      ],
+      "correctIndex": 1,
+      "explanation": "Strong pronouns contrast with weak pronouns not only in stress but in grammatical function: strong pronouns are used for emphasis, contrast, and in positions where clitics cannot dock[cite: 54]."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 3: The Demonstrative System",
+      "lines": [
+        "The demonstrative system allows you to point things out spatially, introducing a three-way proximal/distal distinction[cite: 54].",
+        "Proximal (Close): دا [dā] 'this' (used for both masculine and feminine singular)[cite: 54].",
+        "Distal (Far): هغه [hagha] 'that'[cite: 54].",
+        "Plural forms: دوی [doy] 'these' (m.pl), هغوی [hāghə] 'those' (f.pl)[cite: 54].",
+        "Sentence Example: دا کتاب زما دی. [Dā kitāb dzəma da.] (This book is mine.) [cite: 54]"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Storytelling Pro-Tip: Demonstratives are vital discourse-management tools in Pashto storytelling! The proximal 'dā' is used for a topic that was just mentioned, while the distal 'hagha' is used for background information[cite: 54]."
+    },
+    {
+      "type": "quiz",
+      "question": "In Pashto storytelling, if a speaker introduces a character and immediately refers back to them in the next sentence, which demonstrative are they most likely to use?",
+      "options": [
+        "The distal demonstrative 'hagha' (هغه), because the character is not physically present.",
+        "The proximal demonstrative 'dā' (دا), because it refers to a topic that was just mentioned.",
+        "No demonstrative is used in Pashto storytelling.",
+        "The plural demonstrative 'hāghə' (هغوی) is used as a sign of respect."
+      ],
+      "correctIndex": 1,
+      "explanation": "In storytelling discourse, the proximal demonstrative (dā) is used to refer to the topic that was just mentioned, keeping it at the forefront of the listener's attention[cite: 54]."
+    }
+  ]
+}

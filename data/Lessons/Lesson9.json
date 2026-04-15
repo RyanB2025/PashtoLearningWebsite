@@ -1,0 +1,91 @@
+{
+  "id": "L9",
+  "title": "Lesson 9: Doubly Irregular Verbs & Extended Future Expressions   دوه-اړخیزه بې-قاعدې کریاوې او پراخه راتلونکی وخت",
+  "category": "Beginning Pashto",
+  "description": "Master the most fundamental spatial displacement concepts in Pashto. You will tackle doubly irregular verbs with suppletive stems, extended future expressions, and essential travel vocabulary.",
+  "duration": "Textbook pp. 103–112 (approx. 10-15 pages of primary instruction plus Workbook exercises) [cite: 44, 47]",
+  "level": "Intermediate-Low → Intermediate-Mid (ILR 2) [cite: 44]",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "Module 1: Doubly Irregular Verbs (Suppletion)",
+      "lines": [
+        "Welcome to Unit 9! As you transition to Intermediate-Mid, you must confront 'doubly irregular' verbs[cite: 44, 46].",
+        "Unlike regular verbs that add a prefix to form the perfective, these high-frequency verbs use completely unrelated roots (suppletive stems) for their imperfective and perfective forms[cite: 46].",
+        "Because these verbs express fundamental movement, they appear in almost every dialogue and must be overlearned[cite: 46].",
+        "Key verbs to memorize[cite: 46]:",
+        "1. 'To go': [tləl] (تلل - imperfective) / [lāṛ shawəl] or [wṛāwəl] (لاړ شول - perfective)",
+        "2. 'To come': [rātləl] (راتلل - imperfective) / [rāwṛəl] or [rāghəl] (راغلل - perfective)",
+        "3. 'To bring': [wistəl] (ویستل - imperfective) / [biyāwəl] (بیول - perfective)",
+        "4. 'To take (away)': [yosal] (یوړل - imperfective) / [wərowəl] (وړل - perfective)"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Phonetics & Meaning Pro-Tip: Pay close attention to directionality prefixes! The prefix [rā-] (را) always indicates movement *toward* the speaker, while [wr-] (ور) indicates movement *away* from the speaker. These are phonologically and semantically distinct—do not mix them up! [cite: 47]"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 2: Travel & Transportation Vocabulary",
+      "lines": [
+        "Let's ground these mobility verbs in travel vocabulary[cite: 46].",
+        "Vehicles: [māshīn] (ماشین) 'car/vehicle', [baṭ] (بس/بټ) 'bus', [hawāyi jahāz] (هوایی جهاز) 'airplane', [rēl] (ریل) 'train'[cite: 46].",
+        "Navigation: [xwa] (خوا) 'side/direction', [lar] (لار) 'path/way', [rāskand] (راکوز) 'come down'[cite: 46]."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Sentence Structures: Imperfective vs. Perfective",
+      "lines": [
+        "Let's see how these suppletive roots alternate in strict SOV sentences[cite: 46].",
+        "Habitual (Imperfective): احمد کابل ته ځي. [Ahmad kābul ta tli.] (Ahmad goes to Kabul.) [cite: 46]",
+        "Prospective Future (Perfective): سبا احمد کابل ته لاړ شي. [sābā ahmad kābul ta lāṛ shi.] (Tomorrow Ahmad will go to Kabul.) [cite: 46]",
+        "Habitual 'Come': دا نن راځي. [Da nna rātli.] (He comes today.) [cite: 46]",
+        "Completed 'Come': دا راغی. [Da rāghəy.] (He came / He will come.) [cite: 46]"
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following demonstrates the correct perfective (prospective) form of the verb 'to go' when saying 'Ahmad will go to Kabul'?",
+      "options": [
+        "Ahmad kābul ta wə-tli. (احمد کابل ته وځي)",
+        "Ahmad kābul ta lāṛ shi. (احمد کابل ته لاړ شي)",
+        "Ahmad kābul ta rātli. (احمد کابل ته راځي)",
+        "Ahmad kābul ta rāghəy. (احمد کابل ته راغی)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The verb 'to go' is doubly irregular (suppletive). Its perfective root changes completely to 'lāṛ sh-' rather than simply taking a 'wə-' prefix[cite: 46, 47]."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 3: Cultural Context of Travel",
+      "lines": [
+        "Travel in Afghanistan is rich with historical and social significance[cite: 46].",
+        "When traveling, you will frequently encounter checkpoints, making this mobility vocabulary highly authentic for real-world navigation[cite: 46].",
+        "Historically, movement routes like the Khyber Pass have been central to Afghan trade and history, and you will still see the seasonal nomadic movement patterns of the Kuchi people today[cite: 46]."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Sociolinguistic Taboo: When structuring dialogues or roleplays, be aware of strict gender norms regarding travel. It is generally culturally inappropriate for women to travel long distances alone in traditional settings. Always frame travel dialogues with this social reality in mind to maintain cultural authenticity[cite: 46]."
+    },
+    {
+      "type": "quiz",
+      "question": "When designing a culturally authentic travel roleplay in a rural Afghan setting, what is a key sociolinguistic factor to consider?",
+      "options": [
+        "Women frequently travel long distances alone via train.",
+        "Travelers always use English at rural checkpoints.",
+        "It is considered inappropriate for women to travel long distances unaccompanied.",
+        "Nomadic Kuchi people travel exclusively by airplane."
+      ],
+      "correctIndex": 2,
+      "explanation": "In traditional and rural Afghan contexts, it is a sociolinguistic taboo and culturally inappropriate for women to travel long distances alone[cite: 46]."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "L8",
+  "title": "Lesson 8: Ordinal Numbers & Derivative Verbs   ترتیبي اعداد او مشتق کریاوې",
+  "category": "Beginning Pashto",
+  "description": "Expand your vocabulary exponentially by mastering Derivative Verbs—the most productive morphological class in Pashto. You will also learn ordinal numbers and explore authentic Afghan food culture.",
+  "duration": "Textbook pp. 113–135 (approx. 10-15 pages of primary instruction plus Workbook exercises) [cite: 40, 43]",
+  "level": "Intermediate-Low (ILR 1+ → ILR 2) [cite: 40]",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "Module 1: Ordinal Numbers (1st - 10th)",
+      "lines": [
+        "Welcome to Unit 8! Let's begin with sequencing events using Ordinal Numbers (first through tenth)[cite: 42].",
+        "Ordinals are formed by adding the suffix [-am] (ام) to the cardinal numbers[cite: 42].",
+        "Examples: [yaw-am] (١م / لومړی) 'first', [dways-am] (٢م / دوهم) 'second', [dre-yam] (٣م / دریم) 'third'[cite: 42].",
+        "Notice that in Pashto script, numbers are written using Arabic-Indic numerals, but we use Western numerals in our English explanations[cite: 43]."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Mnemonic: A great way to remember ordinal numbers is through the Islamic daily prayer sequence (first prayer, second prayer, etc.), which naturally orders the day in Afghan culture[cite: 42]."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 2: The Derivative Verb System",
+      "lines": [
+        "This unit introduces the most productive way to build your vocabulary: Derivative Verbs[cite: 42].",
+        "You can turn almost any adjective or noun into a verb by combining it with a 'light verb'[cite: 42]. There are two paths:",
+        "1. Transitive (to do/make something): Add [kawəl] (کول)[cite: 42].",
+        "2. Intransitive (to become something): Add [kedəl] (کېدل)[cite: 42].",
+        "Let's look at some bases: [tōd] (تود) 'warm', [sard] (سرد) 'cold', [pāk] (پاک) 'clean', [sāf] (صاف) 'tidy', [tayār] (تیار) 'ready'[cite: 42]."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Transitive vs. Intransitive Examples",
+      "lines": [
+        "Transitive (Making it happen): لیلا کور تودوي. [Layliā kor tōd kawalay.] (Layla makes the house warm.) [cite: 42]",
+        "Intransitive (It happens naturally): کور تود شوی. [Kor tōd shawəy.] (The house became warm — note the perfective aspect here.) [cite: 42]",
+        "Commands: تیار یې کړه! [tayār yē kawa!] (Make it ready!) [cite: 42]"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Phonetics & Grammar Hack: For derivative verbs, the stress falls on the final syllable of the base word, not the light verb[cite: 43]. Also, pay close attention to the intransitive perfective change: the [sh] sound in [kedəl] becomes an explicit [sh] perfective marker (shaway)[cite: 43]."
+    },
+    {
+      "type": "quiz",
+      "question": "If you want to say that you are actively cleaning a room (making it clean), which light verb should you combine with the adjective 'pāk' (clean)?",
+      "options": [
+        "pāk kedəl (پاک کېدل)",
+        "pāk kawəl (پاک کول)",
+        "pāk shaway (پاک شوی)",
+        "pāk am (پاک ام)"
+      ],
+      "correctIndex": 1,
+      "explanation": "To express an active, transitive action (making something clean), you must use the light verb 'kawəl' (to do/make). Using 'kedəl' would mean the room is becoming clean on its own[cite: 42]."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 3: Afghan Cuisine & Recipes",
+      "lines": [
+        "Our reading for this unit immerses you in Afghan food culture[cite: 42]. You will read a recipe entirely in Pashto script!",
+        "Essential Recipe Vocabulary: [mashāla] (مصالح) 'spices', [kum] (زیره) 'cumin', [zanjabīl] (زنجبیل) 'ginger', [morch] (مرچ) 'pepper', [pakhawəl] (پخول) 'to cook (tr.)'[cite: 42].",
+        "We will be studying the traditional 'Char Masala' spice blend, a staple in Qandahari cooking[cite: 42]."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Context: Afghan meals are highly communal affairs[cite: 42]. The centrality of bread ([nān] نان) cannot be overstated—it is used to scoop food and is deeply respected[cite: 42]. Additionally, offering tea ([chai] چای) is the bedrock of Afghan hospitality; it is always served to guests before and after meals[cite: 42]."
+    },
+    {
+      "type": "quiz",
+      "question": "In the context of the Afghan recipe reading, how do you correctly form the ordinal number 'third' using the standard suffix?",
+      "options": [
+        "dre-yam (دریم)",
+        "dre-kawəl (درې کول)",
+        "dre-kedəl (درې کېدل)",
+        "dre-shaway (درې شوی)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ordinal numbers are formed by adding the suffix '-am' to the cardinal number[cite: 42]. Therefore, 'dre' (three) becomes 'dre-yam' (third)[cite: 42]."
+    }
+  ]
+}

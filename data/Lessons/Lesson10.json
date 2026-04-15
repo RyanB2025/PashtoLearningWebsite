@@ -1,0 +1,96 @@
+{
+  "id": "L10",
+  "title": "Lesson 10: Weak Pronouns, Floating Particles & Clitic Chains   ضعیف ضمیرونه، ګرځندې ذرات او کلیتیک ځنځیرونه",
+  "category": "Beginning Pashto",
+  "description": "Master the syntax of Clitic Chains. You will learn the full inventory of weak pronouns, the algorithm for docking floating particles based on sentence stress, and how to navigate stress-shifting verbs.",
+  "duration": "Textbook pp. 113–122 (approx. 10-15 pages of instruction)",
+  "level": "Intermediate-Mid (ILR 2)",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "Module 1: The Full Weak Pronoun Inventory",
+      "lines": [
+        "Welcome to Unit 10! We are now deepening the clitic pronoun system you first encountered in Unit 4.",
+        "Here is the complete inventory of Weak Pronouns in subject, direct object, and possessive functions:",
+        "1st Person: [me] مې (I/my/me) | [mo] مو (we/our/us)",
+        "2nd Person: [de] دې (you/your sg.) | [mo] مو (you/your pl.)",
+        "3rd Person: [ye] یې (he/she/it/his/her) | [ye] یې (they/their/them)",
+        "New Verbs for Practice: [līdəl] (لیدل) 'to see', [wāyəl] (ویل) 'to say', [ghwāṛəl] (غوښتل) 'to want', [wayəl] (ویل) 'to call (a name)'."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Phonetics Hack: Notice that [ye] is identical for 3rd person singular and plural! Similarly, [mo] covers both 1st person plural and 2nd person plural. You must rely entirely on context and verb agreement to tell them apart. Remember, these weak pronouns are completely unstressed!"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 2: The Clitic Docking Algorithm (Flowchart)",
+      "lines": [
+        "Weak pronouns in Pashto are 'enclitic'. They do not stay with the noun they logically belong to. Instead, they float!",
+        "Follow this procedural algorithm to build complex sentences:",
+        "► Step 1: Identify the FIRST stressed element/constituent in the sentence.",
+        "► Step 2: Attach all weak pronouns (the clitic chain) immediately AFTER this stressed element.",
+        "► Step 3: If the verb is a 'stress-shifting' verb, recalculate the docking point, as the new stress placement pulls the clitic to a different position."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Sentence Comparisons: Tracking the Clitic",
+      "lines": [
+        "Let's look at minimal pairs showing clitic placement variation. Notice how the clitic (in bold) docks:",
+        "Pair 1 (Standard vs. Clitic):",
+        "اسد ورور په لوګر کې اوسي. [Asad wrōr pa logar ke osi.] (Asad's brother lives in Logar.)",
+        "د ورور **یې** په لوګر کې اوسي. [Da wrōr **ye** pa logar ke osi.] (His brother lives in Logar. -> 'ye' docks after the first stressed phrase 'Da wrōr').",
+        "Pair 2 (Direct Object):",
+        "زه کتاب غواړم. [Zə kitāb ghwāṛam.] (I want the book.)",
+        "زه **یې** غواړم. [Zə **ye** ghwāṛam.] (I want it. -> 'ye' docks after the stressed pronoun 'Zə').",
+        "Pair 3 (Stress-Shifting Verb):",
+        "راتلای **شئ**؟ [Rātlāy **shəy**?] (Can you come? -> The clitic shifts its docking point based on the stress of the modal verb)."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "According to the Clitic Docking Algorithm, where MUST a weak pronoun (like 'ye' or 'me') be placed in a Pashto sentence?",
+      "options": [
+        "Immediately before the main verb.",
+        "At the very beginning of the sentence.",
+        "Immediately after the first stressed constituent of the clause.",
+        "Directly attached to the noun it possesses, just like in English."
+      ],
+      "correctIndex": 2,
+      "explanation": "Weak pronouns are enclitics that obligatorily dock after the first stressed constituent of the clause, regardless of their grammatical role."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 3: Demonstratives & Discourse Tracking",
+      "lines": [
+        "This unit also previews the demonstrative pronoun system, which is used heavily for anaphoric reference (referring back to things just mentioned).",
+        "We use a proximal/distal distinction:",
+        "[da] (دا) 'this/he/she' (Proximal - close to speaker or just mentioned).",
+        "[hagha] (هغه) 'that' (Distal - background information or further away)."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Pragmatics: Because Pashto allows you to completely drop subject pronouns (since the verb tells you who is acting), choosing to use an EXPLICIT strong pronoun (like saying 'Zə' for 'I') is not just grammatical—it's rhetorical! Using an explicit pronoun signals strong emphasis, contrast, or defiance. It changes the sociolinguistic tone of your sentence."
+    },
+    {
+      "type": "quiz",
+      "question": "In a Pashto conversation, what does it signify if a speaker uses an explicit strong subject pronoun (e.g., explicitly saying 'Zə' for 'I') instead of just dropping it?",
+      "options": [
+        "It signals strong emphasis or contrast.",
+        "It means they are speaking formal Kabuli dialect.",
+        "It shows they do not know the correct verb ending.",
+        "It turns the sentence into a question."
+      ],
+      "correctIndex": 0,
+      "explanation": "In Pashto pragmatics, explicit subject pronouns are used to signal emphasis or contrast, making a sociolinguistic distinction from English where pronouns are always required."
+    }
+  ]
+}

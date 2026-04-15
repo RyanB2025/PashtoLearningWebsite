@@ -1,50 +1,77 @@
 {
-  "id": "lesson-05-numbers",
-  "title": "Lesson 05: Counting 1 to 5",
-  "category": "Language",
-  "description": "Master the first five numbers in Pashto and learn how they interact with objects.",
-  "duration": "10 min",
-  "level": "Beginner",
+  "id": "L5",
+  "title": "Lesson 5: Adjective Agreement: Gender, Number & Case   د صفت مطابقت: جنس، شمیر او حالت",
+  "category": "Beginning Pashto",
+  "description": "Dive into one of Pashto's most morphologically complex systems: adjectival agreement. You will learn how adjectives inflect for gender, number, and grammatical case, while exploring colors and physical descriptions.",
+  "duration": "Textbook pp. 68–80 (approx. 10-15 pages of instruction) [cite: 28, 31]",
+  "level": "Novice-Mid → Intermediate-Low (ILR 1) [cite: 28]",
   "content": [
     {
       "type": "paragraph",
-      "heading": "The Numbers (1-5)",
+      "heading": "Module 1: The Adjective Agreement System",
       "lines": [
-        "One: Yaw [Yow]",
-        "Two: Dwa [Dwah]",
-        "Three: Dre [Dray]",
-        "Four: Tsalor [Tsa-loar]",
-        "Five: Pindza [Pin-dzah]"
+        "Welcome to Unit 5! You are about to tackle a major grammatical feature. In Pashto, adjectives inflect for the gender (masculine/feminine), number (singular/plural), and — critically — the grammatical case of the noun they modify[cite: 30].",
+        "Pashto has two major adjective classes. Class I adjectives change their endings: typically ending in [-ay] for masculine, [-a] for feminine, and [-i] for plural[cite: 30].",
+        "Class II adjectives are invariable or have restricted inflection. Examples include [munṭazir] (منتظر - waiting) and [māriz] (مریض - sick)[cite: 30]."
       ]
+    },
+    {
+      "type": "callout",
+      "text": "Grammar Pro-Tip: The Oblique Case! This unit introduces the concept of the oblique case for the first time — a preview of the ergative system that will govern past-tense transitive sentences later[cite: 30]. When a noun is placed in a prepositional phrase (like 'pa ... ke'), its attached Class I adjective MUST change to match its oblique case form."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Using Numbers with Nouns",
+      "heading": "Module 2: Colors and Attributes Vocabulary",
       "lines": [
-        "When using numbers, the number always comes before the noun, just like in English.",
-        "One book: Yaw ketab [Yow keh-taab]",
-        "Two teas: Dwa chay [Dwah ch-eye]",
-        "Three waters: Dre oba [Dray oh-ba]"
+        "Let's expand your vocabulary with some essential Class I adjectives[cite: 30]:",
+        "Colors: [spin] (سپین) 'white', [tor] (تور) 'black', [sur] (سور) 'red', [zar] (زیړ) 'yellow', [shīn] (شین) 'green/blue'[cite: 30].",
+        "Attributes: [ucha] (اوچت) 'tall', [ṭiṭay] (ټیټ) 'small', [naway] (نوی) 'new', [zor] (زوړ) 'old (thing)'[cite: 30].",
+        "Irregular Adjective Alert: The word [stər] (ستر) 'big' has a suppletive (irregular) plural form: [stern] (سترن)[cite: 30]!"
       ]
     },
     {
+      "type": "paragraph",
+      "heading": "Sentence Structures: Direct vs. Oblique",
+      "lines": [
+        "Let's observe how adjectives behave in different positions within our SOV framework[cite: 30].",
+        "Attributive (pre-nominal): [spin kor] (سپین کور) 'white house'[cite: 30].",
+        "Predicative: [kor spin da] (کور سپین دی) 'The house is white'[cite: 30].",
+        "Oblique agreement trigger: [pa spin kor ke] (په سپین کور کې) 'in the white house'. Here, both the noun and adjective are in the oblique case due to the preposition[cite: 30]."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
       "type": "callout",
-      "text": "Grammar Hack: Pluralizing nouns in Pashto can be complex depending on gender and endings. But as a beginner, simply placing a number higher than one before the singular noun will be universally understood by native speakers!"
+      "text": "Cultural Context & Symbolism: Colour symbolism is deeply embedded in Pashtun culture. White ([spin]) symbolises purity and peace; black ([tor]) signifies mourning or enmity; and green ([shīn]) holds strong Islamic significance[cite: 30]. Sociolinguistic Note: Commenting on physical appearance is normal, but follows strict gender norms. Male speakers describing women requires care and sensitivity in dialogue design[cite: 30]."
     },
     {
       "type": "quiz",
-      "question": "What is the Pashto word for the number 'Three'?",
+      "question": "What happens to a Class I adjective when the noun it modifies is placed inside a prepositional phrase (e.g., using [pa ... ke])?",
       "options": [
-        "Yaw",
-        "Tsalor",
-        "Dwa",
-        "Dre"
+        "It moves to the end of the sentence to follow the verb.",
+        "It stays exactly the same, as adjectives do not change.",
+        "It must inflect to match the noun's oblique case.",
+        "It transforms into a Class II invariable adjective."
       ],
-      "correctIndex": 3,
-      "explanation": "Dre [Dray] is the number three."
+      "correctIndex": 2,
+      "explanation": "When a noun is governed by a preposition and enters the oblique case, the Class I adjective modifying it must also inflect to agree with that oblique case[cite: 30]."
+    },
+    {
+      "type": "quiz",
+      "question": "In Pashtun cultural symbolism, what does the color 'tor' (تور - black) typically represent?",
+      "options": [
+        "Purity and peace.",
+        "Wealth and agricultural success.",
+        "Mourning or enmity.",
+        "Islamic significance and life."
+      ],
+      "correctIndex": 2,
+      "explanation": "In Pashtun culture, black ([tor]) is historically associated with mourning or enmity, whereas white ([spin]) represents purity and peace[cite: 30]."
     }
   ]
 }

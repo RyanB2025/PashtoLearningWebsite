@@ -1,0 +1,102 @@
+{
+  "id": "L14",
+  "title": "Lesson 14: Past Imperfective Tense, Pashto Infinitive & the Afghan Calendar   تیر نا-کامل زمان، پښتو مصدر او افغان کلنۍ",
+  "category": "Beginning Pashto",
+  "description": "Welcome to the capstone lesson of Beginning Pashto! Complete the tense-aspect matrix with the Past Imperfective, master infinitive modal constructions, and navigate the official Afghan Solar Hijri calendar.",
+  "duration": "Textbook pp. 160–169 (approx. 10-15 pages of instruction plus parallel Workbook modules)",
+  "level": "Intermediate-High (ILR 2+)",
+  "content": [
+    {
+      "type": "paragraph",
+      "heading": "Module 1: The Past Imperfective Tense",
+      "lines": [
+        "Congratulations on reaching Unit 14! This capstone lesson completes the tense-aspect matrix.",
+        "The Past Imperfective Tense is used to describe habitual, ongoing, or repeated actions in the past. It translates closely to the English 'used to [verb]' or 'was [verb]ing'.",
+        "It is formed by adding the past suffix [-əl] to the imperfective stem.",
+        "CRITICAL RELIEF: The past imperfective follows the nominative-accusative agreement pattern—just like the present tense. This means the ergative construction (which you struggled with in Unit 13) is NOT triggered here. The verb agrees happily with the subject!"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Grammar Hack: Contrast your past tenses! The Past Perfective uses the [wə-] prefix to show a completed, bounded action (e.g., 'He read the book once'). The Past Imperfective uses the [-əl] suffix on the imperfective stem to show an ongoing, habitual action (e.g., 'He used to read books daily')."
+    },
+    {
+      "type": "paragraph",
+      "heading": "Sentence Structures: Habitual Past",
+      "lines": [
+        "Let's look at this tense in our SOV framework:",
+        "احمد هره ورځ کتاب وایه. [Ahmad wróz kitāb wəwayəl.] (Ahmad used to read books daily.) -> Notice the verb agrees with Ahmad, not the book!",
+        "احمد غرمې ته تلی. [Ahmad mazmāshi ta tləy.] (Ahmad used to go at midday.)"
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "If you want to say 'I used to eat apples every day when I was young', do you need to use the ergative construction (putting the subject in the oblique case)?",
+      "options": [
+        "Yes, because all past tense sentences in Pashto are ergative.",
+        "Yes, because 'apples' is a plural direct object.",
+        "No, because the Past Imperfective tense uses standard nominative-accusative agreement, not the ergative construction.",
+        "No, because the ergative is only used in the present tense."
+      ],
+      "correctIndex": 2,
+      "explanation": "The ergative construction only applies to the Past Perfective tense for transitive verbs. The Past Imperfective (habitual past) safely uses regular subject-verb agreement!"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 2: The Pashto Infinitive & Modals",
+      "lines": [
+        "Next, we introduce the Pashto Infinitive. Infinitives always end in [-əl] (ل) and function grammatically as verbal nouns.",
+        "Infinitives are the building blocks for modal constructions, such as expressing ability ('can' or 'be able to').",
+        "Modal Constructions Vocabulary:",
+        "[kawalay shəy] (کولی شي) 'can (transitive)'",
+        "[tlalay shəy] (تللی شي) 'can go'",
+        "[kedalay shəy] (کېدلی شي) 'can (intransitive)'",
+        "Sentence Example: ده کتاب لیدلی شي؟ [Da kitāb lēdalay shəy?] (Can he read/see the book?). Notice the stress falls strongly on [kaw-] or the base of the infinitive."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 3: The Afghan Solar Hijri Calendar",
+      "lines": [
+        "To navigate official Afghan contexts, you must understand the Afghan calendar. Afghanistan uses the Solar Hijri calendar as its official civil calendar.",
+        "Unlike the Gregorian calendar, the Afghan year begins exactly on the vernal equinox (March 21st). The month names natively reflect the zodiac.",
+        "Here are the 12 Pashto months (with Gregorian equivalents in parentheses):",
+        "1. وری (Hamal/Aries-March) | 2. غویی (Sawr/Taurus-April) | 3. غبرګولی (Jawzā/Gemini-May)",
+        "4. چنګاښ (Saraṭān/Cancer-June) | 5. زمری (Asad/Leo-July) | 6. وږی (Sonbolah/Virgo-August)",
+        "7. تله (Mīzān/Libra-September) | 8. لړم (Aqrab/Scorpio-October) | 9. لیندۍ (Qaws/Sagittarius-November)",
+        "10. مرغومی (Jaddi/Capricorn-December) | 11. سلواغه (Dalwa/Aquarius-January) | 12. کب (Hoot/Pisces-February)"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Literacy: The first day of the Solar Hijri year is 'Nawruz' (نوروز). It is a major national celebration pre-dating Islam that marks the arrival of spring. Do not confuse the Solar Hijri calendar (used for civil, school, and government scheduling) with the Islamic Lunar Hijri calendar, which is used strictly for religious observances (like Ramadan) and shifts by 11 days every year!"
+    },
+    {
+      "type": "paragraph",
+      "heading": "🎓 Capstone Summary (Textbook Reference)",
+      "lines": [
+        "At the end of this textbook unit, you will find a Capstone 4-Tense × 4-Verb-Class Summary Table.",
+        "This master table, presented entirely in Pashto script, combines everything you have learned: Present Imperfective, Present Perfective, Past Imperfective, and Past Perfective, across simple, derivative, and doubly irregular verbs.",
+        "This is your ultimate reference artifact before moving on to Intermediate Pashto!"
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "If you receive an official Afghan government document scheduling a meeting for the first day of the month of 'وری' (Wray), roughly when is your meeting according to the Gregorian calendar?",
+      "options": [
+        "January 1st.",
+        "March 21st (Nawruz/Spring Equinox).",
+        "Sometime in mid-July.",
+        "The dates shift randomly every year based on the moon."
+      ],
+      "correctIndex": 1,
+      "explanation": "The Afghan Solar Hijri calendar begins its year with the month of 'Wray' (Aries) on the vernal equinox, which corresponds to March 21st on the Gregorian calendar."
+    }
+  ]
+}

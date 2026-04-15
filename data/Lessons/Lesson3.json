@@ -1,19 +1,35 @@
 {
-  "id": "lesson-03-action-verbs",
-  "title": "Lesson 03: Your First Action Verbs",
-  "category": "Language",
-  "description": "Transition from identifying objects to describing actions using the present tense and the SOV framework.",
-  "duration": "20 min",
-  "level": "Beginner",
+  "id": "L3",
+  "title": "Lesson 3: Present Imperfective Tense & Word Structure   اوسني نا-کامل زمان او د کلمې جوړښت",
+  "category": "Beginning Pashto",
+  "description": "Unit 3 marks your first encounter with core Pashto verbal morphology: the Present Imperfective Tense. You will learn to express habitual actions, discuss family and daily routines, and navigate early word structure rules.",
+  "duration": "Textbook pp. 40–51 (approx. 10-15 pages of primary instruction plus Workbook exercises)",
+  "level": "Novice-Mid (ILR 1)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Subject + Object + Action",
+      "heading": "Module 1: The Present Imperfective Tense",
       "lines": [
-        "Now we apply the SOV rule to real actions. In English we say 'I drink tea' (SVO). In Pashto, we say 'I tea drink' (SOV).",
-        "Let's look at two essential verbs for the first person 'I' (Ze):",
-        "Eat: Khoram [Kho-rum]",
-        "Drink: Tskam [Tsk-um] (Note: The 'ts' is pronounced like the end of 'cats')"
+        "Welcome to Unit 3! It is time to learn how to talk about ongoing, habitual, or daily routines.",
+        "To do this, we use the Present Imperfective Tense. In Pashto, verb agreement is based on the person (1st, 2nd, or 3rd) and number (singular or plural) of the subject.",
+        "Let's look at some essential activity verbs. Notice that from this unit onward, romanised transliteration is only provided at the point of introduction: [xoṛ-] (eat), [ost-] (live/reside), [waḍ-/wač-] (read), [līk-] (write), [kāṛ-] (work), [zda kaw-] (study/learn), [gor-] (look/see)."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Dialect & Pronunciation Pro-Tip: Be aware of a major regional difference! In the 3rd person singular present tense, Kabuli speakers use the ending [da], whereas Kandahari speakers often use [ka]. Also, remember that in the present imperfective, the stress generally falls on the verb's final syllable."
+    },
+    {
+      "type": "paragraph",
+      "heading": "Verb Paradigms & SOV Examples",
+      "lines": [
+        "Let's conjugate the verb 'to live/reside' ([ost-]):",
+        "1st Person: I live = zə osəm (زه اوسم) | We live = mung osu (موږ اوسو)",
+        "2nd Person: You (sg) live = tə ose (ته اوسې) | You (pl) live = tāso osay (تاسو اوسئ)",
+        "3rd Person: He/She lives = hagha osi (هغه اوسي) | They live = hagho osi (هغوی اوسي)",
+        "Now, let's look at them in strict SOV sentences:",
+        "احمد په کابل کې اوسي. [Ahmad pa kābul ke osi.] (Ahmad lives in Kabul.)",
+        "ما کتاب لولم / ما کتاب وډم. [Mā kitāb waḍam.] (I read a book — note the future imperfective nuance here.)"
       ]
     },
     {
@@ -21,28 +37,61 @@
     },
     {
       "type": "paragraph",
-      "heading": "Putting It Together",
+      "heading": "Module 2: Family, Home Life & Irregular Nouns",
       "lines": [
-        "I eat bread: Ze dod-day khoram. [Zuh doad-day kho-rum]",
-        "I drink tea: Ze chay tskam. [Zuh ch-eye tsk-um]",
-        "I drink water: Ze oba tskam. [Zuh oh-ba tsk-um]"
+        "Let's expand your vocabulary with family terms: [plār] (father), [mor] (mother), [wror] (brother), [khōr] (sister), [kor] (house/family).",
+        "Pashto has a complex word structure that includes gender classes and case inflection. Some nouns are irregular.",
+        "For example, you will encounter masculine nouns that take feminine oblique forms when used with prepositions. The word 'brother' is [wror] in its standard form, but becomes [wrōr] in the oblique case!"
       ]
     },
     {
       "type": "callout",
-      "text": "Fluency Tip: Pashto is a 'pro-drop' language. Because the verb ending '-am' already tells us the subject is 'I', native speakers often drop the word 'Ze'. You can simply say 'Chay tskam' to mean 'I drink tea'."
+      "text": "Cultural Context: The Afghan household is traditionally a multigenerational extended family. The eldest son plays a critical role in family structure and responsibilities. Sociolinguistic Note: When writing or reading dialogues set in traditional or rural areas, avoid scenarios depicting women in public unaccompanied, as this contradicts traditional norms."
     },
     {
       "type": "quiz",
-      "question": "Translate the following to Pashto: 'I eat bread'.",
+      "question": "Which of the following best describes the function of the Present Imperfective Tense in Pashto?",
       "options": [
-        "Ze khoram dod-day",
-        "Ze dod-day khoram",
-        "Dod-day ze khoram",
-        "Khoram ze dod-day"
+        "It describes actions that were completed entirely in the past.",
+        "It describes habitual, ongoing actions or daily routines.",
+        "It is used exclusively to issue commands or instructions.",
+        "It alters the sentence structure from SOV to SVO."
       ],
       "correctIndex": 1,
-      "explanation": "The order must be Subject (Ze) + Object (dod-day) + Verb (khoram)."
+      "explanation": "The Present Imperfective Tense is used to signify unbounded, habitual, or ongoing actions (like 'Ahmad lives in Kabul' or 'I read a book daily')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 3: Extended Reading & Pashto Folk Literature",
+      "lines": [
+        "This unit features your first extended reading completely in the Pashto script. Remember, transliteration is now scaffolding, not the primary text.",
+        "To enrich your cultural understanding, every unit includes a 'Diversion'—a Pashto proverb or folk-literature item."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Proverb of the Unit (متل)",
+      "lines": [
+        "د غره په سر هم لار شته",
+        "Word-for-word gloss: [da] (of) [ghra] (mountain) [pa] (on) [sar] (top/head) [hum] (also/even) [lār] (path/way) [shta] (exists).",
+        "Translation: Even over the mountain, there is a path.",
+        "Cultural Commentary: This famous Pashto proverb reflects the resilience embedded in Pashtun culture. The mountainous geography of Afghanistan makes travel incredibly difficult, yet this proverb serves as a metaphor for hope and determination: no matter how insurmountable an obstacle or problem appears, there is always a way forward or a solution to be found."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "In the Pashto present imperfective tense, where does the phonological stress typically fall on the verb?",
+      "options": [
+        "On the first syllable.",
+        "On the negative particle before the verb.",
+        "On the verb-final syllable.",
+        "Verbs are entirely unstressed in Pashto."
+      ],
+      "correctIndex": 2,
+      "explanation": "In the present imperfective forms, the phonological stress typically falls on the verb-final syllable."
     }
   ]
 }

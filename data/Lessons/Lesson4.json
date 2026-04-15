@@ -1,48 +1,88 @@
 {
-  "id": "lesson-04-questions",
-  "title": "Lesson 04: Asking Basic Questions",
-  "category": "Language",
-  "description": "Learn the essential interrogative words (Who, What, Where) and how to form questions naturally.",
-  "duration": "15 min",
-  "level": "Beginner",
+  "id": "L4",
+  "title": "Lesson 4: Cardinal Numbers & Weak Possessive Pronouns   اعداد او ضعیف ضمیرونه",
+  "category": "Beginning Pashto",
+  "description": "Navigate the Afghan bazaar by mastering numbers 1–30, and tackle a major grammatical milestone: the 'floating' placement of weak possessive pronouns.",
+  "duration": "Textbook pp. 52–67 (approx. 10-15 pages of instruction)",
+  "level": "Novice-Mid (ILR 1)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "The Question Words",
+      "heading": "Module 1: Cardinal Numbers (1–30) & The Bazaar",
       "lines": [
-        "In Pashto, question words typically sit right before the verb.",
-        "What: Tse [Tsay]",
-        "Who: Tsok [Tsoak]",
-        "Where: Chera [Cheh-rah]"
+        "Welcome to Unit 4! We begin with acquiring Pashto cardinal numbers from 1 to 30. In Pashto script, numbers are written using Arabic-Indic numerals (٠١٢٣٤٥٦٧٨٩).",
+        "Number 1 and 2 are gender-differentiated! For masculine nouns, use [yaw] (یو) 'one' and [dwā] (دوه) 'two'. For feminine nouns, use [yawā] (یوه) and [dwē] (دوه).",
+        "Teen numbers are compound structures with stress on the second syllable. For example, 'eleven' is [yaw-LAS] (یولس) and 'twelve' is [dwā-LAS] (دولس).",
+        "Bazaar Vocabulary: [bāzār] (بازار) 'bazaar', [dukān] (دوکان) 'shop', [paisa] (پیسه) 'money/cent', [rupay] (روپۍ) 'rupee', [afghāni] (افغانۍ) 'afghani currency'."
       ]
+    },
+    {
+      "type": "callout",
+      "text": "Cultural Pro-Tip: Bargaining in an Afghan market is expected and seen as a respectful interaction. Quoting or accepting prices in a single offer is considered naive. Haggling is an iterative, social negotiation! Also, note that the 'afghani' is the official currency of Afghanistan."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Forming Questions",
+      "heading": "Module 2: The Grammatical Pivot — Weak Possessive Pronouns",
       "lines": [
-        "What is this?: Da tse day? [Dah tsay day?] (Literally: This what is?)",
-        "Who is this?: Da tsok day? [Dah tsoak day?] (Literally: This who is?)",
-        "Where are you?: Te chera ye? [Tuh cheh-rah yay?] (Literally: You where are?)"
+        "This unit introduces your first major syntactical challenge: Weak Possessive Pronouns. Unlike strong pronouns, which carry full stress, weak pronouns are unstressed 'clitics'.",
+        "The Golden Rule: Weak pronouns MUST attach immediately after the FIRST stressed constituent of a sentence, regardless of where the logical possessor belongs in English.",
+        "Here are the six clitic forms:",
+        "1st Person: [me] مې (my) | [mo] مو (our)",
+        "2nd Person: [de] دې (your sg.) | [mo] مو (your pl.)",
+        "3rd Person: [ye] یې (his/her/its) | [ye] یې (their)",
+        "Family Vocabulary to practice possession: [wrōr] (ورور) 'brother', [khōr] (خور) 'sister', [zoy] (زوی) 'son', [lur] (لور) 'daughter'."
       ]
     },
     {
-      "type": "callout",
-      "text": "Cultural Pro-Tip: In Kabul, 'Da tse day?' is incredibly useful at the bazaar when pointing at fruits or items you don't know the name of yet. Merchants love it when foreigners try to learn item names!"
+      "type": "paragraph",
+      "heading": "Sentence Placement Comparison",
+      "lines": [
+        "Let's compare a sentence using a regular noun possessor versus a weak pronoun clitic in our strict SOV frame:",
+        "Standard Full NP: اسد ورور په لوګر کې اوسي. [Asad wror pa logar ke osi.] (Asad's brother lives in Logar.)",
+        "Using Clitic: ورور یې په لوګر کې اوسي. [Wror ye pa logar ke osi.] (His brother lives in Logar.)",
+        "Notice how the unstressed clitic [ye] 'floats' to dock right after the first stressed phrase!"
+      ]
     },
     {
       "type": "quiz",
-      "question": "How do you ask 'Where are you?' in Pashto?",
+      "question": "Which of the following statements accurately describes the placement rule for Pashto weak possessive pronouns?",
       "options": [
-        "Chera te ye?",
-        "Te ye chera?",
-        "Te chera ye?",
-        "Ye chera te?"
+        "They always appear at the very end of the sentence, immediately after the verb.",
+        "They dock immediately after the first stressed constituent of the sentence.",
+        "They replace the verb in an SOV sentence structure.",
+        "They are placed exactly where the English word 'my' or 'your' would appear."
+      ],
+      "correctIndex": 1,
+      "explanation": "Weak pronouns are enclitics in Pashto. They 'float' and obligatorily dock after the first stressed constituent of the clause, which is a major difference from English syntax."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Module 3: Pronunciation & Proverb Diversion",
+      "lines": [
+        "When speaking, remember that weak pronoun clitics are phonologically unstressed. Drilling the contrast between stressed nouns and unstressed clitics is critical to sounding natural.",
+        "As part of your cultural immersion, here is our Pashto Proverb of the Unit (متل):",
+        "پیسه د لاس خیرې ده (paisa da lās khire da)",
+        "Word-for-word gloss: [paisa] (money) [da] (of) [lās] (hand) [khire] (dirt/grime) [da] (is).",
+        "Translation: Money is the dirt of the hand. (Meaning: Wealth is transient; relationships and honor are permanent.)"
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Where does the phonological stress fall when pronouncing compound teen numbers in Pashto, such as 'yaw-las' (eleven)?",
+      "options": [
+        "Equally on both syllables.",
+        "On the first syllable (the base number).",
+        "On the second syllable (the 'las' suffix).",
+        "Teen numbers are entirely unstressed."
       ],
       "correctIndex": 2,
-      "explanation": "Subject (Te) + Question Word (chera) + Verb (ye)."
+      "explanation": "In Pashto compound teen numbers, the stress pattern falls on the second syllable, e.g., [yaw-LAS]."
     }
   ]
 }
