@@ -1,103 +1,403 @@
 {
-  "id": "L2",
-  "title": "Lesson 2: Basic Sentence Structure & the Verb 'To Be'   د جملې جوړښت او 'وي' کریا [cite: 16]",
-  "category": "Beginning Pashto",
-  "description": "Unit 2 delivers your first full structural insight into Pashto. We will master the SOV (Subject-Object-Verb) word order, the copular verb 'to be' in all six persons, and navigate university campus vocabulary. [cite: 18]",
-  "duration": "Textbook pp. 28–39 (approx. 10-15 pages of primary instruction plus Workbook exercises) [cite: 19]",
-  "level": "Novice-Low → Novice-Mid (ILR 0+) [cite: 16]",
+  "id": "pashto-l02",
+  "title": "Lesson 2: Basic Sentence Structure & the Verb 'To Be'",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "The foundational cognitive shift of the entire curriculum: Pashto is an SOV language (Subject–Complement–Verb), not SVO like English. Learners master the full copula paradigm ('to be' in all six persons), three core prepositions, negation with [na], and yes/no question formation. Dialogue context is an American university campus. Dual Pashto script + romanised transliteration required throughout.",
+  "duration": "10–15 hours",
+  "level": "Novice-Low → Novice-Mid (ILR 0+)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "The Foundational Pivot: SOV Word Order",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 2! This lesson introduces the most critical cognitive shift in learning Pashto: understanding its sentence structure. [cite: 18]",
-        "Unlike English, which uses Subject-Verb-Object (SVO) order, Pashto is strictly an SOV (Subject-Object-Verb) or Subject-Complement-Verb language. [cite: 18]",
-        "Let's look at a 3-column contrast comparing English SVO with Pashto SCVerb structures: [cite: 18]",
-        "English: Farah is in Afghanistan. | Transliteration: farā pa afghānistān ke da. | Pashto: فرا په افغانستان کې ده. [cite: 14, 18]"
+        "By the end of this lesson you will be able to: state where people and things are located using SOV (Subject–Complement–Verb) sentence structure.",
+        "You will conjugate the Pashto copula 'to be' — يم [yam], يې [ye], دی/ده [da], يو [yu], يستئ [yəstay], دي [di] — in all six persons, affirmative and negative.",
+        "You will form yes/no questions using rising intonation (no word-order change from statements).",
+        "You will use the three core prepositions: پهـ...کې [pa...ke] 'in/at', له...سره [la...sera] 'with', and ـ...ته [ta] 'to/for'.",
+        "You will identify direct vs. oblique case on nouns and understand the M1, M2, F1 noun classes."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 1 — The Core Dialogue (يوناسته ليونه)",
+      "lines": [
+        "This dialogue takes place on an American university campus. Dave (an American student) meets Amēn (a Pashtun student) and asks about their mutual friends. Listen and read along — notice how every statement ends with the VERB.",
+        "ديو: سلام. [dāwud: salām.] — Dave: Hi.",
+        "امين: سلام، ستاسو ما سه. [amēn: salām, stāso ma se.] — Amēn: Hello, nice to meet you.",
+        "ديو: خوار ما سه. [dāwud: xwār ma se.] — Dave: Nice to meet you too.",
+        "امين: څنګه يې؟ جوړ يې؟ پهـ خير يې؟ [amēn: tsənga ye? joṛ ye? pa xayr ye?] — Amēn: How are you? Well? Fine?",
+        "ديو: هو، جوړ يم. مننه. [dāwud: haw, joṛ yam. manana.] — Dave: Yes, I'm well. Thank you.",
+        "امين: تشکر. [amēn: tashakr.] — Amēn: Thanks.",
+        "ديو: رابيا او ژون چېره دي؟ [dāwud: rābya aw jon čere di?] — Dave: Where are Rabya and Joan?",
+        "امين: ګمان کوم پهـ لیلیه کې دي. [amēn: gumān kawum pa layliyā ke di.] — Amēn: I guess they're in the dorm.",
+        "ديو: ليلا چېره ده؟ [dāwud: laylā čere da?] — Dave: Where is Layla?",
+        "امين: پهـ کور کې ده. [amēn: pa kor ke da.] — Amēn: She's at home.",
+        "ديو: پټانګ چېره دی؟ [dāwud: paṭāng čere da?] — Dave: Where is Paṭang?",
+        "امين: پهـ روغتون کې دی. [amēn: pa roghṭun ke da.] — Amēn: He's at the hospital.",
+        "ديو: غلجی صیب پهـ صنف کې دی؟ [dāwud: ghaldzāy sāyib pa sinf ke da?] — Dave: Is Mr. Ghaldzay in class?",
+        "امين: هو. له نوي شاګرد سره ناست دی. [amēn: wo. la nāwi shāgerd sara nāst da.] — Amēn: Yes. He's sitting with a new student.",
+        "ديو: ته څنګه يواځي ناست يې؟ [dāwud: tā tsənga yawāze nāst ye?] — Dave: Why are you sitting alone?",
+        "امين: اسد ته منتظر يم. [amēn: asad ta muntazir yam.] — Amēn: I'm waiting for Asad."
       ]
     },
     {
       "type": "callout",
-      "text": "Grammar Pro-Tip: In Pashto, yes/no questions have the exact same word order as statements! You distinguish a question purely by using rising intonation at the end of the sentence. This is a critical listening cue for English speakers accustomed to subject-auxiliary inversion. [cite: 18, 19]"
+      "heading": "🔑 The Big Shift: English is SVO — Pashto is SOV",
+      "lines": [
+        "This is the single most important structural fact about Pashto. In English, the verb comes SECOND (Subject → Verb → Object/Complement). In Pashto, the verb comes LAST (Subject → Complement → Verb).",
+        "ENGLISH (SVO): 'Ghaldzay [S] is [V] in class [C]'",
+        "PASHTO (SOV): غلجی صیب [S] پهـ صنف کې [C] دی [V] — ghaldzāy sāyib [S] pa sinf ke [C] da [V]",
+        "Think of Pashto sentences as always BUILDING UP to the verb at the end — like a drumroll that resolves at the final beat.",
+        "This rule holds for QUESTIONS too: Pashto does NOT flip word order for questions. The only difference between a statement and a yes/no question is a RISING TONE at the end.",
+        "STATEMENT: پهـ صنف کې دی. [pa sinf ke da.] — 'He is in class.' (falling tone)",
+        "QUESTION: پهـ صنف کې دی؟ [pa sinf ke da?] — 'Is he in class?' (rising tone at the end)"
+      ]
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Campus Vocabulary & Prepositions",
+      "heading": "Section 2 — The Verb 'To Be': Full Paradigm (د 'وي' کریا)",
       "lines": [
-        "Our communicative domain for this unit is the American university campus, keeping vocabulary immediately relevant to your daily life. [cite: 18]",
-        "Nouns: kor (کور) 'house', sinf (صنف) 'class', rughsṭiya (روغتون / روغستیا) 'hospital', leyliā (لیلیه) 'dormitory', shāgerd (شاګرد) 'student'. [cite: 18]",
-        "Adjectives: nāway (نوی) 'new', munṭazir (منتظر) 'waiting', nast (ناست) 'sitting'. [cite: 18]",
-        "Prepositions: pa … ke (په ... کې) 'in/at', la … sera (له ... سره) 'with', ta (ته) 'to/for'. [cite: 18]",
-        "Notice the locative prepositional phrase 'pa ... ke' wraps around the noun (e.g., pa sinf ke = in class). In fast speech, the 'pa' preposition often reduces to just 'p' before consonant-initial words! [cite: 18, 19]"
+        "The Pashto copula has six forms — one for each person and number. CRITICAL: The 3rd person singular form دی/ده [da] covers BOTH 'he is' AND 'she is'. Gender is determined by context, not by a different verb form.",
+        "AFFIRMATIVE PARADIGM:",
+        "1st singular — زه يم [za yam] — 'I am'",
+        "2nd singular — ته يې [tā ye] — 'You are'",
+        "3rd singular — دی دی / ده ده [da da] — 'He is / She is' ← SAME FORM for both genders",
+        "1st plural — مونږ يو [mung yu] — 'We are'",
+        "2nd plural — تاسو يستئ [tāso yəstay] — 'You all are'",
+        "3rd plural — دوي دي [doy di] — 'They are'",
+        "NEGATIVE PARADIGM — add نه [na] DIRECTLY BEFORE the verb:",
+        "زه نه يم [za na yam] — 'I am not'",
+        "ته نه يې [tā na ye] — 'You are not'",
+        "دی/ده نه دی [da na da] — 'He/She is not'",
+        "مونږ نه يو [mung na yu] — 'We are not'",
+        "تاسو نه يستئ [tāso na yəstay] — 'You all are not'",
+        "دوي نه دي [doy na di] — 'They are not'"
       ]
     },
     {
       "type": "paragraph",
-      "heading": "The Verb 'To Be' & Dropped Subjects",
+      "heading": "Full Conjugation Drill — 'at home' (پهـ کور کې)",
       "lines": [
-        "Here is the full paradigm for the verb 'to be' in the present tense: [cite: 18]",
-        "1st Person: I am = zə yam (زه یم) / We are = mung yu (موږ یو). [cite: 18]",
-        "2nd Person: You (sg) are = tə ye (ته یې) / You (pl) are = tāso yəstay (تاسو یاست). [cite: 18]",
-        "3rd Person: He/She/It is = hagha da (هغه دی/ده) / They are = hagho di (هغوی دي). [cite: 18]",
-        "Note on Gender: The 3rd person singular 'da' can mean 'he is' or 'she is' depending entirely on context. [cite: 18]",
-        "Drop-Subject Rule: Pashto frequently omits pronouns when the subject is recoverable from the context or the verb ending! [cite: 18]"
+        "Practice all six persons with the locative phrase پهـ کور کې [pa kor ke] 'at home':",
+        "پهـ کور کې يم. [pa kor ke yam.] — 'I am at home.'",
+        "پهـ کور کې يې. [pa kor ke ye.] — 'You are at home.'",
+        "پهـ کور کې دی. [pa kor ke da.] — 'He is at home.' / پهـ کور کې ده. [pa kor ke da.] — 'She is at home.'",
+        "پهـ کور کې يو. [pa kor ke yu.] — 'We are at home.'",
+        "پهـ کور کې يستئ. [pa kor ke yəstay.] — 'You all are at home.'",
+        "پهـ کور کې دي. [pa kor ke di.] — 'They are at home.'",
+        "NEGATIVES — add نه [na] before the verb:",
+        "پهـ کور کې نه يم. [pa kor ke na yam.] — 'I am NOT at home.'",
+        "پهـ کور کې نه دی. [pa kor ke na da.] — 'He/She is NOT at home.'"
       ]
     },
     {
       "type": "callout",
-      "text": "Negation Hack: To make a sentence negative, place the negative particle 'na' (نه) directly before the verb. For example, 'pa kor ke na da' means 'He/she is not at home'. [cite: 18]"
+      "heading": "⚠️ Grammar Alert: Drop-Subject Rule",
+      "lines": [
+        "In Pashto, subject pronouns are frequently OMITTED when the identity is recoverable from context. The verb ending tells you the subject — so the pronoun is redundant and sounds unnatural if you include it every time.",
+        "Instead of زه يم [za yam] 'I am', native speakers simply say يم [yam].",
+        "Instead of دوي دي [doy di] 'they are', native speakers often say just دي [di].",
+        "Examples from the dialogue: پهـ کور کې ده. [pa kor ke da.] = '(She) is at home.' — no subject pronoun needed because the conversation already established we are talking about Layla.",
+        "RULE: Include the pronoun only for EMPHASIS or CONTRAST. Using it every time marks you as a foreigner. Dropping it when context is clear marks you as fluent!"
+      ]
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Script Practice: The Second Letter Family",
+      "heading": "Section 3 — Prepositions (حروف جر)",
       "lines": [
-        "As we deepen script exposure, we integrate the second set of alphabet letters: the alef, wāw, ye diacritics, and the b/p/t/s shape-family. [cite: 18]",
-        "[Video Embed: Animated writing guide for the b/p/t/s shape family.]",
-        "[Interactive Writing Canvas]: Practice combining these letters to form basic campus vocabulary.",
-        "Remember our policy: Pashto script is required for all vocabulary items and example sentences, alongside romanised transliteration. [cite: 19]"
+        "Pashto has three core prepositions introduced in this unit. Unlike English, some Pashto prepositions SURROUND the noun (one part before, one part after).",
+        "① پهـ...کې [pa...ke] — 'in / at / inside'",
+        "Structure: پهـ [pa] + NOUN (oblique case) + کې [ke]",
+        "Example: پهـ کور کې [pa kor ke] — 'in/at the house'",
+        "Example: پهـ صنف کې [pa sinf ke] — 'in class'",
+        "Example: پهـ روغتون کې [pa roghṭun ke] — 'at the hospital'",
+        "Example: پهـ لیلیه کې [pa layliyā ke] — 'in the dormitory'",
+        "② له...سره [la...sera] — 'with'",
+        "Structure: له [la] + NOUN (oblique) + سره [sera] (NOTE: the first element [la] is frequently dropped in fast speech — سره alone can mean 'with')",
+        "Example: له نوي شاګرد سره [la nāwi shāgerd sara] — 'with a new student'",
+        "Example: له اسد سره [la asad sara] — 'with Asad'",
+        "③ ...ته [ta] — 'to / for' (POSTPOSITION — comes AFTER the noun)",
+        "Structure: NOUN (oblique) + ته [ta]",
+        "Example: اسد ته [asad ta] — 'for Asad / to Asad'",
+        "Example: ليلا ته [laylā ta] — 'for Layla'"
       ]
     },
     {
-      "type": "paragraph",
-      "heading": "Cultural Context: Titles & Academic Settings",
+      "type": "callout",
+      "heading": "💡 Language Hack: The Sandwich Preposition",
       "lines": [
-        "When addressing male teachers, use the title 'sāyib' (صاحب - sir/Mr.) as a respectful sociolinguistic register marker. [cite: 18]",
-        "Example: Ghaldzay sāyib pa sinf ke da. (Ghaldzay sir is in class.) [cite: 18]",
-        "While mixed-gender academic settings are presented as normal for Afghan university contexts, always be aware that more conservative rural alternatives exist regarding gender interaction. [cite: 18]"
+        "پهـ...کې [pa...ke] is called a 'circumposition' — it wraps AROUND the noun like bread around a sandwich. The noun goes in the middle.",
+        "Think of it as a location marker bracket: پهـ ← [PLACE] → کې",
+        "Quick pattern: پهـ ___ کې = 'in/at ___'. Fill in any location noun and you instantly have a location phrase!",
+        "پهـ کابل کې [pa kābul ke] — 'in Kabul'",
+        "پهـ امریکا کې [pa amrikā ke] — 'in America'",
+        "پهـ پوهنتون کې [pa pohantun ke] — 'at the university'",
+        "🔁 FAST SPEECH TIP: In rapid Kabuli Pashto, پهـ [pa] is often reduced to just پ [p] before a consonant-initial word: پ کور کې [p kor ke] instead of پهـ کور کې [pa kor ke]. You will hear this on authentic audio."
       ]
     },
     {
       "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "PERSONAL NAMES in this lesson:",
+        "Male Pashto names: اسد [asad] ◆ پټانګ [paṭāng] ◆ غلجی [ghaldzāy]",
+        "Female Pashto names: آمانه [amāna] ◆ ليلا [laylā] ◆ رابيا [rābya]",
+        "American names: ډيوډ [dāwud] (David) ◆ ژون [jon] (Joan)",
+        "NOUNS:",
+        "کور [kor] — house / home (M2 class)",
+        "صنف [sinf] — class / classroom (M2 class)",
+        "روغتون [roghṭun] — hospital (M2 class)",
+        "لیلیه [layliyā] — dormitory (F1 class)",
+        "شاګرد [shāgerd] — student (M1 class, male) ◆ شاګرده [shāgərda] — student (F1 class, female)",
+        "صیب [sāyib] — sir / Mr. (respectful title for male teacher)",
+        "پوهنتون [pohantun] — university (M2 class)",
+        "ADJECTIVES:",
+        "ناست [nāst] — sitting",
+        "منتظر [muntazir] — waiting",
+        "نوی [nāway] — new",
+        "INTERROGATIVES:",
+        "چېره [čere] — where?",
+        "څنګه [tsənga] — how? / why?",
+        "PRONOUN: ته [tā] — you (singular)",
+        "CONJUNCTION: او [aw] — and",
+        "ADVERBS / PHRASES: هو [wo] — yes ◆ يواځي [yawāze] — alone ◆ ګمان کوم [gumān kawum] — I guess / I think"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🎓 Cultural Spotlight: صیب [sāyib] — The Register of Respect",
+      "lines": [
+        "صیب [sāyib] — literally 'sir' or 'Mr.' — is a crucial sociolinguistic register marker in Pashto. It is used as a respectful form of address to male authority figures, especially teachers.",
+        "غلجی صیب [ghaldzāy sāyib] — 'Mr. Ghaldzay' / 'Sir Ghaldzay' — is how students address a male professor in both Afghan school and university settings.",
+        "RULE: In formal academic or professional contexts, ALWAYS use صیب [sāyib] after a man's surname or first name when addressing a teacher, elder, or superior. Dropping it sounds disrespectful.",
+        "For women in academic settings, the title خانم [xānum] ('Madam' / 'Mrs.' / 'Ms.') serves the equivalent role: فاطمه خانم [fāṭima xānum].",
+        "🌍 SOCIOLINGUISTIC NOTE: The CAL textbook normalises mixed-gender academic settings, reflecting Afghan university contexts in cities like Kabul. However, in more conservative rural and tribal settings, strict gender separation in educational environments is the norm. Always read the social context before applying urban Kabuli norms."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — SOV Sentence Construction (د جملې جوړښت)",
+      "lines": [
+        "Here are the key sentence patterns from this lesson. Study the three-column structure: SUBJECT → COMPLEMENT → VERB.",
+        "PATTERN 1 — Location statement (S + prepositional phrase + verb):",
+        "غلجی صیب | پهـ صنف کې | دی. [ghaldzāy sāyib | pa sinf ke | da.] — 'Mr. Ghaldzay is in class.'",
+        "رابیا او ژون | پهـ لیلیه کې | دي. [rābya aw jon | pa layliyā ke | di.] — 'Rabya and Joan are in the dorm.'",
+        "PATTERN 2 — Location question (S + question word complement + verb?):",
+        "پټانګ | چېره | دی؟ [paṭāng | čere | da?] — 'Where is Paṭang?' ← NOTE: same word order as the statement!",
+        "PATTERN 3 — Manner question (S + adverb + manner/adjective + verb?):",
+        "ته | څنګه يواځي | ناست يې؟ [tā | tsənga yawāze | nāst ye?] — 'Why are you sitting alone?'",
+        "PATTERN 4 — Complement sentence (S + adjective complement + verb):",
+        "(زه) | اسد ته منتظر | يم. [(za) | asad ta muntazir | yam.] — 'I am waiting for Asad.' ← Subject pronoun dropped!",
+        "NEGATION RULE — نه [na] goes DIRECTLY BEFORE the final verb, never anywhere else:",
+        "پهـ کور کې نه دی. [pa kor ke na da.] — 'He/She is NOT at home.'",
+        "شاګرد نه دی. [shāgerd na da.] — 'He/She is NOT a student.'"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Three-Column Comparison Table: English → Transliteration → Pashto Script",
+      "lines": [
+        "English: 'I am at home.' | Transliteration: pa kor ke yam. | Pashto: پهـ کور کې يم.",
+        "English: 'You are at home.' | Transliteration: pa kor ke ye. | Pashto: پهـ کور کې يې.",
+        "English: 'He is at home.' | Transliteration: pa kor ke da. | Pashto: پهـ کور کې دی.",
+        "English: 'She is at home.' | Transliteration: pa kor ke da. | Pashto: پهـ کور کې ده.",
+        "English: 'We are at home.' | Transliteration: pa kor ke yu. | Pashto: پهـ کور کې يو.",
+        "English: 'You all are at home.' | Transliteration: pa kor ke yəstay. | Pashto: پهـ کور کې يستئ.",
+        "English: 'They are at home.' | Transliteration: pa kor ke di. | Pashto: پهـ کور کې دي.",
+        "English: 'I am NOT at home.' | Transliteration: pa kor ke na yam. | Pashto: پهـ کور کې نه يم.",
+        "English: 'He/She is NOT at home.' | Transliteration: pa kor ke na da. | Pashto: پهـ کور کې نه دی/ده.",
+        "English: 'Where is Layla?' | Transliteration: laylā čere da? | Pashto: ليلا چېره ده؟",
+        "English: 'She is in the dorm.' | Transliteration: pa layliyā ke da. | Pashto: پهـ لیلیه کې ده.",
+        "English: 'I am waiting for Asad.' | Transliteration: asad ta muntazir yam. | Pashto: اسد ته منتظر يم."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Noun Classes: The Case System (د نومونو ډلې)",
+      "lines": [
+        "A Pashto noun changes its ending based on: (1) NUMBER — singular vs. plural, and (2) CASE — direct (subject/complement) vs. oblique (object of preposition).",
+        "DIRECT CASE [D]: Used when the noun is the subject of the sentence, the direct object (not studied yet), or the complement of 'to be'.",
+        "OBLIQUE CASE [O]: Used when the noun is the object of a preposition (پهـ...کې, له...سره, ...ته).",
+        "M1 NOUNS — animate masculine, direct singular ends in consonant:",
+        "Example: شاګرد [shāgerd] 'student'",
+        "Direct singular (DSg): شاګرد [shāgerd] — Direct plural (DPl): شاګردان [shāgerdān]",
+        "Oblique singular (OSg): شاګرد [shāgerd] — Oblique plural (OPl): شاګردانو [shāgerdāno]",
+        "Other M1 nouns: شاعر [shāir] 'poet' ◆ ډاکټر [ḍākṭər] 'doctor' ◆ تاریخ پوه [tārikh poh] 'historian'",
+        "M2 NOUNS — inanimate masculine, direct singular ends in consonant:",
+        "Example: کور [kor] 'house'",
+        "Direct singular (DSg): کور [kor] — Direct plural (DPl): کورونه [korunā]",
+        "Oblique singular (OSg): کور [kor] — Oblique plural (OPl): کورو [koro] / کورونو [korunо]",
+        "Other M2 nouns: روغتون [roghṭun] ◆ پوهنتون [pohantun] ◆ صنف [sinf] ◆ ژورنالیزم [žurnālizm]",
+        "F1 NOUNS — feminine, direct singular ends in [a], [ā], or [e]:",
+        "Example: ښځه [xədza] 'woman/wife'",
+        "Direct singular (DSg): ښځه [xədza] — Direct plural (DPl): ښځې [xədze]",
+        "Oblique singular (OSg): ښځې [xədze] — Oblique plural (OPl): ښځو [xədzo]",
+        "Other F1 nouns: پرستاره [parastāra] 'nurse' ◆ لیلیه [layliyā] 'dormitory' ◆ شاګرده [shāgərda] 'female student' ◆ ملګرې [malgaré] 'female friend'"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ Grammar Pro-Tip: Why Does Case Matter NOW?",
+      "lines": [
+        "You may be wondering why we are learning noun cases before learning to build complex sentences. The reason is: you are ALREADY using the oblique case every time you use a preposition!",
+        "When you say پهـ کور کې [pa kor ke], the word کور [kor] is in the OBLIQUE case — which for M2 nouns like کور happens to look identical to the direct case. So you have been using the oblique case correctly without realising it.",
+        "The case distinction becomes visually obvious with F1 nouns: پهـ ښځه کې is WRONG. The correct oblique form is پهـ ښځې کې [pa xədze ke] — notice the ـه [a] ending changes to ـې [e] in the oblique case.",
+        "BOTTOM LINE: Direct case = subject/complement. Oblique case = after a preposition. Memorise this rule now — it is the foundation for everything that follows in Pashto grammar."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — The Pashto Alphabet: Ligatures & Borrowed Letters (د الفبا ليکنه)",
+      "lines": [
+        "This section continues alphabet study from Lesson 1, focusing on special letter combinations and borrowed letters that appear in Unit 2 vocabulary.",
+        "LIGATURES — Special joined forms that two letters make when written together:",
+        "لا [lā] — the letters ل [lam] + ا [alef] form a distinctive ligature: لا. Example: لاس [lās] 'hand' ◆ سلام [salām] 'greeting'",
+        "This ligature appears in many common words: اسلام [islām] ◆ لاغمان [lāghmān] ◆ جلالاباد [jalālābād]",
+        "BORROWED LETTER — ع [ayn]:",
+        "ع is borrowed from Arabic. In Pashto, it is pronounced like the glottal stop or a heavy [a]/[e]. In words of Arabic origin, it represents a pharyngeal sound, but in Pashto it is typically realised as a vowel onset.",
+        "Examples: معلوم [malum] 'known/clear' ◆ معلم [muʿallim] 'teacher (Arabic loanword)'",
+        "BORROWED LETTER — ء [hamza]:",
+        "ء ('glottal stop') appears in Arabic loanwords. Example: مثلاً [masalan] 'for example' ◆ معمولاً [mumuran] 'usually'",
+        "BORROWED LETTER — أ [alef with hamza above]:",
+        "Always appears in initial position in words from Arabic. Example: اسلامباد [islāmbād] ◆ امام [imām]",
+        "HANDWRITING DRILL: Practice writing — سلام [salām] ◆ لاس [lās] 'hand' ◆ جلالاباد [jalālābād] ◆ بغلان [baghlān] ◆ کلا [kalā] 'compound/fort'"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "📝 Script Policy Reminder: Dual Presentation Continues",
+      "lines": [
+        "Lessons 1, 2, and 3 require BOTH Pashto script AND romanised transliteration for all content. This dual presentation scaffolding is designed to build script recognition alongside oral/aural skills simultaneously.",
+        "From Lesson 4 onward: Pashto script is PRIMARY. Transliteration appears only when a new vocabulary item is introduced for the first time.",
+        "HOW TO STUDY: When reading this lesson, cover the transliteration column and try to read the Pashto script directly. Use the transliteration only to check your reading. This active decoding practice is the fastest route to script fluency.",
+        "READING TEST: Can you read these words from this lesson without the transliteration? پهـ کور کې ده ◆ اسد ته منتظر يم ◆ چېره يستئ؟"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 8 — Diversion: Pashto Proverb (متل)",
+      "lines": [
+        "پښتو متل [pashto matal] — Pashto Proverb:",
+        "چې خان يې پهـ يارانو يې۔",
+        "[če xān ye pa yārān ye.]",
+        "Word-for-word gloss: چې [če] 'that/who' ◆ خان [xān] 'khan / leader / notable' ◆ يې [ye] 'you are (2sg)' ◆ پهـ [pa] 'by means of / because of' ◆ يارانو [yārāno] 'friends (oblique plural)' ◆ يې [ye] 'you are'",
+        "Translation: 'You are a khan thanks to your friends.'",
+        "Cultural Commentary: In Pashtun tribal society, a خان [xān] is a respected community leader — a person of status, influence, and honour. This proverb encapsulates the Pashtun understanding that true social standing does not come from wealth or birth alone, but from the quality of one's relationships and the loyalty of one's companions. The word يارانو [yārāno] — 'friends' (in the oblique case, object of پهـ) — is key: it is your circle that defines you. Notice this proverb uses the SOV-adjacent structure you have just learned: the critical information about CAUSE (by means of friends) comes before the final verb يې [ye]. This is authentic Pashto proverbial style — dense, front-loaded, verb-final."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 2 before attempting the quiz:",
+        "✓ PASHTO IS SOV: Subject → Complement → VERB. The verb ALWAYS comes last.",
+        "✓ Yes/no questions have IDENTICAL word order to statements — only the rising intonation at the end changes.",
+        "✓ نه [na] for negation goes DIRECTLY before the final verb. Nowhere else.",
+        "✓ The copula 3rd person singular دی/ده [da] covers BOTH 'he is' (دی) AND 'she is' (ده) — same pronunciation [da], different script convention.",
+        "✓ Subject pronouns are DROP when context makes the subject clear.",
+        "✓ پهـ...کې [pa...ke] = 'in/at'; له...سره [la...sera] = 'with'; ...ته [ta] = 'to/for'.",
+        "✓ صیب [sāyib] = respectful title 'sir/Mr.' — obligatory when addressing a male teacher.",
+        "✓ Oblique case required after all three prepositions."
+      ]
     },
     {
       "type": "quiz",
-      "question": "How do you form a yes/no question in Pashto? [cite: 18]",
+      "question": "In Pashto, where does the verb appear in a basic declarative sentence?",
       "options": [
-        "By moving the verb to the beginning of the sentence.",
-        "By adding a question word at the start of the sentence.",
-        "By keeping the statement word order and using rising intonation.",
-        "By adding the particle 'na' before the verb."
+        "At the beginning of the sentence, before the subject.",
+        "In the second position, between the subject and complement — just like English.",
+        "At the END of the sentence, after the subject and complement.",
+        "It can go anywhere — Pashto word order is completely free."
       ],
       "correctIndex": 2,
-      "explanation": "In Pashto, questions have the identical word order to statements. They are distinguished purely by rising intonation at the end of the sentence. [cite: 18, 19]"
+      "explanation": "Pashto is an SOV (Subject–Object/Complement–Verb) language. The verb ALWAYS comes last in a basic declarative sentence. This is the opposite of English (SVO). For example: غلجی صیب پهـ صنف کې دی [ghaldzāy sāyib pa sinf ke da] = 'Mr. Ghaldzay is in class' — the verb دی [da] 'is' comes at the very end."
     },
     {
       "type": "quiz",
-      "question": "Translate 'He/she is not at home' observing the strict Pashto SOV and negation rules. [cite: 18]",
+      "question": "Which of the following correctly translates 'They are NOT in the dormitory'?",
       "options": [
-        "hagha da na pa kor ke",
-        "pa kor ke na da",
-        "na da pa kor ke",
-        "hagha na pa kor ke da"
+        "پهـ لیلیه کې نه دي. [pa layliyā ke na di.]",
+        "نه دي پهـ لیلیه کې. [na di pa layliyā ke.]",
+        "پهـ لیلیه کې دي نه. [pa layliyā ke di na.]",
+        "دي نه پهـ لیلیه کې. [di na pa layliyā ke.]"
+      ],
+      "correctIndex": 0,
+      "explanation": "Negation in Pashto is formed by placing نه [na] DIRECTLY before the final verb — and the verb stays at the END of the sentence. The correct structure is: پهـ لیلیه کې [in the dorm] + نه [not] + دي [they are] → پهـ لیلیه کې نه دي. Options B, C, and D all violate the SOV word order or misplace نه [na]."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the Pashto 3rd person singular copula form, and how do you distinguish 'he is' from 'she is'?",
+      "options": [
+        "Two separate forms: [di] for 'he is' and [da] for 'she is'.",
+        "One form [da] covers both — the difference is in context, not the verb form itself.",
+        "The masculine form is [yu] and the feminine form is [da].",
+        "The subject pronoun is always required to distinguish gender — the verb form alone cannot."
       ],
       "correctIndex": 1,
-      "explanation": "In Pashto, the negative particle [na] strictly precedes the verb [da], yielding [pa kor ke na da]. Thanks to the drop-subject rule, the pronoun can be omitted! [cite: 18]"
+      "explanation": "Both 'he is' and 'she is' use the same verb form دی/ده [da]. The difference lies in the Pashto script convention (دی for masculine, ده for feminine) but both are pronounced [da]. Gender is determined by context and by the gender of the noun/pronoun being referred to — not by a grammatically different verb form. The 3rd person PLURAL is دي [di] 'they are'."
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence correctly uses the preposition پهـ...کې [pa...ke] 'in/at' in an SOV structure?",
+      "options": [
+        "[pa kor ke da.] — پهـ کور کې دی.",
+        "[da pa kor ke.] — دی پهـ کور کې.",
+        "[pa ke kor da.] — پهـ کې کور دی.",
+        "[kor pa da ke.] — کور پهـ دی کې."
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct structure is: پهـ [pa] + LOCATION NOUN + کې [ke] + VERB at end. پهـ کور کې دی [pa kor ke da] = 'He/She is at home' follows perfect SOV order: (implied subject) → پهـ کور کې [in/at the house] as complement → دی [is] as final verb. The other options all violate the circumposition structure or the SOV word order rule."
+    },
+    {
+      "type": "quiz",
+      "question": "How does Pashto form a yes/no question from a statement?",
+      "options": [
+        "Move the verb to the beginning of the sentence, before the subject.",
+        "Add the question word 'آیا' [āyā] at the start of the sentence.",
+        "Keep the EXACT same word order as the statement — only the intonation rises at the end.",
+        "Swap the subject and verb positions, exactly like English auxiliary inversion."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pashto yes/no questions have IDENTICAL word order to the parallel statement. The ONLY difference is a rising intonation at the end of the sentence — no word order change, no auxiliary verb, no question particle required. For example: پهـ صنف کې دی. [pa sinf ke da.] = 'He is in class.' (statement, falling tone) vs. پهـ صنف کې دی؟ [pa sinf ke da?] = 'Is he in class?' (question, rising tone)."
+    },
+    {
+      "type": "quiz",
+      "question": "In the sentence اسد ته منتظر يم [asad ta muntazir yam] — 'I am waiting for Asad' — what grammatical role does ته [ta] play, and what case is اسد [asad] in?",
+      "options": [
+        "ته [ta] is a subject marker; اسد [asad] is in the direct case.",
+        "ته [ta] is a postposition meaning 'to/for'; اسد [asad] is in the oblique case as its object.",
+        "ته [ta] means 'you'; the sentence is saying 'You, Asad, are waiting'.",
+        "ته [ta] is a negation particle; اسد [asad] is in the direct case."
+      ],
+      "correctIndex": 1,
+      "explanation": "ته [ta] is a POSTPOSITION meaning 'to' or 'for' — it comes AFTER the noun it governs (hence 'post'-position). اسد [asad] is in the OBLIQUE case as the object of this postposition. The full sentence structure: (zero subject 'I') → اسد ته [for Asad] + منتظر [waiting] as complement → يم [am] as final verb. Nouns that are objects of the prepositions پهـ...کې, له...سره, and ...ته must all appear in the oblique case."
     }
   ]
 }

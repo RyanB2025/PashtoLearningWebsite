@@ -1,35 +1,30 @@
 {
-  "id": "L3",
-  "title": "Lesson 3: Present Imperfective Tense & Word Structure   اوسني نا-کامل زمان او د کلمې جوړښت",
-  "category": "Beginning Pashto",
-  "description": "Unit 3 marks your first encounter with core Pashto verbal morphology: the Present Imperfective Tense. You will learn to express habitual actions, discuss family and daily routines, and navigate early word structure rules.",
-  "duration": "Textbook pp. 40–51 (approx. 10-15 pages of primary instruction plus Workbook exercises)",
+  "id": "pashto-l03",
+  "title": "Lesson 3: Present Imperfective Tense & Word Structure",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "The learner's first encounter with core Pashto verbal morphology: the Present Imperfective Tense covering habitual and ongoing actions. Full paradigm drills for activity verbs, irregular family-term nouns, and extended noun class coverage (M3, M4, F2, F3). From this lesson onward Pashto script is the primary medium — romanised transliteration appears only at vocabulary introduction. Communicative context: university life, daily routines, and Afghan extended-family structure.",
+  "duration": "10–15 hours",
   "level": "Novice-Mid (ILR 1)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: The Present Imperfective Tense",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 3! It is time to learn how to talk about ongoing, habitual, or daily routines.",
-        "To do this, we use the Present Imperfective Tense. In Pashto, verb agreement is based on the person (1st, 2nd, or 3rd) and number (singular or plural) of the subject.",
-        "Let's look at some essential activity verbs. Notice that from this unit onward, romanised transliteration is only provided at the point of introduction: [xoṛ-] (eat), [ost-] (live/reside), [waḍ-/wač-] (read), [līk-] (write), [kāṛ-] (work), [zda kaw-] (study/learn), [gor-] (look/see)."
+        "By the end of this lesson you will be able to: describe habitual and ongoing actions using the Present Imperfective Tense.",
+        "You will conjugate regular Pashto verbs in all six persons (affirmative, negative, and question forms) and produce full paradigm tables from memory.",
+        "You will use key activity verbs — 'eat', 'live', 'read', 'write', 'work', 'study', 'see' — in SOV sentences about daily life and university routines.",
+        "You will decline M3, M4, F2, and F3 noun classes, and produce the correct case forms of the critical irregular family nouns: ورور [wror] 'brother', مور [mor] 'mother', خور [khor] 'sister', ترا [tra] 'paternal uncle'.",
+        "You will read a short passage written entirely in Pashto script without transliteration — the first extended reading challenge of the curriculum."
       ]
     },
     {
       "type": "callout",
-      "text": "Dialect & Pronunciation Pro-Tip: Be aware of a major regional difference! In the 3rd person singular present tense, Kabuli speakers use the ending [da], whereas Kandahari speakers often use [ka]. Also, remember that in the present imperfective, the stress generally falls on the verb's final syllable."
-    },
-    {
-      "type": "paragraph",
-      "heading": "Verb Paradigms & SOV Examples",
+      "heading": "📜 Script Policy Change — Starting NOW",
       "lines": [
-        "Let's conjugate the verb 'to live/reside' ([ost-]):",
-        "1st Person: I live = zə osəm (زه اوسم) | We live = mung osu (موږ اوسو)",
-        "2nd Person: You (sg) live = tə ose (ته اوسې) | You (pl) live = tāso osay (تاسو اوسئ)",
-        "3rd Person: He/She lives = hagha osi (هغه اوسي) | They live = hagho osi (هغوی اوسي)",
-        "Now, let's look at them in strict SOV sentences:",
-        "احمد په کابل کې اوسي. [Ahmad pa kābul ke osi.] (Ahmad lives in Kabul.)",
-        "ما کتاب لولم / ما کتاب وډم. [Mā kitāb waḍam.] (I read a book — note the future imperfective nuance here.)"
+        "From Lesson 3 onward, Pashto script is the PRIMARY medium of instruction. Romanised transliteration is NO LONGER provided for every item — it appears only when a new vocabulary word is introduced for the first time.",
+        "Practice drills, paradigm tables, and reading passages are presented in Pashto script only.",
+        "HOW TO ADAPT: When you encounter script without transliteration, try to decode it first. Use the transliteration at vocabulary introduction as your reference anchor, then close it and re-read in script alone.",
+        "This shift mirrors real-world Pashto literacy: newspapers, signs, messages, and official documents appear in script only. Embracing this discomfort now is the fastest path to reading fluency."
       ]
     },
     {
@@ -37,61 +32,432 @@
     },
     {
       "type": "paragraph",
-      "heading": "Module 2: Family, Home Life & Irregular Nouns",
+      "heading": "Section 1 — Dialogue: د پوهنتون کې (At the University)",
       "lines": [
-        "Let's expand your vocabulary with family terms: [plār] (father), [mor] (mother), [wror] (brother), [khōr] (sister), [kor] (house/family).",
-        "Pashto has a complex word structure that includes gender classes and case inflection. Some nouns are irregular.",
-        "For example, you will encounter masculine nouns that take feminine oblique forms when used with prepositions. The word 'brother' is [wror] in its standard form, but becomes [wrōr] in the oblique case!"
+        "Theresa (an American linguistics student) meets Asad (a Pashtun chemistry student) — both students of Mr. Ghaldzay.",
+        "تریسا: سلام. [tarisa: salām.]",
+        "اسد: سلام. [asad: salām.]",
+        "تریسا: د غلجی صیب ملګری يې؟ [tarisa: da ghaldzāy sāyib malgaray ye?] — Are you Mr. Ghaldzay's friend?",
+        "اسد: هو. زه اسد يم. [asad: wo. za asād yam.] — Yes. I am Asad.",
+        "تریسا: زما نوم تریسا ده. [tarisa: zmā num tarisa da.] — My name is Theresa.",
+        "اسد: ته به د غلجی صیب نوې شاګرده يې. [asad: tā ba da ghaldzāy sāyib nawé shāgərda ye.] — You must be Mr. Ghaldzay's new student.",
+        "تریسا: پو نه شوم. [tarisa: po na shwam.] — I didn't understand.",
+        "اسد: د غلجی صیب زده کوونکه يې؟ [asad: da ghaldzāy sāyib zdā kawunke ye?] — Are you Mr. Ghaldzay's student?",
+        "تریسا: هو. د غلجی صیب زده کوونکه يم. [tarisa: wo. da ghaldzāy sāyib zdā kawunke yam.] — Yes. I am Mr. Ghaldzay's student.",
+        "اسد: راځه کینه! [asad: rādza kenā!] — Come, sit down!",
+        "تریسا: تشکر. ته څه کار کوې؟ [tarisa: tashakr. tā tse kār kawe?] — Thank you. What work do you do?",
+        "اسد: زده کوونکی يم. [asad: zdā kawunkay yam.] — I am a student.",
+        "تریسا: څه شی لولې؟ [tarisa: tse shay lwane?] — What are you studying?",
+        "اسد: کيميا لولم. ته څنګه؟ يواځې پښتو لولې؟ [asad: kimyā lolam. tā tsənga? yawāze paxtō lwane?] — I study chemistry. And you? Are you studying only Pashto?",
+        "تریسا: نه. زه د ژبپوهنې زده کوونکه يم. [tarisa: na. za da žabpohane zdā kawunke yam.] — No. I am a linguistics student.",
+        "اسد: د کوم ځای يې؟ [asad: da kum dzāy ye?] — Where are you from?",
+        "تریسا: د میشیګان يم. [tarisa: da mishigān yam.] — I am from Michigan.",
+        "اسد: دلته چېره وسېږې؟ [asad: dalta čere wosege?] — Where are you living here?",
+        "تریسا: پهـ جورجټاون کې وسېږم. [tarisa: pa jorjtawn ke wosegam.] — I live in Georgetown."
       ]
     },
     {
       "type": "callout",
-      "text": "Cultural Context: The Afghan household is traditionally a multigenerational extended family. The eldest son plays a critical role in family structure and responsibilities. Sociolinguistic Note: When writing or reading dialogues set in traditional or rural areas, avoid scenarios depicting women in public unaccompanied, as this contradicts traditional norms."
+      "heading": "💡 Dialogue Notes: Key Phrases to Absorb",
+      "lines": [
+        "راځه کینه! [rādza kenā!] — 'Come, sit down!' This is an Afghan hospitality sequence you will use constantly. Inviting a guest to sit is OBLIGATORY before any conversation. Memorise it as a fixed phrase.",
+        "پو نه شوم. [po na shwam.] — 'I didn't understand.' An essential classroom survival phrase. Use it freely — native speakers will appreciate your honesty and slow down.",
+        "ته به ... يې [tā ba ... ye] — The particle به [ba] here expresses inference or conjecture — 'you must be...' / 'you probably are...'. It is a modal particle you will study in depth later; for now, recognise its inferential meaning.",
+        "DIALECT FLAG 🔁: In Kandahari Pashto, the copula 3rd person singular دی/ده [da] 'is' is sometimes realised as کا [kā]. You may hear this in southern Afghan dialects. The Kabuli form دی/ده [da] is the broadcast standard used throughout these materials."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 2 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "PEOPLE & NAMES:",
+        "تریسا [tarisa] — Theresa (American name) ◆ اسد [asad] — Asad (Pashto male name)",
+        "زده کوونکی [zdā kawunkay] — student (male, M3 class) [zdā kawunkay]",
+        "زده کوونکه [zdā kawunke] — student (female, F1 class) [zdā kawunke]",
+        "NOUNS:",
+        "نوم [num] — name (M2 class) [num]",
+        "ښاغلی [xāgəli] — Mr. (respectful, oblique: ښاغلي) [xāgəli]",
+        "ملګری [malgaray] — friend/companion (M3 class) [malgaray]",
+        "شی [shay] — thing (M3 class) [shay]",
+        "ځای [dzāy] — place (M3 class) [dzāy]",
+        "کار [kār] — work (M2 class) [kār]",
+        "ژبپوهنه [žabpohana] — linguistics (F1 class) [žabpohana]",
+        "کيميا [kimyā] — chemistry (F3 class) [kimyā]",
+        "میشیګان [mishigān] — Michigan ◆ جورجټاون [jorjtawn] — Georgetown",
+        "QUESTION WORDS:",
+        "څه [tse] — what? [tse] ◆ کوم [kum] — which? [kum]",
+        "VERBS (imperfective present root given — stems you will conjugate):",
+        "لول- / لوان- [lwān- / lol-] — read / study [lwān-]",
+        "وسېږ- [woség-] — live / reside [woség-]",
+        "کول / کوول [kaw-] — do / work / make [kaw-]",
+        "زده کول [zdā kaw-] — study / learn [zdā kaw-]",
+        "PRONOUNS: زما [zmā] — my (strong possessive) [zmā] ◆ دي ما [di mā] — I, emphatic [di mā]",
+        "ADVERBS / PHRASES:",
+        "يواځې [yawāze] — only / alone [yawāze] ◆ دلته [dalta] — here [dalta]",
+        "پو نه شوم [po na shwam] — I didn't understand (fixed phrase) ◆ راځه کینه [rādza kenā] — Come, sit down (fixed hospitality phrase)"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — The Present Imperfective Tense (اوسنی نا-کامل زمان)",
+      "lines": [
+        "The Present Imperfective Tense is the workhorse of Pashto. It covers two English tenses simultaneously:",
+        "① The SIMPLE PRESENT — habitual or recurring actions: 'I work every day.'",
+        "② The PRESENT CONTINUOUS — actions happening right now: 'I am working.'",
+        "KEY MEANING: 'Imperfective' means the action is UNBOUNDED — ongoing, habitual, or open-ended. The action is NOT presented as complete or finished. This is the opposite of the Perfective aspect (introduced in Lesson 7).",
+        "HOW IT IS FORMED: Take the imperfective present STEM of the verb and add the personal ending. STRESS always falls on the personal ending — not the stem.",
+        "PERSONAL ENDINGS (same for all regular verbs):",
+        "1st singular: -م [-am] ◆ 1st plural: -و [-u]",
+        "2nd singular: -ې [-e] ◆ 2nd plural: -ئ [-ay]",
+        "3rd singular: -ي [-i] ◆ 3rd plural: -ي [-i]  ← SAME form for 3rd singular AND plural",
+        "CRITICAL NOTE: 3rd person singular and 3rd person plural share the IDENTICAL ending -ي [-i]. Context and the subject noun/pronoun tell you which meaning is intended."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Full Paradigm 1 — کار کول [kār kawəl] 'to work'  (Stem: کو- [kaw-])",
+      "lines": [
+        "Three-column format: Pashto script | Transliteration (intro only) | English",
+        "کار کوم. | [kār kawam.] | 'I work / I am working.'",
+        "کار کوې. | [kār kawe.] | 'You work / You are working.'",
+        "کار کوي. | [kār kawi.] | 'He/She works / is working.'",
+        "کار کوو. | [kār kawu.] | 'We work / We are working.'",
+        "کار کوئ. | [kār kawāy.] | 'You all work / are working.'",
+        "کار کوي. | [kār kawi.] | 'They work / are working.'",
+        "NEGATIVE — add نه [na] directly before the verb (نه carries stress):",
+        "کار نه کوم. — 'I do not work.' ◆ کار نه کوي. — 'He/She does not work.' ◆ کار نه کوو. — 'We do not work.'",
+        "QUESTIONS — identical word order, rising intonation only:",
+        "کار کوم؟ — 'Do I work?' ◆ کار کوې؟ — 'Do you work?' ◆ کار کوي؟ — 'Does he/she work?'"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Full Paradigm 2 — وسېږل [wosegəl] 'to live / to reside' (Stem: وسېږ- [woség-])",
+      "lines": [
+        "Three-column format: Pashto script | Transliteration (intro only) | English",
+        "وسېږم. | [wosegam.] | 'I live / I am living.'",
+        "وسېږې. | [wosege.] | 'You live / are living.'",
+        "وسېږي. | [wosegi.] | 'He/She lives / is living.'",
+        "وسېږو. | [wosegu.] | 'We live / are living.'",
+        "وسېږئ. | [wosegāy.] | 'You all live / are living.'",
+        "وسېږي. | [wosegi.] | 'They live / are living.'",
+        "NEGATIVE: دلته نه وسېږم. — 'I do not live here.' ◆ پهـ کابل کې نه وسېږي. — 'He/She does not live in Kabul.'",
+        "KEY SENTENCE from this unit (memorise): احمد پهـ کابل کې وسېږي. [ahmad pa kābul ke wosegi.] — 'Ahmad lives in Kabul.' ← Perfect SOV structure."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Full Paradigm 3 — لوستل [lwastəl] 'to read / to study' (Stem: لول- [lwān-])",
+      "lines": [
+        "Three-column format: Pashto script | Transliteration (intro only) | English",
+        "لولم. | [lolam.] | 'I read / I am reading.'",
+        "لولې. | [lwane.] | 'You read / are reading.'",
+        "لولي. | [lwani.] | 'He/She reads / is reading.'",
+        "لولو. | [lwanu.] | 'We read / are reading.'",
+        "لولئ. | [lwanāy.] | 'You all read / are reading.'",
+        "لولي. | [lwani.] | 'They read / are reading.'",
+        "KEY SENTENCE: زه کتاب لولم. [za kitāb lolam.] — 'I read a book / I am reading a book.' ← This is your first fully productive SOV sentence with a direct object!",
+        "NOTE — verb-final stress pattern: In لولم [lolam], stress is on the ENDING -م [-am], not on the stem لول [lwān]. This is the defining feature of the imperfective tense — the ending carries the weight.",
+        "DIALECT FLAG 🔁: In some Kabuli speech, the prefix و- [w-] appears on certain imperfective stems: وسېږم [wosegam] has this prefix. Kandahari speakers may drop this prefix or realise it differently. Listen for this variation in authentic audio."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ Grammar Deep-Dive: Why 3rd Person Singular = 3rd Person Plural?",
+      "lines": [
+        "Both 3rd singular 'he/she works' and 3rd plural 'they work' share the ending -ي [-i] in the present imperfective. This is not an error — it is a structural feature of Pashto.",
+        "DISAMBIGUATION: Context almost always resolves the ambiguity. If the subject is a singular noun (e.g., احمد [ahmad]) the verb is singular. If the subject is a plural noun or pronoun (e.g., دوي [doy] 'they'), the verb is plural — but they look identical.",
+        "EXAMPLE: احمد کار کوي. [ahmad kār kawi.] — 'Ahmad works.' (3rd singular) vs. دوي کار کوي. [doy kār kawi.] — 'They work.' (3rd plural) ← Same verb form, different subjects.",
+        "This pattern carries through into other tenses. Getting comfortable with contextual disambiguation now will save you confusion throughout the curriculum."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Additional Activity Verbs — Imperfective Stems for Drilling",
+      "lines": [
+        "All of these follow the same personal ending pattern as the paradigms above. Stems given with transliteration at first introduction only.",
+        "خوړل [xoṛəl] 'to eat' — Stem: خوړ- [xoṛ-]",
+        "خوړم — 'I eat.' ◆ خوړي — 'He/She eats.' ◆ نه خوړو — 'We do not eat.'",
+        "لیکل [likəl] 'to write' — Stem: لیک- [lik-]",
+        "لیکم — 'I write.' ◆ لیکې — 'You write.' ◆ لیکئ؟ — 'Do you all write?'",
+        "کتل [katəl] 'to look / to see' — Stem: ګور- [gor-]",
+        "ګورم — 'I look/see.' ◆ ګوري — 'He/She sees.' ◆ نه ګورو — 'We do not see.'",
+        "وستل [ostəl] 'to live / to inhabit' (alternative root, used in some forms) — Stem: اوس- [os-]",
+        "اوسم — 'I live.' ◆ اوسي — 'He/She lives.' ◆ اوسو — 'We live.'",
+        "زده کول [zdā kawəl] 'to study / to learn' — Stem: زده کو- [zdā kaw-] (compound verb — treat as a unit)",
+        "زده کوم — 'I study.' ◆ زده کوي — 'He/She studies.' ◆ نه زده کوئ — 'You all do not study.'"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🔑 The SOV Sentence Builder — Activity Verbs Edition",
+      "lines": [
+        "Use this template for any activity verb sentence: [SUBJECT] + [OBJECT/COMPLEMENT] + [VERB]",
+        "احمد پهـ کابل کې وسېږي. — Ahmad [S] + in Kabul [C] + lives [V].",
+        "تریسا ژبپوهنه زده کوي. — Theresa [S] + linguistics [O] + studies [V].",
+        "زه کتاب لولم. — I [S] + book [O] + read [V].",
+        "مونږ کار نه کوو. — We [S] + work [O] + do not do [V].",
+        "ته کيميا لولې؟ — You [S] + chemistry [O] + study [V]? ← Question: same order, rising tone!",
+        "QUICK DRILL: Build five sentences of your own using the verb paradigms above. Follow S + O/C + V every time. Check: is your verb at the end?"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — Reading Passage (لوستنه) — Script Only",
+      "lines": [
+        "⚠️ This reading is presented in Pashto script ONLY — no transliteration. This is your first extended Pashto reading challenge. Decode each word using your growing script knowledge.",
+        "TOPIC: A Pashtun student describes his family and home province.",
+        "زه افغان يم. د لوګر ولايت يم. مونږ پهـ کابل کې وسېږو.",
+        "زما پلار ملک دی. زما ورور قوماندان دی. ماما مې پهـ لغمان کې وسېږي.",
+        "زما خور مشره ده. هغه پهـ کور کې وي. ترا مې پهـ ننګرهار کې وسېږي.",
+        "زه پهـ پوهنتون کې زده کوم. کيميا لولم. زما ملګری اسد پهـ غزني کې وسېږي.",
+        "هغه هم پهـ پوهنتون کې زده کوي. مونږ ډېر وخت سره ناست يو.",
+        "READING NOTES (use only after attempting to read independently):",
+        "ملک [malak] — headman/leader of a village ◆ قوماندان [qumandān] — commandant ◆ ماما [māmā] — maternal uncle (M4 irregular) ◆ مشره [mashəra] — elder (feminine form) ◆ ډېر وخت [der waxṭ] — often / a lot of the time",
+        "COMPREHENSION QUESTIONS (answer in Pashto script):",
+        "① د هغه پلار څوک دی؟ — Who is his father?",
+        "② ماما يې چېره وسېږي؟ — Where does his maternal uncle live?",
+        "③ هغه پهـ پوهنتون کې څه لولي؟ — What is he studying at university?"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🌍 Cultural Spotlight: د کور خلک — The Afghan Extended Family",
+      "lines": [
+        "د کور خلک [da kor khalk] — 'the people of the house' — is a central concept in Pashtun social life. Unlike the Western nuclear family model, the traditional Pashtun household is multigenerational and often includes grandparents, uncles, aunts, cousins, and their families all under one roof or compound.",
+        "KINSHIP TERMS YOU HAVE LEARNED — note that Pashto distinguishes PATERNAL vs. MATERNAL relatives (English does not):",
+        "ماما [māmā] — maternal uncle (your MOTHER'S brother) ◆ ترا [tra] — paternal uncle (your FATHER'S brother) — these are NOT interchangeable!",
+        "ورور [wror] — brother ◆ خور [khor] — sister ◆ پلار [plār] — father ◆ مور [mor] — mother",
+        "ROLE OF THE ELDEST SON: In traditional Pashtun household structure, the eldest son (مشر زوی [masher zoy]) holds special responsibilities — managing household affairs, representing the family in community settings, and caring for parents in old age. This role is referenced in greetings and conversations about family.",
+        "LANGUAGE NOTE: When meeting a Pashtun for the first time after initial greetings, asking about family — especially parents and brothers — is standard social practice and signals respect. The expression د کور خلک ښه دي؟ [da kor khalk xa di?] 'Are your family well?' from Lesson 1 now carries deeper meaning."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Reading Vocabulary (نوي ټکي — د لوستنې)",
+      "lines": [
+        "AFGHAN PROVINCES (appearing in the reading and cultural context):",
+        "لغمان [laghmān] — Laghman ◆ لوګر [logār] — Logar ◆ ننګرهار [ningrihār] — Nangarhar ◆ کابل [kābul] — Kabul ◆ غزني [ghaznī] — Ghazni",
+        "PEOPLE & ROLES:",
+        "افغان [afghān] — Afghan (M1 class) [afghān] ◆ اوسېدونکي [osedunki] — inhabitants (M3 plural) ◆ مشر [masher] — leader / elder (M1 class) [masher] ◆ ملک [malak] — village headman (M1 class) [malak] ◆ قوماندان [qumandān] — commandant (M1 class) [qumandān] ◆ استاد [ustād] — professor (M1 class) [ustād]",
+        "FAMILY TERMS (all irregular — memorise individually):",
+        "پلار [plār] — father (M, irregular) [plār] ◆ مور [mor] — mother (F, irregular) [mor] ◆ ورور [wror] — brother (M, irregular) [wror] ◆ خور [khor] — sister (F, irregular) [khor] ◆ ماما [māmā] — maternal uncle (M4 class) [māmā] ◆ ترا [tra] — paternal uncle (M, irregular) [tra] ◆ خوراسی [xwrāsay] — nephew (M3 irregular) [xwrāsay]",
+        "VERBS (new in reading):",
+        "خوښول [xwaxawəl] 'to enjoy / to like' ◆ اغوستل [aghostawəl] 'to wear (clothes)' ◆ ليدل [ledəl] 'to meet / to visit / to see' [ledəl] ◆ تلل [tləl] 'to go' [tləl] (highly irregular — detailed treatment in Lesson 9)",
+        "PRONOUNS & ADVERBS:",
+        "هغه [hagha] — he (out of sight / distal) [hagha] ◆ ټول [ṭol] — all [ṭol] ◆ ډېر [der] — many / very / a lot [der] ◆ کله کله [kāla kāla] — sometimes [kāla kāla] ◆ خو [xo] — but [xo]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — Word Structure: More Noun Classes (د نومونو جوړښت)",
+      "lines": [
+        "Lessons 2 introduced M1, M2, and F1 noun classes. Lesson 3 adds four more: M3, M4, F2, and F3 — plus the critical set of IRREGULAR family nouns.",
+        "M3 NOUNS — masculine, direct singular ends in -ی [-ay]. Can be animate or inanimate.",
+        "Endings: DSg [-ay] | DPl [-i] or [-yān] | OSg [-i] | OPl [-o] or [-yāno]",
+        "STRESS ON FINAL SYLLABLE example — غلجی [ghaldzāy] 'Ghaldzai (a name)':",
+        "DSg: غلجی [ghaldzāy] ◆ DPl: غلجي [ghaldzī] / غلجيان [ghaldzyān] ◆ OSg: غلجي [ghaldzī] ◆ OPl: غلجو [ghaldzō] / غلجيانو [ghaldzyāno]",
+        "STRESS ON PENULTIMATE SYLLABLE example — ملګری [malgaray] 'friend':",
+        "DSg: ملګری [malgaray] ◆ DPl: ملګري [malgarī] ◆ OSg: ملګري [malgarī] ◆ OPl: ملګرو [malgarō]",
+        "Other M3 nouns from this unit: شی [shay] 'thing' ◆ ځای [dzāy] 'place' ◆ زده کوونکی [zdā kawunkay] 'male student' ◆ خوراسی [xwrāsay] 'nephew'",
+        "M4 NOUNS — masculine, direct singular ends in [-ā]. Usually animate.",
+        "Endings: DSg [-ā] | DPl [-āgān] | OSg [-ā] | OPl [-āgāno]",
+        "Example — ماما [māmā] 'maternal uncle':",
+        "DSg: ماما [māmā] ◆ DPl: ماماګان [māmāgān] ◆ OSg: ماما [māmā] ◆ OPl: ماماګانو [māmāgāno]",
+        "F2 NOUNS — feminine, direct singular ends in [-ay]. All forms except OPl are identical.",
+        "Endings: DSg/DPl/OSg [-ay] | OPl [-ayo]",
+        "Example — کوراني [korānay] 'family':",
+        "DSg: کوراني [korānay] ◆ DPl: کوراني [korānay] ◆ OSg: کوراني [korānay] ◆ OPl: کورانيو [korānayo]",
+        "F3 NOUNS — feminine, direct singular ends in [-ā]. Oblique plural has two variants.",
+        "Endings: DSg [-ā] | DPl [-āwe] or [-āgāne] | OSg [-ā] | OPl [-āwo] or [-āgāno]",
+        "Example — امریکا [amrikā] 'America':",
+        "DSg: امریکا [amrikā] ◆ DPl: امریکاوې [amrikāwe] ◆ OSg: امریکا [amrikā] ◆ OPl: امریکاوو [amrikāwo]",
+        "Other F3 nouns: کيميا [kimyā] 'chemistry' ◆ ژبپوهنه is actually F1 despite ending in -ا [ā]"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Critical Irregular Family Nouns — Memorise These Forms",
+      "lines": [
+        "These high-frequency nouns have unpredictable endings. They do NOT follow any class pattern — they must be memorised individually.",
+        "ورور [wror] — 'brother' (masculine irregular):",
+        "DSg: ورور [wror] ◆ DPl: وروڼه [wrune] ◆ OSg: ورور [wror] ◆ OPl: وروڼو [wruно]",
+        "USAGE: له ورور سره [la wror sara] — 'with (my) brother' ◆ د وروڼو سره [da wrune sara] — 'with brothers'",
+        "خور [khor] — 'sister' (feminine irregular):",
+        "DSg: خور [khor] ◆ DPl: خوينده [xwāynde] ◆ OSg: خور [khor] ◆ OPl: خوينډو [xwāyndo]",
+        "مور [mor] — 'mother' (feminine irregular):",
+        "DSg: مور [mor] ◆ DPl: ماينده [māynde] ◆ OSg: مور [mor] ◆ OPl: ماينډو [māyndo]",
+        "پلار [plār] — 'father' (masculine irregular):",
+        "DSg: پلار [plār] ◆ DPl: پلارونه [plārunā] ◆ OSg: پلار [plār] ◆ OPl: پلارونو [plāruno]",
+        "ترا [tra] — 'paternal uncle' (masculine irregular):",
+        "DSg: ترا [tra] ◆ DPl: ترينه [truna] ◆ OSg: ترا [tra] ◆ OPl: ترينو [truno]",
+        "ماما [māmā] — 'maternal uncle' (M4 class — regular for its class, see above)"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ Grammar Pro-Tip: Why Are Family Nouns Irregular?",
+      "lines": [
+        "The high-frequency family nouns (ورور, خور, مور, پلار, ترا) are irregular because they are among the OLDEST words in the language. Proto-Iranian kinship terms evolved along their own paths long before the noun-class system regularised.",
+        "MEMORISATION STRATEGY: Learn these six nouns as FROZEN PARADIGMS — one complete noun at a time, all four forms. Do not try to derive them from rules. Flashcard drill: DSg → DPl → OSg → OPl for each family noun.",
+        "GOOD NEWS: These irregular nouns appear in EVERY conversation about family. Because of their frequency, your brain will naturally encode their forms through massive exposure. After 50 hours of Pashto, you will produce ورور and وروڼه automatically without thinking.",
+        "PATTERN HINT: Notice that the oblique singular of these irregular nouns is often IDENTICAL to the direct singular (ورور = ورور, خور = خور, مور = مور). This actually simplifies usage with prepositions — د ورور سره [da wror sara] is correct as-is."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Sentence Structures: Family & Daily Routine (د کور او ورځنۍ ژوند)",
+      "lines": [
+        "Apply the imperfective tense and new vocabulary in these model sentences. All in Pashto script — refer to transliteration only where marked.",
+        "LOCATION SENTENCES (S + place complement + verb):",
+        "احمد پهـ کابل کې وسېږي. [ahmad pa kābul ke wosegi.] — 'Ahmad lives in Kabul.'",
+        "مونږ پهـ پوهنتون کې زده کوو. — 'We study at the university.'",
+        "زما ترا پهـ ننګرهار کې وسېږي. — 'My paternal uncle lives in Nangarhar.'",
+        "ACTIVITY SENTENCES (S + object + verb):",
+        "زه کتاب لولم. [za kitāb lolam.] — 'I read a book.' (first direct object sentence!)",
+        "تریسا ژبپوهنه زده کوي. — 'Theresa studies linguistics.'",
+        "اسد کيميا لولي. — 'Asad studies chemistry.'",
+        "NEGATIVE SENTENCES:",
+        "زما خور پهـ پوهنتون کې نه وسېږي. — 'My sister does not live at the university.'",
+        "ماما مې کار نه کوي. — 'My maternal uncle does not work.'",
+        "QUESTIONS (rising intonation — no word order change):",
+        "ته کيميا لولې؟ — 'Do you study chemistry?'",
+        "ستاسو مور چېره وسېږي؟ — 'Where does your mother live?'",
+        "ستاسو پلار کار کوي؟ — 'Does your father work?'"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — Diversion: د لغمان قصه — The Laghmani and the Devil (لغماني او شیطان)",
+      "lines": [
+        "This is a traditional Pashto folk story (قصه [qisa]) — the Diversion for Unit 3. Folk stories are a central part of the oral Pashto literary tradition and have been used for centuries to teach wit, wisdom, and cultural values.",
+        "وایي چې لغمانيان دومره هوښيار دي چې شیطان هم رانه کولی شي. [wāyi če laghmāniyān domra hošyār di če šeytān ham rāna kawulāy shi.]",
+        "Translation: 'It is said that Laghmanis are so clever that even the Devil cannot outwit them.'",
+        "THE STORY: A Laghmani made friends with the Devil and entered a farming partnership. They planted turnips, wheat, and corn.",
+        "When it was time to harvest the TURNIPS, the Laghmani asked: 'Which part do you want — the top or the bottom?' The Devil, seeing the pretty green leaves, said: 'The top.' — The Laghmani got all the turnips.",
+        "When it was time to harvest the WHEAT, the Devil — having learned his lesson — said: 'The bottom this time.' — The Laghmani got all the grain.",
+        "When it was time to harvest the CORN, the Devil said: 'I'll take BOTH the top and the bottom!' — The Laghmani got all the corn cobs in the middle.",
+        "CULTURAL COMMENTARY: This story exemplifies the Pashtun value of هوښيارتيا [hošyārtiyā] (cleverness / resourcefulness). In Pashtun folk literature, the hero is rarely physically stronger than the antagonist — instead, they outwit through cunning and patience. Laghman Province is specifically celebrated in folklore for producing particularly sharp-witted individuals, and 'Laghmani cleverness' is a running cultural reference in Pashto storytelling.",
+        "GRAMMAR NOTE: Notice the key verb وایي [wāyi] — 'it is said / they say' — a 3rd person plural imperfective used as a narrative opener. It is one of the most important discourse-opening formulas in Pashto folk literature."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "📚 Folk Literature Note: Pashto Oral Tradition",
+      "lines": [
+        "Pashto has one of the richest oral literary traditions in the world. Folk tales (قصې [qisé]), proverbs (مثلونه [mataluna]), and folk poetry (لنډۍ [lanḍay]) have been transmitted orally for generations — often by women in domestic settings.",
+        "The Laghmani trickster archetype is pan-Pashtun. You will encounter similar 'clever peasant outwits authority' tales throughout the textbook and in authentic Pashto media.",
+        "VOCABULARY FROM THE STORY: هوښيار [hošyār] — clever / smart ◆ شیطان [sheytān] — Devil ◆ پورته [porta] — top / above [porta] ◆ لاندې [lānde] — bottom / below [lānde] ◆ سبزي [sabzi] — vegetables/leaves ◆ غنم [ghanam] — wheat ◆ جواري [jwāri] — corn / maize"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 3 before attempting the quiz:",
+        "✓ Present Imperfective = habitual actions ('I work every day') AND ongoing actions ('I am working right now').",
+        "✓ Personal endings: -م (-am), -ې (-e), -ي (-i), -و (-u), -ئ (-ay), -ي (-i). Stress ALWAYS on the ending.",
+        "✓ 3rd person singular AND 3rd person plural share the SAME ending -ي [-i] in present imperfective.",
+        "✓ Negation: نه [na] goes directly before the verb. Stress shifts to نه [na].",
+        "✓ Questions: SAME word order as statements, rising intonation only.",
+        "✓ Irregular family nouns (ورور, خور, مور, پلار, ترا) must be memorised — they do not follow class patterns.",
+        "✓ M3 nouns: DSg ends in -ی [-ay]; OSg ends in -ي [-i].",
+        "✓ ماما [māmā] = MATERNAL uncle (M4 class); ترا [tra] = PATERNAL uncle (irregular). These are NOT interchangeable.",
+        "✓ Script policy: from this lesson, Pashto script is primary. Transliteration appears only at first vocabulary introduction."
+      ]
     },
     {
       "type": "quiz",
-      "question": "Which of the following best describes the function of the Present Imperfective Tense in Pashto?",
+      "question": "Which TWO English tenses does the Pashto Present Imperfective Tense cover simultaneously?",
       "options": [
-        "It describes actions that were completed entirely in the past.",
-        "It describes habitual, ongoing actions or daily routines.",
-        "It is used exclusively to issue commands or instructions.",
-        "It alters the sentence structure from SOV to SVO."
+        "Simple past ('I worked') and past perfect ('I had worked').",
+        "Simple present ('I work') and present continuous ('I am working').",
+        "Simple future ('I will work') and present perfect ('I have worked').",
+        "Past continuous ('I was working') and future continuous ('I will be working')."
       ],
       "correctIndex": 1,
-      "explanation": "The Present Imperfective Tense is used to signify unbounded, habitual, or ongoing actions (like 'Ahmad lives in Kabul' or 'I read a book daily')."
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "paragraph",
-      "heading": "Module 3: Extended Reading & Pashto Folk Literature",
-      "lines": [
-        "This unit features your first extended reading completely in the Pashto script. Remember, transliteration is now scaffolding, not the primary text.",
-        "To enrich your cultural understanding, every unit includes a 'Diversion'—a Pashto proverb or folk-literature item."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "heading": "Proverb of the Unit (متل)",
-      "lines": [
-        "د غره په سر هم لار شته",
-        "Word-for-word gloss: [da] (of) [ghra] (mountain) [pa] (on) [sar] (top/head) [hum] (also/even) [lār] (path/way) [shta] (exists).",
-        "Translation: Even over the mountain, there is a path.",
-        "Cultural Commentary: This famous Pashto proverb reflects the resilience embedded in Pashtun culture. The mountainous geography of Afghanistan makes travel incredibly difficult, yet this proverb serves as a metaphor for hope and determination: no matter how insurmountable an obstacle or problem appears, there is always a way forward or a solution to be found."
-      ]
+      "explanation": "The Pashto Present Imperfective covers both (1) the English simple present — habitual recurring actions like 'I work every day' — and (2) the English present continuous — actions ongoing right now like 'I am working.' The key concept is IMPERFECTIVE: the action is unbounded, not complete or finished. For example, زه کار کوم [za kār kawam] can mean either 'I work' (habitually) or 'I am working' (right now), depending on context."
     },
     {
       "type": "quiz",
-      "question": "In the Pashto present imperfective tense, where does the phonological stress typically fall on the verb?",
+      "question": "What are the correct present imperfective personal endings in order for 1sg, 2sg, 3sg, 1pl, 2pl, 3pl?",
       "options": [
-        "On the first syllable.",
-        "On the negative particle before the verb.",
-        "On the verb-final syllable.",
-        "Verbs are entirely unstressed in Pashto."
+        "-يم، -يې، -دی، -يو، -يستئ، -دي",
+        "-م، -ې، -ي، -و، -ئ، -ي",
+        "-م، -ې، -ي، -و، -ئ، -ي (same as above but stress falls on the STEM)",
+        "-ام، -ئ، -ي، -ينه، -ي، -ينه"
+      ],
+      "correctIndex": 1,
+      "explanation": "The present imperfective personal endings are: 1sg -م [-am], 2sg -ې [-e], 3sg -ي [-i], 1pl -و [-u], 2pl -ئ [-ay], 3pl -ي [-i]. These endings are added to the imperfective present stem, and STRESS always falls on the personal ending — not the stem. Note that 3sg and 3pl share the same ending -ي [-i]. Option A lists the copula 'to be' forms (يم، يې، دی...) which are a separate paradigm learned in Lesson 2."
+    },
+    {
+      "type": "quiz",
+      "question": "How would you say 'Theresa does NOT study chemistry' in Pashto, following correct SOV structure?",
+      "options": [
+        "تریسا نه کيميا زده کوي.",
+        "تریسا کيميا نه زده کوي.",
+        "نه تریسا کيميا زده کوي.",
+        "تریسا کيميا زده نه کوي."
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct: تریسا کيميا زده نه کوي. The negative particle نه [na] goes DIRECTLY before the FINAL VERB only — not before the object or anywhere else in the sentence. In compound verbs like زده کول [zdā kawəl] 'to study', نه [na] is inserted between the first element زده [zdā] and the verb کوي [kawi]: زده نه کوي. The SOV structure remains intact: تریسا [S] + کيميا [O] + زده نه کوي [negated V]."
+    },
+    {
+      "type": "quiz",
+      "question": "The word ورور [wror] 'brother' is classified as an irregular noun. What does this mean for its plural form?",
+      "options": [
+        "It follows the standard M1 pattern and takes the ending -ان [-ān]: وروران [wrorān].",
+        "It follows the M3 pattern and takes the ending -ي [-i]: وروري [wrorī].",
+        "Its plural form وروڼه [wrune] cannot be predicted from any class rule and must be memorised separately.",
+        "It has no plural form — Pashto only uses singular for family terms."
       ],
       "correctIndex": 2,
-      "explanation": "In the present imperfective forms, the phonological stress typically falls on the verb-final syllable."
+      "explanation": "ورور [wror] 'brother' is an IRREGULAR masculine noun. Its plural وروڼه [wrune] (direct) and وروڼو [wruno] (oblique plural) cannot be derived by applying any of the standard noun class endings. The same applies to خور [khor] 'sister' (plural: خوينده [xwāynde]), مور [mor] 'mother' (plural: ماينده [māynde]), and ترا [tra] 'paternal uncle' (plural: ترينه [truna]). These are the most important irregular nouns in Pashto and must be memorised as complete paradigm sets."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the key difference between ماما [māmā] and ترا [tra] in Pashto?",
+      "options": [
+        "ماما [māmā] is your father's brother; ترا [tra] is your mother's brother.",
+        "ماما [māmā] is your mother's brother; ترا [tra] is your father's brother.",
+        "Both mean 'uncle' — they are interchangeable regional variants.",
+        "ماما [māmā] is a term of address; ترا [tra] is only used in third person reference."
+      ],
+      "correctIndex": 1,
+      "explanation": "ماما [māmā] = MATERNAL uncle — your MOTHER'S brother. ترا [tra] = PATERNAL uncle — your FATHER'S brother. This distinction is not optional — using the wrong term is a factual error about kinship and can cause confusion or offence in conversation. Pashto (like many languages of South and Central Asia) systematically distinguishes paternal from maternal kin in its vocabulary. Grammatically, ماما [māmā] is a regular M4 noun while ترا [tra] is an irregular masculine noun with its own paradigm."
+    },
+    {
+      "type": "quiz",
+      "question": "In the M3 noun class, what form does the OBLIQUE SINGULAR take? Use ملګری [malgaray] 'friend' as your example.",
+      "options": [
+        "ملګری [malgaray] — same as direct singular, no change.",
+        "ملګري [malgarī] — the -ی [-ay] ending changes to -ي [-i].",
+        "ملګرو [malgarō] — the -ی [-ay] ending changes to -و [-o].",
+        "ملګران [malgarān] — the -ی [-ay] ending takes the suffix -ان [-ān]."
+      ],
+      "correctIndex": 1,
+      "explanation": "M3 nouns form the oblique singular by changing the final -ی [-ay] to -ي [-i]. So ملګری [malgaray] (direct singular: 'a friend') becomes ملګري [malgarī] (oblique singular: 'of/with a friend'). This oblique form is used when the noun is the object of a preposition: له ملګري سره [la malgarī sara] 'with a friend.' The same pattern applies to all M3 nouns: غلجی → غلجي, زده کوونکی → زده کوونکي, ځای → ځای (dzāy is M3 but has a slightly different pattern)."
     }
   ]
 }

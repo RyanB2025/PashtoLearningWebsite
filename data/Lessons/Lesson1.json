@@ -1,44 +1,67 @@
 {
-  "id": "L1",
-  "title": "Lesson 1: Greetings, Phonology & the Pashto Alphabet   سلامونه، آوازونه او الفبا",
-  "category": "Beginning Pashto",
-  "description": "This comprehensive first unit serves as the phonological and orthographic gateway to the entire Pashto curriculum. You will learn to decode and encode the Pashto abjad, master unique Pashto sounds, and navigate basic greetings and geographic vocabulary.",
-  "duration": "10-15 pages of primary instruction plus parallel Workbook exercises (approx. 2-3 hours)",
+  "id": "pashto-l01",
+  "title": "Lesson 1: Greetings, Phonology & the Pashto Alphabet",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "The phonological and orthographic gateway to Pashto. Learners decode the 45-letter Pashto abjad, master formulaic greetings and leave-takings, and develop geographic vocabulary for Afghan provinces and neighbouring countries. All content is presented in dual Pashto script + romanised transliteration as mandated for Unit 1.",
+  "duration": "10–15 hours",
   "level": "Novice-Low (ILR 0+)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: The Pashto Alphabet Architecture",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Pashto! Your foundational goal in this Novice-Low unit is to comfortably decode and encode the Pashto script.",
-        "The Pashto alphabet consists of 45 letters. It builds upon the standard 28-letter Arabic base by adding 17 Pashto-specific graphs to represent sounds unique to the language.",
-        "The script is written right-to-left. Crucially, most letters connect to each other, changing their shape depending on where they appear in a word.",
-        "Throughout this lesson, we will use a dual-script policy: every new word will be presented in BOTH the Pashto script AND a romanised transliteration."
+        "By the end of this lesson you will be able to: exchange formal and informal greetings and leave-takings in Pashto.",
+        "You will recognise and write all five letter-family groups of the Pashto abjad in their initial, medial, final-attached, and final-unattached positional forms.",
+        "You will name Afghan provinces, neighbouring countries, and major cities using isolated noun phrases.",
+        "You will identify and produce the six Pashto phonemes absent from standard Arabic: [dz] ‹ځ›, [ts] ‹څ›, [kh] ‹خ›, [gh] ‹غ›, and the retroflex series [ṭ ḍ ṇ ṛ]."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 1 — The Pashto Abjad: Script Fundamentals",
+      "lines": [
+        "Pashto is written RIGHT-TO-LEFT using a modified Arabic script. The Pashto alphabet contains 45 letters — extending the Arabic 28-letter base with letters unique to Pashto phonology.",
+        "Every letter has up to four positional forms: Initial (start of a word), Medial attached (mid-word, connecting left), Final attached (end of word, connected right), and Final unattached (non-connector letters at word end).",
+        "CONNECTOR vs. NON-CONNECTOR: Most Pashto letters attach to both sides. A small set of NON-CONNECTOR letters (including ا alef, و wāw, ډ, ړ, ږ, ژ, ر, ز, ځ, ذ, د) attach only to the right and never to the left — the following letter always begins a new group.",
+        "Script direction reminder: begin every word from the RIGHT margin. Vowel diacritics (short vowels) may be omitted in everyday writing; full diacritics are shown in this unit to support pronunciation."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Letter Family 1 — Vowel Symbols: ا [alef], و [wāw], ی [ye]",
+      "lines": [
+        "ا [alef]: represents [a] in initial position (written ا), [ā] in final position (written ا). Not represented in medial positions. NON-CONNECTOR.",
+        "و [wāw]: represents [u], [o], [w], or [aw] depending on position and context. Appears in final position as و. NON-CONNECTOR. Example: او [aw] 'and' ◆ وي [wi] 'are' ◆ یو [yaw] 'one'",
+        "ی [ye] / ې [e] / ئ: represents [i], [y], [e] or [ay] in various positions. In final position as ی represents [i] or [ay]; as ې represents [e]. Example: یو [yaw] 'one' ◆ یې [ye] 'his/her' ◆ بیا [byā] 'again'",
+        "HANDWRITING DRILL: On paper, practice writing the following words from right to left — وه [we] 'were' ◆ یو [yaw] 'one' ◆ او [aw] 'and'"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Letter Family 2 — The ب Shape Family: ب [be] پ [pe] ت [te] ټ [ṭe] ث [se]",
+      "lines": [
+        "All five letters share the same base shape ـبـ with different dot or diacritic markers above or below. They all attach to the left (CONNECTOR letters).",
+        "ب [b] — as in 'book' ◆ Example: بابا [bābā] 'grandfather'",
+        "پ [p] — as in 'pen' (three dots below). Pashto-specific! ◆ Example: پټ [paṭ] 'hide'",
+        "ت [t] — as in 'top' (two dots above) ◆ Example: تیر [ter] 'tape/past'",
+        "ټ [ṭ] — RETROFLEX stop — tongue curls back! No English equivalent. ◆ Example: ټوپک [ṭopak] 'rifle'",
+        "ث [s] — borrowed from Arabic (three dots above); pronounced [s] in Pashto ◆ Example: ثبت [sabt] 'register'",
+        "HANDWRITING DRILL: Practice — بوټ [bot] 'shoe' ◆ پټ [paṭ] 'hide' ◆ اتا [atā] 'eight'"
       ]
     },
     {
       "type": "callout",
-      "text": "Orthography Hack: Letters in Pashto can have up to four positional forms: initial, medial, final-attached, and final-unattached. Pay close attention to 'non-connectors'—letters that never connect to the letter following them!"
-    },
-    {
-      "type": "paragraph",
-      "heading": "The Five Letter Families",
+      "heading": "🎙️ Pronunciation Pro-Tip: The Retroflex Series [ṭ ḍ ṇ ṛ]",
       "lines": [
-        "To make memorization easier, the 45 letters are grouped into five visual families based on their base shapes:",
-        "1. Vowel Diacritics: Including alef (ا), waw (و), and ye (ي).",
-        "2. Shape-Alike Stops & Affricates: The 'boat' shapes like b (ب), p (پ), t (ت), etc.",
-        "3. Rhotics and Zal: The curved, non-connecting shapes like r (ر), z (ز).",
-        "4. The Retroflex Series: Letters unique to Pashto that feature a small circle (panḍak) attached to them, like ṭ (ټ), ḍ (ډ), ṇ (ڼ), and ṛ (ړ).",
-        "5. Remaining Consonants: Other distinct shapes like s (س), sh (ش), m (م)."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "heading": "✏️ Interactive Writing & Tracing",
-      "lines": [
-        "[Video Embed: Animated demonstration of right-to-left stroke order for the b/p/t/s letter family and non-connectors.]",
-        "[Interactive Writing Canvas]: Practice tracing the retroflex series on your screen. Pay attention to the placement of the 'panḍak' (the small circle).",
-        "[Workbook Link]: Turn to textbook pages 12-15 to complete the handwriting practice grids for the initial, medial, and final positional forms."
+        "The retroflex consonants are the #1 mispronunciation trap for English speakers. To produce them: curl your tongue TIP backward so it touches the roof of your mouth (the hard palate), not the gum ridge behind your teeth.",
+        "ṭ (ټ) = retroflex 't' — tongue tip curled back, touching palate.",
+        "ḍ (ډ) = retroflex 'd' — same position as ṭ but voiced.",
+        "ṇ (ڼ) = retroflex 'n' — nasal with tongue curled back.",
+        "ṛ (ړ) = retroflex 'r' / flap — the most difficult; think of a 'd' flick with a curled tongue.",
+        "MINIMAL PAIR DRILL: [tal] (go!) vs. [ṭal] (heavy) — can you hear the difference? The tongue position is everything!"
       ]
     },
     {
@@ -46,93 +69,267 @@
     },
     {
       "type": "paragraph",
-      "heading": "Module 2: Mastering Pashto Phonology",
+      "heading": "Letter Family 3 — The ج Shape Family: ج [je] چ [che] څ [tse] ځ [dze]",
       "lines": [
-        "Pashto has several sounds that do not exist in English or Arabic. Mastering these early will give you an authentic, natural accent.",
-        "We must foreground the five Pashto-specific affricates and fricatives: [dz] ‹ځ›, [ts] ‹څ›, [ṭs] ‹ظ›, [kh] ‹خ›, and [gh] ‹غ›.",
-        "Equally important is the retroflex set: [ṭ] ‹ټ›, [ḍ] ‹ډ›, [ṇ] ‹ڼ›, and [ṛ] ‹ړ›. To make a retroflex sound, curl the tip of your tongue back against the roof of your mouth."
+        "All four share the ج base shape. They all attach to the left (CONNECTOR letters) and are NON-CONNECTOR at final unattached position.",
+        "ج [j] — as in 'jar' ◆ Example: جلالاباد [jalālābād] (city in Afghanistan)",
+        "چ [ch] — as in 'cheese' (three dots above) ◆ Example: چای [čāy] 'tea'",
+        "څ [ts] — UNIQUE TO PASHTO. The affricate [ts] as in English 'cats' but at the START of a word. ◆ Example: څه [tse] 'what'",
+        "ځ [dz] — UNIQUE TO PASHTO. The voiced affricate [dz] as in English 'adze'. ◆ Example: ځوان [dzwān] 'young'",
+        "MINIMAL PAIR DRILL: [sin] (class) vs. [tsin] (chin region) — [s] vs. [ts] — notice the brief 't' onset!"
       ]
     },
     {
       "type": "paragraph",
-      "heading": "🎧 Audio Drills & Minimal Pairs",
+      "heading": "Letter Family 4 — Rhotics & Zāl: ر [re] ړ [ṛe] ز [ze] ژ [zhe] ږ [ghe] ذ [zal] ظ [zae]",
       "lines": [
-        "Because these sounds are the most common sources of mispronunciation for English speakers, minimal-pair drills are mandatory.",
-        "[Audio Player 1]: Listen to the contrast between the dental [s] and the affricate [ts] ‹څ›.",
-        "[Audio Player 2]: Listen and repeat the contrast between [z] and [dz] ‹ځ›.",
-        "[Audio Player 3]: Listen and repeat the contrast between [k] and the guttural [kh] ‹خ›.",
-        "[Audio Player 4]: Contrast regular dental stops [t/d] with retroflex stops [ṭ/ḍ]."
-      ]
-    },
-    {
-      "type": "quiz",
-      "question": "Which of the following describes the correct tongue placement for pronouncing the Pashto retroflex letters like [ṭ] ‹ټ› and [ḍ] ‹ډ›?",
-      "options": [
-        "Pressing the tongue flat against the bottom teeth.",
-        "Curling the tip of the tongue backwards against the roof of the mouth.",
-        "Placing the tongue between the upper and lower teeth.",
-        "Vibrating the back of the tongue against the throat."
-      ],
-      "correctIndex": 1,
-      "explanation": "Retroflex sounds (like ṭ, ḍ, ṇ, ṛ) are produced by curling the tip of the tongue backward and striking the roof of the mouth (hard palate). This distinguishes them from regular dental stops."
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "paragraph",
-      "heading": "Module 3: Geographic Vocabulary",
-      "lines": [
-        "Now let's apply the script to useful vocabulary. We will start with isolated noun phrases.",
-        "Countries: امریکا / amrikā (America), افغانستان / afghānistān (Afghanistan), پاکستان / pākistān (Pakistan), ایران / irān (Iran).",
-        "Afghan Provincial Capitals: کابل / kābul (Kabul), کندهار / kandahār (Kandahar), هرات / hirāt (Herat), جلالاباد / jalālābād (Jalalabad), قندوز / kunduz (Kunduz), مزارشریف / mazār-e-sharīf (Mazar-e-Sharif), غزني / ghaznī (Ghazni), پکتیا / paktiyā (Paktiya).",
-        "Major Pakistani Cities: پیشاور / pexāwər (Peshawar), کوټه / kwəṭa (Quetta)."
+        "These are all NON-CONNECTOR letters — they never attach to the letter following them on the left.",
+        "ر [r] — tapped/rolled 'r', like Spanish 'pero'. ◆ Example: روغ [rogh] 'healthy'",
+        "ړ [ṛ] — RETROFLEX flap, unique to Pashto. See pronunciation tip above. ◆ Example: ښار [xār] 'city'",
+        "ز [z] — as in 'zero'. ◆ Example: زه [za] 'I'",
+        "ژ [zh] — as in the 's' in 'measure' or French 'je'. ◆ Example: ژوند [žwand] 'life'",
+        "ږ [g/zh] — a back-of-throat fricative unique to Pashto (varies by dialect). ◆ Example: غږ [ghag] 'voice'",
+        "MINIMAL PAIR DRILL: [zar] (gold) vs. [ṛar] — feel the difference between front-tongue [z] and retroflex [ṛ]!"
       ]
     },
     {
       "type": "paragraph",
-      "heading": "Basic Noun Phrases",
+      "heading": "Letter Family 5 — Key Remaining Letters: خ [khe] غ [ghain] ش [shin] ږ [nge] ن [nun] ه [he] ق [qaf] ک [kaf] ګ [ge] ل [lam] م [mim]",
       "lines": [
-        "You do not need to build full SOV (Subject-Object-Verb) sentences yet. Focus on recognizing fixed locational formulae.",
-        "Example: [farā pa afghānistān ke da] — Farah is in Afghanistan.",
-        "[Interactive Map Activity]: Drag and drop the Pashto city names onto the correct regions of the Afghan map."
-      ]
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "paragraph",
-      "heading": "Module 4: Greetings & Sociolinguistics",
-      "lines": [
-        "The fundamental Pashto greeting is the pan-dialectal Arabic phrase: السلام علیکم / [asalamu alaykum] (Peace be upon you).",
-        "While regional variants exist—such as the Kandahari [sanga ye?] (How are you?)—standard broadcast equivalents from Kabul are universally understood.",
-        "Greetings in Pashto are not just words; they are an extended social ritual."
+        "خ [kh] — UNIQUE FRICTION: Produced at the back of the throat, like the Scottish 'loch' or German 'Bach'. NOT the English 'kh' in 'khaki'. ◆ Example: خوله [xwəla] 'mouth'",
+        "غ [gh] — VOICED VERSION of [kh]. Gargled 'g' from the back of the throat, like the French 'r' in 'Paris'. ◆ Example: غوږ [ghwag] 'ear'",
+        "ش [sh] — as in 'shoe'. ◆ Example: شاگرد [shāgerd] 'student'",
+        "ک [k] — as in 'king'. ◆ Example: کابل [kābul] 'Kabul'",
+        "ګ [g] — as in 'go' (Pashto-specific; distinct from Arabic ك). ◆ Example: ګل [gul] 'flower'",
+        "MINIMAL PAIR DRILL (CRITICAL): [kal] (year) vs. [xal] (mole/dot) vs. [ghal] (thief) — three-way contrast: plain [k], fricative [kh], voiced fricative [gh]!"
       ]
     },
     {
       "type": "callout",
-      "text": "Cultural Protocol & Taboo: When greeting formally, always use a right-hand-over-heart gesture. It is an absolute requirement in Pashtun culture to ask extensively about family welfare, health, and journey before getting down to business. TABOO: Historically, traditional formal greetings are gender-segregated. Avoid mixed-gender dialogue scenarios for formal physical greetings; use same-sex pairs in roleplay."
+      "heading": "🌍 Cultural Insight: Pashtunwali & Language",
+      "lines": [
+        "Pashtunwali (پښتونولي) is the traditional Pashtun code of ethics governing honour, hospitality, and community. It deeply shapes how Pashto is spoken.",
+        "MELMASTIA (مېلمستيا) — Hospitality: Hosts are obligated to welcome and protect guests. This means greetings in Pashto are never rushed — they are social rituals, not mere formalities.",
+        "GENDER NORMS: In formal settings, same-sex greetings are the norm. Male speakers should not initiate formal greetings with women they do not know; women greet women. Mixed-gender academic settings exist but follow careful register rules.",
+        "DIALECT NOTE: These materials teach Kabul/Central Afghan Pashto — the broadcast standard. Kandahari Pashto is mutually intelligible; key differences will be flagged with 🔁 markers throughout."
+      ]
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "🎭 Dialogue & Roleplay",
+      "heading": "Section 2 — Greetings & Leave-Takings (سلامونه او پریښودنه)",
       "lines": [
-        "[Video Embed: Authentic cultural demonstration of two Afghan men engaging in a formal, extended greeting exchange with the right-hand-over-heart gesture.]",
-        "Notice how the speakers exchange multiple inquiries about health and family before moving to the main topic of conversation."
+        "FORMAL GREETING (pan-dialectal, appropriate in all Afghan contexts):",
+        "السلام علیکم [as-salāmu alaykum] — 'Peace be upon you.' (said by the person arriving or initiating contact)",
+        "وعلیکم السلام [wa-alaykum as-salām] — 'And upon you peace.' (the obligatory response)",
+        "GESTURE: When greeting, Pashtun speakers typically place the right hand over the heart (پر زړه لاس کېښودل). This gesture signals sincerity and respect.",
+        "INFORMAL / COLLOQUIAL GREETINGS (Kabuli):",
+        "سلام [salām] — 'Hi / Hello.' (informal, close friends and family)",
+        "څنګه یې؟ [tsənga ye?] — 'How are you?' (informal singular)",
+        "ښه یم، مننه [xa yəm, manana] — 'I am well, thank you.'",
+        "🔁 KANDAHARI VARIANT: [sanga ye?] instead of [tsənga ye?] — the [ts] affricate surfaces as [s] in southern dialects.",
+        "ASKING ABOUT FAMILY (obligatory in formal meetings — do NOT skip this):",
+        "د کور خلک ښه دي؟ [da kor khalk xa di?] — 'Is your family well?' (lit. 'Are the people of the house good?')",
+        "هو، ښه دي [haw, xa di] — 'Yes, they are well.'"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Leave-Takings (الوداع / پریښودنه)",
+      "lines": [
+        "FORMAL LEAVE-TAKING:",
+        "خدای پامان [xudāy pāmān] — 'Goodbye.' (lit. 'May God be your guardian.' — the standard Afghan farewell)",
+        "الله دی وساتي [allāh de wisāti] — 'May God protect you.' (more formal, often used by elders)",
+        "INFORMAL LEAVE-TAKING:",
+        "بریا [beryā] — 'Bye!' (casual, Kabuli youth register)",
+        "سبا به ګورو [sabā ba gorao] — 'See you tomorrow.' (lit. 'Tomorrow we will see.')"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "💡 Language Hack: The Family-First Protocol",
+      "lines": [
+        "In Pashtun culture, asking about someone's family BEFORE getting to your business purpose is not optional — it is the required social opener. Jumping straight to your question (as many English speakers do) is considered rude and cold.",
+        "The correct sequence for a formal meeting is: (1) السلام علیکم → (2) Ask about the person's health → (3) Ask about their family → (4) THEN state your business.",
+        "Memorise this sequence: سلام ← حال ← کور ← کار (Greeting → Health → Family → Business). It will serve you in every formal Pashto interaction!"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — Geographic Vocabulary: Afghanistan & Neighbours",
+      "lines": [
+        "NOTE: At this stage (ILR 0+), no full sentences are required. Practice these as isolated noun phrases with dual script + transliteration.",
+        "افغانستان [afghānistān] — Afghanistan",
+        "کابل [kābul] — Kabul (capital)",
+        "کندهار [kandahār] — Kandahar",
+        "هرات [hirāt] — Herat",
+        "جلالاباد [jalālābād] — Jalalabad",
+        "قندوز [kunduz] — Kunduz",
+        "مزارشریف [mazār-e-sharīf] — Mazar-e-Sharif",
+        "غزني [ghaznī] — Ghazni",
+        "پکتیا [paktiyā] — Paktia",
+        "FIRST PASHTO SENTENCE STRUCTURE (fixed formula, no SOV rules yet):",
+        "فره پر افغانستان کې ده [fara pa afghānistān ke da] — 'Farah is in Afghanistan.' ← memorise this as a complete phrase!"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Neighbouring Countries & Major Cities",
+      "lines": [
+        "پاکستان [pākistān] — Pakistan",
+        "پیشاور [pexāwər] — Peshawar",
+        "کوټه [kwəṭa] — Quetta (NOTE: [ṭ] is retroflex here!)",
+        "ایران [irān] — Iran",
+        "تهران [tehrān] — Tehran",
+        "امریکا [amrikā] — America",
+        "واشنګټن [wāshingṭan] — Washington (NOTE: two retroflex sounds — [ṭ] in Quetta and [ṭ] in Washington!)",
+        "چین [čin] — China",
+        "روسیه [rusyā] — Russia",
+        "عربستان [arabistān] — Arabia"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🗺️ Cultural Callout: Afghanistan's Geographic Identity",
+      "lines": [
+        "Afghanistan borders six countries and sits at the crossroads of Central, South, and West Asia. Its geographic position has shaped its linguistic diversity — Pashto and Dari (Afghan Persian) are the two official languages, but many Afghans also speak Uzbek, Turkmen, or other regional languages.",
+        "The Pashto-speaking belt stretches from Kandahar and Helmand in the south through Kabul to Jalalabad in the east, and across into Pakistan's Khyber Pakhtunkhwa province. This means Peshawar [pexāwər] and Quetta [kwəṭa] are as culturally significant to Pashtuns as Afghan cities.",
+        "PRO-TIP: When you name someone's home province correctly in Pashto, it immediately signals cultural respect and serious engagement. Pashtuns are proud of their geographic identity."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — Phoneme Focus: The Six Pashto-Specific Sounds",
+      "lines": [
+        "These six sound categories are ABSENT from standard Arabic and are the most common mispronunciation sources for English speakers. Master them in Unit 1 — they appear throughout the entire curriculum.",
+        "① [ts] ‹څ› — Voiceless affricate. Like 'ts' in 'cats' but at the START of a word. MINIMAL PAIRS: [sin] 'class' vs. [tsin] 'grip'",
+        "② [dz] ‹ځ› — Voiced affricate (pair of [ts]). Like 'ds' at the end of 'kids'. MINIMAL PAIRS: [zar] 'gold' vs. [dzar] 'waterfall'",
+        "③ [kh] ‹خ› — Voiceless velar fricative. Back-of-throat 'h', like Scottish 'loch'. NOT English 'k'! MINIMAL PAIRS: [kor] 'house' vs. [xor] 'sister (older)' — entirely different words!",
+        "④ [gh] ‹غ› — Voiced velar fricative (pair of [kh]). Like a gargled 'g'. MINIMAL PAIRS: [gal] 'neck' vs. [ghal] 'thief' — socially important distinction!",
+        "⑤ [ṭ] ‹ټ› — Retroflex stop. Tongue tip curled to palate. MINIMAL PAIRS: [tal] 'go (imperative)' vs. [ṭal] 'heavy'",
+        "⑥ [ṛ] ‹ړ› — Retroflex flap/tap. The hardest sound for English speakers. MINIMAL PAIRS: [ral] (a plant name) vs. [ṛal] — contrast requires retroflex position."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🎧 Phonology Hack: The Throat & Tongue Map",
+      "lines": [
+        "Pashto uses THREE points of articulation that English speakers must consciously train: (1) the BACK THROAT for [kh] and [gh], (2) the CURLED TONGUE TIP for the retroflex series [ṭ ḍ ṇ ṛ], and (3) the TOOTH RIDGE for [ts] and [dz].",
+        "A quick self-test: Say 'loch' (Scottish). That back-of-throat friction is [kh]. Now add voice — keep everything the same but turn on your vocal cords. That is [gh].",
+        "For retroflexes: say 'butter' in American English very quickly. Notice how your tongue flaps back? That flap is close to [ṛ]. Now make it a full stop (don't let air through) — that is [ṭ].",
+        "RECORD YOURSELF: The only way to confirm you have these sounds is to record and compare with a native speaker recording. Do not skip this step!"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — Diversion: A Pashto Proverb (متل)",
+      "lines": [
+        "پښتو متل [pashto matal] — Pashto Proverb:",
+        "زبه د زړه آیینه ده۔",
+        "[zəba da zṛa āina da.]",
+        "Word-for-word gloss: زبه [zəba] 'tongue/language' ◆ د [da] 'of' (genitive) ◆ زړه [zṛa] 'heart' ◆ آیینه [āina] 'mirror' ◆ ده [da] 'is'",
+        "Translation: 'The tongue is the mirror of the heart.'",
+        "Cultural Commentary: This proverb reflects the Pashtun value of صداقت [sadāqat] (truthfulness/sincerity) — one of the pillars of Pashtunwali. In Pashtun tradition, what a person says is taken as a direct reflection of their character and intentions. Speaking falsely is not merely a social failure but a matter of honour (ناموس [nāmus]). This proverb is also a beautiful meta-linguistic observation: the first lesson of Pashto language learning is that language itself reveals character."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Before You Take the Quiz",
+      "lines": [
+        "Review these key points from Lesson 1 before attempting the quiz:",
+        "✓ The Pashto alphabet has 45 letters (not 28 like Arabic).",
+        "✓ Pashto is written right-to-left. Non-connector letters never attach to the left.",
+        "✓ The formal greeting السلام علیکم [as-salāmu alaykum] requires the response وعلیکم السلام [wa-alaykum as-salām].",
+        "✓ [kh] and [gh] are back-of-throat sounds; [ts] and [dz] are tooth-ridge affricates; [ṭ], [ḍ], [ṇ], [ṛ] are retroflex (tongue curled back).",
+        "✓ Asking about someone's family is OBLIGATORY before stating your business in formal Pashtun interaction.",
+        "✓ خدای پامان [xudāy pāmān] is the standard Afghan farewell."
       ]
     },
     {
       "type": "quiz",
-      "question": "You are writing a formal dialogue scenario for two business professionals meeting in a traditional setting in Jalalabad. To adhere to Pashtun cultural protocols and avoid sociolinguistic taboos, what must you ensure?",
+      "question": "The Pashto alphabet contains how many letters?",
       "options": [
-        "The dialogue features a mixed-gender pair greeting formally with handshakes.",
-        "They immediately get to the point of the business meeting to show respect for time.",
-        "They use the right-hand-over-heart gesture, the pair is same-sex, and they ask about family welfare first.",
-        "They omit the Arabic greeting and only use modern slang."
+        "28 letters (same as Arabic)",
+        "32 letters",
+        "45 letters",
+        "52 letters"
       ],
       "correctIndex": 2,
-      "explanation": "Proper traditional greeting protocol strictly involves the right-hand-over-heart gesture and an extended inquiry about family welfare. Maintaining same-sex pairs for formal physical greetings respects traditional gender segregation norms."
+      "explanation": "Pashto has 45 letters — it extends the 28-letter Arabic base with 17 Pashto-specific graphs, including letters for the retroflex sounds [ṭ ḍ ṇ ṛ] and the unique affricates [ts] and [dz] that do not exist in standard Arabic."
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following correctly describes how to produce the Pashto sound [kh] ‹خ›?",
+      "options": [
+        "Press your lips together and release air quickly, like English 'p'.",
+        "Touch the tip of your tongue to the roof of your mouth, like a retroflex stop.",
+        "Produce friction at the back of your throat, like the Scottish pronunciation of 'loch'.",
+        "Touch the tip of your tongue to your upper teeth, like English 't'."
+      ],
+      "correctIndex": 2,
+      "explanation": "[kh] ‹خ› is a voiceless velar fricative — air passes through the narrowed back of the throat producing friction, as in the Scottish word 'loch' or German 'Bach'. This sound does NOT involve the tongue tip or lips. Its voiced partner is [gh] ‹غ›."
+    },
+    {
+      "type": "quiz",
+      "question": "In formal Pashtun greeting culture, what must happen BEFORE stating the purpose of your visit?",
+      "options": [
+        "Give a gift immediately upon arrival.",
+        "Exchange the formal greeting السلام علیکم and ask about the person's health and family.",
+        "State your business directly to show you respect the person's time.",
+        "Wait in silence until the host speaks first."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pashtunwali's hospitality code (Melmastia) requires a full greeting sequence: formal سلام → asking about health → asking about family → THEN business. Skipping to your topic immediately is considered disrespectful. The cultural sequence is: سلام ← حال ← کور ← کار (Greeting → Health → Family → Business)."
+    },
+    {
+      "type": "quiz",
+      "question": "The Pashto letter ټ [ṭe] represents which sound?",
+      "options": [
+        "A plain dental 't' sound, identical to English 't' in 'top'.",
+        "A voiceless velar fricative, produced at the back of the throat.",
+        "A voiced affricate, like 'dz' at the start of a syllable.",
+        "A retroflex stop, produced with the tongue tip curled back to touch the hard palate."
+      ],
+      "correctIndex": 3,
+      "explanation": "ټ [ṭe] is a RETROFLEX stop — unique to Pashto (absent from Arabic). To produce it, curl the tip of your tongue backward so it touches the hard palate (the roof of your mouth), then release. The minimal pair [tal] 'go!' vs. [ṭal] 'heavy' demonstrates the phonemic contrast between the dental and retroflex stops."
+    },
+    {
+      "type": "quiz",
+      "question": "Which Pashto phrase is the correct response to السلام علیکم [as-salāmu alaykum]?",
+      "options": [
+        "سلام [salām]",
+        "وعلیکم السلام [wa-alaykum as-salām]",
+        "خدای پامان [xudāy pāmān]",
+        "ښه یم، مننه [xa yəm, manana]"
+      ],
+      "correctIndex": 1,
+      "explanation": "وعلیکم السلام [wa-alaykum as-salām] — 'And upon you peace' — is the obligatory liturgical response to the Islamic greeting السلام علیکم. خدای پامان is a farewell (goodbye). سلام is an informal greeting. ښه یم، مننه means 'I am well, thank you' — a response to 'how are you', not to the formal greeting."
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these Afghan cities contains a RETROFLEX consonant in its Pashto pronunciation?",
+      "options": [
+        "کابل [kābul] — Kabul",
+        "هرات [hirāt] — Herat",
+        "کوټه [kwəṭa] — Quetta",
+        "قندوز [kunduz] — Kunduz"
+      ],
+      "correctIndex": 2,
+      "explanation": "کوټه [kwəṭa] — Quetta — contains the retroflex stop [ṭ] (written ټ in Pashto script). The ط in the word کوټه is a Pashto-specific retroflex letter. None of the other city names in this list contain retroflex consonants in their standard Kabuli Pashto pronunciation."
     }
   ]
 }
