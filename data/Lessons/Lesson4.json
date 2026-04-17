@@ -1,88 +1,422 @@
 {
-  "id": "L4",
-  "title": "Lesson 4: Cardinal Numbers & Weak Possessive Pronouns   اعداد او ضعیف ضمیرونه",
-  "category": "Beginning Pashto",
-  "description": "Navigate the Afghan bazaar by mastering numbers 1–30, and tackle a major grammatical milestone: the 'floating' placement of weak possessive pronouns.",
-  "duration": "Textbook pp. 52–67 (approx. 10-15 pages of instruction)",
+  "id": "pashto-l04",
+  "title": "Lesson 4: Cardinal Numbers & Weak Possessive Pronouns",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "Two parallel tracks: cardinal numbers 1–30 with gender-variable forms and compound teen structures, plus the most syntactically challenging feature introduced so far — Weak Possessive Pronouns. Unlike English possessives, Pashto weak possessives are clitics that dock after the FIRST STRESSED constituent of a sentence regardless of where the possessed noun sits. Communicative context: Afghan bazaar life, shopping, quantities, and kinship. Pashto script is primary throughout; transliteration at vocabulary introduction only.",
+  "duration": "10–15 hours",
   "level": "Novice-Mid (ILR 1)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: Cardinal Numbers (1–30) & The Bazaar",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 4! We begin with acquiring Pashto cardinal numbers from 1 to 30. In Pashto script, numbers are written using Arabic-Indic numerals (٠١٢٣٤٥٦٧٨٩).",
-        "Number 1 and 2 are gender-differentiated! For masculine nouns, use [yaw] (یو) 'one' and [dwā] (دوه) 'two'. For feminine nouns, use [yawā] (یوه) and [dwē] (دوه).",
-        "Teen numbers are compound structures with stress on the second syllable. For example, 'eleven' is [yaw-LAS] (یولس) and 'twelve' is [dwā-LAS] (دولس).",
-        "Bazaar Vocabulary: [bāzār] (بازار) 'bazaar', [dukān] (دوکان) 'shop', [paisa] (پیسه) 'money/cent', [rupay] (روپۍ) 'rupee', [afghāni] (افغانۍ) 'afghani currency'."
+        "By the end of this lesson you will be able to: count from 1 to 30 in Pashto, using the correct gender form for each numeral.",
+        "You will ask and answer how-many questions about people and objects using the question word څو [tso] 'how many?'",
+        "You will use all six Weak Possessive Pronouns — مې [me], دې [de], يې [ye], مو [mo], مو [mo], يې [ye] — correctly positioned after the first stressed phrase of any sentence.",
+        "You will produce possessive sentences about family members and market transactions, applying the floating-clitic rule in subject-initial, object-fronted, and prepositional-phrase-initial sentence types.",
+        "You will use bazaar vocabulary to talk about prices, quantities, and bargaining in culturally appropriate ways."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 1 — Dialogue: د کور خبرې (Family Talk)",
+      "lines": [
+        "Rābya (a Pashtun student) is talking with Paṭang (her classmate) about each other's families. This dialogue introduces possessives, numbers, and kinship vocabulary in an authentic conversational frame.",
+        "رابيا: ته وروڼه لرې؟ [rābya: tā wrune lare?] — Rābya: Do you have brothers?",
+        "پټانګ: هو. درې وروڼه لرم. [paṭāng: haw. dre wrune laram.] — Paṭang: Yes. I have three brothers.",
+        "رابيا: وروڼه دې چېره وسېږي؟ [rābya: wrune de čere wosegi?] — Rābya: Where do your brothers live?",
+        "پټانګ: دوي پهـ لوګر کې وسېږي. پلار مې هم پهـ لوګر کې وي. [paṭāng: doy pa logār ke wosegi. plār me ham pa logār ke wi.] — Paṭang: They live in Logar. My father is also in Logar.",
+        "رابيا: خوينده لرې؟ [rābya: xwāynde lare?] — Rābya: Do you have sisters?",
+        "پټانګ: يوه خور لرم. هغه پهـ کابل کې ده. [paṭāng: yawa xor laram. hagha pa kābul ke da.] — Paṭang: I have one sister. She is in Kabul.",
+        "رابيا: يوه خور ده؟ هغه مشهوره ده! [rābya: yawa xor da? hagha mashhura da!] — Rābya: One sister? She is well-known!",
+        "پټانګ: هو، ډير ښکلې ده. ورور يې هم ښايسته دی. [paṭāng: haw, der xkəle da. wror ye ham xāysta da.] — Paṭang: Yes, very beautiful. Her brother is handsome too.",
+        "رابيا: ورور دې هم؟ [rābya: wror de ham?] — Rābya: Your brother too?",
+        "پټانګ: هو. وروڼه مې ټول لوی دي. [paṭāng: haw. wrune me ṭol loy di.] — Paṭang: Yes. All my brothers are big/important.",
+        "رابيا: ستا پلار يو متل دی: ورور يې کوسه، خور يې نوسه. [rābya: stā plār yaw matal da: wror ye kosa, xor ye nosa.] — Rābya: Your father has a saying: 'Look at the brother, guess at the sister.'",
+        "پټانګ: هغه متل مشهور دی. [paṭāng: hagha matal mashhur da.] — Paṭang: That proverb is famous.",
+        "KEY NOTES from the dialogue:",
+        "① لرل [larəl] 'to have' — imperfective stem: لر- [lar-]. Forms: لرم [laram] 'I have', لرې [lare] 'you have', لري [lari] 'he/she has'. This is the Pashto verb 'to have' — memorise its paradigm this lesson.",
+        "② وي [wi] — an alternative 3rd person singular copula used in HABITUAL contexts: 'is usually at / tends to be at' — subtly different from the point-in-time دی/ده [da]. پلار مې پهـ لوګر کې وي means 'My father is (usually/habitually) in Logar.'",
+        "③ يوه [yawa] — the FEMININE form of 'one'. يوه خور [yawa xor] = 'one sister' — the numeral agrees in gender with the noun it modifies."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 2 — Cardinal Numbers 1–30 (اعداد ١–٣٠)",
+      "lines": [
+        "NUMBERS 1–10 — learn these as the foundation for all higher numbers:",
+        "١ يو/يوه [yaw / yawa] — one (M / F gender forms)",
+        "٢ دوه/دوې [dwa / dwe] — two (M / F) ← GENDER CHANGE: [ā] → [e] in feminine",
+        "٣ درې [dre] — three (same for both genders)",
+        "٤ څلور [tsalor] — four",
+        "٥ پنځه [pindza] — five",
+        "٦ شپږ [shpag] — six",
+        "٧ اووه [owa] — seven",
+        "٨ اته [ata] — eight",
+        "٩ نهه [nawa] — nine",
+        "١٠ لس [las] — ten",
+        "NUMBERS 11–19 — compound structure [unit + las]: 'unit-teen'",
+        "١١ يولس [yaw-las] — eleven (yaw + las) — STRESS on يو- [yaw]",
+        "١٢ دولس [dwa-las] — twelve",
+        "١٣ درلس [dre-las] — thirteen",
+        "١٤ څوارلس [tsawār-las] — fourteen",
+        "١٥ پنځلس [pindza-las] — fifteen",
+        "١٦ شپاړس [shpāṛas] — sixteen (irregular compound)",
+        "١٧ اوولس [owa-las] — seventeen",
+        "١٨ اتلس [at-las] — eighteen",
+        "١٩ نولس [naw-las] — nineteen",
+        "NUMBERS 20–30:",
+        "٢٠ شل [shəl] — twenty",
+        "٢١ يوويشت [yaw-o-wisht] — twenty-one",
+        "٢٢ دوويشت [dwa-o-wisht] — twenty-two",
+        "٢٣ درويشت [dre-o-wisht] — twenty-three",
+        "٢٤ څلرويشت [tsalor-o-wisht] — twenty-four",
+        "٢٥ پنځويشت [pindza-o-wisht] — twenty-five",
+        "٢٦ شپږويشت [shpag-o-wisht] — twenty-six",
+        "٢٧ اووويشت [owa-o-wisht] — twenty-seven",
+        "٢٨ اتويشت [ata-o-wisht] — twenty-eight",
+        "٢٩ نهويشت [nawa-o-wisht] — twenty-nine",
+        "٣٠ دیرش [dersh] — thirty (irregular — memorise separately)"
       ]
     },
     {
       "type": "callout",
-      "text": "Cultural Pro-Tip: Bargaining in an Afghan market is expected and seen as a respectful interaction. Quoting or accepting prices in a single offer is considered naive. Haggling is an iterative, social negotiation! Also, note that the 'afghani' is the official currency of Afghanistan."
+      "heading": "🔢 Number System Notes: Script, Gender & Stress",
+      "lines": [
+        "NUMERAL SCRIPT: In Pashto-script contexts, numbers are written using Arabic-Indic numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ — NOT the Western 0 1 2 3 4 5 6 7 8 9. Learn to read both systems; official Afghan documents use Arabic-Indic exclusively.",
+        "GENDER AGREEMENT — only يو/يوه [yaw/yawa] and دوه/دوې [dwa/dwe] have distinct masculine/feminine forms. All numbers from 3 onward are gender-invariant.",
+        "يو کتاب [yaw kitāb] — 'one book' (kitāb is masculine) ← يو [yaw] masculine",
+        "يوه خور [yawa xor] — 'one sister' (xor is feminine) ← يوه [yawa] feminine",
+        "دوه وروڼه [dwa wrune] — 'two brothers' ← دوه [dwa] masculine",
+        "دوې خوينده [dwe xwāynde] — 'two sisters' ← دوې [dwe] feminine",
+        "درې کتابونه [dre kitābune] — 'three books' ← درې [dre] same for both genders",
+        "COMPOUND TEEN STRESS: The compound teens يولس [yaw-LAS], دولس [dwa-LAS], etc. are stressed on the SECOND element -لس [-las]. This is the reverse of the twenties (يوويشت [YAW-o-wisht]) where stress falls on the FIRST numeral. Train your ear to this distinction on audio.",
+        "NUMBERS AS DETERMINERS: In Pashto, the numeral precedes the noun and the noun takes PLURAL form: درې وروڼه [dre wrune] 'three brothers' — notice وروڼه [wrune] is the direct plural of ورور [wror]."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "The Question Word: څو [tso] 'How Many?'",
+      "lines": [
+        "Use څو [tso] to ask quantity questions. It always precedes the noun (which takes plural form in the answer):",
+        "Question pattern: [SUBJECT] + څو [tso] + [NOUN (plural)] + [VERB]?",
+        "ته څو وروڼه لرې؟ [tā tso wrune lare?] — 'How many brothers do you have?'",
+        "درې وروڼه لرم. [dre wrune laram.] — 'I have three brothers.'",
+        "ته څو خوينده لرې؟ [tā tso xwāynde lare?] — 'How many sisters do you have?'",
+        "يوه خور لرم. [yawa xor laram.] — 'I have one sister.' ← singular with 'one'",
+        "دوه خوينده لرم. [dwe xwāynde laram.] — 'I have two sisters.' ← plural with two+",
+        "ستاسو پوهنتون کې څو استادان دي؟ [stāso pohantun ke tso ustādān di?] — 'How many professors are in your university?'",
+        "VERB لرل [larəl] 'TO HAVE' — Full present imperfective paradigm:",
+        "لرم [laram] — 'I have' ◆ لرې [lare] — 'You have' ◆ لري [lari] — 'He/She has'",
+        "لرو [laru] — 'We have' ◆ لرئ [larāy] — 'You all have' ◆ لري [lari] — 'They have'",
+        "NEGATIVE: وروڼه نه لرم. [wrune na laram.] — 'I don't have brothers.' ◆ خوينده نه لري. [xwāynde na lari.] — 'He/She doesn't have sisters.'"
+      ]
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 2: The Grammatical Pivot — Weak Possessive Pronouns",
+      "heading": "Section 3 — Weak Possessive Pronouns (ضعیف ضمیرونه)",
       "lines": [
-        "This unit introduces your first major syntactical challenge: Weak Possessive Pronouns. Unlike strong pronouns, which carry full stress, weak pronouns are unstressed 'clitics'.",
-        "The Golden Rule: Weak pronouns MUST attach immediately after the FIRST stressed constituent of a sentence, regardless of where the logical possessor belongs in English.",
-        "Here are the six clitic forms:",
-        "1st Person: [me] مې (my) | [mo] مو (our)",
-        "2nd Person: [de] دې (your sg.) | [mo] مو (your pl.)",
-        "3rd Person: [ye] یې (his/her/its) | [ye] یې (their)",
-        "Family Vocabulary to practice possession: [wrōr] (ورور) 'brother', [khōr] (خور) 'sister', [zoy] (زوی) 'son', [lur] (لور) 'daughter'."
+        "This is the most syntactically COMPLEX feature introduced so far — and the #1 source of learner errors at the Novice-Mid level. Read this section carefully and return to it multiple times.",
+        "THE SIX WEAK POSSESSIVE PRONOUNS:",
+        "1st singular — مې [me] — 'my'",
+        "2nd singular — دې [de] — 'your'",
+        "3rd singular — يې [ye] — 'his / her / its'",
+        "1st plural — مو [mo] — 'our'",
+        "2nd plural — مو [mo] — 'your (all)' ← SAME FORM as 1st plural — context disambiguates",
+        "3rd plural — يې [ye] — 'their' ← SAME FORM as 3rd singular — context disambiguates",
+        "THE RULE — Where does the weak possessive go?",
+        "A weak possessive pronoun docks AFTER THE FIRST STRESSED PHRASE of the sentence — regardless of where the noun it modifies actually sits in the sentence.",
+        "CRITICAL: It does NOT follow the noun it possesses. It follows the first STRESSED CONSTITUENT. This is what makes it 'weak' and 'floating' — it is a CLITIC, not a true adjective.",
+        "The first stressed phrase can be: the SUBJECT phrase, the OBJECT phrase, a PREPOSITIONAL PHRASE, or even a FOCUSED ADVERB — whichever comes first with stress."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🎯 The Floating Clitic Rule — Step by Step",
+      "lines": [
+        "STEP 1: Identify the noun being possessed and what pronoun you need (my/your/his etc.).",
+        "STEP 2: Identify the FIRST STRESSED PHRASE in the sentence — this is usually the Subject phrase, but can shift if another element is fronted for emphasis.",
+        "STEP 3: Attach the weak possessive pronoun DIRECTLY after that first stressed phrase, as a clitic — it often fuses in writing with the preceding word.",
+        "EXAMPLE A — Subject is first stressed: اسد وروڼه پهـ لوګر کې وسېږي. [asad wrune pa logār ke wosegi.] = 'Asad's brothers live in Logar.' (using full name — no pronoun yet)",
+        "→ Replace with pronoun: وروڼه يې پهـ لوګر کې وسېږي. [wrune ye pa logār ke wosegi.] = 'His brothers live in Logar.' — the clitic يې [ye] docks after the SUBJECT وروڼه [wrune] which is the first stressed phrase.",
+        "WAIT — but isn't وروڼه the object-like word? Yes! But in this sentence it comes first and is stressed. The clitic follows STRESS, not grammar role.",
+        "EXAMPLE B — Prepositional phrase is first: له ليلا سره ناست يم. = 'I am sitting with Layla.' → Possessive: له ورور يې سره ناست يم. [la wror ye sara nāst yam.] = 'I am sitting with her brother.' — يې [ye] follows يې after ورور [wror] which sits inside the first stressed prepositional phrase.",
+        "QUICK TEST: Cover the clitic in any sentence. Find the first heavy/stressed word group. That is where the clitic belongs."
       ]
     },
     {
       "type": "paragraph",
-      "heading": "Sentence Placement Comparison",
+      "heading": "Weak Possessive: Three Sentence Types Side by Side",
       "lines": [
-        "Let's compare a sentence using a regular noun possessor versus a weak pronoun clitic in our strict SOV frame:",
-        "Standard Full NP: اسد ورور په لوګر کې اوسي. [Asad wror pa logar ke osi.] (Asad's brother lives in Logar.)",
-        "Using Clitic: ورور یې په لوګر کې اوسي. [Wror ye pa logar ke osi.] (His brother lives in Logar.)",
-        "Notice how the unstressed clitic [ye] 'floats' to dock right after the first stressed phrase!"
+        "TYPE 1 — Subject-initial sentence (most common):",
+        "Full NP version: اسد وروڼه پهـ لوګر کې وسېږي. [asad wrune pa logār ke wosegi.] — 'Asad's brothers live in Logar.'",
+        "Weak pronoun version: وروڼه يې پهـ لوګر کې وسېږي. [wrune ye pa logār ke wosegi.] — 'His brothers live in Logar.' ← يې [ye] after first stressed phrase وروڼه",
+        "TYPE 2 — Copula sentence with complement-subject structure:",
+        "Full NP version: اسد د ليلا ورور دی. [asad da laylā wror da.] — 'Asad is Layla's brother.'",
+        "Weak pronoun version: اسد ورور يې دی. [asad wror ye da.] — 'Asad is her brother.' ← يې [ye] after اسد [asad], the first stressed subject phrase",
+        "TYPE 3 — Prepositional phrase first:",
+        "Full NP version: له د ليلا ورور سره ناست يو. [la da laylā wror sara nāst yu.] — 'We are sitting with Layla's brother.'",
+        "Weak pronoun version: له ورور يې سره ناست يو. [la wror ye sara nāst yu.] — 'We are sitting with her brother.' ← يې [ye] after ورور [wror] inside the prepositional phrase",
+        "TYPE 4 — Verb-phrase with direct object:",
+        "Full NP version: پټانګ د ليلا ورور ليدلی شي. [paṭāng da laylā wror ledəlay shi.] — 'Paṭang is visiting Layla's brother.'",
+        "Weak pronoun version: پټانګ ورور يې ليدلی شي. [paṭāng wror ye ledəlay shi.] — 'Paṭang is visiting her brother.' ← يې [ye] after ورور [wror], the first stressed object phrase"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "All Six Weak Pronouns — Complete Example Set",
+      "lines": [
+        "Use the base sentence: وروڼه ___ پهـ لوګر کې وسېږي. [wrune ___ pa logār ke wosegi.] — '___ brothers live in Logar.'",
+        "وروڼه مې پهـ لوګر کې وسېږي. [wrune me pa logār ke wosegi.] — 'MY brothers live in Logar.'",
+        "وروڼه دې پهـ لوګر کې وسېږي. [wrune de pa logār ke wosegi.] — 'YOUR brothers live in Logar.'",
+        "وروڼه يې پهـ لوګر کې وسېږي. [wrune ye pa logār ke wosegi.] — 'HIS/HER brothers live in Logar.'",
+        "وروڼه مو پهـ لوګر کې وسېږي. [wrune mo pa logār ke wosegi.] — 'OUR brothers live in Logar.'",
+        "وروڼه مو پهـ لوګر کې وسېږي. [wrune mo pa logār ke wosegi.] — 'YOUR ALL'S brothers live in Logar.' ← same form مو [mo] as 1pl",
+        "وروڼه يې پهـ لوګر کې وسېږي. [wrune ye pa logār ke wosegi.] — 'THEIR brothers live in Logar.' ← same form يې [ye] as 3sg",
+        "WRITING NOTE: Weak pronouns are frequently written ATTACHED to the preceding word in Pashto script: وروڼهيې or وروڼه‌يې. Both spellings are correct. In these materials they are written with a space for clarity."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚠️ Common Errors with Weak Pronouns",
+      "lines": [
+        "ERROR 1 — Placing the clitic next to the POSSESSED NOUN instead of after the first stressed phrase:",
+        "❌ پهـ لوګر کې يې وروڼه وسېږي. ← WRONG: يې is placed mid-sentence, not after first stressed phrase.",
+        "✓ وروڼه يې پهـ لوګر کې وسېږي. ← CORRECT: يې follows the first stressed constituent وروڼه.",
+        "ERROR 2 — Confusing مو [mo] (1pl 'our') and مو [mo] (2pl 'your all's') — they ARE the same form. Context (who is speaking, who is addressed) resolves the ambiguity. Do not try to invent different forms.",
+        "ERROR 3 — Confusing يې [ye] (3sg 'his/her') and يې [ye] (3pl 'their') — same form. Again, context and the subject noun's number resolve it.",
+        "ERROR 4 — Using the STRONG possessive زما [zmā] 'my' where a weak pronoun is expected. زما [zmā] carries full stress and is used for EMPHASIS or CONTRAST only. وروڼه مې [wrune me] 'my brothers' (neutral) vs. زما وروڼه [zmā wrune] 'MY brothers (not someone else's)' (emphatic).",
+        "MNEMONIC: Think of the weak pronoun as a shadow that trails behind whatever speaks loudest in the sentence. It cannot lead — it can only follow the first strong voice."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "NOUNS — Kinship & Possessive context:",
+        "پلار [plār] — father (M, irregular — reviewed from L3) ◆ متل [matal] — proverb (M2 class) [matal]",
+        "NOUNS — Market & Bazaar:",
+        "بازار [bāzār] — bazaar / market (M2 class) [bāzār]",
+        "دوکان [dukān] — shop / stall (M2 class) [dukān]",
+        "پيسه [paysa] — money / cent (F1 class) [paysa]",
+        "روپۍ [rupay] — rupee (F2 class) [rupay]",
+        "افغاني [afghāni] — afghani (Afghan currency, F1 class) [afghāni]",
+        "NOUNS — Reading passage (orchard/nature setting):",
+        "اوبه [wobə] — water (F, irregular plural-only form) [wobə]",
+        "مېوه [mewa] — fruit (F1 class) [mewa]",
+        "مڼه [məna] — apple (F1 class) [məna]",
+        "خاوره [xāwra] — soil / earth (F1 class) [xāwra]",
+        "باغ [bāgh] — orchard / garden (M2 class) [bāgh]",
+        "نجلۍ [njalāy] — girl / maiden (F2 class) [njalāy]",
+        "ملا [malā] — picnic / outing (F1 class) [malā]",
+        "سندره [sandara] — song (F1 class) [sandara]",
+        "اتن [atan] — name of the national Pashtun dance (M2 class) [atan]",
+        "جوله [jola] — swing (M2 class) [jola]",
+        "ADJECTIVES:",
+        "لوی [loy] — big / important [loy] ◆ مشهور [mashhur] — well-known / famous [mashhur] ◆ ښايسته [xāysta] — good-looking / beautiful (Class 4 — invariable) [xāysta] ◆ ورته [warta] — similar [warta]",
+        "QUESTION WORD: څو [tso] — how many? [tso]",
+        "PRONOUN: هغه [da] — that (demonstrative) [hagha]",
+        "VERB STEMS (imperfective present roots):",
+        "لر- [lar-] — have ◆ وي [wi] — is/are (habitual copula) ◆ غواړ- [ghwāṛ-] — want / intend [ghwāṛ-] ◆ غږ- [ghag-] — talk / speak [ghag-] ◆ اخل- [axl-] — buy (perfective: واخل- [wāxl-]) [axl-] ◆ غواړ- [wārdz-] — go (there) [wārdz-] ◆ راځ- [rādz-] — come (here) [rādz-] ◆ کو- [kaw-] — do / make ◆ وايه- [wy-] — say / sing [wy-] ◆ کېد- [keg-] — be / become [keg-]",
+        "PREPOSITION: لکه...غوندې [(laka)...ghunde] — like / similar to [ghunde]",
+        "ADVERBS / IDIOMS: ...څه ماناؤ؟ [...tse māna?] — What does ... mean? ◆ دا تسه... [da tse ...] — It means... ◆ ټول يې [ṭol ye] — all of them ◆ بخي [bəxi] — especially / very / really [bəxi] ◆ هيڅ [hets] — none / no / nothing [hets]"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🛒 Cultural Spotlight: د بازار ادب — Bazaar Etiquette",
+      "lines": [
+        "The بازار [bāzār] is the heart of Afghan social and economic life — not merely a place to shop but a community gathering space where relationships are built and maintained. Understanding bazaar etiquette is as important as knowing the vocabulary.",
+        "BARGAINING (سودا [sowdā]): In Afghan markets, quoting a fixed price and accepting it immediately is considered naive and disrespectful to the social ritual of negotiation. The expected sequence is: seller quotes high → buyer counters low → both meet in the middle after several rounds. A buyer who accepts the first price signals inexperience.",
+        "CORRECT BAZAAR APPROACH: Begin by asking the price — قيمت يې څومره دی؟ [qiymat ye tsomra da?] 'What is its price?' — then respond with a lower counter. The negotiation is a social interaction, not a confrontation.",
+        "CURRENCY HISTORY: The افغاني [afghāni] is the national currency of Afghanistan, introduced in 1925. Its exchange rate has varied dramatically across Afghan history. In traditional contexts, پيسه [paysa] referred to a small subdivision of currency — now used colloquially for 'money' in general.",
+        "GENDER IN THE BAZAAR: In traditional Afghan markets, women typically shop accompanied by a male relative or in women-only sections of covered bazaars. Urban Kabul bazaars are more mixed. Dialogue designs in this curriculum follow the textbook's urban university context — adaptations for more conservative settings are noted where relevant."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — Reading Passage: د لوګر ولايت (Logar Province)",
+      "lines": [
+        "This reading is in Pashto script only. The topic is the natural beauty and agricultural richness of Logar Province — a common subject in Pashto descriptive writing. Key vocabulary is glossed below the passage.",
+        "د لوګر ولايت پهـ افغانستان کې دی. هغه ولايت ډير آبادي دی.",
+        "پهـ لوګر کې ډير باغونه دي. مېوه يې ډيره خوږه ده.",
+        "اوبه يې هم ډيرې دي. مزدې يې هم ډيرې دي.",
+        "د لوګر خلک د اتن سندرې وايي. نجلۍ پهـ جولو کې ملاکوي.",
+        "GLOSSARY for this reading:",
+        "آبادي [ābādi] — fertile / prosperous / inhabited ◆ باغونه [bāghune] — orchards (M2 plural of باغ [bāgh]) ◆ مېوه يې [mewa ye] — its fruit (note يې [ye] clitic after مېوه [mewa] — 'the province's fruit') ◆ خوږه [xwəga] — sweet (F form) ◆ مزدې [mazde] — soils / lands (F1 plural of مزدکه) ◆ اتن [atan] — the Atan national dance ◆ سندرې وايي [sandare wāyi] — sing songs ◆ جولو [jolo] — swings (M2 oblique plural of جوله [jola]) ◆ ملا کوي [malā kawi] — have a picnic",
+        "COMPREHENSION QUESTIONS (answer in Pashto script):",
+        "① د لوګر ولايت چېره دی؟ — Where is Logar Province?",
+        "② د لوګر مېوه ددي ده؟ — What is the fruit of Logar like?",
+        "③ د لوګر خلک د اتن سندرې وايي؟ — Do the people of Logar sing Atan songs?"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🌿 Cultural Note: The Atan — د اتن نڅا",
+      "lines": [
+        "The اتن [atan] is the national dance of Afghanistan and holds deep cultural significance for Pashtuns. It is a circle dance — performed by men (and in separate-gender settings by women) — that builds in speed and intensity, accompanied by drums (دهل [dohol]) and traditional pipes (سرنی [sornay]).",
+        "The Atan is performed at celebrations (weddings, Nawruz/New Year, Eid), but also historically before battles as a ritual of tribal solidarity. It is a living symbol of Pashtun identity — learning its name and cultural context will earn immediate respect from Pashtun interlocutors.",
+        "د لوګر خلک د اتن سندرې وايي [da logār khalk da atan sandare wāyi] — 'The people of Logar sing Atan songs' — this sentence is also your grammatical showcase: خلک [khalk] 'people' is the first stressed phrase, so any possessive clitic docking here would attach after خلک. Notice: no clitic appears in this sentence — the full noun phrase د لوګر خلک is the subject."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Sentence Structures: Numbers & Possessives Combined",
+      "lines": [
+        "Practise combining the lesson's two main structures — numbers and weak possessives — in SOV sentences.",
+        "QUANTITY SENTENCES using لرل [larəl] 'to have':",
+        "پلار مې درې وروڼه لري. [plār me dre wrune lari.] — 'My father has three brothers.' ← مې [me] after پلار [plār], the first stressed subject phrase",
+        "خور يې دوه ماشومان لري. [xor ye dwa māshomān lari.] — 'His/Her sister has two children.'",
+        "مونږ يولس شاګردان لرو. [mung yaw-las shāgerdān laru.] — 'We have eleven students.'",
+        "POSSESSION + LOCATION sentences:",
+        "وروڼه مو پهـ کابل کې وسېږي. [wrune mo pa kābul ke wosegi.] — 'Our brothers live in Kabul.'",
+        "پلار دې چېره وي؟ [plār de čere wi?] — 'Where is your father (usually)?'",
+        "مور يې پهـ لوګر کې ده. [mor ye pa logār ke da.] — 'His/Her mother is in Logar.'",
+        "PROVERB STRUCTURE (from the dialogue — key cultural sentence):",
+        "ورور يې کوسه، خور يې نوسه. [wror ye kosa, xor ye nosa.] — 'Look at the brother, guess at the sister.'",
+        "GRAMMAR NOTE on the proverb: يې [ye] appears TWICE — once after ورور [wror] and once after خور [xor]. Each clause has its own first stressed phrase, so the clitic docks independently in each. This is a beautiful demonstration of the floating clitic principle across parallel structures.",
+        "BAZAAR SENTENCES (quantity + currency):",
+        "دا مڼه يې قيمت څومره دی؟ [da məna ye qiymat tsomra da?] — 'How much is the price of this apple?' ← يې docks after مڼه [məna]",
+        "درې افغانۍ لرم. [dre afghānay laram.] — 'I have three afghanis.'"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — Diversion: لنډۍ — A Pashto Landai (Folk Couplet)",
+      "lines": [
+        "The Diversion for Unit 4 is a لنډۍ [lanḍay] — the most celebrated form of Pashto oral folk poetry.",
+        "نجلۍ د باغ لا لاره راغله",
+        "ټکري يې نه‌سته، مخ پهـ پاڼو پټاوينه",
+        "[njalāy da bāgh la lāre rāghlā",
+        "ṭəkray ye nasta, makh pa pāno paṭāwina]",
+        "Translation: 'The young girl came from the orchard. She had no headscarf; she hid her face in the leaves.'",
+        "WORD-FOR-WORD GLOSS:",
+        "نجلۍ [njalāy] — young girl (F2) ◆ د باغ [da bāgh] — from the orchard ◆ لا لاره [la lāre] — from the road/path ◆ راغله [rāghlā] — came (3sg feminine past of راتلل [rātləl]) ◆ ټکري [ṭəkray] — headscarf ◆ يې [ye] — her (weak possessive clitic — after first stressed phrase ټکري [ṭəkray]) ◆ نه‌سته [nasta] — not present / she doesn't have ◆ مخ [makh] — face ◆ پهـ پاڼو [pa pāno] — in/among the leaves ◆ پټاوينه [paṭāwina] — she was hiding",
+        "THE LANDAI FORM: A لنډۍ [lanḍay] is a 22-syllable oral couplet — 9 syllables in the first line, 13 in the second. It is the dominant poetic form of Pashtun women, traditionally composed and transmitted orally. Themes span love, separation, war, homeland, and resistance. The landai above depicts a moment of feminine vulnerability and nature — classic themes.",
+        "GRAMMAR SPOTLIGHT: يې [ye] — 'her' — appears in the second line as a weak possessive: ټکري يې [ṭəkray ye] = 'her headscarf' — يې docks after the first stressed word ټکري [ṭəkray]. This is a perfect miniature example of the floating clitic rule you have just studied, embedded in authentic oral poetry.",
+        "CULTURAL NOTE: The headscarf (ټکري [ṭəkray] / روسري [rusari]) is a significant cultural marker in Pashtun society. A girl appearing without one — even briefly, accidentally — is a moment of social vulnerability. The girl hiding her face in the leaves is both a vivid physical image and a culturally loaded gesture of modesty. The poem captures this with economy and grace."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "📖 Landai: The Poetry of Pashtun Women",
+      "lines": [
+        "The لنډۍ [lanḍay] is one of the world's great oral literary traditions — and one of the least-known outside the Pashtun world. Unlike classical Persian poetry (which was predominantly male and court-based), landai are composed anonymously, often by women, transmitted orally in domestic and social settings.",
+        "Subjects range from love and longing to political commentary and war. During the Soviet occupation and later conflicts, Pashtun women composed landai that circulated as a form of cultural resistance — sometimes at considerable personal risk.",
+        "CLASSROOM NOTE: Some landai contain themes of romantic longing, grief, or political commentary that can be culturally sensitive in certain classroom contexts. The textbook consistently selects nature- and culture-themed landai appropriate for academic use. Always frame landai within their oral literary tradition — they are not merely 'poems' but a living communal art form."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 4 before attempting the quiz:",
+        "✓ Numbers 1–10 by heart: يو، دوه، درې، څلور، پنځه، شپږ، اووه، اته، نهه، لس [yaw, dwa, dre, tsalor, pindza, shpag, owa, ata, nawa, las]",
+        "✓ GENDER: only يو/يوه [yaw/yawa] (one) and دوه/دوې [dwa/dwe] (two) have distinct M/F forms. Three and above: same form for both genders.",
+        "✓ Teens: unit + لس [las]. Twenties: unit + ويشت [wisht]. Thirty: دیرش [dersh] (irregular).",
+        "✓ Arabic-Indic numerals: ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٠ — used in Pashto script contexts.",
+        "✓ Weak possessives dock after the FIRST STRESSED PHRASE — not after the possessed noun.",
+        "✓ Six weak pronouns: مې / دې / يې / مو / مو / يې [me / de / ye / mo / mo / ye].",
+        "✓ مو [mo] = both 1pl 'our' AND 2pl 'your all's'. يې [ye] = both 3sg 'his/her' AND 3pl 'their'.",
+        "✓ Verb لرل [larəl] 'to have': لرم، لرې، لري، لرو، لرئ، لري [laram, lare, lari, laru, larāy, lari].",
+        "✓ The landai يې [ye] example: ټکري يې [ṭəkray ye] 'her headscarf' — weak possessive after first stressed word."
       ]
     },
     {
       "type": "quiz",
-      "question": "Which of the following statements accurately describes the placement rule for Pashto weak possessive pronouns?",
+      "question": "Which Pashto numbers have distinct masculine and feminine forms?",
       "options": [
-        "They always appear at the very end of the sentence, immediately after the verb.",
-        "They dock immediately after the first stressed constituent of the sentence.",
-        "They replace the verb in an SOV sentence structure.",
-        "They are placed exactly where the English word 'my' or 'your' would appear."
+        "All numbers from 1 to 10 have separate masculine and feminine forms.",
+        "Only يو [yaw] 'one' and دوه [dwa] 'two' have distinct M/F forms; three and above are gender-invariant.",
+        "Only يو [yaw] 'one' has a feminine form; all other numbers are invariable.",
+        "Numbers 1–5 have gender forms; 6–10 are invariable."
       ],
       "correctIndex": 1,
-      "explanation": "Weak pronouns are enclitics in Pashto. They 'float' and obligatorily dock after the first stressed constituent of the clause, which is a major difference from English syntax."
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "paragraph",
-      "heading": "Module 3: Pronunciation & Proverb Diversion",
-      "lines": [
-        "When speaking, remember that weak pronoun clitics are phonologically unstressed. Drilling the contrast between stressed nouns and unstressed clitics is critical to sounding natural.",
-        "As part of your cultural immersion, here is our Pashto Proverb of the Unit (متل):",
-        "پیسه د لاس خیرې ده (paisa da lās khire da)",
-        "Word-for-word gloss: [paisa] (money) [da] (of) [lās] (hand) [khire] (dirt/grime) [da] (is).",
-        "Translation: Money is the dirt of the hand. (Meaning: Wealth is transient; relationships and honor are permanent.)"
-      ]
+      "explanation": "Only the numbers يو/يوه [yaw/yawa] 'one' (M/F) and دوه/دوې [dwa/dwe] 'two' (M/F) have distinct masculine and feminine forms. From درې [dre] 'three' onward, all cardinal numbers are the same regardless of the gender of the noun they modify. For example: يوه خور [yawa xor] 'one sister' (F) but يو ورور [yaw wror] 'one brother' (M) — but درې وروڼه [dre wrune] AND درې خوينده [dre xwāynde] use the same درې [dre] for both."
     },
     {
       "type": "quiz",
-      "question": "Where does the phonological stress fall when pronouncing compound teen numbers in Pashto, such as 'yaw-las' (eleven)?",
+      "question": "A student says: 'پلار د اسد وروڼه پهـ لوګر کې وسېږي — to say Asad's brothers live in Logar using a weak pronoun, where should يې [ye] be placed?'",
       "options": [
-        "Equally on both syllables.",
-        "On the first syllable (the base number).",
-        "On the second syllable (the 'las' suffix).",
-        "Teen numbers are entirely unstressed."
+        "وروڼه يې پهـ لوګر کې وسېږي — after وروڼه [wrune], the first stressed phrase.",
+        "پهـ لوګر يې کې وسېږي — inside the prepositional phrase.",
+        "وروڼه پهـ لوګر کې يې وسېږي — directly before the verb.",
+        "يې وروڼه پهـ لوګر کې وسېږي — at the very beginning of the sentence."
+      ],
+      "correctIndex": 0,
+      "explanation": "The weak possessive يې [ye] docks after the FIRST STRESSED PHRASE in the sentence. In the sentence 'His brothers live in Logar', the subject وروڼه [wrune] 'brothers' is the first stressed constituent. Therefore: وروڼه يې پهـ لوګر کې وسېږي [wrune ye pa logār ke wosegi.] — 'His brothers live in Logar.' The clitic does NOT go next to the verb, inside the prepositional phrase, or at the start of the sentence."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the number 'seventeen' in Pashto?",
+      "options": [
+        "شپاړس [shpāṛas]",
+        "اوولس [owa-las]",
+        "شپږويشت [shpag-o-wisht]",
+        "نهه لس [nawa-las]"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seventeen is اوولس [owa-las] — formed by combining اووه [owa] 'seven' with لس [las] 'ten'. The compound teen numbers are formed as [unit + las]: يولس (11), دولس (12), درلس (13), ... اوولس (17), اتلس (18), نولس (19). Note: sixteen is irregular — شپاړس [shpāṛas] — not شپږلس as the pattern would predict. دیرش [dersh] is thirty, not seventeen. شپږويشت [shpag-o-wisht] is twenty-six."
+    },
+    {
+      "type": "quiz",
+      "question": "The weak possessive pronoun مو [mo] is listed as BOTH 1st plural 'our' AND 2nd plural 'your all's'. How do speakers distinguish between them?",
+      "options": [
+        "They cannot be distinguished — this is considered a flaw in Pashto grammar.",
+        "The 1st plural has a longer vowel [moo] while the 2nd plural is short [mo].",
+        "Context — who is speaking and who is being addressed — resolves the ambiguity. The forms are genuinely identical.",
+        "A special tone marker on the previous word signals which meaning is intended."
       ],
       "correctIndex": 2,
-      "explanation": "In Pashto compound teen numbers, the stress pattern falls on the second syllable, e.g., [yaw-LAS]."
+      "explanation": "مو [mo] is genuinely identical for both 1st plural 'our' and 2nd plural 'your all's'. There is no phonological or orthographic difference. Context — the participants in the conversation, the topic, and pragmatic inference — always makes the meaning clear in practice. This is not a flaw but a feature of the language; the same applies to يې [ye] which covers both 3rd singular 'his/her' and 3rd plural 'their'. Pashto speakers find these perfectly unambiguous in real discourse."
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence correctly uses the verb لرل [larəl] 'to have' to say 'She has five brothers'?",
+      "options": [
+        "پنځه وروڼه لري. [pindza wrune lari.]",
+        "پنځه وروڼه لرم. [pindza wrune laram.]",
+        "وروڼه پنځه يې لرو. [wrune pindza ye laru.]",
+        "پنځه وروڼه دي. [pindza wrune di.]"
+      ],
+      "correctIndex": 0,
+      "explanation": "پنځه وروڼه لري [pindza wrune lari.] — 'She has five brothers' — follows perfect SOV structure: (implied subject 'she') + پنځه وروڼه [five brothers] as object + لري [lari] 'has' as the final verb. The 3rd person singular present imperfective of لرل [larəl] is لري [lari]. Option B uses لرم [laram] (1st person: 'I have'). Option C wrongly places a clitic and uses 1st plural لرو [laru] 'we have'. Option D uses the copula دي [di] 'they are' rather than the verb 'to have'."
+    },
+    {
+      "type": "quiz",
+      "question": "In the landai: 'ټکري يې نه‌سته' [ṭəkray ye nasta] — 'She had no headscarf' — what grammatical role does يې [ye] play and why is it positioned after ټکري?",
+      "options": [
+        "يې [ye] is the 3rd person singular copula 'is/are' — it acts as the main verb of the clause.",
+        "يې [ye] is the weak possessive 'her' — it docks after ټکري [ṭəkray] 'headscarf' because that is the first stressed phrase in the clause.",
+        "يې [ye] is a discourse particle marking past tense — it must always follow the subject noun.",
+        "يې [ye] is the 3rd plural pronoun 'their' — referring to the leaves mentioned in the next line."
+      ],
+      "correctIndex": 1,
+      "explanation": "يې [ye] here is the WEAK POSSESSIVE PRONOUN 'her' — meaning 'her headscarf'. It docks after ټکري [ṭəkray] 'headscarf' because that is the first stressed constituent in the clause ټکري يې نه‌سته [ṭəkray ye nasta] 'her headscarf is not present / she has no headscarf.' This is a perfect in-context example of the floating clitic rule: يې follows the first stressed phrase (ټکري), not the verb (نه‌سته). The landai thus embeds a key grammar point in authentic oral poetry — making it an excellent memory anchor."
     }
   ]
 }

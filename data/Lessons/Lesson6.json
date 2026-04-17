@@ -1,19 +1,20 @@
 {
-  "id": "L6",
-  "title": "Lesson 6: Time Words, Telling Time & Daily Schedules   د وخت کلمې، ساعت ویل او ورځنۍ مهالویش",
-  "category": "Beginning Pashto",
-  "description": "Master temporal reference by learning lexical time expressions, the 24-hour official clock convention, and navigating Afghan daily routines structured around cultural and Islamic prayer times.",
-  "duration": "Textbook pp. 81–90 (approx. 10-15 pages of primary instruction plus Workbook exercises)",
+  "id": "pashto-l06",
+  "title": "Lesson 6: Time Words, Telling Time & Daily Schedules",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "The communicative frame shifts from static descriptions to temporal reference. Two interlocking systems: (1) lexical time words and adverbial phrases covering days of the week, times of day, and frequency adverbs, and (2) the 24-hour clock-reading convention used in Afghan official contexts. The lesson also embeds Islamic prayer times as the authentic temporal framework structuring the Afghan day. Proficiency level ILR 1+ (Intermediate-Low). Pashto script primary throughout.",
+  "duration": "10–15 hours",
   "level": "Intermediate-Low (ILR 1+)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: Time Words & Days of the Week",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 6! As you transition into Intermediate-Low proficiency, we shift our focus from static descriptions to navigating time.",
-        "Let's start with times of the day (presented with transliteration for introduction only): [səhār] (سهار) 'morning', [mazmāshi] (غرمه/مزماښي) 'midday', [māspar] (ماسپښین) 'afternoon', [māxam] (ماښام) 'evening', [shpa] (شپه) 'night'.",
-        "Key temporal adverbs: [nna] (نن) 'now/today', [mākhkhe] (مخکې) 'before/earlier', [wróste] (وروسته) 'after/later', [biyā] (بیا) 'again/then', [her waxṭ] (هر وخت) 'always', [kāla kāla] (کله کله) 'sometimes', [hēč kāla] (هیڅکله) 'never'.",
-        "Days of the week follow a numeric pattern added to 'shamba' (Saturday): [dushamba] (دوشنبه - Monday), [seshamba] (سه شنبه - Tuesday)... leading to the holy day of rest: [jomā] (جمعه - Friday)."
+        "By the end of this lesson you will be able to: name all seven days of the week in Pashto and use them correctly in scheduling sentences.",
+        "You will use the full set of time-of-day terms — from صبح [sahār] 'morning' through نيمه شپه [nima shpa] 'midnight' — to describe and ask about daily routines.",
+        "You will read and express clock times in the 24-hour system using بجه [baja] 'o'clock', نيم [nim] 'half', پاو [pāw] 'quarter', and minute expressions with لانده [lānde] 'to/before' and باندې [bānde] 'past/after'.",
+        "You will produce time-anchored SOV sentences about schedules, appointments, and daily routines.",
+        "You will identify the five Islamic prayer times and their Pashto names, understanding their role as the authentic temporal grid of Afghan daily life."
       ]
     },
     {
@@ -21,66 +22,400 @@
     },
     {
       "type": "paragraph",
-      "heading": "Module 2: The Pashto Clock System",
+      "heading": "Section 1 — Dialogue: پروګرامونه (Plans)",
       "lines": [
-        "Telling time in Pashto relies on hour-noun constructions combined with prepositional directional phrases to indicate quarter-past or quarter-to.",
-        "Clock Vocabulary: [baje] (بجې) 'o'clock', [nim] (نیم) 'half', [rob] (ربع) 'quarter', [daqiqa] (دقیقه) 'minute'.",
-        "Note the distinction between systems: In informal conversation, a 12-hour system with time-of-day markers is used. In official Afghan contexts (government, broadcasting, transportation), a strict 24-hour clock is utilized."
+        "Asad and Rābya are making plans to meet at the Kabul Caravan restaurant, a popular Afghan dining spot. The dialogue introduces scheduling vocabulary, days, and time expressions in natural conversation.",
+        "اسد: رابيا، د چهارشنبې شپه ته نقشه لرې؟ [asad: rābya, da čārshambe shpa ta naxsha lare?] — Asad: Rābya, do you have plans for Wednesday evening?",
+        "رابيا: نه، ولې؟ [rābya: na, wale?] — Rābya: No, why?",
+        "اسد: مونږ غواړو چې پهـ کابل کاروان کې ډوډۍ وخورو. راتلای شې؟ [asad: mung ghwāṛo če pa kābul kārwān ke ḍoḍay waxoro. rātlāy she?] — Asad: We want to eat at Kabul Caravan. Can you come?",
+        "رابيا: هو، خوښ يم. چه وخت؟ [rābya: haw, xwax yam. tse waxt?] — Rābya: Yes, I'd be happy to. What time?",
+        "اسد: ماښام د اووه بجو شاوخوا. [asad: māxam da owa bajo shāwxwa.] — Asad: In the evening, around seven o'clock.",
+        "رابيا: ما خاصه مالمه سره ده. [rābya: mā xāsa māzdigār sara da.] — Rābya: I have a special afternoon class.",
+        "اسد: کله پای ته رسيږي؟ [asad: kala pāy ta rasegi?] — Asad: When does it finish?",
+        "رابيا: د شپږو بجو شاوخوا. [rābya: da shpago bajo shāwxwa.] — Rābya: Around six o'clock.",
+        "اسد: نو بيا د اووه بجو نه مخکې راشه. [asad: no byā da owa bajo na makhke rāsha.] — Asad: Then come before seven o'clock.",
+        "رابيا: ښه. د اووه بجو مخکې به درسره وم. [rābya: xa. da owa bajo makhke ba darsara wam.] — Rābya: Fine. I'll be with you before seven.",
+        "اسد: عالي! کتابخانه هم جمعه تړلې وي. [asad: āli! kitābxāna ham jomā taṛale wi.] — Asad: Great! The library is also closed on Friday.",
+        "رابيا: هو، جمعه رخصتي ده. [rābya: haw, jomā rukhsati da.] — Rābya: Yes, Friday is a holiday.",
+        "KEY VOCABULARY from the dialogue:",
+        "پروګرام [progrām] — plan(s) / programme (M2) [progrām] ◆ ريسټوران [restorān] — restaurant (M2) [restorān] ◆ مېلمنه [melmana] — guest (F1) [melmana] ◆ کتابخانه [kitābxāna] — library (F1) [kitābxāna] ◆ ډوډۍ [ḍoḍay] — food / meal (F2) [ḍoḍay] ◆ امتحان [imtehān] — exam (M2) [imtehān] ◆ راتلای شې؟ [rātlāy she?] — Can you come? (modal expression — preview of Lesson 9)"
       ]
-    },
-    {
-      "type": "paragraph",
-      "heading": "⏱️ Interactive Clock Reading",
-      "lines": [
-        "[Interactive Clock Diagram]: Explore the interactive clock face below. Note: The labels on this diagram are exclusively in Pashto script, in accordance with your learning progression.",
-        "When reading clock time, accurate stress on the word [baje] and the number forms is critical.",
-        "[Audio Player]: Listen to the monosyllabic pronunciation of [nim] (half) and [rob] (quarter), contrasting them with the two-syllable number forms."
-      ]
-    },
-    {
-      "type": "callout",
-      "text": "Phonetics Hack: Watch out for minimal-pair potential between [māxam] (evening) and [māspar] (afternoon). Mispronouncing these can completely change your scheduled meeting time!"
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 3: Daily Schedules & Sentence Structures",
+      "heading": "Section 2 — Days of the Week (د اوونۍ ورځې)",
       "lines": [
-        "Let's build time-telling sentences using our SOV (Subject-Object-Verb) framework.",
-        "ساعت درې بجې دي. [Sāat ṭəlo baje di.] (It is three o'clock.)",
-        "ماسپښین نیمه بجه په کور کې یم. [Māspar nim baje pa kor ke yəm.] (At half past twelve I am at home. Note: 12:30 PM literally translated involves 'afternoon half o'clock').",
-        "[Interactive Drill Matrix]: Practice combining different hour markers with times of day in complete SOV sentences."
+        "ALL SEVEN DAY NAMES are F1 feminine nouns. They NEVER take plural forms.",
+        "شنبه [shambe] — Saturday [shambe]",
+        "يکشنبه [yakshambe] — Sunday [yakshambe]",
+        "دوشنبه [dushambe] — Monday [dushambe]",
+        "سه‌شنبه [se shambe] — Tuesday [se shambe] ← written as TWO words",
+        "چهارشنبه [čārshambe] — Wednesday [čārshambe]",
+        "پنجشنبه [panjshambe] — Thursday [panjshambe]",
+        "جمعه [jomā] — Friday [jomā] ← the Islamic holy day — DIFFERENT spelling pattern",
+        "GRAMMAR NOTES on day names:",
+        "① Day-name phrases come AFTER the subject in normal sentences: زه دوشنبه بيرته راځم. [za dushambe berta rādzam.] — 'I come back Monday.'",
+        "② If the day is FOCUSED (emphasised), it moves to the BEGINNING of the sentence: دوشنبه زه بيرته راځم. — 'On MONDAY I come back (not another day).'",
+        "③ No preposition is needed with bare day names in time phrases: جمعه امتحان لرم. [jomā imtehān laram.] — 'I have an exam Friday.' (NOT: *پهـ جمعه کې)",
+        "④ When a TIME-OF-DAY word combines WITH a day name, پهـ [pa] is used: پهـ دوشنبه شپه [pa dushambe shpa] — 'on Monday night'.",
+        "DRILL SENTENCES (Pashto script):",
+        "ته چهارشنبه نقشه لرې؟ — 'Do you have plans on Wednesday?'",
+        "هر جمعه لمونځ کوم. — 'I pray every Friday.'",
+        "پنجشنبه ماښام بيرته راځم. — 'I come back Thursday evening.'"
       ]
     },
     {
       "type": "callout",
-      "text": "Cultural Context: The Afghan day is deeply structured by Islamic prayer times: Fajr (dawn), Dhuhr (midday), Asr (afternoon), Maghrib (sunset), and Isha (night). These are frequently used as authentic temporal references rather than clock times. Additionally, Friday ([jomā]) is the holy day and weekend, which is critical for scheduling. You will also encounter 'nīm-rōz' — the cultural practice of resting or napping after the midday meal."
+      "heading": "🕌 Cultural Note: جمعه [jomā] — Friday in Afghan Life",
+      "lines": [
+        "جمعه [jomā] — Friday — is the Islamic holy day (equivalent to Sunday in Christian-majority countries). In Afghanistan, Friday is the day of rest and communal جمعه لمونځ [jomā lamondz] (Friday prayer / Jumu'ah), which is the most important congregational prayer of the week.",
+        "PRACTICAL IMPLICATIONS: Government offices, schools, universities, and many shops are closed on Friday. The Afghan work week traditionally runs Saturday through Thursday — making Saturday the first workday and Thursday the last.",
+        "The Afghan weekend is Friday (and sometimes Thursday afternoon) — the reverse of the Western weekend. When scheduling appointments in Pashto, always clarify: جمعه تړلې ده [jomā taṛale da] — 'It's closed on Friday.'",
+        "THE WEEK BEGINS ON SATURDAY: The Persian/Afghan naming system reflects this — شنبه [shambe] means 'Sabbath' (from Hebrew/Aramaic), یکشنبه = 'one-Sabbath' (Sunday), دوشنبه = 'two-Sabbath' (Monday)... and جمعه [jomā] is an Arabic borrowing meaning 'gathering/congregation' — the day of gathering for prayer.",
+        "LANGUAGE NOTE: In very informal Kabuli youth speech, some English day names (يا سنده [wekend], etc.) appear, but formal and standard Pashto uses the names above exclusively."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — Times of Day (د ورځې وختونه)",
+      "lines": [
+        "These time-of-day terms are the PRIMARY way Afghans express time in traditional daily life. Mastering them is more culturally important than clock-reading for informal conversation.",
+        "صبح / سهار [sahār] — morning (M2 class) [sahār]",
+        "ناوخته سهار [nāwaxta sahār] — early morning / dawn time (adverbial phrase) [nāwaxta sahār]",
+        "چاشت [čāsht] — late morning (M2 class) [čāsht]",
+        "غرمه [gharma] — noon / midday (F1 class) [gharma]",
+        "ماسپخين [māspaxin] — afternoon (M2 class) [māspaxin]",
+        "مازديګر [māzdigār] — late afternoon (M2 class) [māzdigār]",
+        "ماښام [māxam] — dusk / early evening (M2 class) [māxam]",
+        "ماسخوتن [māsxutan] — late evening (M2 class) [māsxutan]",
+        "نيمه شپه [nima shpa] — midnight (F1 phrase — نيمه [nima] + شپه [shpa] 'night') [nima shpa]",
+        "GRAMMAR NOTES on time-of-day phrases:",
+        "① Used WITHOUT a preposition in most sentences: صبح راځم. [sahār rādzam.] — 'I come in the morning.'",
+        "② The time phrase comes AFTER the subject unless focused: اسد صبح کار کوي. — 'Asad works in the morning.'",
+        "③ When combined with a DAY NAME, use پهـ [pa]: پهـ دوشنبه ماښام [pa dushambe māxam] — 'Monday evening'.",
+        "④ نن [nan] 'today' combines freely: نن ماسپخين — 'this afternoon' ◆ نن ماښام — 'this evening' ◆ نن شپه — 'tonight'",
+        "MINIMAL PAIR: ماښام [māxam] (dusk/early evening) vs. ماسپخين [māspaxin] (afternoon) — these are different times. Common learner confusion: ماښام is AFTER sunset, ماسپخين is BEFORE sunset."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🕐 Islamic Prayer Times — The Afghan Daily Clock",
+      "lines": [
+        "In traditional Afghan society, the five daily prayers (لمونځونه [lamondzune]) structure the day far more precisely than clock hours do. Knowing these times and their Pashto names is essential for authentic communication.",
+        "① صبح لمونځ [sabā lamondz] — Fajr (Dawn prayer): before sunrise, approximately 4–5 AM depending on season. This marks the TRUE start of the Afghan day — many Afghans are already awake at this time.",
+        "② غرمه لمونځ [gharma lamondz] — Dhuhr (Noon prayer): just after the sun passes its zenith, approximately 12:30–1:00 PM. Midday meal typically follows.",
+        "③ ماسپخين لمونځ [māspaxin lamondz] — Asr (Afternoon prayer): mid-afternoon, approximately 3:30–4:30 PM. The most culturally significant prayer for scheduling meetings — 'after Asr prayer' is a common appointment time.",
+        "④ ماښام لمونځ [māxam lamondz] — Maghrib (Sunset prayer): immediately after sunset. Marks the shift from day to evening; Ramadan iftar (breaking fast) occurs at this prayer.",
+        "⑤ ماسخوتن لمونځ [māsxutan lamondz] — Isha (Night prayer): approximately 1.5 hours after sunset. After Isha, the evening social time begins.",
+        "PRACTICAL USE: When scheduling in traditional Afghan contexts, reference prayer times rather than clock times: د ماسپخين لمونځ نه وروسته [da māspaxin lamondz na wrusta] — 'after Asr prayer' is universally understood and culturally appropriate.",
+        "نيمه ورځ [nima wradz] — the midday nap (nap culture): in hot summer months, Afghans traditionally rest after غرمه [gharma] — similar to a siesta. Scheduling afternoon appointments should account for this."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — Telling Time: The 24-Hour Clock (د ساعت ويل)",
+      "lines": [
+        "Afghan official contexts — government, media, transportation, hospital schedules — use the 24-HOUR clock. This section teaches you to read and express any time in Pashto.",
+        "THE KEY WORD: بجه [baja] — 'o'clock / hour / clock' (F1 noun) [baja]",
+        "CRITICAL: بجه [baja] is SINGULAR only at ONE O'CLOCK. All other hours use the PLURAL بجې [baje].",
+        "يوه بجه ده. [yawa baja da.] — 'It is one o'clock.' ← singular يوه [yawa] because بجه is F1",
+        "دوه بجې دي. [dwa baje di.] — 'It is two o'clock.' ← plural بجې [baje] for 2+",
+        "درې بجې دي. [dre baje di.] — 'It is three o'clock.'",
+        "ASKING THE TIME:",
+        "ساعت ولو بجې دي؟ [sāat wəlo baje di?] — 'What time is it?' (lit. 'How many o'clocks are there?')",
+        "EXPRESSING 'AT' A TIME — use د...بجو [da...bajo] (oblique plural of بجه):",
+        "د دوو بجو [da dwo bajo] — 'at two o'clock' ◆ د اووه بجو [da owa bajo] — 'at seven o'clock'",
+        "HALF PAST — use نيم [nim] 'half' after the hour:",
+        "يوه بجه او نيم ده. [yawa baja aw nim da.] — 'It is one thirty / half past one.'",
+        "دوه بجې او نيم دي. [dwa baje aw nim di.] — 'It is two thirty.'",
+        "QUARTER PAST — use پاو [pāw] 'quarter' with باندې [bānde] 'past':",
+        "يوه بجه او پاو باندې ده. [yawa baja aw pāw bānde da.] — 'It is quarter past one.' (1:15)",
+        "دوه بجې او پاو باندې دي. [dwa baje aw pāw bānde di.] — 'It is quarter past two.' (2:15)",
+        "QUARTER TO — use پاو [pāw] with لانده [lānde] 'to/before':",
+        "دوو بجو ته پاو لانده دي. [dwo bajo ta pāw lānde di.] — 'It is quarter to two.' (1:45)",
+        "MINUTES PAST — use minute number with باندې [bānde]:",
+        "يوه بجه او لس دقيقې باندې ده. [yawa baja aw las daqiqe bānde da.] — 'It is ten past one.' (1:10)",
+        "MINUTES TO — use minute number with لانده [lānde]:",
+        "دوو بجو ته لس دقيقې لانده دي. [dwo bajo ta las daqiqe lānde di.] — 'It is ten to two.' (1:50)"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🕰️ Clock Grammar Deep-Dive: Why بجه → بجې?",
+      "lines": [
+        "بجه [baja] 'o'clock' is an F1 noun. F1 nouns change their ending from -ه [a] (singular) to -ې [e] (plural). So: بجه [baja] (1 o'clock) → بجې [baje] (2+ o'clocks).",
+        "The copula agrees with بجه/بجې: يوه بجه ده [yawa baja da] (singular → ده [da] 'is') vs. دوه بجې دي [dwa baje di] (plural → دي [di] 'are').",
+        "THE OBLIQUE FORM for 'at ... o'clock' uses the genitive د [da] + oblique plural بجو [bajo]: د يوې بجې [da ywe baje] → 'at one o'clock' ◆ د دوو بجو [da dwo bajo] → 'at two o'clock'.",
+        "SHORTCUT PATTERN for 'at [hour] o'clock': د + [number in oblique] + بجو [bajo]",
+        "د درو بجو [da dro bajo] — 'at three o'clock' ◆ د اتو بجو [da ato bajo] — 'at eight o'clock' ◆ د دولسو بجو [da dwolso bajo] — 'at twelve o'clock'",
+        "APPROXIMATE TIME — نزدې [nizdé] 'near / about' (Class 4 — invariable): د اووه بجو شاوخوا / نزدې [da owa bajo shāwxwa / nizdé] — 'around seven o'clock'.",
+        "TWO SYSTEMS: The 12-hour informal system (used in everyday conversation) and the 24-hour official system (used in media, hospitals, government). In the 24-hour system, د دیارلسو بجو [da dyārlaso bajo] = 'at 13:00 (1 PM)'. The textbook teaches the 24-hour system as primary."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Time-Telling Vocabulary Table",
+      "lines": [
+        "FULL NUMBERS 11–30 as used in time-telling (identical to cardinals from Lesson 4, repeated here for clock-reading fluency):",
+        "١١ يولس [yawolas] ◆ ١٢ دولس [dwolas] ◆ ١٣ ديارلس [dyārlas] ◆ ١٤ ؤيارلس [tsawārlas] ◆ ١٥ پنځلس [pindzalas]",
+        "١٦ شپاړس [shpāṛas] ◆ ١٧ اوولس [wawolas] ◆ ١٨ اتلس [atolas] ◆ ١٩ نهلس [nawolas] ◆ ٢٠ شل [shəl]",
+        "٢١ يوويشت [yawowisht] ◆ ٢٢ دوويشت [dwowisht] ◆ ٢٣ درويشت [drowisht] ◆ ٢٤ ؤيارلس [tsalorwisht] ◆ ٢٥ پنځويشت [pindzawisht]",
+        "٢٦ شپږويشت [shpagwisht] ◆ ٢٧ اووويشت [awawisht] ◆ ٢٨ اتويشت [atawisht] ◆ ٢٩ نهويشت [nawawisht] ◆ ٣٠ ديرش [dersh]",
+        "TIME-SPECIFIC VOCABULARY:",
+        "بجه [baja] — o'clock / hour (F1) [baja] ← singular for 1 o'clock only",
+        "بجې [baje] — o'clock / hours (F1 plural) [baje] ← used for 2+ o'clock",
+        "دقيقه [daqiqa] — minute (F1) [daqiqa] ◆ ثانيه [sāniya] — second (F1) [sāniya]",
+        "نيم [nim] — half / thirty (adjective Class 1) [nim]",
+        "پاو [pāw] — quarter (M2) [pāw]",
+        "نزدې [nizdé] — about / near (Class 4 adj.) [nizdé]",
+        "PREPOSITIONS FOR TIME EXPRESSIONS:",
+        "له...مخکې [la...makhke] — before [la...makhke]",
+        "له...وروسته [la...wrusta] — after [la...wrusta]",
+        "له...نه [la...na] — from [la...na]",
+        "تر...پورې [tar...pore] — until [tar...pore]",
+        "باندې [bānde] — past / over (with minutes) [bānde]",
+        "لانده [lānde] — to / before (with minutes to the hour) [lānde]"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Clock-Reading Drill — Script Only",
+      "lines": [
+        "Practice reading these times aloud in Pashto, then write the expressions. Transliteration given only at first introduction — use the vocabulary table above for reference.",
+        "① ١:٠٠ → يوه بجه ده.",
+        "② ٢:٠٠ → دوه بجې دي.",
+        "③ ٣:١٥ → درې بجې او پاو باندې دي. [dre baje aw pāw bānde di.]",
+        "④ ٤:٣٠ → ؤيارلس بجې او نيم دي.",
+        "⑤ ٥:٤٥ → شپږو بجو ته پاو لانده دي.",
+        "⑥ ٦:١٠ → شپږ بجې او لس دقيقې باندې دي.",
+        "⑦ ٧:٥٠ → اتو بجو ته لس دقيقې لانده دي.",
+        "⑧ ٩:٠٠ → نهه بجې دي.",
+        "⑨ ١٢:٠٠ → دولس بجې دي. (noon / midnight — context tells you which)",
+        "⑩ ١٣:٠٠ → ديارلس بجې دي. (1 PM in 24-hour system)",
+        "⑪ ١٥:٣٠ → پنځلس بجې او نيم دي. (3:30 PM)",
+        "⑫ ٢٣:٤٥ → دريويشتو بجو ته پاو لانده دي. (11:45 PM)",
+        "BUILDING TIME SENTENCES — combine clock time with activity:",
+        "مازديګر د اووه بجو نه مخکې راشه. — 'Come before seven in the afternoon/evening.'",
+        "صبح د اتو بجو نه وروسته کار کوم. — 'I work after eight in the morning.'",
+        "تر نهه بجو پورې امتحان لرم. — 'I have an exam until nine o'clock.'"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "NOUNS — Hospital & Professional Context:",
+        "ناروغ [nārogh] — patient (M1 class) [nārogh]",
+        "عمليات [amaliyāt] — operation / surgery (M2 class) [amaliyāt]",
+        "دم [dam] — rest / break (M2 class) [dam]",
+        "کافيتريا [kafiteryā] — cafeteria (F3 class) [kafiteryā]",
+        "لابراتوار [labrātowār] — laboratory (M2 class) [labrātowār]",
+        "مرستيال [mrastiyāl] — assistant (M1 class) [mrastiyāl]",
+        "درس [dars] — lesson (M2 class) [dars]",
+        "نقشه [naxsha] — plan / map (F1 class) [naxsha]",
+        "وخت [waxt] — time (M2 class) [waxt]",
+        "صبح [sahār] — morning (M2 class) — also used as adverb: 'in the morning'",
+        "ADJECTIVES:",
+        "خاص [xās] — special (Class 4, invariable) [xās]",
+        "افغاني [afghāni] — Afghan (Class 4) [afghāni]",
+        "مصروف [masruf] — busy (Class 4) [masruf]",
+        "لږ [lag] — little / few / a little (Class 1) [lag]",
+        "خپل [xpal] — own / one's own (Class 1) [xpal] ← reflexive possessive",
+        "VERBS:",
+        "پخول [paxawəl] — to cook; stem: پخو- [paxaw-] [paxawəl]",
+        "وارکول [wārkawəl] — to give; stem: وارکو- [wārkaw-] [wārkawəl]",
+        "معاينه کول [māyena kawəl] — to examine (medical); stem: معاينه کو- [māyena kaw-] [māyena kawəl]",
+        "ډوډۍ خوړل [ḍoḍay xoṛəl] — to eat a meal (compound); stem: ډوډۍ خوړ- [ḍoḍay xoṛ-]",
+        "PREPOSITIONS:",
+        "تر...پورې [tar...pore] — until [tar...pore] ◆ له...وروسته [la...na wrusta] — after [la wrusta]",
+        "ADVERBS & PHRASES:",
+        "بيا [byā] — then / again [byā] ◆ لږ تسه [lag tse] — a little [lag tse] ◆ هغو [agho] — those (demonstrative OPl) [agho]",
+        "FREQUENCY ADVERBS (essential for daily routine descriptions):",
+        "هميشه [hamisha] — always [hamisha] ◆ اکثراً [aksaran] — often [aksaran] ◆ معمولاً [māmulan] — usually [māmulan] ◆ کله کله [kāla kāla] — sometimes [kāla kāla] ◆ هيڅکله [hetsekāla] — never [hetsekāla] ◆ هر وخت [har waxt] — always / every time [har waxt]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Reading: د پټانګ ورځنی مهالويش (Paṭang's Daily Schedule)",
+      "lines": [
+        "Paṭang is a medical student with a demanding hospital schedule. This reading is script only — identify all time expressions and classify them as clock-based or time-of-day-based.",
+        "پټانګ د پوهنتون روغتيا پوهنځي زده کوونکی دی. هر ورځ مصروف وي.",
+        "صبح د اتو بجو نه مخکې پوهنتون ته ځي. د اتو بجو نه يولسو بجو پورې درسونه لري.",
+        "د يولسو بجو نه وروسته هغه پهـ روغتون کې کار کوي. ناروغان معاينه کوي.",
+        "غرمه لږ دم کوي. کافيتريا کې ډوډۍ خوري.",
+        "ماسپخين بيا لابراتوار ته ځي. تر شپږو بجو پورې پهـ لابراتوار کې وي.",
+        "ماښام کور ته راځي. درس لولي. د نهو بجو نه وروسته خوب کوي.",
+        "READING GLOSSARY:",
+        "روغتيا پوهنځي [roghtyā pohndzay] — faculty/school of medicine ◆ هر ورځ [har wradz] — every day ◆ ناروغان [nāroghān] — patients (M1 plural) ◆ معاينه کوي [māyena kawi] — examines (3sg present imperfective) ◆ لږ دم کوي [lag dam kawi] — rests a little ◆ خوب کوي [xob kawi] — sleeps (lit. 'does sleep')",
+        "COMPREHENSION QUESTIONS (answer in Pashto script):",
+        "① پټانګ هر ورځ کله پوهنتون ته ځي؟ — When does Paṭang go to university every day?",
+        "② هغه ماسپخين چېره وي؟ — Where is he in the afternoon?",
+        "③ هغه تر کوم وخت پورې پهـ لابراتوار کې وي؟ — Until what time is he in the laboratory?",
+        "TIME-MATCHING EXERCISE: Match these times from the reading to the activities:",
+        "٨:٠٠ → ...پوهنتون ته ځي ◆ ١١:٠٠ → ...روغتون ته ځي ◆ ١٨:٠٠ → ...کور ته راځي ◆ ٢١:٠٠ → ...خوب کوي"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "📅 Building Your Own Schedule — Daily Routine Sentences",
+      "lines": [
+        "Use these sentence templates to describe your own daily routine. Fill in the time and activity.",
+        "صبح د ___ بجو نه مخکې ___ ته ځم. — 'In the morning before ___ o'clock, I go to ___.'",
+        "د ___ بجو نه ___ بجو پورې ___ کوم. — 'From ___ o'clock until ___ o'clock I do ___.'",
+        "___ نه وروسته ___ ته راځم. — 'After ___ I come to ___.'",
+        "هر ___ [day] ___ [activity] کوم. — 'Every ___ I do ___.'",
+        "TEMPLATE IN USE: صبح د اتو بجو نه مخکې پوهنتون ته ځم. د اتو بجو نه دولسو بجو پورې درس لولم. غرمه نه وروسته کافيتريا ته ځم. ماښام کور ته راځم. درس لولم.",
+        "GRAMMAR TIP — the له...نه وروسته [la...na wrusta] structure: This is a common post-positional phrase for 'after'. The noun/time expression sits between له...نه [la...na], and وروسته [wrusta] follows: له غرمې نه وروسته [la gharme na wrusta] — 'after noon'. Notice غرمه → غرمې (F1 oblique singular) triggered by له [la]."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — Sentence Structures: Time in SOV Frame",
+      "lines": [
+        "Time phrases fit into the SOV sentence structure following consistent placement rules. Here are the key patterns — all in Pashto script.",
+        "RULE: Time phrases come AFTER the subject and BEFORE the object/complement/verb:",
+        "PATTERN: [SUBJECT] + [TIME PHRASE] + [OBJECT/PLACE] + [VERB]",
+        "اسد چهارشنبه ماښام ريسټوران ته ځي. — 'Asad goes to the restaurant Wednesday evening.'",
+        "رابيا هر جمعه کتابخانه ته نه ځي. — 'Rābya does not go to the library every Friday.'",
+        "مونږ صبح د اتو بجو نه مخکې پوهنتون کې يو. — 'We are at the university before eight in the morning.'",
+        "FOCUSED TIME (time brought to the front for emphasis):",
+        "چهارشنبه ماښام اسد ريسټوران ته ځي. — 'On WEDNESDAY EVENING Asad goes to the restaurant.' (emphasising the specific day)",
+        "DURATION — تر...پورې [tar...pore] 'until':",
+        "تر شپږو بجو پورې پهـ لابراتوار کې يم. — 'I am in the laboratory until six o'clock.'",
+        "FREQUENCY ADVERBS in the SOV frame — placed before the verb or before the time phrase:",
+        "هغه هميشه صبح ناوخته پاڅيږي. — 'He/She always wakes up early in the morning.'",
+        "مونږ کله کله ماښام ډوډۍ پهـ کافيتريا کې خورو. — 'We sometimes eat dinner in the cafeteria in the evening.'",
+        "ته هيڅکله ماسپخين دم نه کوې؟ — 'Do you never rest in the afternoon?'"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 8 — Diversion: د ملا نصرالدين قصه (Mullah Nasruddin Story)",
+      "lines": [
+        "This Diversion is a short Mullah Nasruddin story — the most famous trickster-sage figure in the broader Central Asian / Middle Eastern oral tradition, beloved in Pashto folklore.",
+        "THE STORY: Mullah Nasruddin was travelling and found himself in an unfamiliar village. Someone approached and asked him the way.",
+        "The Mullah replied: 'I'm sorry, I am a stranger here too. You'll have to ask one of the local people.'",
+        "PASHTO KEY PHRASES:",
+        "بيګانه يم [begāna yam] — 'I am a stranger / I am from elsewhere.'",
+        "دلته يم [delta yam] — 'I am here.'",
+        "محلي خلکو نه وپوښتئ [mahali khalko na wəpuxtāy] — 'Ask the local people.' (plural command form — preview of Lesson 7)",
+        "CULTURAL COMMENTARY: ملا نصرالدين [Mullā Nasrudin] is arguably the most famous figure in Pashto, Dari, Persian, Turkish, and Arabic folk humour. His stories typically feature an apparent fool who demonstrates deeper wisdom or catches the powerful in their own foolishness. This particular story subverts the expectation of the helpful local guide — instead, Nasruddin highlights his own outsider status with disarming honesty.",
+        "In Pashto oral tradition, Nasruddin stories (د ملا نصرالدين قصې [da mullā nasrudin qise]) are used to illustrate points about wisdom, humility, social pretension, and the gap between appearances and reality. They are a living part of the storytelling tradition across Afghanistan.",
+        "GRAMMAR NOTE: The story hinges on the copula بيګانه يم [begāna yam] — 'I am a stranger' — a Class 4 adjective (invariable) used predicatively. بيګانه [begāna] does not change to agree with any subject because it is Class 4. This reinforces the invariable adjective rule from Lesson 5."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 6 before attempting the quiz:",
+        "✓ All seven day names are F1 feminine nouns, never plural: شنبه، يکشنبه، دوشنبه، سه‌شنبه، چهارشنبه، پنجشنبه، جمعه",
+        "✓ جمعه [jomā] is the Islamic holy day — Afghan week runs Saturday through Thursday.",
+        "✓ Day names need no preposition alone: جمعه امتحان لرم. But with time-of-day: پهـ دوشنبه ماښام.",
+        "✓ Time-of-day sequence: صبح → چاشت → غرمه → ماسپخين → مازديګر → ماښام → ماسخوتن → نيمه شپه",
+        "✓ بجه [baja] (singular, 1 o'clock only) → بجې [baje] (plural, 2+ o'clocks). Copula: ده for singular, دي for plural.",
+        "✓ 'At [hour] o'clock': د + [oblique number] + بجو [bajo].",
+        "✓ Half past: [hour] + بجه/بجې + او نيم. Quarter past: [hour] + او پاو باندې. Quarter to: [next hour] + ته پاو لانده.",
+        "✓ 'Before': له...مخکې ◆ 'After': له...وروسته ◆ 'Until': تر...پورې ◆ 'From': له...نه",
+        "✓ Five prayer times: صبح ← غرمه ← ماسپخين ← ماښام ← ماسخوتن",
+        "✓ Frequency adverbs: هميشه (always) ← اکثراً (often) ← معمولاً (usually) ← کله کله (sometimes) ← هيڅکله (never)"
+      ]
     },
     {
       "type": "quiz",
-      "question": "If you are scheduling a business meeting in Kabul and the counterpart suggests meeting on '[jomā]', what should you consider?",
+      "question": "All seven Pashto day names share which grammatical property?",
       "options": [
-        "It is the first day of the official work week.",
-        "It refers to the late afternoon nap time, so you should be quiet.",
-        "It is Friday, the Islamic holy day and traditional day of rest, so a business meeting is likely inappropriate.",
-        "It means you should strictly use the 24-hour clock to set the time."
+        "They are all M2 masculine nouns that take regular plural endings.",
+        "They are all F1 feminine nouns and never occur in the plural form.",
+        "They are all Class 4 invariable adjectives used as time adverbs.",
+        "They require the preposition پهـ [pa] before them in all sentence positions."
+      ],
+      "correctIndex": 1,
+      "explanation": "All seven Pashto day names — شنبه [shambe] through جمعه [jomā] — are F1 feminine nouns and never take plural forms. They also typically do not require a preposition when used alone in a sentence: جمعه امتحان لرم [jomā imtehān laram] 'I have an exam on Friday' uses the bare day name. However, when a day name combines with a time-of-day word, the preposition پهـ [pa] is added: پهـ دوشنبه ماښام [pa dushambe māxam] 'Monday evening'."
+    },
+    {
+      "type": "quiz",
+      "question": "How do you say 'It is two o'clock' in Pashto, and why does بجه change form?",
+      "options": [
+        "يوه بجه ده [yawa baja da] — بجه stays singular because all clock times use singular.",
+        "دوه بجو دي [dwa bajo di] — بجو is the oblique form used for all clock statements.",
+        "دوه بجې دي [dwa baje di] — بجه becomes plural بجې because two or more requires the plural form.",
+        "دوه بجه ده [dwa baja da] — no change needed, بجه is invariable."
       ],
       "correctIndex": 2,
-      "explanation": "In Afghanistan and Islamic culture, [jomā] (Friday) is the day of congregational prayer and the primary weekend day, making it an inappropriate day for standard business scheduling."
+      "explanation": "دوه بجې دي [dwa baje di] — 'It is two o'clock.' The F1 noun بجه [baja] (o'clock/hour) is singular ONLY for one o'clock: يوه بجه ده [yawa baja da]. For two o'clock and all higher hours, the PLURAL form بجې [baje] is used. The copula also shifts: singular ده [da] → plural دي [di], because بجه/بجې is the grammatical subject of the sentence. This is the same F1 singular/plural pattern you learned for all F1 nouns (e.g., شاګردي → شاګردي)."
     },
     {
       "type": "quiz",
-      "question": "Which of the following time-related words are phonologically monosyllabic and require careful stress differentiation when speaking?",
+      "question": "How do you express 'at seven o'clock' (as in 'we meet at seven') in Pashto?",
       "options": [
-        "[baje] and [daqiqa]",
-        "[səhār] and [māxam]",
-        "[nna] and [biyā]",
-        "[nim] and [rob]"
+        "پهـ اوه بجې کې [pa owa baje ke] — using the circumposition پهـ...کې.",
+        "د اووه بجو [da owa bajo] — using the genitive د [da] with the oblique plural بجو [bajo].",
+        "اووه بجه [owa baja] — the bare time expression without any preposition.",
+        "اووه بجو باندې [owa bajo bānde] — using باندې [bānde] 'past/at'."
       ],
-      "correctIndex": 3,
-      "explanation": "The words [nim] (half) and [rob] (quarter) are monosyllabic. Phonetic accuracy requires you to contrast these sharply with multisyllabic numbers and time words."
+      "correctIndex": 1,
+      "explanation": "To say 'at [hour] o'clock' in Pashto, use: د [da] + [number in oblique form] + بجو [bajo] (oblique plural of بجه). So د اووه بجو [da owa bajo] = 'at seven o'clock'. The number اووه [owa] 'seven' is in its oblique form (same as direct for this number), and بجو [bajo] is the oblique plural of بجه [baja]. Example: د اووه بجو سره لمانځ راځم [da owa bajo sara... ] — 'I come at seven o'clock.' The circumposition پهـ...کې is not used for clock-time expressions."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the Pashto expression for 'quarter past three' (3:15)?",
+      "options": [
+        "درې بجې او نيم دي. [dre baje aw nim di.]",
+        "درې بجې او پاو باندې دي. [dre baje aw pāw bānde di.]",
+        "ؤيارو بجو ته پاو لانده دي. [tsalaro bajo ta pāw lānde di.]",
+        "درې بجو ته پاو لانده دي. [dre bajo ta pāw lānde di.]"
+      ],
+      "correctIndex": 1,
+      "explanation": "درې بجې او پاو باندې دي [dre baje aw pāw bānde di] = 'It is quarter past three' (3:15). The structure for QUARTER PAST is: [hour in plural] + او [aw] + پاو [pāw] 'quarter' + باندې [bānde] 'past/over'. Option A gives 'three thirty' (half past). Option C gives 'quarter to four' (using the NEXT hour + ته...لانده). Option D also gives 'quarter to three' using the wrong preposition direction. Remember: باندې [bānde] = past/over (minutes AFTER the hour), لانده [lānde] = to/before (minutes BEFORE the next hour)."
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the five Islamic prayer times corresponds to the Pashto time-of-day term ماسپخين [māspaxin]?",
+      "options": [
+        "صبح لمونځ [sabā lamondz] — Fajr (dawn prayer, before sunrise).",
+        "غرمه لمونځ [gharma lamondz] — Dhuhr (noon prayer, after midday).",
+        "ماسپخين لمونځ [māspaxin lamondz] — Asr (afternoon prayer, mid-afternoon).",
+        "ماښام لمونځ [māxam lamondz] — Maghrib (sunset prayer)."
+      ],
+      "correctIndex": 2,
+      "explanation": "ماسپخين [māspaxin] 'afternoon' corresponds to Asr prayer — the mid-afternoon prayer performed roughly 3:30–4:30 PM. The five prayer times map to Pashto time-of-day words as follows: صبح [sahār] (Fajr/dawn), غرمه [gharma] (Dhuhr/noon), ماسپخين [māspaxin] (Asr/afternoon), ماښام [māxam] (Maghrib/sunset), ماسخوتن [māsxutan] (Isha/night). In traditional Afghan scheduling, 'after Asr prayer' (د ماسپخين لمونځ نه وروسته) is one of the most common appointment times, making the connection between ماسپخين and Asr particularly important to memorise."
+    },
+    {
+      "type": "quiz",
+      "question": "In the sentence مونږ کله کله ماښام ډوډۍ پهـ کافيتريا کې خورو — what does کله کله [kāla kāla] mean and where is it positioned?",
+      "options": [
+        "کله کله means 'never' and is positioned at the end of the sentence.",
+        "کله کله means 'sometimes' and is positioned after the subject مونږ, before the time phrase.",
+        "کله کله means 'always' and must come at the very beginning of the sentence.",
+        "کله کله means 'every day' and replaces the time-of-day word ماښام."
+      ],
+      "correctIndex": 1,
+      "explanation": "کله کله [kāla kāla] means 'sometimes' and in this sentence it appears after the subject مونږ [mung] 'we' and before the time-of-day phrase ماښام [māxam] 'in the evening'. The full SOV structure is: مونږ [S] + کله کله [frequency adv.] + ماښام [time] + ډوډۍ [O] + پهـ کافيتريا کې [place complement] + خورو [V]. The frequency adverb slot sits between the subject and the time phrase in normal word order. The full frequency scale runs: هميشه (always) → اکثراً (often) → معمولاً (usually) → کله کله (sometimes) → هيڅکله (never)."
     }
   ]
 }

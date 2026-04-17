@@ -1,77 +1,437 @@
 {
-  "id": "L5",
-  "title": "Lesson 5: Adjective Agreement: Gender, Number & Case   د صفت مطابقت: جنس، شمیر او حالت",
-  "category": "Beginning Pashto",
-  "description": "Dive into one of Pashto's most morphologically complex systems: adjectival agreement. You will learn how adjectives inflect for gender, number, and grammatical case, while exploring colors and physical descriptions.",
-  "duration": "Textbook pp. 68–80 (approx. 10-15 pages of instruction) [cite: 28, 31]",
-  "level": "Novice-Mid → Intermediate-Low (ILR 1) [cite: 28]",
+  "id": "pashto-l05",
+  "title": "Lesson 5: Adjective Agreement — Gender, Number & Case",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "One of Pashto's most morphologically complex systems: adjectives inflect for the gender, number, and case of the noun they modify. Five adjective classes plus irregular forms are introduced, covering the full 4-cell agreement grid (sg.m / sg.f / pl.m / pl.f) in both direct and oblique case. Introduces the oblique case for the first time in the context of adjective phrases — a preview of the ergative system appearing in Lesson 13. Communicative context: weather, seasons, Afghan New Year (Nawruz), and describing people and places. Pashto script primary throughout.",
+  "duration": "10–15 hours",
+  "level": "Novice-Mid → Intermediate-Low (ILR 1)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: The Adjective Agreement System",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 5! You are about to tackle a major grammatical feature. In Pashto, adjectives inflect for the gender (masculine/feminine), number (singular/plural), and — critically — the grammatical case of the noun they modify[cite: 30].",
-        "Pashto has two major adjective classes. Class I adjectives change their endings: typically ending in [-ay] for masculine, [-a] for feminine, and [-i] for plural[cite: 30].",
-        "Class II adjectives are invariable or have restricted inflection. Examples include [munṭazir] (منتظر - waiting) and [māriz] (مریض - sick)[cite: 30]."
-      ]
-    },
-    {
-      "type": "callout",
-      "text": "Grammar Pro-Tip: The Oblique Case! This unit introduces the concept of the oblique case for the first time — a preview of the ergative system that will govern past-tense transitive sentences later[cite: 30]. When a noun is placed in a prepositional phrase (like 'pa ... ke'), its attached Class I adjective MUST change to match its oblique case form."
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "paragraph",
-      "heading": "Module 2: Colors and Attributes Vocabulary",
-      "lines": [
-        "Let's expand your vocabulary with some essential Class I adjectives[cite: 30]:",
-        "Colors: [spin] (سپین) 'white', [tor] (تور) 'black', [sur] (سور) 'red', [zar] (زیړ) 'yellow', [shīn] (شین) 'green/blue'[cite: 30].",
-        "Attributes: [ucha] (اوچت) 'tall', [ṭiṭay] (ټیټ) 'small', [naway] (نوی) 'new', [zor] (زوړ) 'old (thing)'[cite: 30].",
-        "Irregular Adjective Alert: The word [stər] (ستر) 'big' has a suppletive (irregular) plural form: [stern] (سترن)[cite: 30]!"
-      ]
-    },
-    {
-      "type": "paragraph",
-      "heading": "Sentence Structures: Direct vs. Oblique",
-      "lines": [
-        "Let's observe how adjectives behave in different positions within our SOV framework[cite: 30].",
-        "Attributive (pre-nominal): [spin kor] (سپین کور) 'white house'[cite: 30].",
-        "Predicative: [kor spin da] (کور سپین دی) 'The house is white'[cite: 30].",
-        "Oblique agreement trigger: [pa spin kor ke] (په سپین کور کې) 'in the white house'. Here, both the noun and adjective are in the oblique case due to the preposition[cite: 30]."
+        "By the end of this lesson you will be able to: describe people, places, and objects using adjectives that agree in gender, number, and case with the noun they modify.",
+        "You will produce the correct inflected form of Class 1 through Class 5 adjectives — and selected irregular adjectives — in attributive (pre-nominal) and predicative (post-verbal) positions.",
+        "You will use the oblique case form of adjectives correctly inside prepositional phrases, building on the پهـ...کې [pa...ke] structure from Lesson 2.",
+        "You will apply a core set of colour and descriptive adjectives — سپين [spin] 'white', تور [tor] 'black', سور [sur] 'red', زرد [zard] 'yellow', شين [shin] 'green/blue', اوچت [ucat] 'tall', کوچنی [kucnay] 'small', نوی [naway] 'new' — in gendered, cased agreement.",
+        "You will ask and answer vocabulary questions using the classroom phrase پهـ پښتو کې ... ته څه وايي؟ [pa paxto ke ... ta tse wāyi?] 'What is the word for ... in Pashto?'"
       ]
     },
     {
       "type": "divider"
     },
     {
+      "type": "paragraph",
+      "heading": "Section 1 — Dialogue: هوا او موسمونه (Weather and Seasons)",
+      "lines": [
+        "Amēn and Joan are talking about the weather in Kabul versus Joan's hometown. This dialogue introduces adjectives describing weather and seasons — the gateway to the full agreement system.",
+        "ژون: امین، هوا ډيره سړه ده! [jon: amēn, hawā dera sara da!] — Joan: Amēn, the weather is very cold!",
+        "امين: هو، ژمی ډير سوړ وي. [amēn: haw, žəmay der soṛ wi.] — Amēn: Yes, winter is usually very cold.",
+        "ژون: معمولاً داسې سوړ وي؟ [jon: māmolan dāse soṛ wi?] — Joan: Is it usually this cold?",
+        "امين: هو. کله کله داسې ډيرې واوره ورې چې لارې بندې شي. [amēn: haw. kāla kāla dāse dere wāwre wori če lāre bande shi.] — Amēn: Yes. Sometimes so much snow falls that the roads get blocked.",
+        "ژون: پهـ ستاسو ښار کې اوړی ډير تود وي؟ [jon: pa stāso xār ke oṛay der tod wi?] — Joan: Is summer very hot in your city?",
+        "امين: نه، اوړی نارم وي، خو ژمی سخت سوړ وي. [amēn: na, oṛay nāram wi, xo žəmay saxt soṛ wi.] — Amēn: No, summer is pleasant, but winter is very cold.",
+        "ژون: زما ښار کې اوړی ډير تود وي. [jon: zmā xār ke oṛay der tod wi.] — Joan: In my city summer is very hot.",
+        "امين: نن ورځ هوا ښه ده. [amēn: nan wradz hawā xa da.] — Amēn: Today the weather is good.",
+        "ژون: هو! ډير ښه ده. له هوا پرته ژوند نه کيږي! [jon: haw! der xa da. la hawā prata žwand na kegi!] — Joan: Yes! Very good. You can't get along without weather!",
+        "GRAMMAR SPOTLIGHT on the dialogue — find the agreement:",
+        "هوا ډيره سړه ده [hawā dera sara da] — هوا [hawā] 'weather' is F3; therefore ډيره [dera] and سړه [sara] both take FEMININE forms → ډير [der] M becomes ډيره [dera] F ✓",
+        "ژمی ډير سوړ وي [žəmay der soṛ wi] — ژمی [žəmay] 'winter' is M3; therefore ډير [der] and سوړ [soṛ] stay in MASCULINE form ✓",
+        "لارې بندې شي [lāre bande shi] — لارې [lāre] 'roads' is F1 plural; therefore بندې [bande] takes FEMININE PLURAL form ✓"
+      ]
+    },
+    {
       "type": "callout",
-      "text": "Cultural Context & Symbolism: Colour symbolism is deeply embedded in Pashtun culture. White ([spin]) symbolises purity and peace; black ([tor]) signifies mourning or enmity; and green ([shīn]) holds strong Islamic significance[cite: 30]. Sociolinguistic Note: Commenting on physical appearance is normal, but follows strict gender norms. Male speakers describing women requires care and sensitivity in dialogue design[cite: 30]."
+      "heading": "🎯 The Core Rule: Adjectives Chase the Noun",
+      "lines": [
+        "Every Pashto adjective must match the noun it describes in THREE dimensions simultaneously: (1) GENDER — masculine or feminine, (2) NUMBER — singular or plural, (3) CASE — direct or oblique.",
+        "This means a single adjective like نوی [naway] 'new' has up to EIGHT different surface forms depending on what noun it modifies.",
+        "Think of the adjective as a shadow that mirrors its noun exactly. Whatever form the noun takes, the adjective takes a parallel form from its own class paradigm.",
+        "THE TWO POSITIONS: Adjectives appear in two positions in Pashto sentences —",
+        "ATTRIBUTIVE (before the noun): نوی شاګرد [naway shāgerd] — 'a new student' → adjective precedes and agrees with the noun.",
+        "PREDICATIVE (after the copula): شاګرد نوی دی [shāgerd naway da] — 'The student is new' → adjective follows the verb and still agrees with the subject noun.",
+        "OBLIQUE POSITION (inside a prepositional phrase): پهـ نوي کور کې [pa nawi kor ke] — 'in the new house' → the noun کور [kor] is in oblique case (object of پهـ...کې), so the adjective نوی [naway] → نوي [nawi] also takes oblique form.",
+        "This oblique agreement is a critical preview of the full case system you will encounter in Lesson 13."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 2 — The Five Adjective Classes",
+      "lines": [
+        "Pashto adjectives fall into five regular classes plus irregular forms. The class determines what endings the adjective takes for each gender/number/case combination. Master these five paradigms and you can inflect the vast majority of Pashto adjectives.",
+        "CLASS 1 — The most common class. Masculine forms are the same in all positions EXCEPT oblique plural. Feminine forms follow F1 noun endings.",
+        "Example: جوړ [joṛ] 'well / healthy'",
+        "M DSg: جوړ [joṛ] ◆ M DPl: جوړ [joṛ] ◆ M OSg: جوړ [joṛ] ◆ M OPl: جوړو [joṛo]",
+        "F DSg: جوړه [joṛa] ◆ F DPl: جوړې [joṛe] ◆ F OSg: جوړې [joṛe] ◆ F OPl: جوړو [joṛo]",
+        "Class 1 adjectives: جوړ [joṛ] 'well/healthy' ◆ سوړ [soṛ] 'cold' ◆ سپين [spin] 'white' ◆ تور [tor] 'black' ◆ سور [sur] 'red' ◆ زرد [zard] 'yellow' ◆ شين [shin] 'green/blue' ◆ اوچت [ucat] 'tall' ◆ زوړ [zoṛ] 'old (thing)' ◆ لوڅ [luts] 'bare/naked' ◆ ناروغ [nārogh] 'sick/ill' ◆ کلن [kalan] 'yearly/annual' ◆ ښه [xa] 'good' (irregular spelling but Class 1 endings)",
+        "CLASS 2 — Masculine forms follow M3 noun endings (-ای → -ي → -ي → -و). Feminine forms follow F1 endings.",
+        "Example: نوی [naway] 'new'",
+        "M DSg: نوی [naway] ◆ M DPl: نوي [nawi] ◆ M OSg: نوي [nawi] ◆ M OPl: نوو [nawo]",
+        "F DSg: نوې [nawe] ◆ F DPl: نوې [nawe] ◆ F OSg: نوې [nawe] ◆ F OPl: نوو [nawo]",
+        "Class 2 adjectives: نوی [naway] 'new' ◆ کوچنی [kucnay] 'small/little' ◆ ليونی [lewanay] 'crazy' ◆ وږی [wegay] 'hungry' ◆ تږی [tegay] 'thirsty' ◆ خوبناک [xobāwsay] 'sleepy' ◆ خپه [xapa] 'sad' (Class 4)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Adjective Classes 3, 4, and 5",
+      "lines": [
+        "CLASS 3 — Masculine DSg ends in [-a]. All masculine forms except OPl are the same. Feminine follows F1.",
+        "Example: ښه [xa] 'good' (Class 3 pattern — note: all M forms use [-a] or bare form)",
+        "M DSg: ښه [xa] ◆ M DPl: ښه [xa] ◆ M OSg: ښه [xa] ◆ M OPl: ښو [xo]",
+        "F DSg: ښه [xa] ◆ F DPl: ښې [xe] ◆ F OSg: ښې [xe] ◆ F OPl: ښو [xo]",
+        "Class 3 adjectives: ښه [xa] 'good' ◆ بد [bad] 'bad' ◆ خراب [xarāb] 'bad/broken' ◆ مشهور [mashhur] 'famous' — note these use [-a] for feminine DSg",
+        "CLASS 4 — ALL FORMS ARE IDENTICAL — the most learner-friendly class. The adjective never changes regardless of gender, number, or case.",
+        "Example: ښايسته [xāysta] 'beautiful/good-looking'",
+        "ALL FORMS: ښايسته [xāysta] — the same in every position.",
+        "Class 4 adjectives: ښايسته [xāysta] 'beautiful' ◆ منتظر [muntazir] 'waiting' ◆ ماریض [māriz] 'sick' ◆ خاص [xās] 'special' ◆ مصروف [masruf] 'busy' ◆ ننګيالی [nangayālay] 'brave' — borrowings from Arabic/Persian typically fall here",
+        "CLASS 5 — Masculine DSg ends in [-or] or [-ar]. The [-o-] or [-a-] vowel shifts: masculine oblique and all feminine forms replace it with [-a-].",
+        "Example: سوړ [soṛ] 'cold'",
+        "M DSg: سوړ [soṛ] ◆ M DPl: سوړه [soṛa] ◆ M OSg: سوړ [soṛ] ◆ M OPl: سوړه [soṛa]",
+        "F DSg: سړه [sara] ◆ F DPl: سړه [sara] ◆ F OSg: سړه [sara] ◆ F OPl: سړو [saro]",
+        "Class 5 adjectives: سوړ/سړ [soṛ/sar] 'cold' ◆ توده/تود [toda/tod] 'hot/warm' (irregular — see below)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Irregular Adjectives — Memorise These Paradigms",
+      "lines": [
+        "Several high-frequency adjectives do not fit neatly into any class. They must be memorised as complete paradigms.",
+        "تود [tod] 'HOT / WARM' (irregular — [o] → [aw] alternation):",
+        "M DSg: تود [tod] ◆ M DPl/OSg: تاوده [tāwda] ◆ M OPl: تاوده [tāwda]",
+        "F DSg: تاوده [tāwda] ◆ F DPl/OSg: تاوده [tāwda] ◆ F OPl: تاودو [tāwdo]",
+        "نارم [nāram] 'PLEASANT / MILD' (irregular — stem change in feminine):",
+        "M DSg/DPl/OSg: نارم [nāram] ◆ M OPl: نارمو [nāramo]",
+        "F DSg: نارمه [nārama] ◆ F DPl/OSg: نارمې [nārame] ◆ F OPl: نارمو [nāramo]",
+        "خوږ [xwag] 'SWEET' (irregular — [ā] vowel in oblique forms):",
+        "M DSg: خوږ [xwag] ◆ M DPl/OSg: خواږه [xwāga] ◆ M OPl: خواږو [xwāgo]",
+        "F DSg: خوږه [xwaga] ◆ F DPl/OSg: خوږې [xwage] ◆ F OPl: خوږو [xwago]",
+        "لمده [lamda] 'WET' (irregular — feminine base form differs):",
+        "M DSg: لمد [lamd] ◆ M DPl/OSg: لمده [lamda] ◆ M OPl: لمدو [lamdo]",
+        "F DSg: لمده [lamda] ◆ F DPl/OSg: لمدې [lamde] ◆ F OPl: لمدو [lamdo]",
+        "ستر [ster] 'BIG / GREAT' (suppletive — plural uses a completely different stem):",
+        "M DSg: ستر [ster] ◆ M DPl: سترن [stern] (← DIFFERENT STEM!) ◆ M OSg: ستر [ster] ◆ M OPl: سترنو [sterno]",
+        "F DSg: سترې [stere] ◆ F DPl: سترنې [sterne] ◆ F OSg: سترې [stere] ◆ F OPl: سترنو [sterno]",
+        "MEMORY NOTE on ستر [ster]: The suppletive plural سترن [stern] has no relation to the singular ستر [ster] — they come from different historical roots. This is one of the truly unpredictable forms in Pashto morphology. Memorise both forms together as a pair: ستر / سترن [ster / stern]."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ The 4-Cell Agreement Grid — Your Reference Framework",
+      "lines": [
+        "Every Pashto adjective inflects across a 4-cell DIRECT grid and a 4-cell OBLIQUE grid. For practical use, memorise the four DIRECT forms first (these appear in attributive and predicative positions), then learn the oblique forms (needed inside prepositional phrases).",
+        "THE 4 DIRECT FORMS — which form of the adjective do you use?",
+        "→ Modifying a MASCULINE SINGULAR noun (direct case): use M DSg form. Example: نوی کور [naway kor] 'a new house'",
+        "→ Modifying a MASCULINE PLURAL noun (direct case): use M DPl form. Example: نوي کورونه [nawi korunā] 'new houses'",
+        "→ Modifying a FEMININE SINGULAR noun (direct case): use F DSg form. Example: نوې ليلیه [nawe layliyā] 'a new dormitory'",
+        "→ Modifying a FEMININE PLURAL noun (direct case): use F DPl form. Example: نوې ليلیې [nawe layliye] 'new dormitories'",
+        "THE OBLIQUE SHIFT — when the noun is inside a prepositional phrase:",
+        "→ پهـ نوي کور کې [pa nawi kor ke] — 'in the new house' — کور [kor] (M OSg) triggers نوي [nawi] (M OSg of نوی)",
+        "→ پهـ نوي ليلیه کې [pa nawe layliyā ke] — 'in the new dorm' — ليلیه [layliyā] (F OSg) triggers نوې [nawe] (F OSg of نوی)",
+        "SHORTCUT: For Class 2 adjectives like نوی [naway], the M OSg and F DSg/DPl/OSg forms are all -ې [e] or -ي [i] endings. For Class 1 adjectives like جوړ [joṛ], the masculine forms do NOT change at all (except OPl). So the masculine oblique of Class 1 = the masculine direct!"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — Colour Vocabulary & Agreement Drill (رنګونه)",
+      "lines": [
+        "Colours are among the most frequently used adjectives — and all follow Class 1 (except شين [shin] which also follows Class 1). Master colours first to build agreement fluency.",
+        "سپين [spin] 'WHITE' — Class 1:",
+        "M DSg: سپين [spin] ◆ F DSg: سپينه [spina] ◆ M/F DPl: سپين / سپينې [spin / spine] ◆ F OSg: سپينې [spine]",
+        "تور [tor] 'BLACK' — Class 1:",
+        "M DSg: تور [tor] ◆ F DSg: توره [tora] ◆ F DPl/OSg: تورې [tore]",
+        "سور [sur] 'RED' — Class 1:",
+        "M DSg: سور [sur] ◆ F DSg: سوره [sura] ◆ F DPl/OSg: سورې [sure]",
+        "زرد [zard] 'YELLOW' — Class 1:",
+        "M DSg: زرد [zard] ◆ F DSg: زرده [zarda] ◆ F DPl/OSg: زردې [zarde]",
+        "شين [shin] 'GREEN / BLUE' — Class 1 (one word covers both green and blue!):",
+        "M DSg: شين [shin] ◆ F DSg: شنه [shna] ◆ F DPl/OSg: شنې [shne]",
+        "ATTRIBUTION DRILLS (Script only — check your agreement):",
+        "سپين کور — 'white house' (M DSg) ◆ سپينه ليلیه — 'white dormitory' (F DSg)",
+        "توره شپه — 'black night' (F DSg) ◆ سور کتاب — 'red book' (M DSg)",
+        "شين چای — 'green tea' (M DSg) ◆ شنه مزدکه — 'green soil/field' (F DSg)",
+        "PREDICATION DRILLS (adjective after copula — still agrees with subject):",
+        "کور سپين دی. — 'The house is white.' (M DSg subject → M DSg adjective سپين)",
+        "ليلیه سپينه ده. — 'The dormitory is white.' (F DSg subject → F DSg adjective سپينه)",
+        "کورونه سپين دي. — 'The houses are white.' (M DPl subject → M DPl adjective سپين)",
+        "OBLIQUE DRILLS (inside prepositional phrase):",
+        "پهـ سپين کور کې — 'in the white house' (M OSg: سپين stays same — Class 1!)",
+        "پهـ سپينې ليلیه کې — 'in the white dormitory' (F OSg: سپينه → سپينې)"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🌈 Cultural Insight: Colour Symbolism in Pashtun Culture",
+      "lines": [
+        "Colours carry deep symbolic weight in Pashtun culture — knowing these associations will help you understand poetry, conversation, and traditional settings far beyond their literal meanings.",
+        "سپين [spin] 'WHITE' — symbolises PURITY, PEACE, and GOODNESS. سپين زړه [spin zṛa] 'white heart' means 'pure heart / sincere person'. The white flag (سپينه بيرغه [spina bayraga]) traditionally signals truce or surrender.",
+        "تور [tor] 'BLACK' — symbolises MOURNING, GRIEF, and ENMITY. توره ورځ [tora wradz] 'black day' means 'terrible day'. تور مخ [tor makh] 'black face' is a serious insult meaning 'shameful person'. Use with caution.",
+        "شين [shin] 'GREEN / BLUE' — ISLAMIC SIGNIFICANCE. Green is the colour of Islam and Paradise; it appears on the Afghan flag. شين [shin] covers both green and blue in Pashto — context distinguishes them, or more specific terms are used.",
+        "سور [sur] 'RED' — associated with BLOOD, LIFE, and CELEBRATION. Red is a wedding colour in many Pashtun traditions.",
+        "زرد [zard] 'YELLOW' — can carry negative connotations of ILLNESS or COWARDICE in certain idiomatic expressions, though it is also simply 'yellow' as a neutral descriptor.",
+        "IMPORTANT: Physical descriptions of people must follow gender norms. Commenting on a person's appearance is socially normal in Pashtun contexts, but male speakers should exercise care when describing women in mixed company. The adjective ښايسته [xāysta] 'beautiful' (Class 4 — invariable) is the most neutral descriptor."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "SEASONS (all M3 class — direct singular ends in -ی [-ay]):",
+        "بهار / پسرلی [pasarlay] — spring (M3 class) [pasarlay]",
+        "اوړی [oṛay] — summer (M3 class) [oṛay]",
+        "منی [manay] — autumn / fall (M3 class) [manay]",
+        "ژمی [žəmay] — winter (M3 class) [žəmay]",
+        "WEATHER NOUNS:",
+        "هوا [hawā] — weather / air (F3 class) [hawā]",
+        "واوره [wāwra] — snow (F3 class) [wāwra]",
+        "باران [bārān] — rain (M2 class) [bārān]",
+        "باد [bād] — wind (M2 class) [bād]",
+        "CALENDAR / TIME NOUNS:",
+        "کال [kāl] — year (M2 class) [kāl]",
+        "موسم [mosam] — season (M2 class) [mosam]",
+        "نوروز [nawroz] — New Year (Afghan Solar New Year, March 21) (M2 class) [nawroz]",
+        "ورځ [wradz] — day (F1 irregular) [wradz]",
+        "مياشت [myāsht] — month (F1 irregular) [myāsht]",
+        "رخصتي [rukhsati] — holiday (F1 irregular) [rukhsati]",
+        "NATURE NOUNS:",
+        "ګل [gul] — flower (M1 class) [gul]",
+        "فصل [fasal] — crop / harvest (M2 class) [fasal]",
+        "هيواد [hiwād] — country / homeland (M2 class) [hiwād]",
+        "ADJECTIVES (new this lesson):",
+        "سخت [saxt] — heavy / hard / very (Class 1 or intensifier) [saxt]",
+        "خوږ [xwag] — sweet (irregular — see paradigm above) [xwag]",
+        "نور [nor] — other (Class 1) [nor]",
+        "ارام [ārām] — public / open / calm (Class 1) [ārām]",
+        "ټيک [ṭik] — some / a certain (Class 4) [ṭik]",
+        "هر [har] — every / each [har]",
+        "حتی [hata] — even [hata]",
+        "VERBS (new this lesson):",
+        "ورېدل [woreḍəl] — to fall (snow or rain); stem: وره- [wore-] [woreḍəl]",
+        "بنديدل [bandeḍəl] — to become blocked; stem: بنده- [bande-] [bandeḍəl]",
+        "پخيدل [paxeḍəl] — to ripen; stem: پخه- [paxe-] [paxeḍəl]",
+        "ADVERBS & PHRASES:",
+        "معمولاً [māmulan] — usually [māmulan] ◆ ډير [der] — very (also: many) ◆ نن [nan] — today [nan] ◆ اکثراً [aksaran] — often [aksaran] ◆ دومره [domra] — so much / so many [domra] ◆ له...پرته [la...prata] — without ◆ X ته Y وايي [X ta Y wāyi] — X is called Y (lit. 'they say Y for X')",
+        "USEFUL CLASSROOM PHRASE — Asking for vocabulary:",
+        "پهـ پښتو کې سلام ته څه وايي؟ [pa paxto ke salām ta tse wāyi?] — 'What do they say for 'hello' in Pashto?' (lit. 'In Pashto, what do they say for 'hello'?')",
+        "دا ته پښتو کې څه وايي؟ [da ta paxto ke tse wāyi?] — 'What is the Pashto word for this?' (pointing to nearby object)",
+        "هغه شی څه دی؟ [hagha shay tse da?] — 'What is that thing?' (pointing to distant object)"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — Attributive vs. Predicative vs. Oblique: The Three Positions",
+      "lines": [
+        "The agreement rule is the same in all three positions — but the sentences look different. Master all three to produce and recognise adjective agreement correctly.",
+        "POSITION 1 — ATTRIBUTIVE (adjective PRECEDES the noun it modifies, inside a noun phrase):",
+        "نوی شاګرد [naway shāgerd] — 'a new student' (M DSg: نوی agrees with شاګرد M DSg)",
+        "نوې شاګرده [nawe shāgərda] — 'a new (female) student' (F DSg: نوې agrees with شاګرده F DSg)",
+        "نوي شاګردان [nawi shāgerdān] — 'new students (M)' (M DPl: نوي agrees with شاګردان M DPl)",
+        "نوې شاګردې [nawe shāgərde] — 'new students (F)' (F DPl: نوې agrees with شاګردې F DPl)",
+        "POSITION 2 — PREDICATIVE (adjective follows the copula — it describes the SUBJECT, which may be distant in the sentence):",
+        "شاګرد نوی دی. [shāgerd naway da.] — 'The student is new.' (Subject شاګرد is M DSg → adjective نوی M DSg)",
+        "شاګرده نوې ده. [shāgərda nawe da.] — 'The (female) student is new.' (Subject شاګرده is F DSg → adjective نوې F DSg)",
+        "هوا ډيره سړه ده. [hawā dera sara da.] — 'The weather is very cold.' (هوا is F → سړه is F DSg of Class 5 سوړ [soṛ])",
+        "POSITION 3 — OBLIQUE inside پهـ...کې [pa...ke] (adjective agrees with noun in OBLIQUE case):",
+        "پهـ نوي کور کې [pa nawi kor ke] — 'in the new house' (کور M OSg → نوی → نوي M OSg)",
+        "پهـ نوې ليلیه کې [pa nawe layliyā ke] — 'in the new dorm' (ليلیه F OSg → نوی → نوې F OSg)",
+        "پهـ سپين کور کې [pa spin kor ke] — 'in the white house' (Class 1: سپين M OSg = same as DSg — NO change!)",
+        "پهـ سپينې ليلیه کې [pa spine layliyā ke] — 'in the white dorm' (Class 1 F: سپينه DSg → سپينې OSg — vowel shortens)",
+        "KEY CONTRAST — Class 1 vs. Class 2 in oblique:",
+        "Class 1 masculine OSg = same as DSg: سپين کور (direct) → پهـ سپين کور کې (oblique) ← NO CHANGE",
+        "Class 2 masculine OSg changes: نوی کور (direct) → پهـ نوي کور کې (oblique) ← -ای → -ي"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "💡 Agreement Shortcut: The Feminine Suffix Map",
+      "lines": [
+        "For Class 1 adjectives (the largest and most common class), the feminine forms follow a highly predictable pattern — almost identical to F1 noun endings:",
+        "F DSg: add -ه [a] to the masculine base → سپين + ه = سپينه [spina]",
+        "F DPl: change -ه [a] to -ې [e] → سپينه → سپينې [spine]",
+        "F OSg: same as F DPl → سپينې [spine]",
+        "F OPl: change -ه [a] to -و [o] → سپينو [spino]",
+        "PHONOLOGICAL ALERT: The vowel distinction between -ه [a] (short) and -ا [ā] (long) in agreement suffixes is PHONEMICALLY CONTRASTIVE. سپينه [spina] (F DSg adjective) vs. سپينا [spinā] (would indicate a different word entirely). Train your ear to hear this length distinction on audio — it is not merely orthographic.",
+        "For Class 2 adjectives, the feminine forms use -ې [e] throughout the direct case (DSg, DPl, OSg all use -ې [e]). Only OPl uses -و [o]: نوې [nawe] (F DSg/DPl/OSg) → نوو [nawo] (F OPl).",
+        "MEMORY TRICK: 'Feminine adjectives like e's and o's' — the F forms consistently use -ه/-ې/-و endings. The masculine Class 1 forms mostly look the same as the bare stem."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Reading: د افغانستان موسمونه (The Seasons of Afghanistan)",
+      "lines": [
+        "This reading is in Pashto script only. Topic: Afghan seasons and the Nawruz New Year celebration. The passage is rich in adjective usage — identify each adjective and confirm its agreement with the noun it modifies.",
+        "افغانستان يو ښکلی هيواد دی. هر موسم يې بيل رنګ لري.",
+        "بهار ډير ښه موسم دی. هوا نارمه وي. ګلونه پرانيزي. د افغانستان خلک نوروز ولمانځي.",
+        "نوروز د بهار لومړۍ ورځ ده. هغه ورځ ډيره مهمه ده.",
+        "اوړی ډير تود وي. ګرمي ډيره سختي وي. ميوه پخيږي.",
+        "منی ډير ښه وي. هوا نارمه او خوږه وي. فصلونه ډير ښه دي.",
+        "ژمی سخت سوړ وي. واوره ډيره ورېږي. لارې بندې شي.",
+        "READING GLOSSARY:",
+        "ښکلی [xkəlay] — beautiful (Class 2 adjective, M DSg) ◆ بيل [bel] — separate / different (Class 1) ◆ رنګ [rang] — colour (M2 class) ◆ پرانيزي [pranizi] — (they/flowers) open (3pl present imperfective) ◆ ولمانځي [wolmāndzi] — celebrate (3pl present perfective) ◆ لومړۍ [lomṛay] — first (ordinal, F DSg because agrees with ورځ which is F) ◆ مهمه [mahama] — important (Class 1, F DSg) ◆ ګرمي [garmi] — heat (F1 class) ◆ سختي [saxti] — hardship/intensity ◆ ميوه پخيږي [mewa paxegi] — fruit ripens (3sg F present imperfective)",
+        "COMPREHENSION QUESTIONS — answer in Pashto script:",
+        "① د افغانستان بهار ددی دی؟ — What is Afghan spring like?",
+        "② نوروز د کوم موسم لومړۍ ورځ ده؟ — Nawruz is the first day of which season?",
+        "③ پهـ ژمي کې هوا ددی وي؟ — What is the weather like in winter?"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🌸 Cultural Spotlight: نوروز — Afghan New Year",
+      "lines": [
+        "نوروز [nawroz] — literally 'New Day' — is the Afghan Solar New Year, celebrated on March 21 (the spring equinox). It is the most significant national holiday in Afghanistan, pre-dating Islam by thousands of years and rooted in Zoroastrian / ancient Iranian tradition.",
+        "Nawruz marks the first day of the Solar Hijri calendar month of حمل [hamal] (Aries), which you will study fully in Lesson 14. The holiday is observed across Afghanistan, Iran, Central Asia, and the broader Persian cultural sphere.",
+        "CELEBRATIONS: Traditional Nawruz practices include بهاري سیر [bahāri ser] (spring picnics/excursions), بوزکشي [buzkashi] (the traditional Afghan horse sport), and family gatherings. In Kabul, the Nawruz flag-raising at Mazar-e-Sharif's Blue Mosque is a nationally televised event.",
+        "GRAMMAR CONNECTION: د بهار لومړۍ ورځ [da bahār lomṛay wradz] — 'the first day of spring' — the ordinal adjective لومړۍ [lomṛay] is feminine because ورځ [wradz] 'day' is a feminine irregular noun. This is adjective agreement in action: even ordinal numbers must agree with the noun they modify.",
+        "NOTE: Nawruz is celebrated by all ethnic groups in Afghanistan — Pashtun, Tajik, Hazara, Uzbek — making it a genuinely national cultural touchstone rather than an ethnic-specific holiday."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — Asking for Vocabulary (د ټکو غوښتل)",
+      "lines": [
+        "This section gives you essential classroom survival phrases for expanding your Pashto vocabulary organically through conversation.",
+        "TO ASK WHAT SOMETHING IS CALLED IN PASHTO:",
+        "پهـ پښتو کې [word/concept] ته څه وايي؟ [pa paxto ke [word] ta tse wāyi?] — 'What do they say in Pashto for [word]?'",
+        "Example: پهـ پښتو کې 'سلام' ته څه وايي؟ — 'What do they say in Pashto for 'hello'?'",
+        "Answer pattern: [پښتو word] وايي. [... wāyi.] — 'They say [...].'  or  دا ته ... وايي. [da ta ... wāyi.] — 'For this they say ...'",
+        "TO POINT AT A NEARBY OBJECT AND ASK:",
+        "دا ته پښتو کې څه وايي؟ [da ta paxto ke tse wāyi?] — 'What is the Pashto word for this?' (proximal دا [da] = this, nearby)",
+        "TO POINT AT A DISTANT OBJECT AND ASK:",
+        "هغه شی څه دی؟ [hagha shay tse da?] — 'What is that thing?' (distal هغه [hagha] = that, far away)",
+        "TO ASK THE MEANING OF A PASHTO WORD:",
+        "دا ... تسه ماناؤ؟ [da ... tse māna?] — 'What does ... mean?'",
+        "Answer: دا تسه... [da tse ...] — 'It means...'",
+        "EXAMPLE: دا 'نوروز' تسه ماناؤ؟ — 'What does 'Nawroz' mean?' → د بهار لومړۍ ورځ ته نوروز وايي. — 'The first day of spring is called Nawroz.'",
+        "GRAMMAR NOTE: The verb وايي [wāyi] 'they say' is the 3rd person plural present imperfective of ويل [wayəl] 'to say'. In this vocabulary-asking construction, the impersonal 3rd plural is used — equivalent to the English impersonal 'one says' or 'they call it'. This construction will become increasingly important as you encounter more authentic Pashto."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 8 — Diversion: پښتو شعر — Mountain Couplet (د غرونو شعر)",
+      "lines": [
+        "پهـ لوړو غرو د خدای نظر دی.",
+        "پهـ سر يې واوره وروي، پهـ لمن کې ګلونه.",
+        "[pa loṛo gharo da xudāy nazar da.",
+        "pa sar ye wāwra worawi, pa lamən ke guluna.]",
+        "Translation: 'The high mountains are under God's watchful care. At their summit He causes snow to fall; at their foot, flowers.'",
+        "WORD-FOR-WORD GLOSS:",
+        "پهـ لوړو غرو [pa loṛo gharo] — 'in/on the high mountains' (oblique phrase!) ◆ لوړو [loṛo] — high (Class 1, M OPl — agreeing with غرو [gharo] M OPl) ◆ غرو [gharo] — mountains (M OPl oblique plural of غر [ghar]) ◆ د خدای [da xudāy] — of God ◆ نظر [nazar] — gaze / watchful care / blessing (M2) ◆ پهـ سر يې [pa sar ye] — 'at their summit' (يې = weak possessive clitic) ◆ واوره وروي [wāwra worawi] — causes snow to fall ◆ پهـ لمن کې [pa lamən ke] — 'at the foot (of the mountain)' ◆ لمن [lamən] — skirt/foot (of mountain) ◆ ګلونه [gulune] — flowers (M2 DPl)",
+        "ADJECTIVE GRAMMAR IN THE POEM: پهـ لوړو غرو — the oblique plural phrase is a perfect showcase of agreement in action. لوړ [loṛ] 'high' is a Class 1 adjective. The noun غر [ghar] 'mountain' is masculine. In the oblique plural: غرو [gharo] (M OPl) → لوړو [loṛo] (Class 1 M OPl — the -و [-o] ending, the only changed form for masculine Class 1). This single phrase demonstrates the full oblique agreement system.",
+        "CULTURAL COMMENTARY: Afghan poetry frequently uses mountain imagery as a symbol of the homeland, spiritual elevation, and endurance. The Hindu Kush range — whose peaks exceed 7,000 metres — is both physical reality and national symbol for Afghans. Snow at the summit / flowers at the foot is a classic image of divine order and seasonal cycle. The phrase د خدای نظر دی [da xudāy nazar da] — 'it is under God's gaze/care' — reflects the Islamic concept of divine providence woven into everyday Pashtun speech."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 5 before attempting the quiz:",
+        "✓ Pashto adjectives agree with the noun they modify in GENDER, NUMBER, and CASE — three dimensions simultaneously.",
+        "✓ Class 1 (e.g., جوړ [joṛ], سپين [spin]): M forms unchanged except M OPl adds -و [-o]. F forms: -ه [a] DSg, -ې [e] DPl/OSg, -و [o] OPl.",
+        "✓ Class 2 (e.g., نوی [naway]): M DSg -ای [-ay], M DPl/OSg -ي [-i]. F DSg/DPl/OSg -ې [e], all OPl -و [o].",
+        "✓ Class 4 (e.g., ښايسته [xāysta], منتظر [muntazir]): ALL FORMS IDENTICAL — never changes.",
+        "✓ Class 5 (e.g., سوړ [soṛ]): M forms vary in vowel; F forms use -ه/-ه/-ه/-و pattern.",
+        "✓ Irregular: تود [tod] → تاوده [tāwda] (F); ستر [ster] → سترن [stern] (suppletive plural).",
+        "✓ Attributive = before noun. Predicative = after copula. Both follow same agreement rules.",
+        "✓ Oblique position = inside prepositional phrase. Noun AND adjective both take oblique form.",
+        "✓ Class 1 masculine oblique = same as direct (no change!). Class 2 masculine oblique -ای → -ي.",
+        "✓ Colour symbolism: سپين = purity, تور = mourning, شين = Islam/nature, سور = life/celebration.",
+        "✓ Vocabulary question: پهـ پښتو کې ... ته څه وايي؟ [pa paxto ke ... ta tse wāyi?]"
+      ]
     },
     {
       "type": "quiz",
-      "question": "What happens to a Class I adjective when the noun it modifies is placed inside a prepositional phrase (e.g., using [pa ... ke])?",
+      "question": "What are the three grammatical dimensions Pashto adjectives must agree with?",
       "options": [
-        "It moves to the end of the sentence to follow the verb.",
-        "It stays exactly the same, as adjectives do not change.",
-        "It must inflect to match the noun's oblique case.",
-        "It transforms into a Class II invariable adjective."
+        "Tense, aspect, and mood — matching the verb in the sentence.",
+        "Gender, number, and case — matching the noun they modify.",
+        "Person, number, and gender — matching the subject of the sentence.",
+        "Case, definiteness, and animacy — matching the noun class."
       ],
-      "correctIndex": 2,
-      "explanation": "When a noun is governed by a preposition and enters the oblique case, the Class I adjective modifying it must also inflect to agree with that oblique case[cite: 30]."
+      "correctIndex": 1,
+      "explanation": "Pashto adjectives agree with the noun they modify in three dimensions simultaneously: (1) GENDER — masculine or feminine, (2) NUMBER — singular or plural, and (3) CASE — direct or oblique. This means a single adjective like نوی [naway] 'new' can take up to eight different surface forms (4 direct + 4 oblique cells). This is unlike English where adjectives never change form, and unlike many languages where adjectives only agree in one or two dimensions."
     },
     {
       "type": "quiz",
-      "question": "In Pashtun cultural symbolism, what does the color 'tor' (تور - black) typically represent?",
+      "question": "Which adjective class has ALL FORMS IDENTICAL — the adjective never changes regardless of gender, number, or case?",
       "options": [
-        "Purity and peace.",
-        "Wealth and agricultural success.",
-        "Mourning or enmity.",
-        "Islamic significance and life."
+        "Class 1 — because masculine forms are always the same.",
+        "Class 2 — because the -ای [-ay] ending is invariable.",
+        "Class 4 — adjectives like ښايسته [xāysta] and منتظر [muntazir] are completely invariable.",
+        "Class 5 — because only the feminine oblique plural changes."
       ],
       "correctIndex": 2,
-      "explanation": "In Pashtun culture, black ([tor]) is historically associated with mourning or enmity, whereas white ([spin]) represents purity and peace[cite: 30]."
+      "explanation": "Class 4 adjectives are completely invariable — the same form is used for all genders, numbers, and cases. Examples include ښايسته [xāysta] 'beautiful', منتظر [muntazir] 'waiting', ماریض [māriz] 'sick', and خاص [xās] 'special'. Most borrowed adjectives from Arabic or Persian fall into this class. This is a welcome relief after learning the complex paradigms of Classes 1 and 2! Class 1 masculine forms are mostly unchanged, but the feminine and oblique plural forms do change."
+    },
+    {
+      "type": "quiz",
+      "question": "The sentence is: پهـ سپينه ليلیه کې — 'in the white dormitory'. What form of سپين [spin] 'white' is used and why?",
+      "options": [
+        "سپين [spin] — masculine direct singular, because سپين is always masculine.",
+        "سپينه [spina] — masculine direct singular, because the adjective doesn't change inside prepositional phrases.",
+        "سپينې [spine] — feminine oblique singular, because ليلیه [layliyā] is feminine and is in the oblique case as the object of پهـ...کې.",
+        "سپينو [spino] — feminine oblique plural, because prepositional phrases always take plural oblique forms."
+      ],
+      "correctIndex": 2,
+      "explanation": "پهـ سپينې ليلیه کې [pa spine layliyā ke] — 'in the white dormitory.' ليلیه [layliyā] is an F1 feminine noun. Inside the circumposition پهـ...کې, the noun takes OBLIQUE SINGULAR (OSg) case. Therefore the adjective سپين must take its F OSg form: سپين (M DSg) → سپينه (F DSg) → سپينې (F OSg). Note that for Class 1 masculine nouns, the oblique form is the same as the direct: پهـ سپين کور کې [pa spin kor ke] 'in the white house' — no change to سپين because کور is masculine and Class 1 M OSg = M DSg."
+    },
+    {
+      "type": "quiz",
+      "question": "How does هوا ډيره سړه ده [hawā dera sara da] demonstrate adjective agreement?",
+      "options": [
+        "هوا [hawā] is masculine, so both adjectives take masculine Class 1 forms.",
+        "هوا [hawā] is F3 feminine, so ډير [der] becomes ډيره [dera] and سوړ [soṛ] becomes سړه [sara] — both take feminine direct singular forms.",
+        "The adjectives agree with the verb ده [da] rather than the noun هوا [hawā].",
+        "There is no agreement here — ډيره and سړه are irregular uninflected intensifiers."
+      ],
+      "correctIndex": 1,
+      "explanation": "هوا [hawā] 'weather' is a feminine F3 noun. In the predicative sentence هوا ډيره سړه ده — 'The weather is very cold' — both adjectives must agree with the SUBJECT هوا in gender (feminine) and case (direct singular). ډير [der] 'very/many' is a Class 1 adjective: its F DSg form is ډيره [dera]. سوړ [soṛ] 'cold' is a Class 5 adjective: its F DSg form is سړه [sara] (the vowel shifts from [o] to [a]). Both adjectives independently agree with هوا — this is the predicate agreement rule in action."
+    },
+    {
+      "type": "quiz",
+      "question": "The irregular adjective ستر [ster] 'big/great' has a suppletive plural. What does 'suppletive' mean here?",
+      "options": [
+        "The plural is formed by adding a regular suffix -ان [-ān] to the singular: ستران [sterān].",
+        "The plural uses a completely different stem سترن [stern] that is historically unrelated to the singular ستر [ster].",
+        "The plural is identical to the singular — Class 4 pattern applies.",
+        "The plural is formed by doubling the final consonant: سترر [sterr]."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Suppletive' means the plural form uses a completely different stem from the singular — the forms come from different historical roots. ستر [ster] (singular 'big/great') and سترن [stern] (plural 'big/great') are historically unrelated words that have merged in meaning. This is the same phenomenon as English 'go / went' (not 'goed') or 'good / better' (not 'gooder'). In Pashto, suppletive adjective plurals are rare but must be memorised individually. The oblique plural is سترنو [sterno] — built on the plural stem سترن [stern]."
+    },
+    {
+      "type": "quiz",
+      "question": "In the poem پهـ لوړو غرو د خدای نظر دی — what grammatical form is لوړو [loṛo] and why?",
+      "options": [
+        "Masculine direct plural (M DPl) — because غر [ghar] 'mountain' is masculine and there are multiple mountains.",
+        "Masculine oblique plural (M OPl) — because غرو [gharo] is the oblique plural of غر [ghar] as the object of پهـ...کې, and the adjective لوړ must agree in case.",
+        "Feminine oblique singular (F OSg) — because the mountains are personified as feminine in the poem.",
+        "Class 4 invariable form — because all adjectives in poetry are invariable."
+      ],
+      "correctIndex": 1,
+      "explanation": "لوړو [loṛo] is the MASCULINE OBLIQUE PLURAL (M OPl) form of the Class 1 adjective لوړ [loṛ] 'high'. The phrase پهـ لوړو غرو [pa loṛo gharo] places the noun غر [ghar] 'mountain' inside the prepositional phrase پهـ...کې — making it oblique. غر [ghar] is masculine, and the plural oblique of M2 nouns takes -و [-o]: غرو [gharo]. The adjective لوړ [loṛ] must match this in all three dimensions: masculine ✓, plural ✓, oblique ✓ → M OPl form: لوړو [loṛo] (adding -و [-o] — the only change for Class 1 masculine adjectives). This single phrase is the entire oblique agreement system in miniature."
     }
   ]
 }
