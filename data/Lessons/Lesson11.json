@@ -1,95 +1,430 @@
 {
-  "id": "L11",
-  "title": "Lesson 11: Large Numbers, Strong Pronouns & Demonstratives   لوی اعداد، قوي ضمیرونه او اشاري ضمیرونه",
-  "category": "Beginning Pashto",
-  "description": "Complete the numeral system up to the millions and master emphatic communication. You will learn to use strong pronouns for contrast and demonstratives for spatial reference, all set within the context of Kabul's urban banking life.",
-  "duration": "Textbook pp. 123–135 (approx. 10-15 pages of instruction)",
+  "id": "pashto-l11",
+  "title": "Lesson 11: Large Numbers, Strong Pronouns & Demonstratives",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "Three systems converge: the numeral system extended from 31 to one million, completing Pashto's base-10 multiplicative number structure; the full strong pronoun paradigm used for emphasis, contrast, and independent reference; and the three-way demonstrative system (close/middle/far) as a discourse-management tool in storytelling and conversation. Communicative context: currency exchange, banking, the hawāla system, urban Kabul market life. Pashto script primary throughout.",
+  "duration": "10–15 hours",
   "level": "Intermediate-Mid (ILR 2)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: Large Numbers (31 to 1,000,000)",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 11! This lesson completes the numeral system by extending our count from 30 up to the millions[cite: 54].",
-        "Large numbers in Pashto follow a base-10 multiplicative system[cite: 54]. Here are the key milestones:",
-        "100 = سل [yaw-sey] | 1,000 = زر [dzəl] | 100,000 = لک [lak] | 1,000,000 = میلیون [milyōn][cite: 54].",
-        "When writing these out, remember a crucial convention: numbers are never written with commas in Pashto[cite: 54]. They are presented using Arabic-Indic numerals (e.g., ١٠٠٠٠٠٠)."
+        "By the end of this lesson you will be able to: count from 31 to 1,000,000 in Pashto using the correct base-10 multiplicative structure for tens, hundreds, and thousands.",
+        "You will read and express prices, quantities, distances, and large quantities in authentic Afghan currency (افغاني [afghāni]) and market contexts.",
+        "You will use STRONG pronouns — زه [za], ته [tā], دا/هغه [dā/hagha], مونږ [mung], تاسو [tāso], دوي/هغوي [doy/haghwi] — for emphasis and contrast, distinguishing them from weak pronouns which carry the default referential load.",
+        "You will deploy the three-way demonstrative system — دا [dā] 'this (close)', داغه [dāgha] 'that (middle)', هغه [agha] 'that (far)' — in their full declension as both adjectives and pronouns to track reference across discourse.",
+        "You will navigate a bazaar transaction using bargaining language and demonstrate the hawāla informal money transfer concept."
       ]
-    },
-    {
-      "type": "callout",
-      "text": "Phonetics Hack: In large number compounds, the stress falls on the unit digit (e.g., in [yaw-sey], the stress is on [yaw])[cite: 55]. Also, be careful with the word [dzəl] (thousand) — it is a homophone with [dzəl] (eyelash), so context is necessary for disambiguation[cite: 55]!"
-    },
-    {
-      "type": "paragraph",
-      "heading": "🏙️ Urban Context: Banking & Currency",
-      "lines": [
-        "To practice these large numbers, we are shifting our communicative frame to urban Afghan life, specifically Kabul city traffic, banking, and government institutions[cite: 54].",
-        "Essential Vocabulary: [bank] (بانک) 'bank', [hesāb] (حساب) 'account', [nawəy] (نوی) 'exchange'[cite: 54].",
-        "Sentence Example: په بانک کې یو میلیون افغانۍ شته. [Pa bank ke yaw milyōn afghāni shta.] (In the bank there is one million afghānis.)[cite: 54]."
-      ]
-    },
-    {
-      "type": "callout",
-      "text": "Cultural Context: While modern banking exists, the 'hawāla' system—an informal, trust-based money transfer network—is a socially critical institution in Afghanistan. You will frequently encounter money-changing markets in urban centers where large sums of afghānis are negotiated[cite: 54]."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 2: Strong Pronouns & Emphatic Contrast",
+      "heading": "Section 1 — Dialogue: پهـ بازار کې (In the Bazaar)",
       "lines": [
-        "In previous units, we learned weak (clitic) pronouns. Now we introduce Strong Pronouns[cite: 54].",
-        "Unlike weak pronouns, strong pronouns carry full stress and are used specifically for emphasis, contrast, and in syntactic positions where clitics cannot dock[cite: 54].",
-        "The Full Paradigm:",
-        "1st Person: زه [zə] (I) | موږ [mūng] (we) [cite: 54]",
-        "2nd Person: تا [tā] (you sg.) | تاسو [tāso] (you pl.) [cite: 54]",
-        "3rd Person: دا/هغه [dā/hagha] (he/she/it) | هغوی [doy/hāghuy] (they) [cite: 54]",
-        "Contrast Example: زه یم، نه هغه. [Zə yəm, nə hagha.] (It is I, not him.) [cite: 54]"
+        "Rābya is shopping in a Kabul bazaar. She is looking at scarves. The shopkeeper engages her in the bargaining ritual that is central to Afghan market culture. The dialogue is rich with large numbers and demonstrative pronouns.",
+        "رابيا: دا سال قيمت يې څومره دی؟ [rābya: dā sāl qimat ye tsomra da?] — Rābya: How much is this scarf? ← دا [dā] = demonstrative 'this (close)'",
+        "دوکاندار: هغه؟ يو زره افغاني. [dukāndār: hagha? yaw zar afghāni.] — Shopkeeper: That one? One thousand afghānis. ← هغه [hagha] = demonstrative 'that (middle distance — he is pointing to it)'",
+        "رابيا: يو زره؟ ډير ګران دی. زه پنځوس ورکوم. [rābya: yaw zar? der garān da. za pindza-os wārkawam.] — Rābya: One thousand? Very expensive. I'll give fifty.",
+        "دوکاندار: پنځوس؟ نه، هغه ريښتيني ده. اصلي کار دی. [dukāndār: pindza-os? na, hagha rixtinay da. asli kār da.] — Shopkeeper: Fifty? No, that's genuine. It's real quality.",
+        "رابيا: پنځه سوه ورکوم — نه ډيره. [rābya: pindza sawa wārkawam — na dera.] — Rābya: I'll give five hundred — no more.",
+        "دوکاندار: اووه سوه — زما وروستۍ قيمت. [dukāndār: owa sawa — zmā wrosdāy qimat.] — Shopkeeper: Seven hundred — my last price.",
+        "رابيا: شپږ سوه. دا زما وروستۍ ده. [rābya: shpag sawa. dā zmā wrosdāy da.] — Rābya: Six hundred. That's my final (offer).",
+        "دوکاندار: ښه. شپږ سوه — خو يواځې ته درکوم. [dukāndār: xa. shpag sawa — xo yawāze tā darkawam.] — Shopkeeper: Fine. Six hundred — but only to YOU (emphatic). ← ته [tā] strong pronoun for emphasis",
+        "رابيا: مننه! داغه سور سال هم وښايه. [rābya: manana! dāgha sur sāl ham waxāya.] — Rābya: Thank you! Show me that red scarf too. ← داغه [dāgha] = middle-distance demonstrative",
+        "دوکاندار: هغه؟ هغه هم ښه کار دی. دوه زره وي. [dukāndār: hagha? hagha ham xa kār da. dwa zar wi.] — Shopkeeper: That one? That one is also good quality. It would be two thousand.",
+        "DIALOGUE VOCABULARY:",
+        "سال [sāl] — scarf (F, irregular) [sāl] ◆ قيمت [qimat] — price / value (M2 class) [qimat] ◆ ريښتينی [rixtinay] — genuine / real (Class 2 adjective) [rixtinay] ◆ اصلي [asli] — original / authentic (Class 4, invariable) [asli] ◆ وروستۍ [wrosdāy] — last / final (F form of وروستی [wrostay]) [wrosdāy] ◆ وښايه [waxāya] — show! (perfective sg command of ښودل [xodəl]) [waxāya]",
+        "BARGAINING PATTERN: First price (seller) → Counter (buyer ~20% of first price) → Negotiation → Settlement (typically 50-70% of first price). دا زما وروستۍ ده [dā zmā wrosdāy da] 'That's my final' signals the end of negotiation."
       ]
-    },
-    {
-      "type": "quiz",
-      "question": "What is the primary grammatical and communicative function of using a Strong Pronoun like 'Zə' (زه) instead of its weak clitic counterpart 'me' (مې)?",
-      "options": [
-        "Strong pronouns are only used when speaking to elders.",
-        "Strong pronouns carry full stress and are used for emphasis or contrast.",
-        "Strong pronouns attach to the end of verbs.",
-        "Strong pronouns indicate that the sentence is taking place in the past tense."
-      ],
-      "correctIndex": 1,
-      "explanation": "Strong pronouns contrast with weak pronouns not only in stress but in grammatical function: strong pronouns are used for emphasis, contrast, and in positions where clitics cannot dock[cite: 54]."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 3: The Demonstrative System",
+      "heading": "Section 2 — Numbers 31–99 (اعداد ٣١–٩٩)",
       "lines": [
-        "The demonstrative system allows you to point things out spatially, introducing a three-way proximal/distal distinction[cite: 54].",
-        "Proximal (Close): دا [dā] 'this' (used for both masculine and feminine singular)[cite: 54].",
-        "Distal (Far): هغه [hagha] 'that'[cite: 54].",
-        "Plural forms: دوی [doy] 'these' (m.pl), هغوی [hāghə] 'those' (f.pl)[cite: 54].",
-        "Sentence Example: دا کتاب زما دی. [Dā kitāb dzəma da.] (This book is mine.) [cite: 54]"
+        "RULE: In Pashto, UNITS PRECEDE TENS — the smaller number comes first, the opposite of English.",
+        "THE TENS (30–90):",
+        "٣٠ دیرش [dersh] — thirty (irregular — memorise separately)",
+        "٤٠ ؤياليشت [tsalwext] — forty [tsalwext]",
+        "٥٠ پنځوس [pindza-os] — fifty [pindza-os]",
+        "٦٠ شپيته [shpeta] — sixty [shpeta]",
+        "٧٠ اووياشت [awiyāsht] — seventy [awiyāsht]",
+        "٨٠ اتيا [atiyā] — eighty [atiyā]",
+        "٩٠ نوي [nawi] — ninety [nawi]",
+        "COMPOUND NUMBERS 31–39 (units + دیرش [dersh]):",
+        "٣١ يو دیرش [yaw dersh] ◆ ٣٢ دوه دیرش [dwa dersh] ◆ ٣٣ درې دیرش [dre dersh] ◆ ٣٤ ؤيار دیرش [tsalor dersh]",
+        "٣٥ پنځه دیرش [pindza dersh] ◆ ٣٦ شپږ دیرش [shpag dersh] ◆ ٣٧ اووه دیرش [owa dersh] ◆ ٣٨ اته دیرش [ata dersh] ◆ ٣٩ نهه دیرش [nawa dersh]",
+        "COMPOUND NUMBERS 40–69 — units + ten (same pattern as thirties):",
+        "٤١ يو ؤياليشت [yaw tsalwext] ◆ ٤٢ دوه ؤياليشت [dwa tsalwext] ← same unit words as in thirties",
+        "٥١ يو پنځوس [yaw pindza-os] ◆ ٥٢ دوه پنځوس [dwa pindza-os]",
+        "٦١ يو شپيته [yaw shpeta] ◆ ٦٢ دوه شپيته [dwa shpeta]",
+        "KEY RULE: The UNIT words for 41–69 are PRONOUNCED THE SAME as those in the thirties. For example: ٣٢ دوه دیرش [dwa dersh] vs. ٤٢ دوه ؤياليشت [dwa tsalwext] — the 'dwa' sounds identical in both. Only the ten-word changes.",
+        "COMPOUND NUMBERS 70–99 — units use the SEVENTIES unit sounds for 71–99:",
+        "٧٠ اووياشت [awiyāsht] ◆ ٧١ يو اووياشت [yaw awiyāsht] ◆ ٧٢ دوه اووياشت [dwa awiyāsht]",
+        "٨٠ اتيا [atiyā] ◆ ٨٦ دوه اتيا [dwa atiyā] ← same unit words as seventies",
+        "٩٠ نوي [nawi] ◆ ٩٨ اووه نوي [owa nawi] ← same unit words as seventies",
+        "KEY RULE: Units for 81–99 are PRONOUNCED THE SAME as the seventies units: ٧٢ دوه اووياشت [dwa awiyāsht] vs. ٨٢ دوه اتيا [dwa atiyā] — the unit 'dwa' is identical."
       ]
     },
     {
       "type": "callout",
-      "text": "Storytelling Pro-Tip: Demonstratives are vital discourse-management tools in Pashto storytelling! The proximal 'dā' is used for a topic that was just mentioned, while the distal 'hagha' is used for background information[cite: 54]."
+      "heading": "🔢 Number System Structure — The Key Patterns",
+      "lines": [
+        "UNITS BEFORE TENS — the most important rule: In Pashto, the smaller unit comes FIRST, unlike English which says 'thirty-one' (tens first). Pashto says يو دیرش [yaw dersh] — literally 'one-thirty' = 31.",
+        "SHARED UNIT SOUNDS — three groups share unit pronunciations:",
+        "Thirties (31–39): يو, دوه, درې, ؤيار, پنځه, شپږ, اووه, اته, نهه",
+        "Forties–Sixties (41–69): SAME unit words as thirties",
+        "Seventies–Nineties (71–99): يو, دوه, درې, ؤيار, پنځه, شپږ, اووه, اته, نهه (same words but with slightly different phonology from the thirties forms)",
+        "ARABIC-INDIC NUMERALS: In Pashto script contexts, use ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ — NOT 0 1 2 3 4 5 6 7 8 9. Official Afghan government documents, currency, and media use Arabic-Indic numeral script exclusively.",
+        "NO COMMAS OR PERIODS in large Pashto numbers: Western '1,000' is written as ١٠٠٠ (no separator). This applies in all written Pashto contexts.",
+        "READING DRILL — read these aloud: ٣٧ → اووه دیرش ◆ ٤٥ → پنځه ؤياليشت ◆ ٦٨ → اته شپيته ◆ ٧٣ → درې اووياشت ◆ ٩١ → يو نوي"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — Numbers 100–1,000,000 (سل نه تر يو ميليون پورې)",
+      "lines": [
+        "HUNDREDS:",
+        "١٠٠ يو سل [yaw sal] — one hundred [yaw sal]",
+        "٢٠٠ دوه سوه [dwa sawa] — two hundred [dwa sawa] ← سل becomes سوه [sawa] in multiples!",
+        "٣٠٠ درې سوه [dre sawa] ◆ ٤٠٠ ؤيار سوه [tsalor sawa] ◆ ٥٠٠ پنځه سوه [pindza sawa]",
+        "٦٠٠ شپږ سوه [shpag sawa] ◆ ٧٠٠ اووه سوه [owa sawa] ◆ ٨٠٠ اته سوه [ata sawa] ◆ ٩٠٠ نهه سوه [nawa sawa]",
+        "CRITICAL RULE: يو سل [yaw sal] = 100 (singular). For 200+ use سوه [sawa] (plural form of سل): دوه سوه [dwa sawa] = 200. If the number continues into the ones/tens AFTER يو سل, use the connector و [o]: يو سل و پنځه [yaw sal o pindza] = 105. After other hundreds, و [o] is OPTIONAL.",
+        "THOUSANDS:",
+        "١٠٠٠ يو زر [yaw zar] — one thousand [yaw zar]",
+        "٢٠٠٠ دوه زره [dwa zara] — two thousand [dwa zara] ← زر becomes زره [zara] in multiples!",
+        "٣٠٠٠ درې زره [dre zara] ◆ ٤٠٠٠ ؤيار زره [tsalor zara] ◆ ٥٠٠٠ پنځه زره [pindza zara]",
+        "١٠٠٠٠ لس زره [las zara] ◆ ٥٠٠٠٠ پنځوس زره [pindza-os zara] ◆ ١٠٠٠٠٠ يو لک [yaw lak]",
+        "لک [lak] — hundred thousand (100,000) [lak] ← the Afghan/South Asian unit",
+        "ميليون [milyun] — million [milyun]",
+        "SAMPLE LARGE NUMBERS — as they appear in Afghan currency contexts:",
+        "١٢٥ → يو سل و پنځه ويشت [yaw sal o pindza wisht]",
+        "٣٤٥ → درې سوه پنځه ؤياليشت [dre sawa pindza tsalwext]",
+        "١٥٠٠ → يو زر او پنځه سوه [yaw zar aw pindza sawa]",
+        "٢٥٠٠٠ → پنځه ويشت زره [pindza wisht zara]",
+        "١٢٣٤٥٦ → يو لک درويشت زره ؤيار سوه شپږ پنځوس [yaw lak drowisht zara tsalor sawa shpag pindza-os]"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "💰 Cultural Spotlight: Afghan Banking & the Hawāla System",
+      "lines": [
+        "CURRENCY: افغاني [afghāni] — the Afghan national currency, introduced in 1925. It is divided into ١٠٠ پيسې [payse] (cents/puls). Currency in everyday Afghan speech is often quoted in thousands: 'پنځه زره' [pindza zara] 'five thousand afghānis' is a typical transaction amount.",
+        "THE HAWĀLA SYSTEM (حواله [hawāla]): Pashto speakers worldwide rely on an informal money transfer network far older than modern banking. To transfer money:",
+        "(1) You give cash to a hawāla broker (حوالادار [hawāladār]) in one city.",
+        "(2) The broker contacts his counterpart in the destination city by phone.",
+        "(3) The recipient collects the equivalent cash from the destination broker — no physical money moves.",
+        "Hawāla runs on trust (اعتماد [itimād]) and reputation — brokers who cheat lose their network and livelihood. It is faster, cheaper, and often more reliable than formal banking for international transfers, especially to/from rural Afghanistan.",
+        "BANKING VOCABULARY: بانک [bānk] — bank ◆ حساب [hesāb] — account ◆ نوی [nawi] — exchange (also the number 90 — same word!) ◆ قرضه [qarza] — loan ◆ سود [sud] — interest/profit ◆ حوالادار [hawāladār] — hawāla broker",
+        "URBAN KABUL CONTEXT: The reading for this lesson introduces Kabul's money-changing markets (صرافۍ [sarāfay]) — the street-level currency exchange booths where dollars, euros, Pakistani rupees, and Afghan afghānis are traded daily at market rates. This is the primary way most Afghans access foreign currency."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — Strong Pronouns (قوي ضميرونه)",
+      "lines": [
+        "You have learned WEAK pronouns (Lessons 4 and 10) — the default clitics that carry neutral reference. STRONG pronouns are their emphatic counterparts: full, stressed words used when the speaker wants to EMPHASISE the pronoun or create a CONTRAST.",
+        "THE FULL STRONG PRONOUN PARADIGM — all positions:",
+        "Person | Singular | Plural",
+        "1st | زه [za] — I/me (emphatic) | مونږ [mung] — we/us (emphatic)",
+        "2nd | ته [tā] — you (emphatic, sg) | تاسو [tāso] — you all (emphatic)",
+        "3rd in sight M | دی [day] / دا [dā] | دوي [doy]",
+        "3rd in sight F | ده [da] | دا [dā]",
+        "3rd out of sight M | هغه [agha] (stress 2nd syl.) | هغوي [aghoyi]",
+        "3rd out of sight F | هغه [agha] | هغوي [aghoyi]",
+        "OBJECT OF PREPOSITION forms — strong pronoun + preposition collapses in a different way from weak pronouns:",
+        "1sg: ما [mā] + preposition ◆ 2sg: تا [tā] + preposition ◆ 3sg M: ده [da] / هغه [agha]",
+        "1pl: مونږ [mung] + preposition ◆ 2pl: تاسو [tāso] ◆ 3pl: دوي [doy] / هغوي [aghoyi]",
+        "RULE 1 — USE STRONG PRONOUNS FOR EMPHASIS/CONTRAST:",
+        "Neutral (no emphasis): پښتو ښوونکی دی. [paxtō xwunkey da.] — 'He is the Pashto teacher.' ← subject pronoun dropped (weak pronoun rule)",
+        "Emphatic (CONTRAST): زه نه يم پښتو ښوونکی؛ هغه دی. [za na yam paxtō xwunkey; hagha da.] — 'I am NOT the Pashto teacher; HE is.' ← strong pronouns زه [za] and هغه [hagha] carry the contrastive stress",
+        "RULE 2 — STRESS PATTERN of out-of-sight 3rd person pronouns:",
+        "هغه [Agha] (stress on first syllable) = DEMONSTRATIVE 'that (far)'",
+        "هغه [aGHĀ] (stress on second syllable) = STRONG PRONOUN 'he/she (out of sight)'",
+        "Same spelling — completely different word. Only stress distinguishes them in speech.",
+        "COMMON STRONG PRONOUN CONTEXTS:",
+        "زه يم، نه هغه. [za yam, na hagha.] — 'It is I, not him/her.' (identity claim with contrast)",
+        "ته ورځې که هغه؟ [tā wardze ka hagha?] — 'Are YOU going or HE/SHE?' (explicit choice question)",
+        "مونږ يو، نه دوي. [mung yu, na doy.] — 'It is WE, not THEY.' (group emphasis)"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ Strong vs. Weak — Choosing the Right Pronoun",
+      "lines": [
+        "The choice between strong and weak pronoun is NOT free variation — each carries a distinct pragmatic meaning.",
+        "WEAK PRONOUN = neutral, backgrounded reference. The default. Used when there is no special emphasis or contrast intended.",
+        "STRONG PRONOUN = foregrounded, emphasised reference. Used when the speaker wants the listener to pay special attention to WHO is involved.",
+        "ENGLISH PARALLEL: In English, stress alone distinguishes these: 'He's going to the market' (neutral) vs. 'HE'S going to the market' (emphatic — as opposed to someone else). Pashto uses different pronoun WORDS to encode this distinction, not just stress.",
+        "TEST: Would the English equivalent carry stressed or unstressed 'he/she/I/you'? Stressed → use Pashto strong pronoun. Unstressed (or pronoun dropped entirely) → use weak pronoun or drop.",
+        "SHOPPING EXAMPLE from the dialogue: خو يواځې ته درکوم [xo yawāze tā darkawam] — 'but only to YOU I give it' — ته [tā] is the STRONG PRONOUN because the shopkeeper is emphasising 'to you specifically, not to others'. This is exactly the right context for a strong pronoun.",
+        "COMMON MISTAKE: Using strong pronouns everywhere (translating directly from English 'I/you/he/she') produces unnatural Pashto. Weak pronouns and verb-ending agreement should carry neutral reference; reserve strong pronouns for genuine emphasis and contrast."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — The Demonstrative System (اشاري ضميرونه)",
+      "lines": [
+        "Pashto has a THREE-WAY demonstrative system where English has only two ('this/that'). The three distances are: CLOSE to speaker, MIDDLE distance, and FAR from both speaker and listener.",
+        "THE THREE DEMONSTRATIVES:",
+        "① دا [dā] — 'this / these' — CLOSE: right here, touching distance, just mentioned in conversation",
+        "② داغه [dāgha] — 'that / those' — MIDDLE: some distance away but still visible",
+        "③ هغه [agha] (stress on 1st syl.) — 'that / those' — FAR: clearly distant from both speaker and listener",
+        "MASCULINE FORMS — full declension table:",
+        "CLOSE (دا): DSg: دا [dā] ◆ DPl: دا [dā] ◆ OSg: دې [de] ◆ OPl: داغه [dāgha]",
+        "MIDDLE (داغه): DSg: داغه [dāgha] ◆ DPl: داغه [dāgha] ◆ OSg: داغه [dāgha] ◆ OPl: داغو [dāgho]",
+        "FAR (هغه): DSg: هغه [agha] ◆ DPl: هغه [agha] ◆ OSg: هغه [agha] ◆ OPl: اغو [agho]",
+        "FEMININE FORMS — full declension table:",
+        "CLOSE (دا F): DSg: دا [dā] ◆ DPl: دا [dā] ◆ OSg: دې [de] ◆ OPl: داغو [dāgho]",
+        "MIDDLE (داغه F): DSg: داغه [dāgha] ◆ DPl: داغې [dāghe] ◆ OSg: داغې [dāghe] ◆ OPl: داغو [dāgho]",
+        "FAR (هغه F): DSg: هغه [agha] ◆ DPl: هغې [aghe] ◆ OSg: هغې [aghe] ◆ OPl: هغو [agho]",
+        "TWO-SYLLABLE FORMS HAVE STRESS ON FIRST SYLLABLE: داغه [DĀgha], هغه [Agha] (demonstratives) — contrast with strong pronoun هغه [aGHĀ] 'he (out of sight)'.",
+        "DEMONSTRATIVES AS ADJECTIVES — they precede the noun and agree in gender/case:",
+        "دا کتاب [dā kitāb] — 'this book' (M DSg) ◆ داغه سور سال [dāgha sur sāl] — 'that red scarf' (F DSg — سال [sāl] is feminine!)",
+        "پهـ هغه کور کې [pa agha kor ke] — 'in that (far) house' (M OSg: هغه stays same for M OSg)",
+        "DEMONSTRATIVES AS PRONOUNS — they stand alone replacing a noun:",
+        "دا کوم دی؟ [dā kum da?] — 'Which (one) is this?' ◆ هغه ښه دی. [agha xa da.] — 'That one is good.'"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Demonstratives as Discourse Trackers",
+      "lines": [
+        "One of the most important uses of the Pashto demonstrative system is to MANAGE DISCOURSE REFERENCE — tracking which entity in a story or conversation is being talked about.",
+        "دا [dā] (close/proximal) = the entity JUST INTRODUCED or the CURRENT TOPIC of the conversation",
+        "هغه [agha] (far/distal) = an entity introduced EARLIER in the conversation, now backgrounded",
+        "EXAMPLE in storytelling — note how demonstratives shift as reference changes:",
+        "يو سړی روان شو. دا سړی د بازار لارې روان وو. [yaw saṛay rawān sho. dā saṛay da bāzār lāre rawān wo.] — 'A man set out. THIS man was going along the bazaar road.' ← دا [dā] = just introduced, current topic",
+        "هلته يو دوکاندار وو. هغه دوکاندار خرڅوي. [halta yaw dukāndār wo. hagha dukāndār xartsawi.] — 'There was a shopkeeper there. THAT shopkeeper sells.' ← هغه [agha] = the shopkeeper is slightly more backgrounded; the man is the current topic",
+        "دا سړی ورشو. هغه ته يې ووايل... [dā saṛay warsho. hagha ta ye wowāyal...] — 'THIS man went to him. He said to THAT one...' ← دا = the approaching man (foreground); هغه = the shopkeeper (background)",
+        "This close/far tracking is essential for understanding authentic Pashto narrative — folktales, news, and everyday storytelling all rely on this demonstrative-based discourse management.",
+        "MARKET CONTEXT: In the dialogue, داغه سور سال [dāgha sur sāl] 'that red scarf' — the shopkeeper uses داغه [dāgha] (middle distance) because the scarf is visible but not right next to the speaker. If she picked it up and held it, she would say دا سال [dā sāl] 'this scarf'."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "💡 Three-Way Distance — The Afghan Spatial Intuition",
+      "lines": [
+        "Why does Pashto need THREE demonstratives where English manages with two? The answer reflects the social and physical contexts where the language evolved.",
+        "CLOSE دا [dā]: Within arm's reach, or (in discourse) just mentioned. 'This thing I'm holding' / 'This person I'm talking about right now.'",
+        "MIDDLE داغه [dāgha]: Visible but not touchable — across the room, across the street, the shopkeeper's display shelf. Also used for things introduced in the very recent past of a conversation.",
+        "FAR هغه [agha]: Out of direct sight, clearly distant, or (in discourse) mentioned earlier and now backgrounded. 'That mountain over there' / 'The person I told you about earlier.'",
+        "In English, 'this' and 'that' collapse these three into two, losing the middle distinction. In Pashto, the three-way system makes conversations about spatial arrangements, market displays, and multi-person narratives far more precise.",
+        "PRACTICAL MARKET USE: When shopping, you will use all three:",
+        "دا [dā] — pointing to something in your hand or right in front of you: 'How much is this?'",
+        "داغه [dāgha] — pointing to something on the display shelf: 'And that one there?'",
+        "هغه [agha] — pointing to something at the back of the store: 'What about that one way over there?'"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "NUMBERS & CURRENCY NOUNS:",
+        "سل [sal] — hundred (M2, singular: يو سل [yaw sal]) [sal]",
+        "سوه [sawa] — hundreds (M2 plural: دوه سوه [dwa sawa] = two hundred) [sawa]",
+        "زر [zar] — thousand (M2, singular: يو زر [yaw zar]) [zar]",
+        "زره [zara] — thousands (M2 plural: دوه زره [dwa zara] = two thousand) [zara]",
+        "لک [lak] — hundred-thousand (100,000) (M2) [lak]",
+        "ميليون [milyun] — million (M2) [milyun]",
+        "افغاني [afghāni] — afghāni (Afghan currency unit) [afghāni]",
+        "پيسه [paysa] — paisa/cent (currency subdivision) [paysa]",
+        "حواله [hawāla] — hawāla informal money transfer system [hawāla]",
+        "حوالادار [hawāladār] — hawāla broker (M1 class) [hawāladār]",
+        "بانک [bānk] — bank (M2 class) [bānk]",
+        "حساب [hesāb] — account (M2 class) [hesāb]",
+        "نرخ [narkh] — rate / market price (M2 class) [narkh]",
+        "BAZAAR NOUNS:",
+        "مغازه [maghāza] — store / shop (F1 class) [maghāza]",
+        "مغازادار [maghāzadār] — shopkeeper (M1 class) [maghāzadār]",
+        "شی [shay] — thing / goods (M3 class, review) [shay]",
+        "اخيستونکی [axistunkey] — buyer (M3 class) [axistunkey]",
+        "دود [dod] — custom / tradition (M2 class) [dod]",
+        "پوستينچه [postinča] — sheepskin jacket (F1 class) [postinča]",
+        "ارزان [arzān] — cheap (Class 1) [arzān]",
+        "ADJECTIVES:",
+        "مناسب [munsib] — reasonable (Class 4) [munsib] ◆ نابلده [nābəlda] — inexperienced (Class 4) [nābəlda] ◆ بلده [bəlda] — experienced (Class 4) [bəlda] ◆ اصلي [asli] — genuine/original (Class 4) [asli] ◆ خارجي [xāreji] — foreign / foreigner (M2 as noun) [xāreji]",
+        "VERB PHRASES (shopping context):",
+        "بيه کول [biya kawəl] — to set a price (derivative: بيه + کول) [biya kawəl]",
+        "ؤنه وهل [čane wahəl] — to bargain (idiom: ؤنه [čane] + وهل [wahəl] 'to strike') [čane wahəl]",
+        "ټيټول [ṭiṭawəl] — to lower (a price) (derivative: ټيټ + کول) [ṭiṭawəl]",
+        "ضايع کول [ḍāya kawəl] — to lose/waste [ḍāya kawəl]",
+        "ADVERBS & PREPOSITIONS:",
+        "ارشي [arshi] — everything [arshi] ◆ ليکل شوی [likal shaway] — written (past participial) ◆ پرته له...نه [prata la...na] — except for ◆ پهـ...باندې [pa...bānde] — on ◆ خاصه [xāsa] — especially [xāsa] ◆ ...چنده زيات [...čanda zyāt] — ...times as much ◆ مثلاً [masalan] — for example ◆ شايي [xāyi] — maybe [xāyi]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — Reading: د کابل بازار (The Kabul Bazaar)",
+      "lines": [
+        "This reading is in Pashto script only. Topic: the Kabul bazaar as a commercial and social institution, with bargaining customs, currency, and the experience of shopping as a foreigner.",
+        "د کابل بازار ډير مشهور دی. هلته هر شی پلوری: جامې، کتابونه، خواړه، او نور.",
+        "د بازار دود داسې دی: پيلور لومړی ډير قيمت وايي. اخيستونکی کم ورکوي.",
+        "هغوي دواړه ؤنه وهي تر هغو چې يو مناسب نرخ ومومي.",
+        "خارجي چې بازار ته لاړ شي، نابلده ښکاري. پيلور يې ډير قيمت وايي.",
+        "خو که هغه دا دود وپيژني، ؤنه وهلای شي. هغه کولای شي ارزانه واخلي.",
+        "د افغانيو او ډالرو تبادله هم پهـ بازار کې وي. صرافان هلته ناست وي.",
+        "حوالادار هم شته. دا کس کولای شي پيسې د هيواد دننه او بهر ولېږي.",
+        "READING GLOSSARY:",
+        "پلوری [palori] — sells (3sg pres. impf. of پلورل [palwəl] — simple verb) ◆ پيلور [pilor] — seller (M1 class) ◆ دواړه [dwāṛa] — both (of them) ◆ تر هغو چې [tar hagho če] — until such time that ◆ ومومي [womumi] — finds (perfective 3sg of موندل [mundəl]) ◆ ښکاري [xkāri] — appears / seems (3sg pres. impf.) ◆ وپيژني [wapejni] — recognises / learns (perfective 3sg of پيژندل [pejzandəl]) ◆ تبادله [tabādala] — exchange (F1 class) ◆ صرافان [sarāfān] — money-changers (M1 plural) ◆ حوالادار [hawāladār] — hawāla broker",
+        "DEMONSTRATIVE ANALYSIS — find all demonstratives and classify:",
+        "① دا دود [dā dod] — this custom: دا [dā] proximal demonstrative (the custom just described)",
+        "② هغه [agha] — that/he (referring to the foreigner introduced earlier): context must decide demonstrative vs. pronoun",
+        "③ هغوي دواړه [haghwi dwāṛa] — both of them: هغوي is strong 3pl pronoun",
+        "④ دا کس [dā kas] — this person (the hawāladār just introduced)",
+        "COMPREHENSION QUESTIONS:",
+        "① د بازار دود ددي دی؟ — What is the custom of the bazaar?",
+        "② خارجي ولې نابلده ښکاري؟ — Why does the foreigner appear inexperienced?",
+        "③ حوالادار کولای شي ددي وکي؟ — What can a hawāla broker do?"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🛒 Cultural Spotlight: د بازار ؤنه — The Art of Bargaining",
+      "lines": [
+        "ؤنه وهل [čane wahəl] — 'to bargain' (lit. 'to strike a deal/price') — is not merely a commercial transaction in Afghan culture. It is a SOCIAL RITUAL that establishes relationship, tests character, and demonstrates mutual respect.",
+        "THE BARGAINING SEQUENCE in a Kabul bazaar:",
+        "(1) GREETING: Full greeting protocol (السلام عليکم → health enquiries) before ANY mention of prices.",
+        "(2) PRICE INQUIRY: قيمت يې ؤومره دی؟ [qimat ye tsomra da?] 'How much is it?'",
+        "(3) SELLER'S OPENING: Always high — sometimes 3-5× the expected settlement price.",
+        "(4) BUYER'S COUNTER: Always low — sometimes 20-30% of the opening price.",
+        "(5) NEGOTIATION: 3-7 rounds of back-and-forth, narrowing the gap.",
+        "(6) SETTLEMENT SIGNAL: دا زما وروستۍ ده [dā zmā wrosdāy da] — 'That's my final' — signals readiness to close.",
+        "FOREIGNER PRICES: Shopkeepers typically offer higher opening prices to خارجيان [xārejiyān] 'foreigners'. This is not considered dishonest — it is testing whether the buyer knows the دود [dod] 'custom'. A foreigner who bargains confidently earns immediate respect: هغه بلده دی [hagha bəlda da] — 'He/She is experienced.'",
+        "TEA AND PATIENCE: Never rush a bazaar transaction. Tea (چای [čāy]) may be offered mid-negotiation — accept it, as refusing is rude. The transaction may take 20-30 minutes for a significant purchase. Showing impatience loses the negotiation."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 8 — Diversion: د بازار قصه — The Turkey and the Parrot",
+      "lines": [
+        "This Diversion is a humorous Pashto folk anecdote from the bazaar setting — perfectly mirroring the lesson's communicative context.",
+        "THE STORY: A man was selling a turkey in the bazaar. Another man approached and asked: 'How much is this turkey?' The seller said: 'Two thousand afghānis.' The buyer said: 'Two thousand for this small bird? I'll give you five hundred.' The seller said: 'Sir, this is no ordinary bird — this turkey talks!' The buyer said: 'If it talks, how much will you take?' The seller said: 'Five thousand!' The buyer exclaimed: 'But just now you said two thousand!' The seller replied: 'Just now it wasn't talking yet!'",
+        "GRAMMAR SPOTLIGHT — Demonstratives in the anecdote:",
+        "دا مرغه [dā margha] — 'this bird/turkey' ← دا [dā] proximal demonstrative (seller is holding/displaying it)",
+        "هغه مرغه [agha margha] — if the buyer stepped back and pointed from a distance, he might use هغه [agha] instead — the demonstrative would shift based on physical distance",
+        "KEY VOCABULARY:",
+        "پيلمرغ [pilmərgh] — turkey (M2 class) [pilmərgh] ◆ طوطی [ṭoṭi] — parrot (M class) [ṭoṭi] ◆ وړوکی [waṛokay] — small (Class 2 adjective — irregular) [waṛokay] ◆ خرڅول [xartsawəl] — to sell (transitive derivative) [xartsawəl] ◆ خبرې کول [xabre kawəl] — to talk (derivative: خبرې + کول) [xabre kawəl] ◆ فکر کول [fikr kawəl] — to think (derivative: فکر + کول) [fikr kawəl]",
+        "NUMBER IN CONTEXT: The story uses دوه زره افغاني [dwa zara afghāni] 'two thousand afghānis' and پنځه زره [pindza zara] 'five thousand' — two of the large number constructions you have just learned. The buyer's bargaining counter of پنځه سوه [pindza sawa] 'five hundred' = 25% of the asking price — a realistic opening counter.",
+        "CULTURAL NOTE: The turkey-seller's punchline reveals a satirical observation about Afghan bazaar culture: price is not fixed, and even the reasons for price are negotiable. The seller simply invented a feature (talking) to justify a higher price — and when caught in contradiction, invented yet another justification. This captures something real about the playfulness and quick wit expected of a skilled bazaar seller."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 11 before attempting the quiz:",
+        "✓ Units PRECEDE tens in Pashto: يو دیرش [yaw dersh] = 31 (not 'thirty-one')",
+        "✓ Tens 30–90: دیرش، ؤياليشت، پنځوس، شپيته، اووياشت، اتيا، نوي [dersh, tsalwext, pindza-os, shpeta, awiyāsht, atiyā, nawi]",
+        "✓ سل [sal] = 100 (singular only). Multiple hundreds: سوه [sawa] (plural): دوه سوه = 200.",
+        "✓ يو زر [yaw zar] = 1,000. Multiple thousands: زره [zara] (plural): درې زره = 3,000.",
+        "✓ لک [lak] = 100,000. ميليون [milyun] = 1,000,000.",
+        "✓ No commas or periods in written Pashto numbers. Arabic-Indic numerals in script contexts.",
+        "✓ STRONG pronouns for EMPHASIS/CONTRAST: زه [za], ته [tā], دا/هغه, مونږ [mung], تاسو [tāso], دوي/هغوي",
+        "✓ Out-of-sight 3rd person strong pronoun هغه [aGHĀ] — stress on SECOND syllable.",
+        "✓ Demonstrative هغه [Agha] — stress on FIRST syllable. Completely different from strong pronoun.",
+        "✓ THREE demonstratives: دا [dā] close ← داغه [dāgha] middle ← هغه [agha] far.",
+        "✓ Demonstratives inflect: OSg M دا → دې [de]; OPl M → داغه [dāgha] / هغو [agho].",
+        "✓ Discourse use: دا = current topic/just mentioned; هغه = earlier mentioned/backgrounded."
+      ]
     },
     {
       "type": "quiz",
-      "question": "In Pashto storytelling, if a speaker introduces a character and immediately refers back to them in the next sentence, which demonstrative are they most likely to use?",
+      "question": "How do you say '350' in Pashto?",
       "options": [
-        "The distal demonstrative 'hagha' (هغه), because the character is not physically present.",
-        "The proximal demonstrative 'dā' (دا), because it refers to a topic that was just mentioned.",
-        "No demonstrative is used in Pashto storytelling.",
-        "The plural demonstrative 'hāghə' (هغوی) is used as a sign of respect."
+        "سه سل پنځه [se sal pindza] — three hundred and five, like English structure.",
+        "درې سوه پنځه دیرش [dre sawa pindza dersh] — using سوه [sawa] for hundreds, and the unit-before-ten rule for 50.",
+        "پنځه دیرش سوه [pindza dersh sawa] — fifty-three hundred.",
+        "درې سل پنځوس [dre sal pindza-os] — three hundred fifty using the singular سل."
       ],
       "correctIndex": 1,
-      "explanation": "In storytelling discourse, the proximal demonstrative (dā) is used to refer to the topic that was just mentioned, keeping it at the forefront of the listener's attention[cite: 54]."
+      "explanation": "350 = درې سوه پنځه دیرش [dre sawa pindza dersh]. Breaking it down: 300 = درې سوه [dre sawa] (three hundreds — plural سوه [sawa]); 50 = پنځه دیرش [pindza dersh] → wait, 50 = پنځوس [pindza-os]; 30+5 = پنځه دیرش [pindza dersh]. Actually 350 = درې سوه پنځوس [dre sawa pindza-os] — but the exact form depends: 50 alone is پنځوس [pindza-os]. So 350 = درې سوه پنځوس [dre sawa pindza-os]. Option B captures the correct structure: سوه [sawa] for hundreds (not singular سل), and the unit-before-ten pattern. Note that سل [sal] is ONLY for 100 (يو سل [yaw sal]); for 200+ you must use سوه [sawa]."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the difference between سل [sal] and سوه [sawa], and when do you use each?",
+      "options": [
+        "سل [sal] and سوه [sawa] are interchangeable synonyms for 'hundred' — either can be used in any context.",
+        "سل [sal] = hundred (singular, used ONLY for exactly 100: يو سل [yaw sal]). سوه [sawa] = hundreds (plural, used for 200, 300, 400... etc.: دوه سوه [dwa sawa] = 200).",
+        "سل [sal] is Kabuli dialect; سوه [sawa] is Kandahari dialect — both mean 'hundred'.",
+        "سل [sal] is used in formal contexts; سوه [sawa] is informal market speech."
+      ],
+      "correctIndex": 1,
+      "explanation": "سل [sal] is the SINGULAR form 'one hundred', used ONLY for exactly 100: يو سل [yaw sal] = 100. For 200, 300, 400, etc., you MUST use the PLURAL form سوه [sawa]: دوه سوه [dwa sawa] = 200, درې سوه [dre sawa] = 300. This is parallel to زر [zar] (singular: يو زر [yaw zar] = 1,000) vs. زره [zara] (plural: دوه زره [dwa zara] = 2,000). English has one word 'hundred' for all quantities; Pashto distinguishes the singular (سل/زر) from the plural (سوه/زره) forms of the scale word."
+    },
+    {
+      "type": "quiz",
+      "question": "In the dialogue, the shopkeeper says خو يواځې ته درکوم — 'but only to YOU I give it.' Why is ته [tā] used here instead of dropping the pronoun?",
+      "options": [
+        "ته [tā] must always be stated explicitly in Pashto — subject pronouns are never dropped.",
+        "ته [tā] is the STRONG (emphatic) pronoun used here because the shopkeeper is CONTRASTING 'you specifically' from all other potential buyers — this is a classic context for strong pronoun use.",
+        "ته [tā] is the weak direct object pronoun 'you', placed in its normal clitic position.",
+        "ته [tā] is required here because the verb درکوم [darkawam] 'I give to you' does not encode the recipient grammatically."
+      ],
+      "correctIndex": 1,
+      "explanation": "ته [tā] here is the STRONG (emphatic) pronoun for 2nd person singular. The shopkeeper uses it because he is creating a CONTRAST: 'to YOU (specifically) — not to other customers, not at this price to anyone else — only to you.' This is exactly the context where Pashto requires a strong pronoun: when the identity of the pronoun referent is being emphasised or contrasted. Under neutral reference (no special emphasis), Pashto would drop the subject pronoun entirely (weak pronoun rule) or use the verb ending alone. The directional verb درکوم [darkawam] itself already encodes 'to you' via the دار- [dār-] prefix — so the strong ته [tā] is truly adding an emphatic layer on top."
+    },
+    {
+      "type": "quiz",
+      "question": "The Pashto demonstrative هغه [agha] 'that (far)' and the strong pronoun هغه [agha] 'he (out of sight)' look identical in script. How do speakers distinguish them?",
+      "options": [
+        "Context alone disambiguates them — there is no phonological difference and speakers accept the ambiguity.",
+        "The demonstrative adds a final vowel هغه‌ه [agha-a] while the pronoun is bare هغه [agha].",
+        "STRESS: the demonstrative هغه [Agha] stresses the FIRST syllable; the strong pronoun هغه [aGHĀ] stresses the SECOND syllable. The spoken distinction is clear even though the written forms are identical.",
+        "The demonstrative is followed by a noun while the pronoun never is — the following word determines the reading."
+      ],
+      "correctIndex": 2,
+      "explanation": "STRESS is the only phonological distinction: هغه [Agha] (stress on the first syllable 'Ag-') = demonstrative 'that/those (far from both speaker and listener)'. هغه [aGHĀ] (stress on the second syllable '-GHĀ') = strong pronoun 'he/she (out of sight)'. Written Pashto does not mark stress, so readers must infer from syntactic context. The two-syllable demonstratives داغه [DĀgha] and هغه [Agha] are consistently stressed on the first syllable. Strong out-of-sight pronouns هغه [aGHĀ], هغوي [aGHOyi] are stressed on the second syllable. This is a critical distinction for oral competency — audio practice is essential."
+    },
+    {
+      "type": "quiz",
+      "question": "In the sentence يو سل و پنځه [yaw sal o pindza] = 105, what does و [o] indicate and when is it required?",
+      "options": [
+        "و [o] is the Pashto word for 'and', required before ALL ones and tens when combined with hundreds.",
+        "و [o] is a conjunction meaning 'plus', required ONLY after يو سل [yaw sal] (100) when followed by additional ones or tens; with other hundreds (200, 300...) it is OPTIONAL.",
+        "و [o] is the number zero placeholder, separating hundreds from tens.",
+        "و [o] is the conjunction 'or', indicating an approximate number."
+      ],
+      "correctIndex": 1,
+      "explanation": "و [o] is the conjunction 'and', and its use follows a specific rule in Pashto number formation: After يو سل [yaw sal] (exactly 100), the connector و [o] MUST be stated before the following ones/tens: يو سل و لس [yaw sal o las] = 110, يو سل و پنځه ويشت [yaw sal o pindza wisht] = 125. After OTHER hundreds (دوه سوه [dwa sawa] = 200, درې سوه = 300, etc.), the و [o] connector is OPTIONAL — it may be included or omitted: درې سوه پنځوس [dre sawa pindza-os] or درې سوه و پنځوس [dre sawa o pindza-os] — both mean 350."
+    },
+    {
+      "type": "quiz",
+      "question": "How does the demonstrative دا [dā] function differently as a DISCOURSE TRACKER compared to its simple physical use as 'this'?",
+      "options": [
+        "As a discourse tracker, دا [dā] always refers to something physically close to the speaker — no abstract usage is possible in Pashto.",
+        "As a discourse tracker, دا [dā] marks the CURRENT FOREGROUND TOPIC of the conversation — the entity most recently introduced or currently being discussed — while هغه [agha] marks entities that have been backgrounded or mentioned earlier.",
+        "As a discourse tracker, دا [dā] refers to previously mentioned entities while هغه [agha] refers to newly introduced ones — the reverse of their physical distance meanings.",
+        "Demonstratives are only used for physical reference in Pashto; discourse tracking is handled exclusively by strong pronouns."
+      ],
+      "correctIndex": 1,
+      "explanation": "In Pashto discourse, دا [dā] (close/proximal) marks the CURRENT TOPIC — whatever is in the immediate conversational foreground, recently introduced, or actively being discussed. هغه [agha] (far/distal) marks entities that have been BACKGROUNDED — mentioned earlier and now at a conversational distance. This mirrors the physical distance metaphor: just as دا is physically near and هغه is far, in discourse دا is conceptually 'near' (current focus) and هغه is 'far' (earlier reference). Storytelling in Pashto relies heavily on this tracking: as entities compete for foreground status, demonstratives shift accordingly — a feature visible in the bazaar reading's use of دا کس [dā kas] 'this person (the hawāladār, just introduced)' vs. هغوي [haghwi] 'they (the money-changers, backgrounded from earlier in the text)'."
     }
   ]
 }

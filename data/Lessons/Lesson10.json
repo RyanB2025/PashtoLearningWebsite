@@ -1,96 +1,415 @@
 {
-  "id": "L10",
-  "title": "Lesson 10: Weak Pronouns, Floating Particles & Clitic Chains   ضعیف ضمیرونه، ګرځندې ذرات او کلیتیک ځنځیرونه",
-  "category": "Beginning Pashto",
-  "description": "Master the syntax of Clitic Chains. You will learn the full inventory of weak pronouns, the algorithm for docking floating particles based on sentence stress, and how to navigate stress-shifting verbs.",
-  "duration": "Textbook pp. 113–122 (approx. 10-15 pages of instruction)",
+  "id": "pashto-l10",
+  "title": "Lesson 10: Weak Pronouns, Floating Particles & Clitic Chains",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "The most syntactically complex material of the curriculum so far: the complete weak pronoun system in all four grammatical roles (subject, direct object, possessive, object of preposition), the fixed order of multiple floating particles in a single sentence, and the special interaction between floating particles and stress-shifting verbs. Learners are firmly at ILR 2, navigating complex reference, anaphora, and clitic chains. Communicative context: transportation, anaphoric reference in conversation, taking people places, social direction.",
+  "duration": "10–15 hours",
   "level": "Intermediate-Mid (ILR 2)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: The Full Weak Pronoun Inventory",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 10! We are now deepening the clitic pronoun system you first encountered in Unit 4.",
-        "Here is the complete inventory of Weak Pronouns in subject, direct object, and possessive functions:",
-        "1st Person: [me] مې (I/my/me) | [mo] مو (we/our/us)",
-        "2nd Person: [de] دې (you/your sg.) | [mo] مو (you/your pl.)",
-        "3rd Person: [ye] یې (he/she/it/his/her) | [ye] یې (they/their/them)",
-        "New Verbs for Practice: [līdəl] (لیدل) 'to see', [wāyəl] (ویل) 'to say', [ghwāṛəl] (غوښتل) 'to want', [wayəl] (ویل) 'to call (a name)'."
+        "By the end of this lesson you will be able to: use the full weak pronoun system in all four grammatical roles — subject (dropped), direct object, possessive, and object of preposition — replacing full noun phrases with the appropriate clitic form.",
+        "You will apply the FIXED ORDER rule when multiple floating particles appear in the same sentence: خو [xo] 'maybe' → به [ba] future → weak possessive/object pronoun.",
+        "You will handle the special placement rules for floating particles with stress-shifting verbs (Class A doubly irregular verbs from Lesson 9).",
+        "You will replace two-part prepositions with weak pronoun objects — understanding which part of the preposition drops and which remains.",
+        "You will use the transportation and mobility vocabulary — bus, taxi, bicycle, horse, donkey — in sentences about how people get around in Afghan urban and rural contexts."
       ]
-    },
-    {
-      "type": "callout",
-      "text": "Phonetics Hack: Notice that [ye] is identical for 3rd person singular and plural! Similarly, [mo] covers both 1st person plural and 2nd person plural. You must rely entirely on context and verb agreement to tell them apart. Remember, these weak pronouns are completely unstressed!"
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 2: The Clitic Docking Algorithm (Flowchart)",
+      "heading": "Section 1 — Dialogue: ماشين نه لرم (I Don't Have a Car)",
       "lines": [
-        "Weak pronouns in Pashto are 'enclitic'. They do not stay with the noun they logically belong to. Instead, they float!",
-        "Follow this procedural algorithm to build complex sentences:",
-        "► Step 1: Identify the FIRST stressed element/constituent in the sentence.",
-        "► Step 2: Attach all weak pronouns (the clitic chain) immediately AFTER this stressed element.",
-        "► Step 3: If the verb is a 'stress-shifting' verb, recalculate the docking point, as the new stress placement pulls the clitic to a different position."
+        "Amān needs a ride. He calls his teacher Mr. Ghaldzay (who is blind and cannot drive) to ask for help. The dialogue is dense with all four weak pronoun functions plus stress-shifting verb interactions.",
+        "امان: غلجی صیب، تاسو ماشين لرئ؟ [amān: ghaldzāy sāyib, tāso māshin larāy?] — Amān: Mr. Ghaldzay, do you have a car?",
+        "غلجی صیب: هو. ولې؟ [ghaldzāy sāyib: haw. wale?] — Mr. Ghaldzay: Yes. Why?",
+        "امان: زما اړتيا ده. راتلای شی؟ [amān: zmā aṛtiyā da. rātlāy shi?] — Amān: I need it. Can you come?",
+        "غلجی صیب: زه نه شم رانستلی — ما ستا خوا ليدلی نه ده. [ghaldzāy sāyib: za na sham rānastəlay — mā stā xwā lidəlay na da.] — Mr. Ghaldzay: I can't bring it — I am blind (lit. 'I have not seen your side / direction').",
+        "امان: اوه! بخښنه غواړم. [amān: oh! baxšana ghwāṛam.] — Amān: Oh! I ask your forgiveness.",
+        "غلجی صیب: پروا مه کوه. پټانګ به دې بوزي. [ghaldzāy sāyib: parwā ma kawa. paṭāng ba de bozi.] — Mr. Ghaldzay: Don't worry. Paṭang will take you. ← دې [de] = weak direct object pronoun 'you'",
+        "امان: واقعاً؟ ممنون يم. [amān: wāqaan? mamnun yam.] — Amān: Really? I'm grateful.",
+        "غلجی صیب: هو. پټانګ به درته راشي. [ghaldzāy sāyib: haw. paṭāng ba darta rāshi.] — Mr. Ghaldzay: Yes. Paṭang will come to you. ← درته [darta] = 'to you' (weak pronoun object of preposition)",
+        "امان: خوشحاله يم. مننه! [amān: xushāla yam. manana!] — Amān: I'm pleased. Thank you!",
+        "پټانګ: [calling Amān] امان! زه دلته يم. راشه! ماشين کې کينه! [paṭāng: amān! za delta yam. rāsha! māshin ke kena!] — Paṭang: Amān! I'm here. Come! Sit in the car! ← کينه = stress-shift command",
+        "امان: مرستيال يې. [amān: mrastiyāl ye.] — Amān: You are a helper. ← يې [ye] = weak possessive 'your' (mrastiyāl = helper)",
+        "پټانګ: بيا به يې بوزم. ولاړ شه! [paṭāng: byā ba ye bozam. walāṛ sha!] — Paṭang: I'll take you [again]. Let's go! ← يې [ye] = weak direct object 'you/him/her'",
+        "KEY GRAMMAR NOTES from the dialogue:",
+        "① پروا مه کوه [parwā ma kawa] — 'Don't worry' — مه [ma] + imperfective of کول [kawəl] (negative command rule from Lesson 7)",
+        "② پټانګ به دې بوزي [paṭāng ba de bozi] — 'Paṭang will take you' — دې [de] is the WEAK DIRECT OBJECT 'you' (singular), docking after the first stressed element پټانګ [paṭāng]",
+        "③ درته راشي [darta rāshi] — 'will come to you' — درته [darta] = the two-part preposition ل...ته [la...ta] collapsed with the weak pronoun دار- [dār-] 'you' → دار + ته = درته [darta]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 2 — The Complete Weak Pronoun System (ضعيف ضميرونه)",
+      "lines": [
+        "Weak pronouns serve FOUR grammatical roles in Pashto. You have already learned the POSSESSIVE role (Lesson 4) and the OBJECT OF PREPOSITION role partially. This lesson completes the system.",
+        "THE FULL WEAK PRONOUN TABLE — four columns:",
+        "Person | Subject | Direct Object | Possessive | Object of Preposition",
+        "1sg 'I/me/my' | — (dropped) | مې [me] | مې [me] | راته [rāta] ('to me') / راسره [rāsara] ('with me')",
+        "2sg 'you/your' | — (dropped) | دې [de] | دې [de] | درته [darta] ('to you') / درسره [darsara] ('with you')",
+        "3sg 'him/her/his/her' | يې [ye] | يې [ye] | يې [ye] | ورته [warta] ('to him/her') / ورسره [warsara] ('with him/her')",
+        "1pl 'us/our' | — (dropped) | مو [mo] | مو [mo] | راته [rāta] ('to us') / راسره [rāsara] ('with us')",
+        "2pl 'you all/your' | — (dropped) | مو [mo] | مو [mo] | درته [darta] ('to you all') / درسره [darsara] ('with you all')",
+        "3pl 'them/their' | يې [ye] | يې [ye] | يې [ye] | ورته [warta] ('to them') / ورسره [warsara] ('with them')",
+        "KEY NOTES:",
+        "① SUBJECT POSITION: Weak pronouns in SUBJECT position are DROPPED ENTIRELY. The verb ending carries the person/number information. (Exception: يې [ye] 3sg/pl retains one form — see below.)",
+        "② DIRECT OBJECT = POSSESSIVE: The weak direct object forms are IDENTICAL to the weak possessive forms learned in Lesson 4. Context tells you which role they play: زما ورور يې ليدل [zmā wror ye lidəl] 'his brother saw him' — here يې [ye] is object of ليدل, not possessive.",
+        "③ THREE-WAY AMBIGUITY: يې [ye] covers 3sg possessive 'his/her', 3sg direct object 'him/her', AND 3pl for both roles. Context and sentence structure disambiguate.",
+        "④ PLACEMENT: ALL weak pronouns (except prepositional ones) dock AFTER THE FIRST STRESSED ELEMENT of the sentence — the same floating rule from Lessons 4 and 7."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🔑 Two-Part Prepositions + Weak Pronouns = Collapsed Forms",
+      "lines": [
+        "When a two-part preposition takes a WEAK PRONOUN as its object, the FIRST PART of the preposition DROPS and only the second part remains — fused with the directional prefix of the pronoun.",
+        "RULE: First part of preposition (له [la] / پهـ [pa]) + weak pronoun directionality → fused form",
+        "EXAMPLES with له...سره [la...sara] 'with':",
+        "له امان سره [la amān sara] — 'with Amān' (full NP, both parts of preposition present)",
+        "→ Replace امان with weak pronoun: ورسره [warsara] — 'with him/her/them' ← لـه drops; سره fuses with ور- [war-]",
+        "← 'with me' = راسره [rāsara] ← ور- [war-] → را- [rā-] for 1st person",
+        "← 'with you' = درسره [darsara] ← ور- → دار- [dār-] for 2nd person",
+        "EXAMPLES with ...ته [ta] 'to/for':",
+        "امان ته [amān ta] — 'to/for Amān'",
+        "→ ورته [warta] — 'to/for him/her/them' ◆ راته [rāta] — 'to/for me' ◆ درته [darta] — 'to/for you'",
+        "SPECIAL CASE — پهـ...کې [pa...ke] 'in/at': When the object of this circumposition is a weak pronoun, the PRONOUN ITSELF DROPS (not the preposition part!) and the result is پهـ کې [pa ke] 'there/in it':",
+        "پهـ کور کې [pa kor ke] — 'in the house' → with weak pronoun object: پهـ کې [pa ke] — 'there / in it' ← the noun drops, not the preposition!"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — Weak Pronoun Positions: Four Examples Side by Side",
+      "lines": [
+        "Here are four parallel sentence sets showing the same pronoun (3sg يې [ye]) in all four grammatical roles. Observe how the POSITION in the sentence changes based on the role.",
+        "ROLE 1 — SUBJECT (dropped):",
+        "Full NP version: اسد مهمانيه ته ځي. [asad mehmaniya ta dzi.] — 'Asad is going to the party.'",
+        "Weak pronoun version: مهمانيه ته ځي. [mehmaniya ta dzi.] — 'He is going to the party.' ← subject pronoun completely absent",
+        "ROLE 2 — DIRECT OBJECT (after first stressed element):",
+        "Full NP version: امان مهمانيه ته اسد ته غواړي. [amān mehmaniya ta asad ta ghwāṛi.] — 'Amān is inviting Asad to the party.'",
+        "Weak pronoun version: امان مهمانيه ته يې غواړي. [amān mehmaniya ta ye ghwāṛi.] — 'Amān is inviting him to the party.' ← يې [ye] after first stressed element مهمانيه ته",
+        "ROLE 3 — POSSESSIVE (after first stressed element, same position as object):",
+        "Full NP version: پټانګ مونږ بيوي. [paṭāng mung byoyi.] — 'Paṭang is taking us.'",
+        "Weak pronoun version: پټانګ مو بيوي. [paṭāng mo byoyi.] — 'Paṭang is taking us.' ← مو [mo] 1pl object, after پټانګ",
+        "When subject is dropped: بيوي مو. [byoyi mo.] — 'He is taking us.' ← verb comes first; مو after it",
+        "ROLE 4 — OBJECT OF PREPOSITION (the fused form, typically before the verb):",
+        "Full NP version: تريسا مهمانيه ته اسد سره ځي. [tarisa mehmaniya ta asad sara dzi.] — 'Theresa is going to the party with Asad.'",
+        "Weak pronoun version: تريسا مهمانيه ته ورسره ځي. [tarisa mehmaniya ta warsara dzi.] — 'Theresa is going to the party with him.' ← ورسره [warsara] replaces له اسد سره; comes before verb in most dialects",
+        "KEY OBSERVATION: Prepositional weak pronouns (ورته، راته، درته، ورسره، راسره، درسره) come DIRECTLY BEFORE THE VERB in most Kabuli dialects — different from the first-stressed-element rule that governs object and possessive weak pronouns."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ Why Prepositional Weak Pronouns Behave Differently",
+      "lines": [
+        "The fused prepositional weak pronouns (ورته [warta], راسره [rāsara], etc.) are phonologically heavier than the simple clitics (مې، دې، يې، مو). They carry their own stress and are more like small words than pure clitics.",
+        "This means they do NOT follow the first-stressed-element docking rule of the lighter clitics. Instead, they occupy a position immediately PRE-VERBAL in most Kabuli speech.",
+        "EXAMPLE showing the contrast:",
+        "يې بيوي [ye byoyi] — weak OBJECT pronoun يې docks after verb (no other stressed element): 'He is taking him/her/it.'",
+        "ورته ورشي [warta warshi] — weak PREPOSITIONAL pronoun ورته comes before the verb ورشي: 'He/She goes to him/her.'",
+        "DIALECT NOTE 🔁: In some dialects, prepositional weak pronouns CAN appear in their normal syntactic position (after the noun they would replace). This variation is widespread. The pre-verbal position is the most common Kabuli pattern and is used throughout these materials.",
+        "PRACTICAL RULE: When you are unsure where to place a prepositional weak pronoun, put it directly before the main verb. You will be correct in most Kabuli contexts."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — The Order of Floating Particles (د ګرځندو ذراتو ترتيب)",
+      "lines": [
+        "When MULTIPLE floating particles appear in the same sentence, they must occur in a FIXED, INVARIABLE ORDER after the first stressed element. This is the clitic chain.",
+        "THE FIXED ORDER — from first to last after the stressed element:",
+        "1st: خو [xo] — 'maybe / perhaps' (epistemic modal particle)",
+        "2nd: به [ba] — future marker",
+        "3rd: weak possessive or direct object pronoun (مې، دې، يې، مو)",
+        "4th: weak possessive or direct object pronoun (if a second one is present)",
+        "MNEMONIC: 'X-B-P' — خو first, به second, Pronoun(s) last",
+        "TWO-PARTICLE EXAMPLES:",
+        "پلار مې دې ليږي. [plār me de legi.] — 'My father is sending you.' OR 'Your father is sending me.' ← AMBIGUOUS: both مې [me] and دې [de] dock after پلار; order (مې before دې) is fixed but who-is-whose is ambiguous",
+        "پلار به مې دې وليږي. [plār ba me de wulegi.] — 'My father will send you.' OR 'Your father will send me.' ← به [ba] comes before both pronouns; همان fixed order",
+        "پلار خو مې دې ليږي. [plār xo me de legi.] — 'Maybe my father is sending you.' OR 'Maybe your father is sending me.' ← خو [xo] first, then pronouns",
+        "THREE-PARTICLE EXAMPLE — all three categories at once:",
+        "پلار خو به مې دې وليږي. [plār xo ba me de wulegi.] — 'Maybe my father will send you.' ← خو (1st) → به (2nd) → مې (3rd) → دې (4th) — strict order",
+        "AMBIGUITY NOTE: Because مې [me] and دې [de] are both valid in either possessive or object roles, and both follow the same first-stressed-element rule, many sentences with two weak pronouns are genuinely ambiguous. Context must resolve them: 'My father is sending you' vs. 'Your father is sending me' — same Pashto sentence, different contexts.",
+        "NEGATIVE PARTICLES: نه [na] is NOT a floating particle — it stays in its fixed pre-verbal position and does NOT enter the floating particle chain."
       ]
     },
     {
       "type": "paragraph",
-      "heading": "Sentence Comparisons: Tracking the Clitic",
+      "heading": "Floating Particles with Stress-Shifting Verbs (Special Rules)",
       "lines": [
-        "Let's look at minimal pairs showing clitic placement variation. Notice how the clitic (in bold) docks:",
-        "Pair 1 (Standard vs. Clitic):",
-        "اسد ورور په لوګر کې اوسي. [Asad wrōr pa logar ke osi.] (Asad's brother lives in Logar.)",
-        "د ورور **یې** په لوګر کې اوسي. [Da wrōr **ye** pa logar ke osi.] (His brother lives in Logar. -> 'ye' docks after the first stressed phrase 'Da wrōr').",
-        "Pair 2 (Direct Object):",
-        "زه کتاب غواړم. [Zə kitāb ghwāṛam.] (I want the book.)",
-        "زه **یې** غواړم. [Zə **ye** ghwāṛam.] (I want it. -> 'ye' docks after the stressed pronoun 'Zə').",
-        "Pair 3 (Stress-Shifting Verb):",
-        "راتلای **شئ**؟ [Rātlāy **shəy**?] (Can you come? -> The clitic shifts its docking point based on the stress of the modal verb)."
+        "When the MAIN VERB is a stress-shifting (Class A doubly irregular) verb — like کيناستل [kenāstəl] 'sit', پاڅيدل [pātsedəl] 'get up', بيول [byoyəl] 'take' — floating particles interact with the verb's syllable structure in a special way.",
+        "RULE 1 — IMPERFECTIVE stress-shifting verb, no other stressed element in the sentence:",
+        "Floating particles come AFTER BOTH SYLLABLES of the verb (i.e., after the whole verb word).",
+        "بيوي مې. [byoyi me.] — 'He is taking me.' ← مې [me] follows the complete verb بيوي [byoyi] (both syllables)",
+        "نه مې بيوي. [na me byoyi.] — 'He is not taking me.' ← نه [na] pre-verbal (fixed); مې [me] after verb",
+        "RULE 2 — PERFECTIVE stress-shifting verb, no other stressed element in the sentence:",
+        "Floating particles come AFTER THE FIRST (stressed) SYLLABLE of the verb but BEFORE نه and the rest of the verb.",
+        "'He will take me.': بوز- [BOZ-] + به + me + rest → بوز به مې ي. OR following the fuller form: به مې بوزي. [ba me bozi.] ← in this case به [ba] and مې [me] BOTH precede the verb since there's no stressed element before the verb",
+        "KEY EXAMPLES from the textbook:",
+        "زده کوونکی مې بيوي. [zdā kawunkay me byoyi.] — 'The teacher is taking me.' ← subject زده کوونکی is the first stressed element; مې [me] docks after it, BEFORE verb",
+        "زده کوونکی مې نه بيوي. [zdā kawunkay me na byoyi.] — 'The teacher is not taking me.' ← same: مې after subject, نه before verb",
+        "زده کوونکی به مې بوزي. [zdā kawunkay ba me bozi.] — 'The teacher will take me.' ← به before مې (fixed order), both after first stressed subject",
+        "زده کوونکی به مې بوز نه ي. [zdā kawunkay ba me boz na i.] — 'The teacher will not take me.' ← به then مې after subject; نه between perfective syllable بوز and remaining auxiliary -ي",
+        "COMMAND WITH FLOATING PRONOUN:",
+        "بوز مې زه! [boz me za!] — 'Take me!' ← perfective command بوز [BOZ] carries stress; مې [me] follows stressed syllable",
+        "مه مې بيوه! [ma me byoya!] — 'Don't take me!' ← negative command; مه [ma] is not floating; مې [me] follows immediately after مه since there's no other stressed element first"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "💡 The Unified Floating Rule — All Particles Obey One Principle",
+      "lines": [
+        "Across Lessons 4, 7, 8, 9, and 10, you have encountered four types of floating particles: weak possessives مې/دې/يې/مو, the future marker به [ba], the modal خو [xo] 'maybe', and indirect object pronouns. They all follow ONE underlying principle:",
+        "EVERY FLOATING PARTICLE docks after the FIRST PHONOLOGICALLY STRESSED ELEMENT in the sentence.",
+        "When there is NO stressed element before the verb, the particles dock onto the verb itself — specifically onto the FIRST STRESSED SYLLABLE of the verb.",
+        "When MULTIPLE particles co-occur, they chain in FIXED ORDER (خو → به → pronouns) after that same anchor point.",
+        "This unified principle means you do NOT need to learn separate rules for each particle type. Learn the anchor principle once, learn the chain order, and you can handle any combination.",
+        "TEST YOURSELF: In the sentence پلار خو به مې دې وليږي [plār xo ba me de wulegi], identify: (1) the first stressed element, (2) the floating chain order, (3) what each particle means. Answer: (1) پلار [plār] 'father'; (2) خو [xo] 'maybe' → به [ba] future → مې [me] 1sg pronoun → دې [de] 2sg pronoun; (3) 'Maybe my father will send you' (or 'maybe your father will send me' — ambiguous)."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "TRANSPORTATION NOUNS:",
+        "موتر [motor] — car / automobile (M2 class) [motor]",
+        "سرويس [sarwes] — bus / minibus (M2 class) [sarwes]",
+        "تکسي [taksi] — taxi (M, irregular) [taksi]",
+        "بايسکل [bāysikil] — bicycle (M2 class) [bāysikil]",
+        "خر [xər] — donkey (M, irregular; oblique plural خرو [xaro]) [xər]",
+        "اس [as] — horse (M2 class) [as]",
+        "کريا [kriyā] — fare / rent / transport cost (F1 class) [kriyā]",
+        "DIRECTION & MOTION NOUNS:",
+        "ماشين [māshin] — car / machine (M2 class — synonym for موتر [motor]) [māshin]",
+        "خوا [xwā] — direction / side / way (F3 class) [xwā]",
+        "مخ [makh] — front / face (M2 class) [makh]",
+        "کرسۍ [karsay] — chair / seat (F2 class) [karsay]",
+        "BODY VOCABULARY (appearing in Unit 12 preview):",
+        "سر [sar] — head (M2 class) [sar]",
+        "غوږ [ghwag] — ear (M2 class) [ghwag]",
+        "سترګه [sterga] — eye (F1 class) [sterga]",
+        "خوله [xwala] — mouth (F1 class) [xwala]",
+        "پوزه [poza] — nose (F1 class) [poza]",
+        "لاس [lās] — hand / arm (M2 class) [lās]",
+        "پښه [paxa] — foot / leg (F1 class) [paxa]",
+        "زړه [zṛa] — heart (M2 class) [zṛa]",
+        "ګيډه [geḍa] — stomach (F1 class) [geḍa]",
+        "ADJECTIVES:",
+        "شخصي [shaxsi] — private (Class 4) [shaxsi]",
+        "اوږد [ugd] — long (Class 1) [ugd]",
+        "لوړ [loṛ] — high / tall (Class 1, review from L5 poem) [loṛ]",
+        "ډک [ḍak] — full (Class 1) [ḍak]",
+        "ګم [wrak] — lost (Class 1) [wrak]",
+        "سپور [spor] — riding / mounted (Class 1) [spor]",
+        "VERBS:",
+        "سپريدل [sparedəl] — to ride (intr. derivative verb); stem: سپريږ- [spareg-] [sparedəl]",
+        "رساول [rasāwəl] — to transport / cause to arrive (simple verb) [rasāwəl]",
+        "CONJUNCTIONS & ADVERBS:",
+        "ځکه [dzəka] — because [dzəka]",
+        "کله چې [kāla če] — when (subordinating conjunction) [kāla če]",
+        "که...نو [ka...no] — if...then [ka...no]",
+        "پيادو [pyādo] — on foot [pyādo]",
+        "ولاړ [walāṛ] — standing (adjective / idiomatic 'waiting/standing') [walāṛ]",
+        "انتظار باسل [intizār bāsəl] — to wait (idiomatic phrase + simple verb) [intizār bāsəl]",
+        "ځنګ پر ځنګ [dzang par dzang] — side by side [dzang par dzang]",
+        "ارتماري [artamāri] — very probably [artamāri]",
+        "وله ناه [wale na] — Of course! / Why not! [wale na]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Reading: د کابل ترافيک (Kabul Traffic)",
+      "lines": [
+        "This reading describes transportation options in Kabul — from private cars to donkeys — and the experience of navigating the city. Script only. Identify every weak pronoun and classify its grammatical role.",
+        "پهـ کابل کې د ترافيک ستونزه لويه ده. ډير خلک ماشين نه لري.",
+        "ځنکه چې ماشين ګران دی، ډير خلک سرويس کاروي. سرويس ارزانه ده.",
+        "تکسي هم شته. که ډير عجله يې، تکسي واخله. کريا يې ډيره نه ده.",
+        "ځيني خلک بايسکل کاروي. بايسکل ارزانه وي خو اوږده لار ده.",
+        "پهـ لرو ځايو کې خلک اس يا خر کاروي. هغوي پيادو هم ځي.",
+        "پهـ کابل کې د ترافيک چراغونه شته. اکثراً رانژده ماشينونه ولاړ دي.",
+        "د سرويس انتظار کوي. ځنګ پر ځنګ ناست وي. کريا يې وارکوي.",
+        "READING GLOSSARY:",
+        "ستونزه [stawnza] — problem (F1 class) ◆ لويه [loyа] — big (F form of لوی [loy]) ◆ کاروي [kārawi] — uses (3sg pres. impf. of کارول [kārowəl] — derivative verb) ◆ ارزانه [arzāna] — cheap (F form of ارزان [arzān]) ◆ عجله [ajela] — hurry (F1 class) ◆ واخله [wāxla] — Take/get! (perfective sg command of اخستل [axistəl]) ◆ ځيني [dzeni] — some (adjective, plural) ◆ لرو ځايو کې [laro dzāyo ke] — in far/remote places (oblique plural) ◆ رانژده [rānizdé] — nearby / approaching (← نږدې + را-) ◆ ولاړ دي [walāṛ di] — are standing/waiting",
+        "WEAK PRONOUN IDENTIFICATION EXERCISE — find and classify each weak pronoun in the reading:",
+        "① يې in: کريا يې ډيره نه ده — role: _____ (whose fare? → possessive يې 3pl 'their/its')",
+        "② يې in: عجله يې — role: _____ (whose hurry? → possessive يې 2sg 'your')",
+        "③ يې in: کريا يې وارکوي — role: _____ (give it to whom? → object/possessive يې contextual)",
+        "COMPREHENSION QUESTIONS (answer in Pashto script):",
+        "① د کابل خلک ولې سرويس کاروي؟ — Why do Kabul people use the bus?",
+        "② که عجله درلرئ، کوم وسيله واخلئ؟ — If you are in a hurry, what transport should you take?",
+        "③ پهـ لرو ځايو کې خلک ددي کاروي؟ — What do people use in remote areas?"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🚌 Cultural Note: Afghan Urban Transport",
+      "lines": [
+        "سرويس [sarwes] — the minibus — is the backbone of urban transport in Afghan cities. Small Toyota vans and minibuses follow fixed routes and are hailed from the roadside. Fares are negotiated or fixed per route. The interior is often crowded — ځنګ پر ځنګ [dzang par dzang] 'side by side' is the normal seating arrangement.",
+        "GENDER ON TRANSPORT: In conservative contexts, women sit in designated sections of public minibuses. In Kabul taxis, a woman may ride alone if necessary but typically travels with a male محرم [mahram] (male guardian). Urban educated women navigate these norms flexibly.",
+        "TAXIS AND BARGAINING: In Kabul, taxi fares are negotiated — there are no meters. State the destination BEFORE getting in, agree on the fare (کريا [kriyā]) upfront. This is a social ritual similar to the bazaar negotiation from Lesson 4: the first price quoted is the starting point, not the final price. Saying ډيره ده [dera da] 'that's too much' followed by your counter-offer is expected.",
+        "HORSE AND DONKEY: In rural Afghanistan and mountain regions, اس [as] 'horse' and خر [xər] 'donkey' remain primary transport even today. The reading's reference to these is not quaint — it reflects lived reality for millions of Afghans outside urban centres. سپريدل [sparedəl] 'to ride (an animal)' is a practical verb in rural contexts.",
+        "THE TRAFFIC PROBLEM: کابل ترافيک [kābul trāfik] is notorious — Kabul's road infrastructure was not designed for its current population of several million. The reading's ترافيک ستونزه لويه ده [trāfik stawnza loyа da] 'the traffic problem is big' is a very live complaint among contemporary Kabulis."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — Demonstrative Pronouns Preview (د اشاري ضميرونو لنډيز)",
+      "lines": [
+        "Unit 10 introduces the anaphoric/demonstrative pronouns as discourse-tracking tools — previewing the fuller treatment in Lesson 11. Here are the essentials for this lesson's conversational needs.",
+        "Pashto has a THREE-WAY demonstrative system (vs. English two-way 'this/that'):",
+        "CLOSE (proximal) — near the speaker:",
+        "دا [dā] — 'this' (M DSg) ◆ دا [dā] — 'this' (F DSg) — SAME FORM for M and F in DSg",
+        "دوي [doy] — 'these' (M DPl) ◆ دا [dā] — 'these' (F DPl) — note M/F distinction in plural",
+        "MIDDLE DISTANCE — somewhat removed:",
+        "داغه [dāgha] — 'that/this one (yonder)' (M DSg) ◆ داغه [dāgha] — (F DSg)",
+        "FAR (distal) — clearly distant:",
+        "اغه [agha] — 'that (over there)' (M DSg) ◆ اغه [agha] — (F DSg) ◆ اغوي [aghoyi] — 'those' (pl.)",
+        "DISCOURSE USE — demonstratives track reference in conversation:",
+        "دا [dā] 'this/he/she' = the entity just mentioned or close in the conversation",
+        "هغه [hagha] 'that/he/she' = entity mentioned earlier or further from the conversational focus",
+        "STRONG PRONOUN vs. DEMONSTRATIVE — a critical distinction:",
+        "اغه [agha] 'that' (DEMONSTRATIVE) — stress on FIRST syllable [Agha]",
+        "اغه [aghe] 'he (out of sight)' (STRONG PRONOUN) — stress on SECOND syllable [aGHĀ]",
+        "Same spelling, different stress, different meaning — another example of why audio learning is essential.",
+        "IN CONTEXT from the dialogue: هغه به درته راشي [hagha ba darta rāshi] — 'He will come to you' — هغه [hagha] here is a STRONG PRONOUN (referring to Paṭang mentioned earlier), not a demonstrative."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 8 — Diversion: د ملا نصرالدين قصه — پهـ خر سپور (Riding the Donkey)",
+      "lines": [
+        "The Diversion for Unit 10 is another Mullah Nasruddin story — this time about the impossibility of looking for something you already have.",
+        "PASHTO PROVERB:",
+        "پهـ خر سپور، خر يې ورک کاری ده!",
+        "[pa xər spor, xər ye wrak kāray da!]",
+        "Translation: 'Riding his donkey, he's lost his donkey!'",
+        "WORD-FOR-WORD GLOSS:",
+        "پهـ خر [pa xər] — 'on a donkey' (oblique: خر [xər] object of پهـ) ◆ سپور [spor] — 'riding / mounted' (Class 1 adjective, M DSg, agrees with the implied masculine subject) ◆ خر [xər] — 'donkey' (direct object, direct case) ◆ يې [ye] — weak possessive 'his' (docks after خر, the first stressed object phrase) ◆ ورک [wrak] — 'lost' (Class 1 adjective) ◆ کاری ده [kāray da] — 'he has done / has made (it so)' (past participle of کول)",
+        "THE STORY: Mullah Nasruddin was riding his donkey through the village, apparently searching for something. Someone asked him: 'Mullah, what are you looking for?' The Mullah replied: 'I'm looking for my donkey!' — while sitting on it.",
+        "GRAMMAR SPOTLIGHT: يې [ye] in خر يې ورک کاری ده — here يې [ye] is the WEAK POSSESSIVE 'his', modifying خر [xər] 'donkey'. It docks after خر, the first stressed phrase in the second clause. The sentence demonstrates the Lesson 4 possessive rule in its simplest form: يې [ye] after the first stressed element of its clause.",
+        "CULTURAL COMMENTARY: This is perhaps the most universally beloved Nasruddin story — because it captures a fundamental human comedy: looking everywhere for something obvious, the thing you are sitting on, holding, or already have. In Pashto philosophical tradition, this story has a deeper resonance: it is sometimes interpreted as a Sufi allegory — the soul searching for God while already containing the divine. The mundane and the transcendent collapse into the same absurd image of a man on a donkey searching for his donkey.",
+        "VOCABULARY FROM THE DIVERSION:",
+        "سپور [spor] — riding / mounted (Class 1 adjective) [spor]",
+        "ورک [wrak] — lost (Class 1 adjective) [wrak]",
+        "پسې ګرځل [pase gardzəl] — to look for / to search after (idiomatic: پسې [pase] + ګرځل [gardzəl] 'to wander') [pase gardzəl]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 10 before attempting the quiz:",
+        "✓ SUBJECT weak pronouns are DROPPED — verb ending carries person/number. Exception: يې [ye] 3sg/pl retained in some positions.",
+        "✓ DIRECT OBJECT weak pronouns = POSSESSIVE weak pronouns (same forms: مې، دې، يې، مو). Context distinguishes role.",
+        "✓ ALL weak pronouns (except prepositional) dock after the FIRST STRESSED ELEMENT — same rule since Lesson 4.",
+        "✓ Two-part prepositions DROP their first part when object is a weak pronoun: له اسد سره → ورسره [warsara].",
+        "✓ Exception: پهـ...کې — the NOUN drops (not the preposition): پهـ کور کې → پهـ کې [pa ke] 'there'.",
+        "✓ Directionality in prepositional weak pronouns: را- [rā-] = to/with me; دار- [dār-] = to/with you; ور- [war-] = to/with him/her/them.",
+        "✓ FLOATING PARTICLE ORDER (fixed): خو [xo] → به [ba] → weak pronoun(s).",
+        "✓ Stress-shifting verbs (imperfective): floating particles come AFTER THE COMPLETE VERB if no stressed element precedes.",
+        "✓ Stress-shifting verbs (perfective): floating particles come AFTER FIRST STRESSED SYLLABLE, before نه and rest of verb.",
+        "✓ Demonstrative stress contrast: اغه [Agha] (demonstrative 'that') vs. اغه [aGHĀ] (strong pronoun 'he-out-of-sight').",
+        "✓ سرويس [sarwes] = bus; تکسي [taksi] = taxi; کريا [kriyā] = fare (negotiate upfront!)."
       ]
     },
     {
       "type": "quiz",
-      "question": "According to the Clitic Docking Algorithm, where MUST a weak pronoun (like 'ye' or 'me') be placed in a Pashto sentence?",
+      "question": "In the sentence امان مهمانيه ته يې غواړي — 'Amān is inviting him to the party' — what grammatical role does يې [ye] play and why is it positioned there?",
       "options": [
-        "Immediately before the main verb.",
-        "At the very beginning of the sentence.",
-        "Immediately after the first stressed constituent of the clause.",
-        "Directly attached to the noun it possesses, just like in English."
+        "يې [ye] is the weak POSSESSIVE 'his', modifying مهمانيه [mehmaniya] 'party'.",
+        "يې [ye] is the weak DIRECT OBJECT 'him', docking after مهمانيه ته as the first stressed element in the sentence.",
+        "يې [ye] is the SUBJECT 'he', retained because there is no other subject in the sentence.",
+        "يې [ye] is the weak OBJECT OF PREPOSITION, replacing a full noun phrase after ته [ta]."
+      ],
+      "correctIndex": 1,
+      "explanation": "يې [ye] here is the weak DIRECT OBJECT pronoun 'him' — it replaces a full noun like اسد [asad] as the object of the verb غواړي [ghwāṛi] 'invites'. It docks after مهمانيه ته [mehmaniya ta] — the first stressed phrase in the sentence. Compare with possessive يې: امان يې مهمانيه غواړي [amān ye mehmaniya ghwāṛi] 'Amān wants his party' — here يې would follow امان and modify مهمانيه. The forms are identical (يې = يې) but the grammatical role differs based on position and context."
+    },
+    {
+      "type": "quiz",
+      "question": "How do you say 'with him' using a weak pronoun, given that the full form is له هغه سره [la hagha sara]?",
+      "options": [
+        "له يې سره [la ye sara] — replacing only the noun with يې but keeping both preposition parts.",
+        "له سره [la sara] — dropping the noun but keeping both preposition parts.",
+        "ورسره [warsara] — the first part له [la] drops entirely and سره [sara] fuses with the directional prefix ور- [war-].",
+        "سره يې [sara ye] — appending the weak pronoun after the second preposition part."
       ],
       "correctIndex": 2,
-      "explanation": "Weak pronouns are enclitics that obligatorily dock after the first stressed constituent of the clause, regardless of their grammatical role."
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "paragraph",
-      "heading": "Module 3: Demonstratives & Discourse Tracking",
-      "lines": [
-        "This unit also previews the demonstrative pronoun system, which is used heavily for anaphoric reference (referring back to things just mentioned).",
-        "We use a proximal/distal distinction:",
-        "[da] (دا) 'this/he/she' (Proximal - close to speaker or just mentioned).",
-        "[hagha] (هغه) 'that' (Distal - background information or further away)."
-      ]
-    },
-    {
-      "type": "callout",
-      "text": "Cultural Pragmatics: Because Pashto allows you to completely drop subject pronouns (since the verb tells you who is acting), choosing to use an EXPLICIT strong pronoun (like saying 'Zə' for 'I') is not just grammatical—it's rhetorical! Using an explicit pronoun signals strong emphasis, contrast, or defiance. It changes the sociolinguistic tone of your sentence."
+      "explanation": "When a two-part preposition like له...سره [la...sara] takes a weak pronoun object, the FIRST PART of the preposition (له [la]) DROPS, and the second part (سره [sara]) FUSES with the directional prefix that encodes person: ور- [war-] for 3rd person (away from speaker) → ورسره [warsara] 'with him/her/them'. Similarly: راسره [rāsara] 'with me' (1st person, toward speaker) and درسره [darsara] 'with you' (2nd person, toward addressee). These fused forms are the standard collapsed preposition + weak pronoun constructions in Pashto."
     },
     {
       "type": "quiz",
-      "question": "In a Pashto conversation, what does it signify if a speaker uses an explicit strong subject pronoun (e.g., explicitly saying 'Zə' for 'I') instead of just dropping it?",
+      "question": "What is the correct order of floating particles in the sentence 'Maybe my father will send you'?",
       "options": [
-        "It signals strong emphasis or contrast.",
-        "It means they are speaking formal Kabuli dialect.",
-        "It shows they do not know the correct verb ending.",
-        "It turns the sentence into a question."
+        "پلار به خو مې دې وليږي — به [ba] first, then خو [xo], then pronouns.",
+        "پلار مې دې خو به وليږي — pronouns first, then modal, then future marker.",
+        "پلار خو به مې دې وليږي — خو [xo] first, به [ba] second, then weak pronouns مې and دې.",
+        "پلار دې مې به خو وليږي — reversed order of all particles."
       ],
-      "correctIndex": 0,
-      "explanation": "In Pashto pragmatics, explicit subject pronouns are used to signal emphasis or contrast, making a sociolinguistic distinction from English where pronouns are always required."
+      "correctIndex": 2,
+      "explanation": "The FIXED ORDER of floating particles in Pashto is: خو [xo] 'maybe' → به [ba] future marker → weak pronouns (مې then دې). So 'Maybe my father will send you' = پلار خو به مې دې وليږي [plār xo ba me de wulegi]. After the first stressed element پلار [plār] 'father': (1) خو [xo] 'maybe', (2) به [ba] future, (3) مې [me] 1sg pronoun, (4) دې [de] 2sg pronoun. This order is invariable — you cannot swap any two particles without making the sentence ungrammatical. Note that this sentence is also ambiguous: it can also mean 'Maybe your father will send me' because both possessive readings of مې and دې are valid."
+    },
+    {
+      "type": "quiz",
+      "question": "In 'He is taking me' when بيول [byoyəl] is the verb and there is no other stressed element in the sentence — where does مې [me] go?",
+      "options": [
+        "مې goes at the very beginning of the sentence, before the verb: مې بيوي.",
+        "مې goes after the COMPLETE verb بيوي [byoyi] because بيول is a stress-shifting verb with no preceding stressed element: بيوي مې.",
+        "مې goes between the two syllables of بيوي, splitting بي and وي: بي مې وي.",
+        "مې goes at the very end of the sentence after everything else: ه بيوي مې."
+      ],
+      "correctIndex": 1,
+      "explanation": "بيول [byoyəl] 'to take' is a stress-shifting (Class A doubly irregular) verb. When it appears in the IMPERFECTIVE form بيوي [byoyi] and there is NO other stressed element in the sentence, floating particles come AFTER THE COMPLETE VERB — after both syllables. So: بيوي مې [byoyi me] 'He is taking me.' This is the special rule for stress-shifting verbs in imperfective contexts without a preceding stressed element. If there were a subject (زده کوونکی [zdā kawunkay] 'the teacher'), مې would dock after that subject instead: زده کوونکی مې بيوي [zdā kawunkay me byoyi] 'The teacher is taking me.'"
+    },
+    {
+      "type": "quiz",
+      "question": "What happens to the circumposition پهـ...کې [pa...ke] when its object is replaced by a weak pronoun? How do you say 'there / in it'?",
+      "options": [
+        "The first part پهـ [pa] drops and کې [ke] remains with the directional prefix: ورکې [warke] 'in it/there'.",
+        "The noun object drops but both پهـ [pa] and کې [ke] remain: پهـ کې [pa ke] 'there / in it'.",
+        "The entire circumposition drops and is replaced by the adverb هلته [halta] 'there'.",
+        "The weak pronoun يې [ye] is inserted between پهـ and کې: پهـ يې کې [pa ye ke] 'in it'."
+      ],
+      "correctIndex": 1,
+      "explanation": "پهـ...کې [pa...ke] is a special case: unlike other two-part prepositions (where the FIRST part drops), here the NOUN OBJECT drops and BOTH preposition parts (پهـ and کې) remain: پهـ کې [pa ke] 'there / in it'. This is because پهـ...کې is a circumposition — it surrounds the noun — so removing the noun leaves both parts standing. Compare: له اسد سره [la asad sara] → ورسره [warsara] 'with him' (first part له drops). In پهـ...کې, the noun اسد [asad] drops: پهـ اسد کې [pa asad ke] → پهـ کې [pa ke] 'there/in it'."
+    },
+    {
+      "type": "quiz",
+      "question": "In the Mullah Nasruddin proverb پهـ خر سپور، خر يې ورک کاری ده — what grammatical role does يې [ye] play and where does it dock?",
+      "options": [
+        "يې [ye] is a DIRECT OBJECT 'him' referring to the Mullah himself — he lost himself.",
+        "يې [ye] is a WEAK POSSESSIVE 'his', modifying خر [xər] 'donkey' — 'his donkey'. It docks after خر, the first stressed element in its clause.",
+        "يې [ye] is the SUBJECT 'he' retained because the main verb کاری ده is impersonal.",
+        "يې [ye] is an OBJECT OF PREPOSITION, collapsing the phrase له هغه [la hagha] into يې."
+      ],
+      "correctIndex": 1,
+      "explanation": "يې [ye] in خر يې ورک کاری ده is the WEAK POSSESSIVE pronoun 'his', modifying خر [xər] 'donkey' — 'his donkey is lost.' It docks after خر [xər], which is the first stressed element in the second clause (خر يې ورک کاری ده). This is the same first-stressed-element possessive clitic rule from Lesson 4: the clitic يې [ye] shadows the first heavy word in its clause and attaches to it. The full meaning: 'Riding HIS donkey, HIS donkey is lost!' — the comedy comes from يې [ye] in both clauses referring to the same donkey that the Mullah is simultaneously riding and 'losing'."
     }
   ]
 }

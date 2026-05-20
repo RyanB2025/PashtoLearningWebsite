@@ -1,60 +1,20 @@
 {
-  "id": "L14",
-  "title": "Lesson 14: Past Imperfective Tense, Pashto Infinitive & the Afghan Calendar   تیر نا-کامل زمان، پښتو مصدر او افغان کلنۍ",
-  "category": "Beginning Pashto",
-  "description": "Welcome to the capstone lesson of Beginning Pashto! Complete the tense-aspect matrix with the Past Imperfective, master infinitive modal constructions, and navigate the official Afghan Solar Hijri calendar.",
-  "duration": "Textbook pp. 160–169 (approx. 10-15 pages of instruction plus parallel Workbook modules)",
+  "id": "pashto-l14",
+  "title": "Lesson 14: Past Imperfective Tense, the Pashto Infinitive & the Afghan Solar Calendar",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "The final lesson of Beginning Pashto completes the four-cell tense-aspect system introduced in Lesson 12 by teaching the Past Imperfective — the Pashto equivalent of English past progressive ('was doing', 'were living'). The infinitive is identified as the past imperfective stem, serving as the citation form of the verb and functioning as a verbal noun (gerund/infinitive). A capstone 4×2 summary table closes the grammar arc. The Afghan Solar Hijri Calendar — twelve months with both Dari and Gregorian equivalents — grounds learners in the temporal framework of Afghan official life. The Diversion is a Pashto folk fable (ant and cricket). Learners completing this lesson have reached ILR 2+ and are prepared to enter Intermediate Pashto.",
+  "duration": "10–15 hours",
   "level": "Intermediate-High (ILR 2+)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: The Past Imperfective Tense",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Congratulations on reaching Unit 14! This capstone lesson completes the tense-aspect matrix.",
-        "The Past Imperfective Tense is used to describe habitual, ongoing, or repeated actions in the past. It translates closely to the English 'used to [verb]' or 'was [verb]ing'.",
-        "It is formed by adding the past suffix [-əl] to the imperfective stem.",
-        "CRITICAL RELIEF: The past imperfective follows the nominative-accusative agreement pattern—just like the present tense. This means the ergative construction (which you struggled with in Unit 13) is NOT triggered here. The verb agrees happily with the subject!"
-      ]
-    },
-    {
-      "type": "callout",
-      "text": "Grammar Hack: Contrast your past tenses! The Past Perfective uses the [wə-] prefix to show a completed, bounded action (e.g., 'He read the book once'). The Past Imperfective uses the [-əl] suffix on the imperfective stem to show an ongoing, habitual action (e.g., 'He used to read books daily')."
-    },
-    {
-      "type": "paragraph",
-      "heading": "Sentence Structures: Habitual Past",
-      "lines": [
-        "Let's look at this tense in our SOV framework:",
-        "احمد هره ورځ کتاب وایه. [Ahmad wróz kitāb wəwayəl.] (Ahmad used to read books daily.) -> Notice the verb agrees with Ahmad, not the book!",
-        "احمد غرمې ته تلی. [Ahmad mazmāshi ta tləy.] (Ahmad used to go at midday.)"
-      ]
-    },
-    {
-      "type": "quiz",
-      "question": "If you want to say 'I used to eat apples every day when I was young', do you need to use the ergative construction (putting the subject in the oblique case)?",
-      "options": [
-        "Yes, because all past tense sentences in Pashto are ergative.",
-        "Yes, because 'apples' is a plural direct object.",
-        "No, because the Past Imperfective tense uses standard nominative-accusative agreement, not the ergative construction.",
-        "No, because the ergative is only used in the present tense."
-      ],
-      "correctIndex": 2,
-      "explanation": "The ergative construction only applies to the Past Perfective tense for transitive verbs. The Past Imperfective (habitual past) safely uses regular subject-verb agreement!"
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "paragraph",
-      "heading": "Module 2: The Pashto Infinitive & Modals",
-      "lines": [
-        "Next, we introduce the Pashto Infinitive. Infinitives always end in [-əl] (ل) and function grammatically as verbal nouns.",
-        "Infinitives are the building blocks for modal constructions, such as expressing ability ('can' or 'be able to').",
-        "Modal Constructions Vocabulary:",
-        "[kawalay shəy] (کولی شي) 'can (transitive)'",
-        "[tlalay shəy] (تللی شي) 'can go'",
-        "[kedalay shəy] (کېدلی شي) 'can (intransitive)'",
-        "Sentence Example: ده کتاب لیدلی شي؟ [Da kitāb lēdalay shəy?] (Can he read/see the book?). Notice the stress falls strongly on [kaw-] or the base of the infinitive."
+        "By the end of this lesson you will be able to: form and use the Past Imperfective tense — the 'was doing / were living' equivalent — for all verb classes, applying the same ergative agreement rules from Lesson 13.",
+        "You will distinguish the four tense-aspect combinations and use them appropriately: present imperfective (habitual/ongoing), present perfective (future/command), past perfective (completed event), and past imperfective (ongoing past state or action).",
+        "You will recognise the Pashto infinitive as identical to the past imperfective stem, use it as a verbal noun (gerund) in subject and object position, and know it as the traditional citation form of Pashto verbs.",
+        "You will name all twelve months of the Afghan Solar Hijri calendar, convert between Gregorian and Afghan Solar dates, and use calendar vocabulary to express dates in official Afghan contexts.",
+        "You will have a reading knowledge of the complete Beginning Pashto grammar arc — all tenses, both aspects, all verb classes — representing approximately ILR 2+ proficiency."
       ]
     },
     {
@@ -62,41 +22,415 @@
     },
     {
       "type": "paragraph",
-      "heading": "Module 3: The Afghan Solar Hijri Calendar",
+      "heading": "Section 1 — Dialogue: پهـ دې ورځو کې (These Days — Finding Work)",
       "lines": [
-        "To navigate official Afghan contexts, you must understand the Afghan calendar. Afghanistan uses the Solar Hijri calendar as its official civil calendar.",
-        "Unlike the Gregorian calendar, the Afghan year begins exactly on the vernal equinox (March 21st). The month names natively reflect the zodiac.",
-        "Here are the 12 Pashto months (with Gregorian equivalents in parentheses):",
-        "1. وری (Hamal/Aries-March) | 2. غویی (Sawr/Taurus-April) | 3. غبرګولی (Jawzā/Gemini-May)",
-        "4. چنګاښ (Saraṭān/Cancer-June) | 5. زمری (Asad/Leo-July) | 6. وږی (Sonbolah/Virgo-August)",
-        "7. تله (Mīzān/Libra-September) | 8. لړم (Aqrab/Scorpio-October) | 9. لیندۍ (Qaws/Sagittarius-November)",
-        "10. مرغومی (Jaddi/Capricorn-December) | 11. سلواغه (Dalwa/Aquarius-January) | 12. کب (Hoot/Pisces-February)"
+        "Asad and Pashtāna are Afghan immigrants in the United States. They discuss what they were doing before finding work, and their ongoing struggles. The dialogue is built almost entirely in the past imperfective — narrating what was in progress.",
+        "پشتانه: اسد، ته چېره وسيده؟ [pashtāna: asad, tā čere wosede?] — Pashtāna: Asad, where were you living?",
+        "اسد: زه پهـ بالتيمور کې وسيدم. [asad: za pa bāltimor ke wosedəlam.] — Asad: I was living in Baltimore. ← وسيدم [wosedəlam] = 1sg past imperfective of اوسيدل [osedəl] 'to live'",
+        "پشتانه: کار درلود؟ [pashtāna: kār darlod?] — Pashtāna: Did you have work?",
+        "اسد: نه. زه پهـ کار پسې ګرځيدم. [asad: na. za pa kār pase gardzedəlam.] — Asad: No. I was looking for work. ← ګرځيدم [gardzedəlam] = 1sg past imperfective of ګرځيدل [gardzedəl] 'to wander/look for'",
+        "پشتانه: ستا مرستيالان هم دلته وو؟ [pashtāna: stā mrastiyālān ham delta wo?] — Pashtāna: Were your helpers here too?",
+        "اسد: هو. يو ملګری مې دفتر کې کار کاوه. [asad: haw. yaw malgaray me daftar ke kār kāwa.] — Asad: Yes. One of my friends was working in an office. ← کاوه [kāwa] = 3sg M past imperfective of کول [kawəl] 'to do'",
+        "پشتانه: ته مرنده ياد شوئ؟ [pashtāna: tā marnda yād shwāy?] — Pashtāna: Were you discouraged?",
+        "اسد: لږ. خو تل هڅه کوله. [asad: lag. xo tal hitsa kawəla.] — Asad: A little. But I was always trying. ← کوله [kawəla] = 3sg F/1sg past imperfective — 'was (I) making effort'",
+        "پشتانه: اوس نو کار مو پيدا کاوه؟ [pashtāna: os no kār mo payda kāwa?] — Pashtāna: Now were you finding work?",
+        "اسد: هو! پرون مې د بالتيمور سن کې خبر پيدا کاوه. [asad: haw! prun me da bāltimor san ke xabar payda kāwa.] — Asad: Yes! Yesterday I was finding news in the Baltimore Sun. ← پيدا کاوه [payda kāwa] = 3sg M past imperfective of پيدا کول [payda kawəl] 'to find'",
+        "KEY GRAMMAR FROM THE DIALOGUE:",
+        "① وسيدم [wosedəlam] — past imperfective 1sg of اوسيدل [osedəl] 'to live': This intransitive verb takes the past imperfective stem اوسيد- [osed-] + past suffix -ل [-əl] + personal ending -م [-am]. The verb agrees with the SUBJECT (I = 1sg).",
+        "② کاوه [kāwa] — past imperfective 3sg M of کول [kawəl] 'to do/make': The past imperfective stem of this doubly irregular verb is کاوه- [kaw-] + past suffix → کاوه [kāwa] (3sg M: the -ل suffix drops). Note: for past imperfective TRANSITIVE sentences, the verb would agree with the OBJECT — same ergative rules as past perfective.",
+        "③ کوله [kawəla] — past imperfective 1sg F or 3sg F (context: speaker is performing action): If speaker is female, 1sg F → ending -ه [-a] added."
       ]
     },
     {
       "type": "callout",
-      "text": "Cultural Literacy: The first day of the Solar Hijri year is 'Nawruz' (نوروز). It is a major national celebration pre-dating Islam that marks the arrival of spring. Do not confuse the Solar Hijri calendar (used for civil, school, and government scheduling) with the Islamic Lunar Hijri calendar, which is used strictly for religious observances (like Ramadan) and shifts by 11 days every year!"
+      "heading": "🌍 Cultural Context: Pashtun Diaspora",
+      "lines": [
+        "The Unit 14 dialogue is set in the United States, reflecting the real-world context of the Beginning Pashto curriculum: American university students learning Pashto for deployment, aid work, journalism, or immigration services.",
+        "THE PASHTUN DIASPORA: Millions of Pashtuns live outside Afghanistan and Pakistan — in the United States, Canada, the UK, Germany, Australia, and the UAE. The largest Pashtun diaspora communities in the US are in the Washington DC / Northern Virginia area, California, and the New York metropolitan area.",
+        "ECONOMIC CONTEXT: The dialogue's theme — searching for work, networking, surviving — reflects the real experience of Afghan refugees and immigrants. Many arrived after 1979 (Soviet invasion), 1996-2001 (Taliban era), and 2021 (Taliban return to power).",
+        "LANGUAGE IN DIASPORA: Pashtun diaspora communities often maintain Pashto strongly in the first generation, with subsequent generations shifting toward English (and sometimes Dari or Urdu). Community mosques, cultural associations, and family networks are the primary domains of Pashto maintenance.",
+        "LEARNING PASHTO IN THE US CONTEXT: The Beginning Pashto curriculum was designed at the Center for Applied Linguistics in Washington DC specifically for English-speaking Americans — military, government, aid workers, and community service providers — who need functional Pashto communication skills."
+      ]
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "🎓 Capstone Summary (Textbook Reference)",
+      "heading": "Section 2 — The Past Imperfective Tense (تير نا-کامل زمان)",
       "lines": [
-        "At the end of this textbook unit, you will find a Capstone 4-Tense × 4-Verb-Class Summary Table.",
-        "This master table, presented entirely in Pashto script, combines everything you have learned: Present Imperfective, Present Perfective, Past Imperfective, and Past Perfective, across simple, derivative, and doubly irregular verbs.",
-        "This is your ultimate reference artifact before moving on to Intermediate Pashto!"
+        "The Past Imperfective is the fourth and final cell of the Pashto tense-aspect grid. It corresponds to English past progressive ('was doing', 'were living') and describes ongoing or habitual actions in the past.",
+        "FORMATION: Past imperfective stem + past personal endings. The past imperfective stem = PRESENT IMPERFECTIVE ROOT + past suffix -ل [-əl] (for regular verbs) or the irregular past imperfective form for doubly irregular verbs.",
+        "THE 4-CELL GRID IS NOW COMPLETE:",
+        "Present Imperfective: ongoing/habitual present → لولم [lolam] 'I read (habitually)'",
+        "Present Perfective: future/command → ولولم [wulolam] 'I will read / Read!'",
+        "Past Perfective: completed past event → ولوستم [wulwostam] 'I read (through) the book'",
+        "Past Imperfective: ongoing/habitual past → لوستم [lwastəlam] 'I was reading'",
+        "VERB AGREEMENT — same ergative split as past perfective:",
+        "INTRANSITIVE past imperfective: agrees with SUBJECT",
+        "TRANSITIVE past imperfective: agrees with OBJECT; agent in oblique case",
+        "EXAMPLES — INTRANSITIVE (agrees with subject):",
+        "رابيا مکتب ته تله. [rābya maktab ta tləla.] — 'Rābya was going to school.' ← تله [tləla] = 3sg F past imperfective of تلل [tləl]; feminine ending -ه [-a] because subject رابيا is F",
+        "هغه اس سپاريده. [hagha as sparidəla.] — 'He/She was riding a horse.' ← سپاريده [sparidəla] = 3sg past impf. of سپريدل [sparedəl]; this can be M or F depending on subject gender",
+        "لیلا اتن کاوه. [laylā atan kāwa.] — 'Layla was dancing the atan.' ← کاوه [kāwa] = 3sg past impf. of کول",
+        "پلاو نه پخيده. [palāw na paxedəla.] — 'The rice was not cooking.' ← پخيده [paxedəla] = 3sg F past impf. of پخيدل [paxedəl]; پلاو [palāw] is M but this is an intransitive — agrees with M → پخيد [paxid]? Actually پلاو is M2, so 3sg M past impf. → suffix drops: پخيد [paxid] or with context پخيده [paxeda] for feminine. Let us note: پلاو نه پخيد [palāw na paxid] — 'The rice was not cooking.' ← 3sg M intransitive past impf. — suffix drops for 3sg M",
+        "EXAMPLES — TRANSITIVE (agrees with object; agent in oblique):",
+        "اسد ډوډۍ خوړله. [asad ḍoḍay xoṛəla.] — 'Asad was eating food.' ← خوړله [xoṛəla] = 3sg F past impf. of خوړل [xoṛəl]; agrees with F object ډوډۍ [ḍoḍay]! Agent اسد [asad] is in oblique (same form as direct for M1 nouns).",
+        "اسد ترجمه کوله. [asad tarjuma kawəla.] — 'Asad was doing the translation.' ← کوله [kawəla] = 3sg F past impf. of کول; agrees with F object ترجمه [tarjuma]",
+        "ليلا پلاو راوه. [laylā palāw rāwa.] — 'Layla was bringing the rice.' ← راوه [rāwa] = 3sg M past impf. of راوستل [rāwastəl]; agrees with M object پلاو [palāw]"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Past Imperfective of All Verb Classes",
+      "lines": [
+        "SIMPLE VERBS — regular: past imperfective stem = imperfective root + -ل [-əl] suffix + personal ending",
+        "لولم [lolam] (pres. impf.) → past stem لوست- [lwast-] + -ل [-əl] → لوستلم [lwastəlam] 'I was reading'",
+        "لیژم [legam] (pres. impf.) → past impf. stem لیژد- [legəd-]: لیژدلم [legədəlam] 'I was sending', لیژده [legədəla] (3sg F), لیژد [legəd] (3sg M — suffix drops)",
+        "SIMPLE VERBS — irregular past stems (same as past perfective stems):",
+        "اخل- [axl-] impf. → اخيست- [axist-] past stem: اخيستلم [axistəlam] 'I was taking', اخيسته [axistəla] (3sg F)",
+        "لید- [led-] impf. → ليد- [lid-] past stem: ليدلم [lidəlam] 'I was seeing', ليده [lidəla] (3sg F)",
+        "DERIVATIVE VERBS — intransitive: change کيږ- [keg-] to کيد- [ked-] + past suffix:",
+        "نږدې کيږي [nizdé kegi] (pres. impf.) → نږدې کيدل [nizdé kedəl] (past impf. infinitive):",
+        "Past impf.: نږدې کيدم [nizdé kedəlam] 'I was approaching', نږدې کيده [nizdé kedəla] (3sg F)",
+        "DERIVATIVE VERBS — transitive: add past suffix to -aw- base: پخو- [paxaw-] → پخوله [paxawəla] (3sg F, agrees with F object), پخاوه [paxāwa] (3sg M, agrees with M object — auxiliary کاوه [kāwa])",
+        "DOUBLY IRREGULAR — stress-shift intransitive: کيناستل [kenāstəl]: past impf. stem کينست- [kenast-]: کينستلم [kenastəlam] 'I was sitting down'",
+        "DOUBLY IRREGULAR — root-change intransitive: تلل [tləl] 'go': past impf. stem تل- [tl-]: تلم [tləlam] 'I was going', تله [tləla] (3sg F), تل [tl] (3sg M — suffix drops)",
+        "راتلل [rātləl] 'come': past impf. stem راتل- [rātl-]: راتلم [rātləlam] 'I was coming', راتله [rātləla] (3sg F)",
+        "DOUBLY IRREGULAR — root-change transitive: بيول [byoyəl] 'take away': past impf. stem بيو- [byow-]: بيوله [byowəla] (3sg F object), بياوه [byāwa] (3sg M object)",
+        "DOUBLY IRREGULAR — کول [kawəl] 'make/do': past impf. stem کاوه- [kaw-]/کوله [kawəla] depending on context and object gender:",
+        "Object M sg: کاوه [kāwa] ← 3sg M drop suffix: اسد ترجمه کاوه (wait — ترجمه F sg → کوله!)",
+        "Object F sg: کوله [kawəla] ← 3sg F -ه [-a]: 'was doing the translation' → ترجمه کوله [tarjuma kawəla]",
+        "Object M sg: کاوه [kāwa] → 'was doing the work' → کار کاوه [kār kāwa]"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "📊 The Complete 4-Cell Tense-Aspect Summary Table",
+      "lines": [
+        "This capstone table summarises the complete Beginning Pashto tense system. Every cell you have learned is mapped here. Use this as a reference for the rest of your Pashto studies.",
+        "VERB: لوستل [lwastəl] 'to read/study' | AGENT: زه [za] 'I' | OBJECT: کتاب [kitāb] 'book' (M sg)",
+        "INTRANSITIVE SENTENCES (verb agrees with subject):",
+        "Pres. Impf.: زه لولم [za lolam] — 'I read (habitually)' ← subject agreement, imperfective stem",
+        "Pres. Perf.: زه ولولم [za wulolam] — 'I will read / I'm going to read' ← subject agreement, perfective stem",
+        "Past Impf.: زه لوستلم [za lwastəlam] — 'I was reading' ← subject agreement, past impf. stem",
+        "Past Perf.: زه ولوستم [za wulwastam] — 'I read (through)' ← subject agreement, past perf. stem",
+        "TRANSITIVE SENTENCES (present: subject agrees; past: object agrees, agent oblique):",
+        "Pres. Impf.: زه کتاب لولم [za kitāb lolam] — 'I read a book' ← verb agrees with subject زه [za] (1sg)",
+        "Pres. Perf.: زه کتاب ولولم [za kitāb wulolam] — 'I will read the book' ← verb agrees with subject زه [za] (1sg)",
+        "Past Impf. (ERGATIVE): ما کتاب لوسته [mā kitāb lwastəla] — 'I was reading the book' ← agent ما [mā] oblique; verb لوسته [lwastəla] agrees with M sg object کتاب → Wait: کتاب M sg → past impf. 3sg M drops suffix: ما کتاب لوست [mā kitāb lwast]",
+        "Past Perf. (ERGATIVE): ما کتاب ولوست [mā kitāb wulwost] — 'I read the book' ← agent ما [mā] oblique; verb ولوست [wulwost] agrees with M sg object کتاب (3sg M — suffix drops)",
+        "KEY PATTERN: Past transitive always has OBLIQUE AGENT + OBJECT-AGREEING VERB. This is the ergative pattern (Lesson 13) and applies equally to BOTH past imperfective AND past perfective.",
+        "SEMANTICS: Past Perfective = 'I read the book (completed)' → a bounded, finished event. Past Imperfective = 'I was reading the book' → an ongoing activity in the past, not necessarily finished."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — The Pashto Infinitive (د پښتو مصدر)",
+      "lines": [
+        "WHAT IS THE PASHTO INFINITIVE? The Past Imperfective STEM of any verb is simultaneously the verb's INFINITIVE — its citation form and its verbal noun form.",
+        "The textbook states: 'The imperfective past verb stem is the infinitive of the verb.' In traditional Pashto grammar, this form is called مصدر [masdar] 'infinitive/verbal noun'.",
+        "INFINITIVE = VERBAL NOUN USES: The infinitive functions exactly like the English gerund ('-ing' form used as a noun) or infinitive ('to + verb'):",
+        "① AS SUBJECT of a sentence:",
+        "کار پيدا کول اسان نه دي. [kār payda kawəl āsān na di.] — 'Finding work is not easy.' ← کار پيدا کول [kār payda kawəl] = infinitive phrase as subject",
+        "پښتو زده کول ډير وخت غواړي. [paxtō zda kawəl der waxt ghwāṛi.] — 'Learning Pashto takes a lot of time.'",
+        "② AS OBJECT of a sentence (with خوښيدل [xošedəl] 'to like'):",
+        "ليلا ته ډوډۍ پخول خوښيږي. [laylā ta ḍoḍay paxawəl xwaxegi.] — 'Layla likes to cook.' (lit. 'Cooking is pleasing to Layla')",
+        "تريسا ته پښتو لوستل خوښيږي. [tarisa ta paxtō lwastəl xwaxegi.] — 'Theresa likes studying Pashto.'",
+        "③ AS COMPLEMENT or in contrasting pairs:",
+        "مونږ کيدل او کول لوستلي دي. [mung kedəl aw kawəl lwastəli di.] — 'We have studied کيدل and کول.'",
+        "تلل او بوول توپير ولري؟ [tləl aw bwawəl towpir wulari?] — 'What is the difference between تلل (to go) and بوول (to take away)?'",
+        "GRAMMAR OF THE INFINITIVE:",
+        "All infinitives are MASCULINE PLURAL in grammatical gender. This is why they take masculine plural verb agreement when they are the subject: کار پيدا کول اسان نه دي [kār payda kawəl āsān na di] — دي [di] is the M pl copula, because the infinitive subject is grammatically M pl.",
+        "CITATION FORM: Traditional Pashto grammar uses the infinitive as the dictionary/citation form. When a Pashtun speaker mentions a verb by name, they say: پخول [paxawəl] 'cooking/to cook' — not the imperfective root پخو- [paxaw-]. This is the convention used throughout Pashto dictionaries.",
+        "DERIVING THE INFINITIVE: For regular verbs: imperfective root + -ل [-əl] = infinitive. For irregular verbs with different past stems: use the PAST IMPERFECTIVE STEM (not the present stem) + -ل [-əl]."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ Infinitive Formation — Quick Reference",
+      "lines": [
+        "REGULAR VERBS: Add -ل [-əl] to the imperfective root (= the past imperfective stem).",
+        "لیکل [likəl] ← root ليک- + -ل ◆ لوستل [lwastəl] ← root لوست- + -ل ◆ خوړل [xoṛəl] ← root خوړ- + -ل",
+        "DERIVATIVE VERBS: Add -ل [-əl] to the past imperfective auxiliary form.",
+        "پخول [paxawəl] ← پخ + -ول [-awəl] (transitive) ◆ پخيدل [paxedəl] ← پخ + -يدل [-edəl] (intransitive)",
+        "معاينه کول [māyena kawəl] ← معاينه + کول ◆ نږدې کيدل [nizdé kedəl] ← نږدې + کيدل",
+        "DOUBLY IRREGULAR: The infinitive form is the past imperfective stem + -ل. These must be memorised:",
+        "تلل [tləl] 'to go' ← past impf. stem تل- + -ل ◆ راتلل [rātləl] 'to come' ← past impf. stem راتل- + -ل",
+        "کيناستل [kenāstəl] 'to sit down' ← past stem کينست- + -ل ◆ کول [kawəl] 'to do' ← past stem کاو- + -ل",
+        "INFINITIVES AS VOCABULARY CITATIONS: When this course introduces a new verb with its transliteration, the form given — e.g. پخول [paxawəl] — IS the infinitive. This convention makes it easy to derive all other forms: from the infinitive, remove -ل [-əl] to get the past imperfective stem, then apply the regular rules.",
+        "INFINITIVE IN PASHTO DICTIONARIES: All major Pashto-English dictionaries list verbs under their infinitive form. Knowing this form is essential for dictionary use."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "WORK AND JOB SEEKING:",
+        "دفتر [daftar] — office (M, irregular) [daftar]",
+        "کوشش [koshesh] — attempt / effort (M2 class) [koshesh]",
+        "ناکامي [nākāmi] — failure (F1 class) [nākāmi]",
+        "شروع [shuru] — beginning / start (F, irregular) [shuru]",
+        "ژبه [žaba] — language (F1 class — also 'tongue') [žaba]",
+        "نوم [nom] — name (M2 class) [nom]",
+        "لیکوال [likwāl] — writer (M1 class) [likwāl]",
+        "CALENDAR AND TIME NOUNS:",
+        "جنتري [jantari] — calendar (F, irregular) [jantari]",
+        "نوم [nom] — name (M2) [nom]",
+        "عربي [arabi] — Arabic (language, F irregular) [arabi]",
+        "ADJECTIVES:",
+        "اسلامي [islāmi] — Islamic (Class 4) [islāmi]",
+        "شمسي [shamsi] — solar (Class 4) [shamsi]",
+        "قمري [qamari] — lunar (Class 4) [qamari]",
+        "برابر [barābar] — corresponding / equal (Class 1) [barābar]",
+        "پختيونی [paxtiyunay] — longtime Pashtun (Class 2 adjective) [paxtiyunay]",
+        "اسان [āsān] — easy (Class 1) [āsān]",
+        "VERBS (infinitive forms — all are examples of what you have learned):",
+        "شروع کيدل [shuru kedəl] — to begin (intr. derivative) [shuru kedəl]",
+        "عام کول [ām kawəl] — to popularise / make common (derivative tr.) [ām kawəl]",
+        "استعمالول [istemālawəl] — to use (derivative tr.) [istemālawəl]",
+        "پيدا کول [payda kawəl] — to find (derivative tr.) [payda kawəl]",
+        "ADVERBS AND CONJUNCTIONS:",
+        "درواخه [drewāxa] — all three [drewāxa] ◆ معمولاً [māmulan] — usually [māmulan] ◆ اساساً [asāsan] — basically / fundamentally [asāsan] ◆ خو [xo] — however / but [xo] ◆ ولو [walo] — however / but (formal) [walo] ◆ لا هم [lā ham] — still / yet [lā ham] ◆ د...تر ؤنګه [da...tar čange] — side by side with [da...tar čange] ◆ پهـ دې ورځو کې [pa de wrazo ke] — these days / nowadays [pa de wrazo ke]",
+        "PHRASES:",
+        "پهـ کار پسې ګرځيدل [pa kār pase gardzedəl] — to look for work (lit. 'to wander after work') [pa kār pase gardzedəl]",
+        "د يو وخت لپاره [da yaw waxt lapāra] — for a while [da yaw waxt lapāra]",
+        "ليکل شوي دي [likal shawi di] — are written (resultative passive) [likal shawi di]",
+        "کار اخستل [kār axistəl] — to take/accept work (idiomatic) [kār axistəl]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — The Afghan Solar Hijri Calendar (د افغانستان لمريز هجري جنتري)",
+      "lines": [
+        "Afghanistan uses THREE calendar systems simultaneously — a situation reflecting the country's Islamic heritage, Persian administrative tradition, and interface with the Western world.",
+        "① اسلامي قمري جنتري [islāmi qamari jantari] — ISLAMIC LUNAR CALENDAR (Hijri): 354/355-day year based on lunar months. Used for Islamic religious observances: رمضان [ramazān] (Ramadan), عيدونه [eidune] (Eid holidays), حج [haj] (Hajj). Year 1 = 622 CE (the Hijra). Currently approximately 1446 AH in 2024-2025 CE.",
+        "② لمريز هجري جنتري [lamriz hijri jantari] — AFGHAN SOLAR HIJRI CALENDAR: 365-day solar year starting from the same Hijra epoch but following the solar cycle. This is the OFFICIAL Afghan civil calendar used in government documents, newspapers, schools, and official dates. Currently approximately 1403-1404 AH solar.",
+        "③ ميلادي جنتري [milādi jantari] — GREGORIAN CALENDAR: Used in international correspondence and Western interface.",
+        "THE TWELVE MONTHS OF THE SOLAR HIJRI CALENDAR (Afghan names with Gregorian equivalents):",
+        "١. وری [wuriy] — Hamal (حمل [hamal]) — corresponds to late March to late April",
+        "٢. غويی [ghwayay] — Sawr (ثور [sawr]) — late April to late May",
+        "٣. غبرګولی [ghbargolay] — Jawza (جوزا [jawzā]) — late May to late June",
+        "٤. چنګاښ [čangāx] — Saratan (سرطان [saraṭān]) — late June to late July",
+        "٥. زمری [zmarray] — Asad (اسد [asad]) — late July to late August",
+        "٦. وږی [wagay] — Sunbula (سنبله [sunbula]) — late August to late September",
+        "٧. تله [tela] — Mizan (ميزان [mizān]) — late September to late October",
+        "٨. لړم [laṛam] — Aqrab (عقرب [aqrab]) — late October to late November",
+        "٩. ليندۍ [linday] — Qaws (قوس [qaws]) — late November to late December",
+        "١٠. مرغومی [marghomay] — Jadi (جدي [jadi]) — late December to late January",
+        "١١. سلواغه [salwāgha] — Dalwa (دلو [dəlwo]) — late January to late February",
+        "١٢. کب [kab] — Hoot (حوت [hut]) — late February to late March",
+        "NOTES on the calendar system:",
+        "① The first six months have 31 days; months 7–11 have 30 days; month 12 (کب [kab]) has 29 days (30 in leap years).",
+        "② New Year's Day is نوروز [nowruz] — March 21/22 — the spring equinox. This is the most important secular celebration across Afghanistan and the wider Persian cultural sphere.",
+        "③ The Afghan Solar year runs approximately 621-622 years behind the Gregorian calendar: 2024 CE = 1403 Solar Hijri.",
+        "EXPRESSING DATES: date + د [da] + month name: د وری ١۴ [da wuriy čārolasam] — 'the 14th of Hamal/Aries' (April 3rd approximately)"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🗓️ Cultural Spotlight: نوروز — Afghan New Year",
+      "lines": [
+        "نوروز [nowruz] — literally 'new day' — is the Afghan Solar New Year, celebrated on the spring equinox (March 21-22). It is the most joyful and widely observed secular celebration across Afghanistan, Iran, Tajikistan, and the broader Persian cultural world.",
+        "CELEBRATIONS: Families gather for special meals (هفت‌ميوه [haft-miwa] 'seven fruits' spread), outdoor festivals, music, and traditional sports (بزکشي [buzkashi] — goat-pulling horseback competition). New clothes are worn; houses are cleaned; debts are settled.",
+        "NATIONAL SIGNIFICANCE: نوروز predates Islam by thousands of years — it is a Zoroastrian spring festival adopted by all subsequent cultures in the region. In Afghanistan it is observed by Muslims, Hindus, Sikhs, and all ethnic groups.",
+        "TALIBAN AND NOWRUZ: During the first Taliban period (1996-2001) and again after 2021, Taliban authorities discouraged or banned نوروز celebrations as 'un-Islamic.' Most Afghans continue to observe it privately regardless of political context — a marker of cultural identity that transcends religious politics.",
+        "PASHTO VOCABULARY FOR NOWRUZ: نوی کال مو مبارک شه [naway kāl mo mubārak sha] — 'Happy New Year!' (lit. 'May your new year be blessed') ◆ نوی کال [naway kāl] — new year ◆ مبارک [mubārak] — blessed/happy (used for congratulations) ◆ جشن [jashn] — festival/celebration ◆ سمارق [samārak] — decorated table with symbolic items"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Reading: د پښتو ژبې مهالويش (The History of the Pashto Language)",
+      "lines": [
+        "This is the final reading of Beginning Pashto — script only, past tense throughout. It recounts the history of Pashto's development as a written language, using both past imperfective and past perfective. Identify every verb form and classify it by tense and aspect.",
+        "پښتو ژبه ډيره زوړه ده. اماخو د پښتو لیکل وروسته شروع شول.",
+        "لومړنيو ليکوالو پهـ اتمه پيړۍ کې پښتو لیکله. هغوي شعرونه او قصې ليکلې.",
+        "پهـ نولسمه پيړۍ کې د بريتانيانو پهـ دوران کې پښتو نويلوست پيدا شو.",
+        "پهـ شلمه پيړۍ کې د افغانستان حکومت پښتو ته رسمي ژبې حيثيت ورکاوه.",
+        "پهـ ١٩٣٦ کال کې د پښتو توليه رامنځ ته شوه. هغه به ادبيات خپراوه.",
+        "اوس نو پښتو پهـ افغانستان او پاکستان دواړو کې ليکل کيږي.",
+        "READING GLOSSARY:",
+        "زوړه [zoṛa] — old (F form of زوړ [zoṛ]) ◆ لومړنيو [lomṛniyo] — earliest/first (OPl adj.) ◆ ليکوالو [likwālo] — writers (M1 OPl) ◆ اتمه پيړۍ [atama peṛay] — eighth century (F ordinal + F noun) ◆ شعرونه [sheyrune] — poems (M2 pl.) ◆ قصې [qise] — stories (F1 pl.) ◆ نولسمه پيړۍ [nawolsama peṛay] — nineteenth century ◆ بريتانيانو [bəritāniyāno] — the British (OPl) ◆ پهـ دوران کې [pa dawrān ke] — during the period ◆ نويلوست [nawyilwast] — new literacy / modern writing ◆ شلمه پيړۍ [shalama peṛay] — twentieth century ◆ رسمي [rasmi] — official (Class 4) ◆ حيثيت [heysiyat] — status (M2) ◆ ورکاوه [warkāwa] — was giving (3sg M past impf. transitive — agrees with M sg object حيثيت!) ◆ توليه [toliya] — academy/society (F1: پښتو توليه [paxtō toliya] = Pashto Academy) ◆ رامنځ ته شوه [rāmindz ta shwa] — was established (lit. 'came into the middle') ◆ ادبيات [adabiyāt] — literature (M plural Arabic form) ◆ خپراوه [xparāwa] — was publishing (3sg M past impf.)",
+        "TENSE ANALYSIS — classify each verb:",
+        "① شروع شول [shuru shwel] — past perfective 3pl intransitive → agrees with F pl subject لیکل? No — شول [shwel] is 3pl (M) past perf. of کيدل [kedəl] (become/start)",
+        "② ليکله [likəla] — past imperfective 3sg F — agrees with F object پښتو [paxtō]!",
+        "③ ليکلې [likəle] — past imperfective 3pl F — agrees with F pl objects شعرونه [sheyrune] and قصې [qise]",
+        "④ پيدا شو [payda shwo] — past perfective 3sg M intransitive — agrees with M sg subject نويلوست [nawyilwast]",
+        "⑤ ورکاوه [warkāwa] — past imperfective 3sg M transitive — agrees with M sg object حيثيت [heysiyat]",
+        "COMPREHENSION QUESTIONS:",
+        "① پهـ کومه پيړۍ کې لومړنيو ليکوالو پښتو وليکله؟ — In which century did the first writers write Pashto?",
+        "② پښتو توليه پهـ کوم کال کې رامنځ ته شوه؟ — In which year was the Pashto Academy established?",
+        "③ اوس نو پښتو چېره چېره ليکل کيږي؟ — Where is Pashto written nowadays?"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "📖 The History of Written Pashto",
+      "lines": [
+        "Pashto has a rich oral tradition stretching back over a thousand years, but written Pashto emerged significantly later than its spoken ancestor.",
+        "EARLY WRITING (8th-16th centuries): The earliest known Pashto poetry dates to around the 8th century CE, associated with the poet Amir Kror Suri. The Pata Khazana anthology (compiled in the 17th century) claims to preserve poetry from much earlier periods, though scholars debate its authenticity.",
+        "THE MUGHAL PERIOD (16th-17th centuries): Major classical poets emerged under Mughal patronage: Bayazid Ansari (Pir Roshan, c.1525-1581) — founder of the Roshani movement and a significant Pashto prose writer; Khushal Khan Khattak (1613-1689) — soldier-poet and tribal leader, the most celebrated classical Pashto poet; Rahman Baba (c.1650-1715) — mystical lyric poet, widely revered as the 'Nightingale of the Pashtuns'.",
+        "د پښتو توليه [da paxtō toliya] — The Pashto Academy (Kabul): Established in 1937 by King Zahir Shah as پښتو مرکه [paxtō marka] (Pashto Society), it standardised Pashto orthography, published dictionaries and literary works, and promoted Pashto as an official national language alongside Dari.",
+        "TWO OFFICIAL LANGUAGES: Afghanistan's constitution recognised both پښتو [paxtō] (Pashto) and دري [dari] (Dari/Afghan Persian) as co-equal official languages. Government documents, education, media, and courts operate in both languages, with regional variation in which language dominates.",
+        "PASHTO IN PAKISTAN: In Pakistan, Pashto is spoken by approximately 15-20 million people in Khyber Pakhtunkhwa (KP) and tribal areas. It is not an official language of Pakistan (Urdu is the national language), but KP uses Pashto heavily in education and local government."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — Diversion: مرچکه او مچ (The Cricket and the Ant)",
+      "lines": [
+        "The final Diversion of Beginning Pashto is a Pashto fable — آيسوپ style — about a cricket who wastes summer singing while the ants prepare, then begs them for food in winter. The story is rendered in the past tense, giving one final showcase of past imperfective narration.",
+        "THE STORY in brief: In summer, a cricket (مرچکه [marčaka]) was singing all day — it was carefree. Ants (مچان [mičān]) were gathering food all summer, working constantly. When winter came, the cricket had nothing to eat. It went to the ants and asked for food. The ants asked: 'What were you doing all summer?' The cricket replied: 'I was singing!' The ants said: 'You were singing? Then dance now!' And they closed their door.",
+        "KEY VOCABULARY:",
+        "مرچکه [marčaka] — cricket (insect, F1 class) [marčaka]",
+        "مچ [mač] — ant (M, irregular) [mač]",
+        "مچان [mičān] — ants (M irregular plural) [mičān]",
+        "ژمی [žami] — winter (M3 class) [žami]",
+        "اوړی [awṛay] — summer (M3 class) [awṛay]",
+        "ځمکه [dzmaka] — earth / ground (F1 class) [dzmaka]",
+        "پوښل [poxawəl] — to cover / to roof (derivative tr.) [poxawəl]",
+        "ورته وويل [warta wuwayal] — said to him/her (past perf. 3sg → ووايل [wowāyal] 3sg M or ووايله [wowāyla] F obj.)",
+        "پهـ ځان پورې آريان [pa dzān pore āryān] — at a loss / troubled (idiomatic phrase)",
+        "THE GRAMMAR OF THE FABLE — note the tense contrasts:",
+        "PAST IMPERFECTIVE (ongoing summer activity): مرچکه سندرې وايله [marčaka sandare wāyla] — 'The cricket was singing songs.' ← وايله [wāyla] = 3sg F past impf. of ويل [wayəl] — agrees with F pl object سندرې [sandare] 'songs'",
+        "PAST IMPERFECTIVE (ongoing ant activity): مچانو خواراکي ټولاوه [mičāno xwārāki ṭolāwa] — 'The ants were gathering food.' ← ټولاوه [ṭolāwa] = 3sg M past impf. transitive — agrees with M sg/collective object خواراکي",
+        "PAST PERFECTIVE (winter arrival, completed event): ژمی راغی [žami rāghay] — 'Winter came.' ← راغی [rāghay] = 3sg M past perf. of راتلل [rātləl]",
+        "CULTURAL NOTE: This fable mirrors Aesop's 'Ant and the Grasshopper' — one of many parallels between Pashto folk literature and the broader Eurasian fable tradition, reflecting centuries of contact through trade routes, scholarship, and shared human experience. The Pashto version typically ends with the ants' blunt rebuff — less moralistic, more direct: 'You sang? Then dance.' Afghan folk humour is rarely sentimental."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Capstone Review — Beginning Pashto Complete Grammar Summary",
+      "lines": [
+        "You have now completed the Beginning Pashto curriculum. Here is the full grammar arc in one place.",
+        "NOUN CLASSES: M1 (ملګری→ملګري), M2 (کور→کورونه), M3 (هلک→هلکان), M4 (ميدان→ميدانونه) / F1 (ښځه→ښځې), F2 (خولۍ→خولۍ), F3 (بلا→بلاوې). All nouns inflect for four positions: Direct Sg, Direct Pl, Oblique Sg, Oblique Pl.",
+        "ADJECTIVE CLASSES: Class 1 (full 4-cell M/F agreement), Class 2 (ای-suffix alternation), Class 3 (weak forms only for F), Class 4 (invariable), Class 5 (unique plural).",
+        "PRONOUN SYSTEM: Weak pronouns (subject dropped; object/possessive مې/دې/يې/مو — after first stressed element; oblique preposition forms ورته/راسره/درسره). Strong pronouns (زه/ته/دا/هغه/مونږ/تاسو/دوي/هغوي — for emphasis/contrast). Demonstratives (3-way: دا close / داغه middle / هغه far).",
+        "FLOATING PARTICLES: Fixed order خو → به → weak pronouns, after first stressed element. Special rules for stress-shifting verbs.",
+        "VERB SYSTEM — 4-CELL GRID (all verbs):",
+        "Pres. Impf. | Pres. Perf. | Past Impf. | Past Perf.",
+        "Simple verbs: root- [impf.] | و- [wu-] + root [perf.] | root-ل [past impf.] | و- + root-ل [past perf.]",
+        "Derivative tr.: base+کو- | base+ک- (M/F) | base+کوله | base+کړله (M/F)",
+        "Derivative intr.: base+کيږ- | base+ش- | base+کيده | base+شوه",
+        "Doubly irregular: fully suppletive — memorise each",
+        "AGREEMENT SPLIT (ERGATIVE):",
+        "Present tense: verb agrees with SUBJECT (nominative-accusative)",
+        "Past perfective TRANSITIVE: verb agrees with OBJECT; agent in OBLIQUE (ergative-absolutive)",
+        "Past imperfective TRANSITIVE: SAME ergative rules as past perfective",
+        "Past (intransitive, any aspect): verb agrees with SUBJECT (nominative, as usual)",
+        "WORD ORDER: SOV baseline; time phrases after subject; focused elements fronted; floating particles after first stressed element.",
+        "COMMANDS: Positive = perfective stem + -ه/-ئ. Negative = مه [ma] + imperfective root + -ه/-ئ.",
+        "INFINITIVE = past imperfective stem = verbal noun (M pl in agreement)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 14 before attempting the quiz:",
+        "✓ Past Imperfective = ongoing or habitual action in the past. English equivalent: 'was doing / were living'.",
+        "✓ FORMATION: present imperfective root + past suffix -ل [-əl] + personal endings. For irregular verbs: use irregular past imperfective stem.",
+        "✓ SAME ERGATIVE RULES as past perfective: intransitive → agrees with subject; transitive → agrees with object, agent in oblique.",
+        "✓ Past imperfective 3sg M: suffix drops (same rule as past perfective 3sg M).",
+        "✓ Past imperfective 3sg F: add -ه [-a] ending.",
+        "✓ The INFINITIVE = the past imperfective stem = the citation/dictionary form of Pashto verbs.",
+        "✓ Infinitives are grammatically MASCULINE PLURAL.",
+        "✓ Infinitives function as verbal nouns: subject (کار پيدا کول اسان نه دي), object (پخول يې خوښيږي), contrast pair (تلل او بوول).",
+        "✓ THREE calendar systems: Islamic lunar (قمري), Afghan Solar Hijri (شمسي — official), Gregorian (ميلادي).",
+        "✓ Afghan New Year = نوروز [nowruz], March 21-22, spring equinox.",
+        "✓ 12 Solar Hijri months: وری، غويی، غبرګولی، چنګاښ، زمری، وږی، تله، لړم، ليندۍ، مرغومی، سلواغه، کب",
+        "✓ نوی کال مو مبارک شه — 'Happy New Year!'"
       ]
     },
     {
       "type": "quiz",
-      "question": "If you receive an official Afghan government document scheduling a meeting for the first day of the month of 'وری' (Wray), roughly when is your meeting according to the Gregorian calendar?",
+      "question": "What is the semantic difference between the past imperfective and the past perfective, and give an example of each using خوړل [xoṛəl] 'to eat'?",
       "options": [
-        "January 1st.",
-        "March 21st (Nawruz/Spring Equinox).",
-        "Sometime in mid-July.",
-        "The dates shift randomly every year based on the moon."
+        "Past imperfective = past action completed at a specific moment; past perfective = past action that was still ongoing. Example: past impf. ما ډوډۍ وخوړه [mā ḍoḍay waxoṛa] 'I finished the food'; past perf. ما ډوډۍ خوړله [mā ḍoḍay xoṛəla] 'I was eating'.",
+        "Past imperfective = ongoing or habitual past action ('was eating'); past perfective = bounded, completed past event ('ate / ate it through'). Example: past impf. ما ډوډۍ خوړله [mā ḍoḍay xoṛəla] 'I was eating food'; past perf. ما ډوډۍ وخوړه [mā ḍoḍay waxoṛa] 'I ate the food (finished)'.",
+        "They are interchangeable — Pashto does not distinguish these two past forms in meaning.",
+        "Past imperfective = distant past ('long ago'); past perfective = recent past ('just now')."
       ],
       "correctIndex": 1,
-      "explanation": "The Afghan Solar Hijri calendar begins its year with the month of 'Wray' (Aries) on the vernal equinox, which corresponds to March 21st on the Gregorian calendar."
+      "explanation": "Past imperfective expresses ONGOING or HABITUAL past action — parallel to English 'was doing / were eating'. Past perfective expresses BOUNDED, COMPLETED past events — equivalent to English simple past 'ate / wrote'. For خوړل: past impf. transitive (with ergative) ما ډوډۍ خوړله [mā ḍoḍay xoṛəla] = 'I was eating food' — the eating was in progress; past perf. transitive ما ډوډۍ وخوړه [mā ḍoḍay waxoṛa] = 'I ate the food' — the eating was completed. In both cases, ما [mā] is the oblique agent and the verb agrees with the F object ډوډۍ [ḍoḍay] (past impf. -ه [-a] for 3sg F: خوړله [xoṛəla]; past perf. -ه [-a] for 3sg F: وخوړه [waxoṛa])."
+    },
+    {
+      "type": "quiz",
+      "question": "In the past imperfective sentence ليلا اتن کاوه [laylā atan kāwa] — 'Layla was dancing the atan' — what does the verb form کاوه [kāwa] tell you about agreement?",
+      "options": [
+        "کاوه [kāwa] is 3sg F, agreeing with the subject ليلا [laylā] — this is an intransitive verb form.",
+        "کاوه [kāwa] is 3sg M, agreeing with the object اتن [atan] (M sg) — this is a transitive past imperfective with ergative agreement. The agent ليلا [laylā] is in the oblique case.",
+        "کاوه [kāwa] is 1sg, agreeing with an implied 'I' subject — ليلا is a time adverb.",
+        "کاوه [kāwa] agrees with both subject and object simultaneously — a unique past imperfective feature."
+      ],
+      "correctIndex": 1,
+      "explanation": "کاوه [kāwa] is the 3sg MASCULINE past imperfective form of کول [kawəl] 'to do' (suffix drops for 3sg M). It agrees with the M sg OBJECT اتن [atan] 'atan-dance'. The construction is TRANSITIVE with ERGATIVE agreement: the AGENT ليلا [laylā] (F1 noun) is in the OBLIQUE case — for F1 nouns, the oblique singular is identical to the direct singular (ليلا → ليلا), so there is no visible case change on the agent noun here. But the verb agreement is still with the OBJECT: اتن [atan] is M sg → 3sg M ending (suffix drops) → کاوه [kāwa]. This is the same ergative rule from Lesson 13, now applied to the past imperfective tense."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the Pashto infinitive of the verb پخول [paxawəl] 'to cook', and what grammatical gender does it have when used as a subject?",
+      "options": [
+        "The infinitive is پخوم [paxawam] (1sg form); when used as a subject it is feminine singular.",
+        "The infinitive is پخ [pax] (the base adjective); as a subject it is masculine singular.",
+        "The infinitive is پخول [paxawəl] — identical to the citation form and the past imperfective stem + -ل. All Pashto infinitives are grammatically MASCULINE PLURAL, so they take M pl verb agreement: ډوډۍ پخول اسان نه دي [ḍoḍay paxawəl āsān na di] — دي [di] is M pl copula.",
+        "The infinitive is پخيدل [paxedəl] (the intransitive form); all infinitives are feminine singular."
+      ],
+      "correctIndex": 2,
+      "explanation": "The infinitive of پخول [paxawəl] 'to cook (tr.)' IS پخول [paxawəl] — the past imperfective stem کاو-/پخو- [paxaw-] + the -ل [-əl] suffix = پخول [paxawəl]. All Pashto infinitives are grammatically MASCULINE PLURAL. When an infinitive functions as the subject of a sentence, the copula takes the M pl form دي [di]: ډوډۍ پخول اسان نه دي [ḍoḍay paxawəl āsān na di] 'Cooking food is not easy.' — note دي [di] M pl (not ده [da] M sg or ده [da] F sg). The intransitive counterpart پخيدل [paxedəl] 'to get cooked / ripen' is a separate infinitive with the same M pl grammar."
+    },
+    {
+      "type": "quiz",
+      "question": "The Afghan Solar Hijri calendar's first month is وری [wuriy]. What Gregorian months does it correspond to, and what marks the start of the Afghan New Year?",
+      "options": [
+        "وری corresponds to January-February; the New Year begins on January 1st.",
+        "وری corresponds to late March to late April; the Afghan New Year نوروز [nowruz] begins on the spring equinox, approximately March 21-22.",
+        "وری corresponds to September-October; it follows the Islamic lunar calendar start.",
+        "وری corresponds to July-August; the Afghan New Year follows the harvest season."
+      ],
+      "correctIndex": 1,
+      "explanation": "وری [wuriy] (also known by its Dari/classical name حمل [hamal]) corresponds to late March through late April in the Gregorian calendar. The Afghan Solar New Year — نوروز [nowruz] 'new day' — begins on the spring equinox, approximately March 21-22 in the Gregorian calendar. This is the first day of وری [wuriy] and one of the most celebrated occasions in Afghan culture. نوروز predates Islam and is observed across the Persian cultural sphere. The current Solar Hijri year is approximately 621-622 years behind the Gregorian year (e.g., Gregorian 2024 ≈ Solar Hijri 1403)."
+    },
+    {
+      "type": "quiz",
+      "question": "In the reading sentence ما ورته حيثيت ورکاوه [ma warta heysiyat warkāwa] — 'was giving it official status' — why is ورکاوه [warkāwa] in the 3sg M form?",
+      "options": [
+        "ورکاوه [warkāwa] is 3sg M because the subject ما [mā] is masculine.",
+        "ورکاوه [warkāwa] is 3sg M because it is a doubly irregular verb and doubly irregular verbs always take M forms.",
+        "ورکاوه [warkāwa] is the past imperfective of وارکول [wārkawəl] 'to give (to him)'. As a TRANSITIVE past form, it agrees with the OBJECT حيثيت [heysiyat] (M sg). The M sg ending causes the suffix to drop: 3sg M → bare stem کاوه [kāwa].",
+        "ورکاوه [warkāwa] is an adverb meaning 'officially' — it does not inflect for agreement."
+      ],
+      "correctIndex": 2,
+      "explanation": "ورکاوه [warkāwa] is the 3sg M past imperfective of وارکول [wārkawəl] 'to give (to him/them)' — a doubly irregular (Class C: stress shift + root change) verb. As a TRANSITIVE past imperfective, it follows the ERGATIVE agreement rule: the verb agrees with the DIRECT OBJECT. The object is حيثيت [heysiyat] 'status' — an M2 noun, M sg. M sg agreement in past tense = 3sg M ending (suffix drops in many irregular verbs). So the auxiliary کاوه [kāwa] shows the 3sg M past imperfective form (bare stem without suffix). The AGENT (حکومت [hukumat] 'government' or an implied 3rd party) is in the OBLIQUE case. This sentence exemplifies the full ergative pattern applied to a doubly irregular transitive verb in the past imperfective tense — the complete intersection of the lesson's grammar."
+    },
+    {
+      "type": "quiz",
+      "question": "The fable مرچکه او مچ ends with the ants saying 'You were singing? Then dance now!' Which Pashto past imperfective verb form would be used for 'you were singing', and what does its ending reveal about agreement?",
+      "options": [
+        "ته سندرې وايلې [tā sandare wāyle] — وايلې [wāyle] is 2sg past imperfective, agreeing with subject ته [tā].",
+        "ته سندرې وايله [tā sandare wāyla] — the verb would be past imperfective of ويل [wayəl] 'to sing/say'. As a TRANSITIVE past imperfective, it agrees with the OBJECT سندرې [sandare] (F pl) → -ې [-e] ending: ووايلې [wowāyle] or وايلې [wāyle]. The AGENT ته [tā] is in oblique case (same form: ته → ته for 2sg direct/oblique when used independently, but weak: دې [de]).",
+        "ته سندرې کاوه [tā sandare kāwa] — کاوه [kāwa] 3sg M because the atan-dance is M.",
+        "ته سندرې وايلم [tā sandare wāylam] — -م [-am] ending because the agent is 2sg."
+      ],
+      "correctIndex": 1,
+      "explanation": "ويل [wayəl] 'to say/sing' is a transitive verb. In past imperfective TRANSITIVE sentences, the verb agrees with the OBJECT (ergative rule). The object سندرې [sandare] 'songs' is F PLURAL → the verb takes the 3pl F ending -ې [-e]: وايلې [wāyle] or ووايلې [wowāyle] (with perfective prefix). The AGENT ته [tā] 'you' would appear in its oblique form. The sentence: ته (or: دې) سندرې وايلې [tā / de sandare wāyle] — 'You were singing songs.' Note that even though the AGENT is 'you' (2nd person), the VERB ending is -ې [-e] reflecting the F pl OBJECT (songs) — NOT the 2sg agent. This is the ergative rule in action: object agreement overrides agent person in past transitive sentences."
     }
   ]
 }

@@ -1,104 +1,463 @@
 {
-  "id": "L7",
-  "title": "Lesson 7: Perfective Aspect, Commands & Future Expressions   کامل اسپکټ، امر او راتلونکی وخت",
-  "category": "Beginning Pashto",
-  "description": "Cross the most critical grammatical threshold in Pashto: the perfective vs. imperfective aspect. Learn to form commands, express future intent, and navigate authentic Afghan hospitality rituals.",
-  "duration": "Textbook pp. 91–112 (approx. 10-15 pages of instruction)",
+  "id": "pashto-l07",
+  "title": "Lesson 7: Perfective Aspect, Commands & Future Expressions",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "The aspectual pivot of the Beginning Pashto curriculum. For the first time learners encounter the perfective/imperfective opposition — the most fundamental grammatical distinction in the Pashto verb system. The perfective prefix و- [wu-/wa-] signals bounded, goal-directed action versus the unbounded imperfective. Commands are derived from the perfective stem; future expressions use the perfective with the particle به [ba]. Dialect note: the perfective prefix varies — و- [wu-] in Kabuli, وا- [wā-] in Kandahari. Communicative context: making plans, giving instructions at a restaurant and while travelling, expressing intent. Pashto script primary throughout.",
+  "duration": "10–15 hours",
   "level": "Intermediate-Low (ILR 1+)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: The Aspectual Pivot",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 7! You have reached the aspectual pivot of the Beginning Pashto curriculum. For the first time, you will encounter the perfective/imperfective opposition—the most fundamental grammatical distinction in the Pashto verb system.",
-        "Until now, you have used the Present Imperfective to describe habitual, ongoing, or unbounded actions.",
-        "The Present Perfective is formed by adding the prefix [w-/wu-/wā-] (و/وا) to the imperfective stem. It signals a bounded, completed, or goal-directed action.",
-        "CRITICAL RULE: The perfective aspect is NOT a past-tense marker. It is an aspectual marker indicating the completeness of an action."
+        "By the end of this lesson you will be able to: form the Present Perfective of simple verbs by adding the prefix و- [wu-] to the imperfective root, and understand the aspectual distinction between imperfective and perfective.",
+        "You will give singular and plural positive commands using the perfective stem + -ه [-a] (sg) or -ئ [-ay] (pl) endings.",
+        "You will give singular and plural negative commands using مه [ma] + imperfective root.",
+        "You will express future intent using the modal particle به [ba] + present perfective form.",
+        "You will use hospitality command sequences — راشه کینه [rāsha kenā] 'Come, sit down' — as socially obligatory rituals, not mere vocabulary.",
+        "You will use time adverbials سبا [sabā] 'tomorrow', بله سبا [bela sabā] 'the day after tomorrow', and پرون [parwān] 'yesterday' in future and past reference."
       ]
-    },
-    {
-      "type": "callout",
-      "text": "Dialect & Pronunciation Hack: The perfective prefix varies by region. Kabuli speakers typically use [wu-] (و), while Kandahari speakers use [wā-] (وا). Phonetically, before back vowels, [w] is distinct; before front vowels, it surfaces as [wu]."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Verb Contrast: Imperfective vs. Perfective",
+      "heading": "Section 1 — Dialogue: د کابل کاروان کې (At Kabul Caravan Restaurant)",
       "lines": [
-        "Let's look at motion and activity verbs. Notice how the prefix attaches in Pashto script:",
-        "Imperfective Script | Perfective Script | English Gloss",
-        "لولي | ولولي | reads (habitual) vs. reads/will read through (perfective)",
-        "لیکي | ولیکي | writes (habitual) vs. writes/will write (perfective)",
-        "Example 1 (Imperfective): احمد کتاب لولي. [Ahmad kitāb waḍi.] (Ahmad reads books — habitual routine.)",
-        "Example 2 (Perfective): احمد کتاب ولولي. [Ahmad kitāb wəwaḍi.] (Ahmad will read / intends to read the book through.)"
+        "Asad, Rābya, and Joan have arrived at the Kabul Caravan restaurant. The waiter approaches. This dialogue is packed with perfective forms, commands, and future expressions — the three core structures of this lesson.",
+        "سروي: درود! ولاړ شئ — ولاړ شئ. [sarwey: darwāz! walāṛ shi — walāṛ shi.] — Waiter: Welcome, welcome! (lit. 'Stand — stand!') ← COMMAND, plural perfective",
+        "اسد: مننه. مونږ دلته کینو. [asad: manana. mung delta kenu.] — Asad: Thank you. We'll sit here. ← FUTURE implied by context",
+        "سروي: ښه! ته څه شی خورې؟ [sarwey: xa! tā tse shay xore?] — Waiter: Good! What will you have? (lit. 'What thing do you eat?')",
+        "اسد: زه اوشک وخورم. [asad: za awshak waxoram.] — Asad: I will eat aushak. ← PERFECTIVE future: وخورم [waxoram]",
+        "رابيا: زه هم اوشک وخورم. [rābya: za ham awshak waxoram.] — Rābya: I'll eat aushak too.",
+        "ژون: زه نه پوهيږم. ټول ښه ښکاري. [jon: za na pohegam. ṭol xa xkāri.] — Joan: I don't know. Everything looks good.",
+        "اسد: قابلي پلاو وخوره. [asad: qābəli palāw waxora.] — Asad: Eat the Qabili Palaw. ← COMMAND, singular: وخوره [waxora]",
+        "ژون: ښه. قابلي پلاو وخورم. [jon: xa. qābəli palāw waxoram.] — Joan: Fine. I'll eat Qabili Palaw.",
+        "سروي: اوبه غواړئ؟ [sarwey: obə ghwāṛāy?] — Waiter: Do you want water?",
+        "اسد: هو، اوبه راوله. [asad: haw, oba rāwla.] — Asad: Yes, bring water. ← COMMAND: راوله [rāwla]",
+        "ژون: اسد، د مرچو وغواړه — ددي خوند لري. [jon: asad, da marco wughwāṛa — dade xwand lari.] — Joan: Asad, ask for the pepper — it tastes good.",
+        "اسد: سروي، مرچ هم راوله! [asad: sarwey, marcˈ ham rāwla!] — Asad: Waiter, bring pepper too!",
+        "سروي: ټول سره يوځای وخورئ. [sarwey: ṭol sara yowadzāy waxorāy.] — Waiter: Eat it all together! ← COMMAND, plural: وخورئ [waxorāy]",
+        "KEY FOOD VOCABULARY from the dialogue:",
+        "اوشک [awshak] — aushak (Afghan dumplings with leek filling, topped with yogurt and meat sauce — M2 class) [awshak]",
+        "قابلي پلاو [qābəli palāw] — Qabili Palaw (Afghan national dish: rice with lamb, carrots, raisins — M2) [qābəli palāw]",
+        "مرچ [marcˈ] — pepper (M2 class, plural مرچونه [marčune] or مرچ [marč]) [marcˈ]",
+        "ار تسه [ar tse] — everything [ar tse] ◆ يوځای [yowadzāy] — together [yowadzāy]",
+        "ولاړ شه! [walāṛ sha!] — Stand up! / Welcome! (polite entry greeting) ← key hospitality command"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🍽️ Cultural Spotlight: Afghan Hospitality Commands",
+      "lines": [
+        "In Pashtun hospitality culture, certain command sequences are not optional social niceties — they are OBLIGATORY rituals. Failing to use them marks you as culturally illiterate; using them correctly earns immediate respect.",
+        "THE ARRIVAL SEQUENCE — when a guest enters:",
+        "① ولاړ شه! [walāṛ sha!] / ولاړ شئ! [walāṛ shāy!] — 'Stand up! / Welcome!' (the host and others rise to greet the guest — the command is actually addressed to themselves, signalling respect)",
+        "② راشه! [rāsha!] — 'Come (in)!' (sg) / راشئ! [rāshāy!] — 'Come!' (pl) ← inviting entry",
+        "③ کینه! [kenā!] — 'Sit down!' (sg) / کينئ! [kenāy!] — 'Sit!' (pl) ← insisting the guest be seated",
+        "④ ډوډۍ وخوره! [ḍoḍay waxora!] — 'Eat (the food)!' ← insisting on eating together",
+        "These four commands are a HOSPITALITY RITUAL SEQUENCE, not four separate suggestions. A Pashtun host who skips any of them is considered inhospitable. An English speaker who says 'Make yourself at home' is approximating this sequence — but Pashto requires each step explicitly.",
+        "SOCIOLINGUISTIC NOTE: The command کینه [kenā] 'sit down' combined with راشه [rāsha] 'come' forms the most common indoor greeting sequence in Pashto. You encountered it in Lesson 3; now you understand its perfective grammatical structure."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 2 — The Perfective/Imperfective Opposition: The Core Distinction",
+      "lines": [
+        "The perfective/imperfective aspectual distinction is the MOST FUNDAMENTAL grammatical feature of the Pashto verb system. Everything in Pashto grammar eventually connects back to this opposition. Master it now.",
+        "IMPERFECTIVE (نا-کامل [nā-kāmal]): Action is UNBOUNDED — habitual, ongoing, or open-ended. No specific starting or ending point is implied.",
+        "احمد کتاب لولي. [ahmad kitāb lwani.] — 'Ahmad reads a book / Ahmad is reading a book.' (habitual OR ongoing — no completion implied)",
+        "PERFECTIVE (کامل [kāmal]): Action is BOUNDED — with a clear starting and/or stopping point. The action is presented as a whole unit, goal-directed, or completed.",
+        "احمد کتاب ولولي. [ahmad kitāb wulwani.] — 'Ahmad will read the book (through) / Ahmad reads the book (goal-directed completion).' (the reading has a defined end-point)",
+        "CRITICAL MISCONCEPTION TO AVOID: The perfective is NOT a past tense marker. In the present tense, the perfective expresses future or goal-directed action. The past tense is formed differently and introduced in Lesson 12.",
+        "THE THREE USES of the present perfective in Pashto:",
+        "① COMMANDS: راشه! [rāsha!] — 'Come!' ← The command IS the perfective imperative form.",
+        "② FUTURE STATEMENTS with به [ba]: اسد به راشي. [asad ba rāshi.] — 'Asad will come.'",
+        "③ PROSPECTIVE / GOAL-DIRECTED statements (without به [ba] in some contexts): زه اوشک وخورم. [za awshak waxoram.] — 'I'll eat aushak / I'm going to eat aushak.' ← prospective present perfective"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🎯 Aspect vs. Tense: The Critical Distinction",
+      "lines": [
+        "English speakers constantly confuse ASPECT and TENSE because English mostly conflates them. In Pashto they are completely separate grammatical dimensions.",
+        "TENSE answers: WHEN? (past, present, future — a point on the timeline)",
+        "ASPECT answers: HOW? (is the action viewed as complete/bounded, or as ongoing/unbounded?)",
+        "In Pashto, the same verb form — the present perfective — can describe the FUTURE (goal-directed action ahead) OR serve as a COMMAND (bounded action requested). The timeline is PRESENT or FUTURE; the aspect is PERFECTIVE (bounded).",
+        "ANALOGY: Think of the perfective as a photograph — it freezes the action as a complete unit. The imperfective is a video — it shows the action rolling, ongoing, without emphasising its edges.",
+        "زه کتاب لولم. [za kitāb lolam.] — 'I read books / I am reading.' ← VIDEO (imperfective: ongoing habit)",
+        "زه کتاب ولولم. [za kitāb wululam.] — 'I will read the book (through) / I'll read it.' ← PHOTO (perfective: bounded, complete unit)",
+        "DIALECT FLAG 🔁: The perfective prefix is و- [wu-] in Kabuli/standard Pashto. In Kandahari Pashto, the prefix is وا- [wā-]: Kabuli وخورم [waxoram] → Kandahari وا خورم [wāxoram]. Both are correct in their dialects. These materials teach Kabuli; Kandahari variants are noted."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — The Present Perfective of Simple Verbs",
+      "lines": [
+        "RULE: The present perfective of SIMPLE VERBS is formed by adding the prefix و- [wu-] to the imperfective root. The personal endings remain the same as for the imperfective.",
+        "و- [wu-] is ALWAYS STRESSED. Before vowel-initial roots, و- [wu-] fuses: و [wu] + اخستل [axistəl] → واخستل [wāxistəl].",
+        "IMPORTANT PHONOLOGY: و- [wu-] + a root beginning with a vowel → the [u] vowel contracts with the following vowel: وا + [a-] → [wā-]. This is why eating [xoṛ-] becomes [waxoṛ-] but root [axl-] becomes [wāxl-].",
+        "IMPERFECTIVE → PERFECTIVE pairs for SIMPLE VERBS (stem given):",
+        "خوړ- [xoṛ-] 'eat' → وخوړ- [waxoṛ-] ◆ Example: لولم [lolam] → ولولم [wululam] 'I will read'",
+        "اخل- [axl-] 'buy/take' → واخل- [wāxl-] ◆ Example: اخلم [axlam] → واخلم [wāxlam] 'I will buy'",
+        "اغوند- [aghoṇd-] 'wear' → واغوند- [wāghoṇd-]",
+        "وينه- [wina-] 'show' → ووينه- [wuwina-]",
+        "ويل- [way-] 'say/sing' → ووي- [wuway-] ◆ Example: وايم [wāyam] → ووايم [wuwāyam] 'I will say'",
+        "درېد- [daréḍ-] 'wait/stop' → ودرېد- [wudaréḍ-]",
+        "لوستل- [lwān-] 'read/study' → ولوست- [wulwān-]",
+        "ليکل- [lik-] 'write' → وليک- [wulik-]",
+        "کتل- [gor-] 'see/look' → وکت- [wugor-] / وګور- [wugor-]",
+        "غږيدل- [ghag-] 'talk' → وغږيد- [wughag-]",
+        "ليدل- [led-] 'meet/see' → وليد- [wulid-]",
+        "اوسيدل- [osig-] 'live/reside' → واوسيد- [wāosig-]",
+        "FULL PARADIGM — وخوړل [waxoṛəl] 'to eat (perfective)' — all six persons:",
+        "وخورم [waxoram] — 'I will eat / I eat (it through)'",
+        "وخورې [waxore] — 'You will eat'",
+        "وخوري [waxori] — 'He/She will eat'",
+        "وخورو [waxoru] — 'We will eat'",
+        "وخورئ [waxorāy] — 'You all will eat'",
+        "وخوري [waxori] — 'They will eat'",
+        "IMPERFECTIVE vs. PERFECTIVE CONTRAST — same verb, same subject, different aspect:",
+        "احمد کتاب لولي. [ahmad kitāb lwani.] — 'Ahmad reads a book.' (imperfective: habit/ongoing)",
+        "احمد کتاب ولولي. [ahmad kitāb wulwani.] — 'Ahmad will read the book (through).' (perfective: bounded/prospective)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Simple Verbs List — Imperfective Root → Perfective Form",
+      "lines": [
+        "These are the core simple verbs introduced in this unit. All follow the و- [wu-] prefix rule. Memorise the imperfective–perfective pair for each.",
+        "ليدل [ledəl] — meet/see | Imp. stem: لید- [led-] | Perf. stem: وليد- [wulid-]",
+        "ورېدل [woreḍəl] — fall (snow/rain) | Imp: وره- [wore-] | Perf: وووره- [wuworé-]",
+        "اخستل [axistəl] — buy/take/receive | Imp: اخل- [axl-] | Perf: واخل- [wāxl-]",
+        "غواړل [ghwāṛəl] — want/invite | Imp: غواړ- [ghwāṛ-] | Perf: وغواړ- [wughwāṛ-]",
+        "اوسيدل [osedəl] — live/reside | Imp: اوسيږ- [osig-] | Perf: واوسيږ- [wāosig-]",
+        "اغوندل [aghoṇdəl] — wear (clothes) | Imp: اغوند- [aghoṇd-] | Perf: واغوند- [wāghoṇd-]",
+        "ويل [wayəl] — say/sing | Imp: وايه- [wāy-] | Perf: وووايه- [wuwāy-]",
+        "خوړل [xoṛəl] — eat | Imp: خوړ- [xoṛ-] | Perf: وخوړ- [waxoṛ-]",
+        "غږيدل [ghagéḍəl] — talk/speak | Imp: غږيږ- [ghagég-] | Perf: وغږيد- [wughagéḍ-]",
+        "لوستل [lwastəl] — read/study | Imp: لول- [lwān-] | Perf: ولوست- [wulwān-]",
+        "درېدل [daréḍəl] — wait/stand/stop | Imp: درېږ- [darég-] | Perf: ودرېد- [wudaréḍ-]",
+        "لرل [larəl] — have | Imp: لر- [lar-] | Perf: ولر- [wular-] (rare — لرل used mainly in imperfective)",
+        "سکل [skəl] — drink | Imp: سک- [sk-] | Perf: وسک- [wusk-]",
+        "NOTE — MOTION VERBS: The motion verbs 'go' تلل [tləl] and 'come' راتلل [rātləl] are DOUBLY IRREGULAR — their perfective stems are completely different from their imperfective stems. These are treated in depth in Lesson 9. For now, memorise the command forms: راشه [rāsha] 'come! (sg)' and لاړ شه [lāṛ sha] 'go! (sg)' as fixed phrases."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — Commands (امرونه)",
+      "lines": [
+        "Pashto commands are built directly on the perfective stem. There are four command forms — two positive, two negative.",
+        "POSITIVE COMMANDS — add endings to the PERFECTIVE STEM:",
+        "SINGULAR (to one person): perfective stem + -ه [-a]",
+        "PLURAL (to more than one): perfective stem + -ئ [-ay]",
+        "NEGATIVE COMMANDS — use مه [ma] + IMPERFECTIVE ROOT (NOT the perfective):",
+        "SINGULAR NEGATIVE: مه [ma] + imperfective root + -ه [-a]",
+        "PLURAL NEGATIVE: مه [ma] + imperfective root + -ئ [-ay]",
+        "NOTE: مه [ma] + [a-initial root] → the forms fuse. مه [ma] + اخله [axla] → مه اخله → مه واخله? Actually: مه [ma] + imperfective root [axl-] + -a = ماخله [māxla]. The [a] of مه [ma] fuses with the root initial vowel.",
+        "COMMAND PARADIGM TABLE — خوړل [xoṛəl] 'to eat':",
+        "Positive singular: وخوره [waxora] — 'Eat!' (to one person)",
+        "Positive plural: وخورئ [waxorāy] — 'Eat!' (to a group)",
+        "Negative singular: مه خوره [ma xora] — 'Don't eat!' (to one person)",
+        "Negative plural: مه خورئ [ma xorāy] — 'Don't eat!' (to a group)",
+        "COMMAND PARADIGM TABLE — ليکل [likəl] 'to write':",
+        "Positive singular: وليکه [wulike] — 'Write!'",
+        "Positive plural: وليکئ [wulikāy] — 'Write!' (pl)",
+        "Negative singular: مه ليکه [ma like] — 'Don't write!'",
+        "Negative plural: مه ليکئ [ma likāy] — 'Don't write!' (pl)",
+        "COMMAND PARADIGM TABLE — درېدل [daréḍəl] 'to wait/stop':",
+        "Positive singular: ودرېږه [wudaréga] — 'Wait!'",
+        "Positive plural: ودرېږئ [wudarégāy] — 'Wait!' (pl)",
+        "Negative singular: مه درېږه [ma daréga] — 'Don't wait!'",
+        "Negative plural: مه درېږئ [ma darégāy] — 'Don't wait!' (pl)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Essential Command Phrases — Hospitality, Social, and Classroom",
+      "lines": [
+        "These are the most important command forms in Pashto — memorise them as complete phrases, then analyse their structure.",
+        "HOSPITALITY SEQUENCE (obligatory — see Cultural Spotlight above):",
+        "راشه! [rāsha!] — 'Come (in)!' (sg) ◆ راشئ! [rāshāy!] — 'Come!' (pl) ← perfective of راتلل [rātləl] 'to come'",
+        "کینه! [kenā!] — 'Sit down!' (sg) ◆ کينئ! [kenāy!] — 'Sit!' (pl) ← perfective of کيناستل [kenāstəl]",
+        "ولاړ شه! [walāṛ sha!] — 'Stand up! / Welcome!' (sg) ← perfective of ولاړيدل",
+        "ډوډۍ وخوره! [ḍoḍay waxora!] — 'Eat the food!' (sg) ← perfective imperative",
+        "چای وسکه! [čāy wuska!] — 'Drink the tea!' (sg)",
+        "SOCIAL DIRECTION COMMANDS:",
+        "لاړ شه! [lāṛ sha!] — 'Go!' (sg) ◆ لاړ شئ! [lāṛ shāy!] — 'Go!' (pl) ← perfective of تلل [tləl]",
+        "ودرېږه! [wudaréga!] — 'Stop! / Wait!' (sg)",
+        "مخکې لاړ شه! [makhke lāṛ sha!] — 'Go ahead!' (sg)",
+        "CLASSROOM COMMANDS:",
+        "وغږيږه! [wughagéga!] — 'Speak!' (sg) ◆ وليکه! [wulike!] — 'Write!' (sg)",
+        "ولوله! [wulwala!] — 'Read (it through)!' (sg) ◆ وګوره! [wugora!] — 'Look at it!' (sg)",
+        "مه غږيږه! [ma ghagéga!] — 'Don't speak!' (sg) ◆ مه ليکه! [ma like!] — 'Don't write!' (sg)",
+        "STRESS NOTE: In positive commands, stress falls on the perfective prefix و- [wu-]: وخوره [WUxora] (stress on first syllable). In negative commands, stress falls on مه [ma]: ماخله [MĀxla]. This stress shift is phonemically important and must be trained on audio.",
+        "COMMAND STRESS CONTRAST: وخوره! [WU-xo-ra] 'Eat!' vs. مه خوره! [MA-xo-ra] 'Don't eat!' — the prefix/particle carries the stress in both cases."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ Grammar Note: Why Positive = Perfective, Negative = Imperfective",
+      "lines": [
+        "A conceptually elegant rule underlies command formation: positive commands use the PERFECTIVE because they express a bounded action you want someone to DO (complete, achieve). Negative commands use the IMPERFECTIVE because they express an ongoing state you want someone NOT to enter (don't even begin, don't keep doing).",
+        "POSITIVE (perfective): وخوره! [waxora!] 'Eat (it — complete the action)!' ← bounded",
+        "NEGATIVE (imperfective): مه خوره! [ma xora!] 'Don't eat (at all — don't even start)!' ← unbounded prohibition",
+        "This is not arbitrary — it reflects a deep semantic truth about aspect: the perfective 'frames' a complete action, which is exactly what a positive command requests. The imperfective 'leaves the action open', which is how prohibitions work — you're blocking entry into an ongoing state.",
+        "English has a similar intuition: 'Go and do it' (complete) vs. 'Don't be doing that' (ongoing state prohibition) — but English doesn't grammaticalise this as cleanly as Pashto does."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — Future Expressions (راتلونکی وخت)",
+      "lines": [
+        "The Pashto future is formed with the MODAL PARTICLE به [ba] + the PRESENT PERFECTIVE form of the verb.",
+        "THE RULE FOR به [ba] PLACEMENT: به [ba] goes after the FIRST STRESSED ELEMENT of the sentence — exactly like the weak possessive clitic from Lesson 4. The first stressed element can be the subject, object, or a focused adverb.",
+        "BASIC FUTURE PATTERNS:",
+        "Subject first (most common): SUBJECT + به [ba] + PERFECTIVE VERB",
+        "اسد به ودرېږي. [asad ba wudarégi.] — 'Asad will wait.'",
+        "هغه به ودرېږي. [hagha ba wudarégi.] — 'He will wait.' ← subject pronoun before به",
+        "Object first (object fronted/focused): OBJECT + به [ba] + PERFECTIVE VERB",
+        "کافي به واخلي. [kāfi ba wāxli.] — 'He will buy coffee.' ← object کافي before به",
+        "Subject + Object (both present): SUBJECT + به [ba] + OBJECT + PERFECTIVE VERB",
+        "اسد به کافي واخلي. [asad ba kāfi wāxli.] — 'Asad will buy coffee.'",
+        "With WEAK POSSESSIVE — be goes between noun and clitic: SUBJECT + به [ba] + weak pron. + PERFECTIVE VERB",
+        "پلار به يې ودرېږي. [plār ba ye wudarégi.] — 'His father will wait.' ← به between پلار and يې",
+        "NEGATIVE FUTURE — نه [na] goes between و- [wu-] prefix and the verb root:",
+        "اسد به و نه درېږي. [asad ba wa na darégi.] — 'Asad won't wait.' ← نه between و and the root",
+        "هغه به کافي و نه اخلي. [hagha ba kāfi wa na axli.] — 'He won't buy coffee.'",
+        "QUESTIONS — same word order as statements, rising intonation only:",
+        "اسد به ودرېږي؟ [asad ba wudarégi?] — 'Will Asad wait?'",
+        "ته به قابلي پلاو وخورې؟ [tā ba qābəli palāw waxore?] — 'Will you eat Qabili Palaw?'"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Future Time Adverbials (د وخت ظرفونه)",
+      "lines": [
+        "These time words combine naturally with future perfective constructions to anchor the action on the timeline.",
+        "سبا [sabā] — tomorrow [sabā]",
+        "بله سبا [bela sabā] — the day after tomorrow [bela sabā]",
+        "سبا نه بله سبا [sabā na bela sabā] — two days from now",
+        "پرون [parwān] — yesterday [parwān] ← NOTE: 'yesterday' is past — used here for contrast with tomorrow",
+        "اوس [os] — now [os] ◆ بيا [byā] — then / again [byā]",
+        "خپله [xpala] — oneself / -self (reflexive) [xpala]",
+        "FUTURE SENTENCES with time adverbials (Pashto script — all SOV):",
+        "سبا اسد به کابل ته لاړ شي. — 'Tomorrow Asad will go to Kabul.'",
+        "بله سبا مونږ به ريسټوران ته لاړ شو. — 'The day after tomorrow we will go to the restaurant.'",
+        "هغه سبا به درسونه وولولي. — 'She will study the lessons tomorrow.'",
+        "CONTRAST DRILL — Imperfective vs. Perfective + Future particle:",
+        "احمد کتاب لولي. — 'Ahmad reads a book.' (habitual, imperfective)",
+        "احمد به کتاب وولولي. — 'Ahmad will read the book.' (future, perfective)",
+        "رابيا خوب کوي. — 'Rābya sleeps.' (habitual, imperfective)",
+        "رابيا به سبا خوب وکوي. — 'Rābya will sleep tomorrow.' (future, perfective)"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "💡 The به [ba] Particle — Three Uses to Know",
+      "lines": [
+        "به [ba] is one of the most versatile particles in Pashto. By this lesson you have seen it in three contexts — it is worth mapping all three to avoid confusion:",
+        "① FUTURE MARKER (this lesson): Subject + به + perfective verb → 'will + verb'. اسد به راشي [asad ba rāshi] — 'Asad will come.'",
+        "② INFERENTIAL/CONJECTURAL (preview from Lesson 3 dialogue): ته به د غلجی صیب نوې شاګرده يې [tā ba da ghaldzāy sāyib nawe shāgərda ye] — 'You must be / you're probably Mr. Ghaldzay's new student.' ← be signals inference, not future.",
+        "③ HABITUAL PAST (later lessons): به [ba] with past tense forms will signal habitual past ('used to'). Preview: هغه به هر ورځ راتلو [hagha ba har wradz rātlo] — 'He used to come every day.'",
+        "THE PLACEMENT RULE for به is the same in all three uses: it always docks after the first stressed constituent — just like the weak possessive clitics مې/دې/يې/مو from Lesson 4.",
+        "MEMORY LINK: Think of به [ba] as the 'modal shadow' — it follows the first heavy word in any sentence, attaching itself like a clitic to signal modality (future, inference, or habitual past depending on the tense context)."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "FOOD & RESTAURANT NOUNS:",
+        "مهماني [mehmanī] — party / gathering (F3 class) [mehmanī]",
+        "سودا [sowdā] — goods / stuff / shopping (F3 class) [sowdā]",
+        "فارم [fārm] — farm (M2 class) [fārm]",
+        "بازار [bāzār] — market (M2 class, review from L4) [bāzār]",
+        "پسه [pasa] — lamb (M2 class) [pasa]",
+        "پخلی [paxlay] — cooking / culinary (M3 class) [paxlay]",
+        "پسته [pesta] — pistachio nuts (F1 class) [pesta]",
+        "سلاته [salāta] — salad (F1 class) [salāta]",
+        "بادام [bādām] — almonds (M2 class, plural) [bādām]",
+        "بيير [bid] — beer (M2 class) [bid]",
+        "ADJECTIVES:",
+        "کوم [kum] — a / some (indefinite, Class 1) [kum]",
+        "پرمانه [parmāna] — abundant / plentiful (Class 4) [parmāna]",
+        "تازه [tāza] — fresh (Class 4, invariable) [tāza]",
+        "VERBS (perfective stems given for this lesson's focus):",
+        "غواړل [ghwāṛəl] — invite / want; imp. غواړ- [ghwāṛ-], perf. وغواړ- [wughwāṛ-] [ghwāṛəl]",
+        "لېژل [legəl] — send; imp. لېږ- [leg-], perf. ولېږ- [wuleg-] [legəl]",
+        "پخول [paxawəl] — cook; perf. پخ ک- [pax k-] [paxawəl]",
+        "ټيليفون کول [ṭelefon kawəl] — phone (someone); perf. ټيليفون ک- [ṭelefon k-] [ṭelefon kawəl]",
+        "PRONOUN: يې [ye] as weak object pronoun 'it/them' (same form as possessive يې, context distinguishes)",
+        "TIME ADVERBIALS:",
+        "سبا [sabā] — tomorrow [sabā] ◆ بله سبا [bela sabā] — day after tomorrow [bela sabā] ◆ پرون [parwān] — yesterday [parwān] ◆ خپله [xpala] — oneself / -self [xpala]",
+        "ADVERBS / PHRASES:",
+        "يوځای [yowadzāy] — together [yowadzāy] ◆ ار تسه [ar tse] — everything [ar tse] ◆ رغ [rag] — to (me / toward speaker) [rag] ◆ نو [no] — then / so / well [no] ◆ ها [hā] — yes (I'm listening) / affirmative particle"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — Reading: د مهمانۍ چمتووالی (Party Preparations)",
+      "lines": [
+        "Amān is preparing for a big party and must complete a long list of tasks over several days. This reading is script only — identify every perfective verb (command or future) and every imperfective verb.",
+        "امان د شنبې شپه مهماني کوي. هر ورځ دلته ډير کار دی.",
+        "سه‌شنبه امان به بازار ته لاړ شي. هلته به سودا واخلي — پسه، سبزيجات، او مرچ.",
+        "چهارشنبه امان به خپله پسته او بادام واخلي. خور يې به د پخلي لپاره راشي.",
+        "پنجشنبه امان به ريسټوران ته ولاړ شي. د پخلي ماهر به يې وغواړي.",
+        "جمعه به مهماني وي. سلاته به تازه وي. قابلي پلاو به يې خپله وپزي.",
+        "امان مهمانانو ته ويل: راشئ! کينئ! ډوډۍ وخورئ!",
+        "READING GLOSSARY:",
+        "چمتووالی [čamtuwāli] — preparation (M3 class) ◆ سبزيجات [sabzijāt] — vegetables (M plural, Arabic loanword) ◆ خپله [xpala] — herself / himself (reflexive) ◆ د پخلي لپاره [da paxli lapāra] — for the sake of cooking / for cooking purposes ◆ ماهر [māher] — expert (Class 4, invariable) ◆ مهمانانو [mehmānāno] — to the guests (M OPl of مهمان [mehmān]) ◆ وپزي [wapzi] — she will cook (perf. 3sg F of پخول [paxawəl])",
+        "VERB ANALYSIS EXERCISE (script only — identify each form):",
+        "① کوي [kawi] — is (she doing)? → imperfective, 3sg",
+        "② لاړ شي [lāṛ shi] — will go → future perfective, 3sg",
+        "③ واخلي [wāxli] — will buy → future perfective, 3sg",
+        "④ راشي [rāshi] — will come → future perfective, 3sg F (sister)",
+        "⑤ وپزي [wapzi] — will cook → future perfective, 3sg F (Amān — feminine subject!)",
+        "⑥ راشئ! [rāshāy!] — Come! → positive command, plural",
+        "⑦ کينئ! [kenāy!] — Sit! → positive command, plural",
+        "⑧ وخورئ! [waxorāy!] — Eat! → positive command, plural"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🌍 Cultural Context: Afghan Social Gatherings",
+      "lines": [
+        "مهماني [mehmanī] — a gathering or party — is central to Pashtun social life. Unlike Western social events which are often casual, Afghan gatherings are carefully choreographed according to social protocols.",
+        "GENDER SEPARATION: At traditional Afghan social gatherings, men and women typically socialise in separate areas of the house. This is not absolute in urban, educated contexts (the textbook depicts mixed settings for pedagogical purposes), but learners should be aware of this norm when attending traditional events.",
+        "FOOD AS SOCIAL STATEMENT: The quality and quantity of food served is a direct statement of the host's honour (ناموس [nāmus]) and generosity (مهمان‌نوازي [mehmān-nawāzi]). Serving قابلي پلاو [qābəli palāw] — the national dish — at a gathering signals the event is important and the host has spared no effort.",
+        "THE HOST'S COMMANDS: The commands راشئ! کينئ! ډوډۍ وخورئ! [rāshāy! kenāy! ḍoḍay waxorāy!] are not polite suggestions — they are the performative utterances of hospitality. A guest who declines food after being commanded to eat with these words is, in the Pashtun frame, slightly refusing the host's generosity. The culturally correct response is to eat, even if only a little."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 8 — Diversion: قابلي پلاو — The National Dish (د افغانستان ملي خواړه)",
+      "lines": [
+        "The Diversion for Unit 7 is an authentic recipe for قابلي پلاو [qābəli palāw] — Afghanistan's national dish and the most celebrated offering of Afghan cuisine.",
+        "قابلي پلاو [qābəli palāw] — literally 'Kabul/Qabili-style rice' — is a slow-cooked rice dish layered with lamb, caramelised carrots, golden raisins, almonds, and pistachios, perfumed with چار مصاله [čār masāla] (four spices: cardamom, cinnamon, cloves, cumin).",
+        "KEY VOCABULARY from the recipe:",
+        "غوړي [ghwaṛi] — oil / fat (M2) ◆ پياز [pyāz] — onion (M2) ◆ پسه [pasa] — lamb (M2) ◆ چار مصاله [čār masāla] — four-spice blend (F1) ◆ هيل [hel] — cardamom ◆ دارچيني [dārčini] — cinnamon ◆ مرچ [marc] — pepper ◆ مالګه [mālga] — salt (F1) ◆ مکھن [makhan] — butter (M2) ◆ بادام [bādām] — almonds ◆ پسته [pesta] — pistachios ◆ زردک [zardak] — carrot (M3) ◆ کشمش [kashmash] — raisins ◆ وريجې [wríje] — rice (F1 plural) ◆ اوبه [obə] — water",
+        "COMMAND FORMS IN THE RECIPE — the recipe is a sequence of positive singular commands (perfective imperative):",
+        "توده کړه [toda kaṛa] — 'Heat (it)!' ◆ اضافه کړه [izāfa kaṛa] — 'Add!' ◆ وپخه که [wupaxe ka] — 'Cook it!' ◆ وولوله [wuwulwala] — 'Stir it!' ◆ وباسه [wubāsa] — 'Remove it!' ◆ وشوره [wushwora] — 'Sprinkle!'",
+        "CULTURAL COMMENTARY: قابلي پلاو is the dish that defines Afghan culinary identity. It is served at weddings, Eid celebrations, and any occasion of significance. The name قابلي [qābəli] derives from کابل [kābul] (Kabul) — this is 'Kabul-style' rice, distinguishing it from other regional pilaf traditions. The caramelised carrot and raisin garnish is the signature visual element — the sweetness of the raisins against the savoury lamb is the defining flavour balance of Afghan cuisine.",
+        "GRAMMAR NOTE: Notice that cooking recipes — in any language — are essentially a sequence of positive singular commands. The Pashto recipe uses perfective imperative forms throughout, making it an excellent real-world showcase of the command system you have just learned. Every 'Add', 'Heat', 'Stir', 'Remove' in a recipe is a positive singular command in the perfective aspect."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 7 before attempting the quiz:",
+        "✓ The perfective aspect presents action as BOUNDED — with a clear starting/stopping point. NOT a past tense.",
+        "✓ Simple verb perfective = و- [wu-] prefix + imperfective root + same personal endings.",
+        "✓ و- [wu-] is ALWAYS stressed. Dialect variant: وا- [wā-] in Kandahari.",
+        "✓ Before vowel-initial roots, و- [wu-] fuses with the vowel: واخل- [wāxl-] (buy), واغوند- [wāghoṇd-] (wear).",
+        "✓ Positive commands: perfective stem + -ه [-a] (sg) or -ئ [-ay] (pl).",
+        "✓ Negative commands: مه [ma] + imperfective root + -ه [-a] (sg) or -ئ [-ay] (pl). NOTE: imperfective, NOT perfective.",
+        "✓ Future: SUBJECT + به [ba] (after first stressed element) + perfective verb.",
+        "✓ Negative future: به [ba] + و [wu] + نه [na] + root: به و نه خوري [ba wa na xori] 'won't eat'.",
+        "✓ به [ba] docks after the first stressed element — same rule as weak possessive clitics.",
+        "✓ Hospitality commands راشه! کینه! ډوډۍ وخوره! are obligatory social rituals — not optional vocabulary.",
+        "✓ Motion verbs 'go' and 'come' are doubly irregular — perfective treated in Lesson 9.",
+        "✓ سبا [sabā] = tomorrow ◆ بله سبا [bela sabā] = day after tomorrow ◆ پرون [parwān] = yesterday."
       ]
     },
     {
       "type": "quiz",
-      "question": "What is the primary function of the perfective prefix [w-/wu-/wā-] in the Pashto present tense?",
+      "question": "What does the perfective aspect express in the PRESENT tense in Pashto — and what does it NOT mean?",
       "options": [
-        "It changes the verb into the past tense.",
-        "It indicates that an action is bounded, completed, or goal-directed.",
-        "It makes the sentence negative.",
-        "It changes the word order from SOV to SVO."
+        "It expresses completed past action — equivalent to English simple past 'I ate'.",
+        "It expresses bounded, goal-directed, or prospective action — used for commands and future statements. It is NOT a past tense marker.",
+        "It expresses habitual, ongoing action — equivalent to English simple present 'I eat (regularly)'.",
+        "It expresses conditional or hypothetical action — equivalent to English 'I would eat'."
       ],
       "correctIndex": 1,
-      "explanation": "The perfective prefix is an aspectual marker, not a tense marker. It signals that an action is viewed as a complete, bounded whole (often implying prospective or future action in the present tense)."
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "paragraph",
-      "heading": "Module 2: Commands (Imperatives)",
-      "lines": [
-        "Commands in Pashto are directly derived from the perfective stem!",
-        "To tell someone to do something, take the perfective stem and add the singular suffix [-a] or the plural/formal suffix [-ay].",
-        "Singular Command: کتاب ولوله! [kitāb wəwaḍa!] (Read the book!)",
-        "Plural/Formal Command: کتاب ولولئ! [kitāb wəwaḍay!] (Read the book!)",
-        "Pronunciation Note: Singular commands are stressed on the verb stem, whereas plural commands are stressed on the suffix."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "heading": "Hospitality & Social Direction Verbs",
-      "lines": [
-        "Some of the most important commands you will learn involve social direction and movement:",
-        "[rā-sha] (راشه) 'come (sg)' | [rā-shay] (راشئ) 'come (pl)'",
-        "[kēna] (کښېنه / کینه) 'sit down'",
-        "[pātsā] (پاڅه) 'stand up'"
-      ]
-    },
-    {
-      "type": "callout",
-      "text": "Cultural Protocol: In Afghan hospitality, inviting someone to enter, sit, and eat involves specific command forms like [rā-sha, kēna] (Come in, sit down). These are socially obligatory hospitality rituals, not optional vocabulary. Using direct commands here is a sign of warmth and welcome, not rudeness!"
+      "explanation": "The present perfective in Pashto expresses BOUNDED action — action with a clear starting/stopping point, presented as a complete unit. It is used for (1) commands: وخوره! [waxora!] 'Eat!', (2) future statements with به [ba]: اسد به وخوري [asad ba waxori] 'Asad will eat', and (3) prospective/goal-directed statements: زه قابلي پلاو وخورم [za qābəli palāw waxoram] 'I'll have the Qabili Palaw.' It is NOT a past tense — past tense is formed differently and introduced in Lesson 12. The imperfective (Lesson 3) expresses habitual/ongoing unbounded action."
     },
     {
       "type": "quiz",
-      "question": "When a Pashtun host says 'rā-sha, kēna' to a guest at their door, how should this be interpreted linguistically and culturally?",
+      "question": "How is the perfective form of the simple verb خوړل [xoṛəl] 'to eat' formed?",
       "options": [
-        "As a rude and aggressive order to sit down.",
-        "As an optional vocabulary phrase used only with children.",
-        "As a socially obligatory hospitality ritual extending warmth and welcome.",
-        "As a habitual present imperfective statement meaning 'he comes and sits'."
+        "By adding the suffix -ل [-l] to the imperfective root: خوړل [xoṛəl] → خوړل [xoṛ-l].",
+        "By replacing the imperfective root entirely with a new suppletive stem.",
+        "By adding the stressed prefix و- [wu-] to the imperfective root خوړ- [xoṛ-]: → وخوړ- [waxoṛ-].",
+        "By adding the particle به [ba] before the imperfective root without any prefix change."
       ],
       "correctIndex": 2,
-      "explanation": "In Pashtun culture, direct command forms like 'rā-sha, kēna' (come, sit) are culturally embedded hospitality rituals that demonstrate warmth, urgency, and respect toward a guest."
+      "explanation": "The present perfective of simple verbs is formed by adding the stressed prefix و- [wu-] to the imperfective root. For خوړل [xoṛəl] 'to eat', the imperfective root is خوړ- [xoṛ-]. Adding و- [wu-] gives وخوړ- [waxoṛ-]. The personal endings remain the same: وخورم [waxoram] 'I eat/will eat (it)', وخورې [waxore] 'you eat/will eat', وخوري [waxori] 'he/she eats/will eat', etc. The prefix و- [wu-] is always STRESSED, which is one audible cue distinguishing perfective from imperfective forms."
     },
     {
-      "type": "divider"
+      "type": "quiz",
+      "question": "What is the correct NEGATIVE SINGULAR command for 'Don't eat the pepper!'?",
+      "options": [
+        "مرچ وخوره! [marc waxora!] — using the perfective form with مرچ.",
+        "مرچ مه وخوره! [marc ma waxora!] — using مه with the perfective form.",
+        "مرچ مه خوره! [marc ma xora!] — using مه with the IMPERFECTIVE root.",
+        "مرچ نه خوره! [marc na xora!] — using نه with the imperfective root."
+      ],
+      "correctIndex": 2,
+      "explanation": "مرچ مه خوره! [marc ma xora!] — 'Don't eat the pepper!' (singular). Negative commands use مه [ma] + the IMPERFECTIVE root (NOT the perfective). The imperfective root of خوړل [xoṛəl] is خوړ- [xoṛ-], and the singular imperative ending is -ه [-a], giving خوره [xora]. So: مه [ma] + خوره [xora] = مه خوره [ma xora]. Option A gives a positive command 'Eat the pepper!'. Option B incorrectly uses مه with the perfective (وخوره). Option D uses نه [na] which is the negation particle for statements — not for commands (commands use مه [ma])."
     },
     {
-      "type": "paragraph",
-      "heading": "Module 3: Expressing the Future",
-      "lines": [
-        "Pashto does not have a distinct morphological future tense. Instead, future expressions are formed by combining the Present Perfective with future-pointing adverbials.",
-        "Future Adverbials: [sābā] (سبا) 'tomorrow', [bele] (بله ورځ) 'the day after tomorrow'.",
-        "Example: سبا احمد راشي. [sābā Ahmad rāghli.] (Tomorrow Ahmad will come.)",
-        "By placing 'sābā' (tomorrow) in front of the perfective verb, the aspect shifts to a prospective future action within the SOV framework."
-      ]
+      "type": "quiz",
+      "question": "In the future sentence اسد به کافي واخلي [asad ba kāfi wāxli] — 'Asad will buy coffee' — where is به [ba] positioned and why?",
+      "options": [
+        "به [ba] comes at the beginning of the sentence because future sentences always start with به.",
+        "به [ba] comes after اسد [asad] — the first stressed element (subject) — following the same first-stressed-element docking rule as weak possessive clitics.",
+        "به [ba] comes directly before the verb واخلي [wāxli] because it is a pre-verbal modal particle.",
+        "به [ba] can go anywhere in the sentence — its position is completely free."
+      ],
+      "correctIndex": 1,
+      "explanation": "به [ba] docks after the FIRST STRESSED ELEMENT of the sentence, following the same rule as the weak possessive clitics مې/دې/يې/مو from Lesson 4. In اسد به کافي واخلي, the first stressed element is اسد [asad] (the subject), so به [ba] follows immediately after it. If the object were fronted for emphasis, به would move: کافي به اسد واخلي [kāfi ba asad wāxli] 'As for coffee, Asad will buy it' — now کافي is the first stressed element, so به follows it. This consistent first-stressed-element placement makes به [ba] a true modal clitic, not a free adverb."
+    },
+    {
+      "type": "quiz",
+      "question": "The hospitality command sequence راشه! کینه! [rāsha! kenā!] — what are their grammatical forms and why are they socially obligatory?",
+      "options": [
+        "Both are imperfective present forms used as polite suggestions — they are optional greetings.",
+        "راشه [rāsha] is the positive singular perfective command of راتلل [rātləl] 'to come'; کینه [kenā] is the positive singular perfective command of کيناستل 'to sit'. They are obligatory hospitality ritual acts in Pashtunwali.",
+        "Both are past tense forms meaning 'you came' and 'you sat' — describing what the guest did upon arrival.",
+        "راشه [rāsha] is a noun meaning 'welcome'; کینه [kenā] is an adverb meaning 'comfortably'."
+      ],
+      "correctIndex": 1,
+      "explanation": "راشه [rāsha] is the positive singular PERFECTIVE IMPERATIVE of راتلل [rātləl] 'to come' — 'Come (in)!' formed by the perfective stem را-ش- [rā-sh-] + -ه [-a]. کینه [kenā] is the positive singular perfective command of the verb meaning 'to sit down' — 'Sit down!' Both are commands in the grammatical sense (positive singular perfective imperatives). They are socially OBLIGATORY because of Pashtunwali's مهمان‌نوازي [mehmān-nawāzi] (hospitality) code — a Pashtun host who fails to explicitly invite a guest in and insist they sit is considered inhospitable. The commands are performative utterances that make the hospitality real."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the Kandahari dialectal variant of the Kabuli perfective prefix و- [wu-], and where does it appear on the verb?",
+      "options": [
+        "The Kandahari variant is بی- [be-], placed AFTER the verb root.",
+        "The Kandahari variant is وا- [wā-], placed BEFORE the verb root in the same position as Kabuli و- [wu-].",
+        "The Kandahari variant is نه- [na-], used only in negative perfective forms.",
+        "Kandahari Pashto does not have a perfective prefix — it uses aspect-marking suffixes instead."
+      ],
+      "correctIndex": 1,
+      "explanation": "The Kandahari perfective prefix is وا- [wā-], placed before the verb root in the same position as Kabuli و- [wu-]. So Kabuli وخورم [wu-xo-ram] 'I will eat' corresponds to Kandahari واخورم [wā-xo-ram]. Both dialects form the perfective by prefixing to the imperfective root — only the vowel of the prefix differs ([u] vs. [ā]). This is the most salient phonological difference between Kabuli and Kandahari Pashto in the verb system, and it is immediately noticeable to Kabuli-trained learners when they encounter southern Afghan speech or audio."
     }
   ]
 }

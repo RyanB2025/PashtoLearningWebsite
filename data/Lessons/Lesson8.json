@@ -1,91 +1,430 @@
 {
-  "id": "L8",
-  "title": "Lesson 8: Ordinal Numbers & Derivative Verbs   ترتیبي اعداد او مشتق کریاوې",
-  "category": "Beginning Pashto",
-  "description": "Expand your vocabulary exponentially by mastering Derivative Verbs—the most productive morphological class in Pashto. You will also learn ordinal numbers and explore authentic Afghan food culture.",
-  "duration": "Textbook pp. 113–135 (approx. 10-15 pages of primary instruction plus Workbook exercises) [cite: 40, 43]",
-  "level": "Intermediate-Low (ILR 1+ → ILR 2) [cite: 40]",
+  "id": "pashto-l08",
+  "title": "Lesson 8: Ordinal Numbers & Derivative Verbs",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "Two parallel expansions: ordinal numbers (first through tenth and beyond) formed by the -ام [-am] suffix, inflecting as regular adjectives; and the most productive morphological class in Pashto — Derivative Verbs. Any noun or adjective can be verbalised by combining it with the transitive auxiliary کول [kawəl] 'to do/make' or the intransitive auxiliary کيدل [kedəl] 'to become'. The result is a two-cell system covering cause/effect pairs like تود کول [tod kawəl] 'to warm something' vs. تود کيدل [tod kedəl] 'to become warm'. Learners reach the ILR 1+/2 threshold as they navigate paragraph-length connected discourse. Communicative context: giving directions, sequencing events, cooking instructions, and Afghan food culture.",
+  "duration": "10–15 hours",
+  "level": "Intermediate-Low → Intermediate-Mid (ILR 1+ → ILR 2)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: Ordinal Numbers (1st - 10th)",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 8! Let's begin with sequencing events using Ordinal Numbers (first through tenth)[cite: 42].",
-        "Ordinals are formed by adding the suffix [-am] (ام) to the cardinal numbers[cite: 42].",
-        "Examples: [yaw-am] (١م / لومړی) 'first', [dways-am] (٢م / دوهم) 'second', [dre-yam] (٣م / دریم) 'third'[cite: 42].",
-        "Notice that in Pashto script, numbers are written using Arabic-Indic numerals, but we use Western numerals in our English explanations[cite: 43]."
+        "By the end of this lesson you will be able to: produce ordinal numbers (first, second, third...) as fully inflecting adjectives agreeing in gender, number, and case with the noun they modify.",
+        "You will give and follow directions using ordinals: 'Turn left at the fourth street', 'Pass the second traffic light', 'Cross the first bridge.'",
+        "You will form derivative verbs by combining any noun or adjective base with the transitive auxiliary کول [kawəl] 'to do/make' or the intransitive auxiliary کيدل [kedəl] 'to become'.",
+        "You will produce the four-cell paradigm for each derivative verb: Present Imperfective, Present Perfective (with gender-agreeing forms for adjective bases), commands, and future expressions.",
+        "You will use cooking and food vocabulary in authentic recipe-instruction contexts, recognising the نان [nān] 'bread' and چای [čāy] 'tea' hospitality framework."
       ]
-    },
-    {
-      "type": "callout",
-      "text": "Cultural Mnemonic: A great way to remember ordinal numbers is through the Islamic daily prayer sequence (first prayer, second prayer, etc.), which naturally orders the day in Afghan culture[cite: 42]."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 2: The Derivative Verb System",
+      "heading": "Section 1 — Dialogue: د کور لار (The Way to the House)",
       "lines": [
-        "This unit introduces the most productive way to build your vocabulary: Derivative Verbs[cite: 42].",
-        "You can turn almost any adjective or noun into a verb by combining it with a 'light verb'[cite: 42]. There are two paths:",
-        "1. Transitive (to do/make something): Add [kawəl] (کول)[cite: 42].",
-        "2. Intransitive (to become something): Add [kedəl] (کېدل)[cite: 42].",
-        "Let's look at some bases: [tōd] (تود) 'warm', [sard] (سرد) 'cold', [pāk] (پاک) 'clean', [sāf] (صاف) 'tidy', [tayār] (تیار) 'ready'[cite: 42]."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "heading": "Transitive vs. Intransitive Examples",
-      "lines": [
-        "Transitive (Making it happen): لیلا کور تودوي. [Layliā kor tōd kawalay.] (Layla makes the house warm.) [cite: 42]",
-        "Intransitive (It happens naturally): کور تود شوی. [Kor tōd shawəy.] (The house became warm — note the perfective aspect here.) [cite: 42]",
-        "Commands: تیار یې کړه! [tayār yē kawa!] (Make it ready!) [cite: 42]"
+        "Amān is calling Asad on the phone to give him directions from the university to Amān's house in the suburbs. The dialogue is dense with ordinals and derivative verb commands — the two core systems of this lesson.",
+        "اسد: سلام امان! راتلای شم؟ [asad: salām amān! rātlāy sham?] — Asad: Hello Amān! May I come?",
+        "امان: هو، خوشحاله يم. راشه! راشه! [amān: haw, xushāla yam. rāsha! rāsha!] — Amān: Yes, I'm happy. Come! Come!",
+        "اسد: ښه. د کور لار راته ووايه. [asad: xa. da kor lār rāta wuwāya.] — Asad: Good. Tell me the way to the house.",
+        "امان: پهـ پوهنتون نه مخکې لاړ شه. د لومړۍ چراغ نه تير شه. [amān: pa pohantun na makhke lāṛ sha. da lomṛay cerāgh na ter sha.] — Amān: Go straight from the university. Pass the first traffic light.",
+        "اسد: هو. [asad: haw.] — Asad: Yes.",
+        "امان: بيا پهـ ؤيارم کوڅه کې چپ لاس ته واوږ شه. [amān: byā pa tsalorm kuče ke cap lās ta wāwg sha.] — Amān: Then turn left at the fourth street.",
+        "اسد: ؤيارم کوڅه — چپ لاس. [asad: tsalorm kuče — cap lās.] — Asad: Fourth street — left side.",
+        "امان: هو. بيا د پلي نه تير شه. [amān: haw. byā da pəl na ter sha.] — Amān: Yes. Then cross over the bridge.",
+        "اسد: د کوم پل؟ لومړی که دويم؟ [asad: da kum pəl? lomṛay ka dwayam?] — Asad: Which bridge? The first or the second?",
+        "امان: لومړی پل. بيا دوه مايله مخکې لاړ شه. [amān: lomṛay pəl. byā dwa māyla makhke lāṛ sha.] — Amān: The first bridge. Then go two miles ahead.",
+        "امان: د لس دقيقو وروسته به زما کور ته راسیږې. [amān: da las daqiqo wrusta ba zmā kor ta rāsege.] — Amān: After ten minutes you will arrive at my house.",
+        "اسد: ښه. د لس دقيقو وروسته. [asad: xa. da las daqiqo wrusta.] — Asad: Fine. After ten minutes.",
+        "KEY VOCABULARY from dialogue:",
+        "لار [lār] — way / road / direction (F1 irregular) [lār] ◆ چراغ [cerāgh] — traffic light / lamp (M2 class) [cerāgh] ◆ کوڅه [kuče] — street / alley (F1 class) [kuče] ◆ پل [pəl] — bridge (M, irregular) [pəl] ◆ مايل [māyl] — mile (M2 class, plural مايله [māyla]) [māyl] ◆ لاس [lās] — hand / side (M2 class) [lās] ◆ چپ [cap] — left (Class 4, invariable) [cap] ◆ ښی [xi] — right (Class 4, invariable) [xi] ◆ مارکيټ [mārkit] — shopping mall / market (M2 class) [mārkit] ◆ مخکې [makhke] — ahead / forward / before [makhke] ◆ واوږ شه [wāwg sha] — turn! (command of اوزيدل [owzedəl]) ◆ تير شه [ter sha] — pass by! (command of تيريدل [teridəl])"
       ]
     },
     {
       "type": "callout",
-      "text": "Phonetics & Grammar Hack: For derivative verbs, the stress falls on the final syllable of the base word, not the light verb[cite: 43]. Also, pay close attention to the intransitive perfective change: the [sh] sound in [kedəl] becomes an explicit [sh] perfective marker (shaway)[cite: 43]."
+      "heading": "🗺️ Giving Directions in Pashto — The Grammar of Navigation",
+      "lines": [
+        "Giving directions in Pashto uses three main structures that combine ordinals, derivative verbs, and simple verb commands:",
+        "① PASS BY — تير شه [ter sha] (sg) / تير شئ [ter shāy] (pl): 'Pass the ___ traffic light.' د لومړي چراغ نه تير شه [da lomṛi cerāgh na ter sha] — 'Pass the first traffic light.' Note: لومړي [lomṛi] is the oblique form of لومړی [lomṛay] 'first', triggered by being object of preposition د [da].",
+        "② TURN — واوږ شه [wāwg sha] (sg): 'Turn (left/right) at the ___ street.' پهـ ؤيارم کوڅه کې چپ لاس ته واوږ شه [pa tsalorm kuče ke cap lās ta wāwg sha] — 'Turn left at the fourth street.'",
+        "③ CROSS — تير شه / پار شه [ter sha / pār sha] (sg): 'Cross the bridge.' د پل نه پار شه [da pəl na pār sha] — 'Cross over the bridge.'",
+        "The ordinal number in directions is usually in the OBLIQUE case because it is inside a prepositional phrase: پهـ درېم کوڅه کې [pa dreym kuče ke] — 'at/in the third street' — درېم [dreym] is M OSg of دریم [dreym] 'third'.",
+        "SIDE VOCABULARY: چپ لاس [cap lās] — 'left hand/side' (lit. 'left hand') ← always use لاس [lās] 'hand/side' with direction adjectives. ښی لاس [xi lās] — 'right side'. مخکې [makhke] — 'ahead/forward'. شاته [shāta] — 'behind/back'."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 2 — Ordinal Numbers (ترتيبي اعداد)",
+      "lines": [
+        "FORMATION RULE: Ordinal numbers are formed by adding the suffix -ام [-am] to the cardinal number. The result is a FULLY INFLECTING ADJECTIVE — it must agree with the noun it modifies in gender, number, and case, exactly like any other Pashto adjective.",
+        "ORDINALS 1–10:",
+        "لومړی [lomṛay] — first ← IRREGULAR (not يو + ام) — a completely separate word, Class 2 adjective",
+        "دويم [dwayam] — second ← دوه [dwa] + -ام [-am]; ordinal root: دوی- [dway-]",
+        "دريم [dreym] — third ← درې [dre] + -ام [-am]; ordinal root: دری- [drey-]",
+        "ؤيارم [tsalorm] — fourth ← ؤيارلس root [tsalor] + -ام [-am]",
+        "پنځم [pindzam] — fifth ← پنځه [pindza] + -ام [-am]",
+        "شپږم [shpagam] — sixth ← شپږ [shpag] + -ام [-am]",
+        "اووم [owam] — seventh ← اووه [owa] + -ام [-am]",
+        "اتم [atam] — eighth ← اته [ata] + -ام [-am]",
+        "نهم [nawam] — ninth ← نهه [nawa] + -ام [-am]",
+        "لسم [lasam] — tenth ← لس [las] + -ام [-am]",
+        "ORDINALS ARE ALWAYS WRITTEN OUT — never represented with numerals. You write لومړی [lomṛay] not ١م.",
+        "TWO ADJECTIVE PATTERNS for ordinals — based on the final sound of the cardinal root:",
+        "Pattern A (root ends in CONSONANT — like ؤيارم [tsalorm] 'fourth'): follows the standard Class 1 adjective paradigm",
+        "M DSg: ؤيارم [tsalorm] ◆ M DPl: ؤيارم [tsalorm] ◆ M OSg: ؤيارم [tsalorm] ◆ M OPl: ؤيارمو [tsalormo]",
+        "F DSg: ؤيارمه [tsalorma] ◆ F DPl: ؤيارمې [tsalorme] ◆ F OSg: ؤيارمې [tsalorme] ◆ F OPl: ؤيارمو [tsalormo]",
+        "Pattern B (root ends in VOWEL — like اووم [owam] 'seventh'): masculine forms unchanged except OPl; feminine varies",
+        "M DSg: اووم [owam] ◆ M DPl/OSg: اووم [owam] ◆ M OPl: اووامو [owamo]",
+        "F DSg: اوومه [owama] ◆ F DPl/OSg: اوومې [owame] ◆ F OPl: اووامو [owamo]",
+        "SPECIAL CASES: دويم [dwayam] 'second' — ordinal root is دوی- [dway-] (not دو- [dw-]); دريم [dreym] 'third' — ordinal root is دری- [drey-] (not دره- [dre-]).",
+        "لومړی [lomṛay] 'FIRST' — fully irregular, Class 2 adjective:",
+        "M DSg: لومړی [lomṛay] ◆ M DPl/OSg: لومړي [lomṛi] ◆ M OPl: لومړو [lomṛo]",
+        "F DSg: لومړۍ [lomṛay] ◆ F DPl/OSg: لومړۍ [lomṛay] ◆ F OPl: لومړيو [lomṛiyo]"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🔢 Ordinals in Context — Agreement Drill",
+      "lines": [
+        "Every ordinal must agree with its noun. Use these examples to build the habit of checking gender before choosing the form.",
+        "لومړی کور [lomṛay kor] — 'the first house' (kor is M DSg → لومړی M DSg) ✓",
+        "لومړۍ ورځ [lomṛay wradz] — 'the first day' (wradz is F DSg → لومړۍ F DSg) ✓",
+        "پهـ لومړي کور کې [pa lomṛi kor ke] — 'in the first house' (kor M OSg → لومړي M OSg) ✓",
+        "پهـ لومړۍ ورځ کې [pa lomṛay wradz ke] — 'on the first day' (wradz F OSg → لومړۍ F OSg — same form!) ✓",
+        "COMMON ORDINAL PHRASES FOR DIRECTIONS:",
+        "پهـ دريم چراغ کې [pa dreym cerāgh ke] — 'at the third traffic light' (M OSg: دريم stays same — consonant-final, Class 1!)",
+        "پهـ ؤيارمه کوڅه کې [pa tsalorma kuče ke] — 'at the fourth street' (F OSg: ؤيارمه → ؤيارمې — wait, کوڅه is F1 OSg = ؤيارمې) ← CORRECTION: پهـ ؤيارمې کوڅه کې [pa tsalorme kuče ke] uses F OSg form",
+        "د لومړي پل نه [da lomṛi pəl na] — 'from the first bridge' (pəl M, oblique: لومړي M OSg)",
+        "SHORTCUT: For consonant-final ordinals (ؤيارم, شپږم, لسم, etc.) — the MASCULINE forms are ALL the same (only M OPl adds -و [-o]). So in directions you will almost always use the bare form for masculine nouns!"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — Derivative Verbs: The Two-Cell System (مشتق کریاوې)",
+      "lines": [
+        "Derivative verbs are the MOST PRODUCTIVE morphological class in Pashto — the mechanism by which virtually any noun or adjective can be turned into a verb. Once you understand the two-cell system, your vocabulary grows exponentially.",
+        "THE RULE: Take any noun, adjective, or adverb as a BASE. Attach one of two LIGHT VERB AUXILIARIES:",
+        "① کول [kawəl] 'to do / to make' → TRANSITIVE derivative verb (causes a change in something else)",
+        "② کيدل [kedəl] 'to become' → INTRANSITIVE derivative verb (experiences a change itself)",
+        "THE TWO-CELL SYSTEM — for any base word X:",
+        "X + کول [kawəl] = 'to make X / to do X' (you act on an object)",
+        "X + کيدل [kedəl] = 'to become X / to get X' (the subject changes state)",
+        "EXAMPLE with تود [tod] 'warm' (adjective):",
+        "تود کول [tod kawəl] — 'to warm something / to heat something up' (transitive — you apply heat to an object)",
+        "تود کيدل [tod kedəl] — 'to become warm / to warm up' (intransitive — the subject itself gets warm)",
+        "EXAMPLE with نږدې [nizdé] 'close/near' (adjective):",
+        "نږدې کول [nizdé kawəl] — 'to bring something close / to approach something' (transitive)",
+        "نږدې کيدل [nizdé kedəl] — 'to draw near / to approach (oneself)' (intransitive)",
+        "EXAMPLE with پخ [pax] 'cooked/ripe' (adjective):",
+        "پخول [paxawəl] — 'to cook something / to ripen something' (transitive — کول contracted)",
+        "پخيدل [paxedəl] — 'to get cooked / to ripen' (intransitive — کيدل contracted)",
+        "EXAMPLES with nouns and borrowed words:",
+        "معاينه کول [māyena kawəl] — 'to examine' (معاينه [māyena] 'examination' + کول) ← Arabic noun + auxiliary",
+        "بند کول [band kawəl] — 'to close / to block' (بند [band] 'closed/blocked' + کول)",
+        "بنديدل [bandedəl] — 'to become blocked / to close' (بند + کيدل contracted)",
+        "خبر کيدل [xabar kedəl] — 'to hear / to become aware' (خبر [xabar] 'news/information' + کيدل)",
+        "آماده کول [āmāda kawəl] — 'to prepare something' ← Persian/Arabic base + کول"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "💡 The Derivative Verb Insight: Pashto's Productivity Engine",
+      "lines": [
+        "The تود کول / تود کيدل [tod kawəl / tod kedəl] system is the single most useful morphological rule in Pashto for rapid vocabulary expansion. Here is why it matters:",
+        "With just TWELVE base adjectives and the two auxiliaries کول and کيدل, you instantly have 24 verbs. Add 20 more noun bases and you have 60+ verbs. This is not exaggeration — this is how Pashto vocabulary works.",
+        "ENGLISH PARALLEL: English has a similar pattern — 'to warm (something)' vs. 'to warm up (yourself/itself)'. But English does this inconsistently (sometimes using separate words like 'heat' vs. 'heat up'). Pashto does it SYSTEMATICALLY and CONSISTENTLY across ALL adjective/noun bases.",
+        "ARABIC/PERSIAN LOANS: Many borrowed words from Arabic and Persian integrate seamlessly via this system: معاينه کول [māyena kawəl] 'to examine', تلفون کول [ṭelefon kawəl] 'to telephone', چک کول [čak kawəl] 'to check'. The کول auxiliary absorbs any base regardless of its origin.",
+        "LEARNER STRATEGY: When you encounter an unknown derivative verb, break it into BASE + AUXILIARY. The base tells you the semantic content; the auxiliary tells you transitive (کول) or intransitive (کيدل). You will understand the meaning before you have memorised it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Key Derivative Verb Vocabulary — Base Forms",
+      "lines": [
+        "TEMPERATURE / STATE ADJECTIVE BASES (paired transitive/intransitive):",
+        "تود [tod] 'warm' → تود کول [tod kawəl] 'to warm (tr.)' ◆ تود کيدل [tod kedəl] 'to become warm (intr.)'",
+        "سوړ [soṛ] 'cold' → سوړ کول [soṛ kawəl] 'to cool (tr.)' ◆ سوړ کيدل [soṛ kedəl] 'to cool down (intr.)'",
+        "پاک [pāk] 'clean' → پاک کول [pāk kawəl] 'to clean (tr.)' ◆ پاک کيدل [pāk kedəl] 'to become clean (intr.)'",
+        "صاف [sāf] 'tidy/clear' → صاف کول [sāf kawəl] 'to tidy (tr.)' ◆ صاف کيدل [sāf kedəl] 'to become clear (intr.)'",
+        "خوند [xwand] 'tasty/pleasant' → خوندور کول [xwandwar kawəl] 'to make tasty (tr.)' ◆ خوندور کيدل [xwandwar kedəl] 'to become tasty (intr.)'",
+        "تيار [tayār] 'ready' → تيار کول [tayār kawəl] 'to prepare / to make ready (tr.)' ◆ تيار کيدل [tayār kedəl] 'to become ready / to get ready (intr.)'",
+        "بند [band] 'closed/blocked' → بند کول [band kawəl] 'to close/block (tr.)' ◆ بنديدل [bandedəl] 'to get blocked (intr.)'",
+        "نږدې [nizdé] 'near/close' → نږدې کول [nizdé kawəl] 'to bring close (tr.)' ◆ نږدې کيدل [nizdé kedəl] 'to approach / draw near (intr.)'",
+        "COOKING VERB (special):",
+        "پخول [paxawəl] — 'to cook (tr.)' ← پخ [pax] 'cooked' + کول (contracted) [paxawəl]",
+        "پخيدل [paxedəl] — 'to get cooked / ripen (intr.)' ← پخ [pax] + کيدل (contracted) [paxedəl]",
+        "DIRECTION DERIVATIVE VERBS (from the dialogue):",
+        "واوږيدل [wāwgédəl] — 'to turn' (intr.) — کيدل type [wāwgédəl]",
+        "تيريدل [teridəl] — 'to pass by / cross over' (intr.) — کيدل type [teridəl]",
+        "رسيدل [rasedəl] — 'to arrive / to reach' (intr.) — کيدل type [rasedəl]",
+        "رساول [rasāwəl] — 'to cause to arrive / to bring to' (tr.) — کول type [rasāwəl]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — Forms of Derivative Verbs",
+      "lines": [
+        "Derivative verbs have their own morphological rules distinct from simple verbs. Master these four forms for each verb.",
+        "PRESENT IMPERFECTIVE — two sub-rules based on the BASE's final sound:",
+        "Rule A — BASE ends in CONSONANT: the [k] of the auxiliary DROPS; base and auxiliary fuse into one word.",
+        "پخول [paxawəl] 'cook (tr.)': impf. stem = پخو- [paxaw-] → پخوم [paxawam] 'I cook', پخوې [paxawe] 'you cook', پخوي [paxawi] 'he/she cooks'",
+        "بند کول [band kawəl] 'close (tr.)': impf. stem = بندو- [bandaw-] → بندوم [bandawam] 'I close', بندوي [bandawi] 'he/she closes'",
+        "واوږيدل [wāwgédəl] 'turn (intr.)': impf. stem = واوږيږ- [wāwgég-] → واوږيږم [wāwgégam] 'I turn', واوږيږي [wāwgégi] 'he/she turns'",
+        "Rule B — BASE ends in VOWEL: auxiliary is written and pronounced as a separate word.",
+        "معاينه کول [māyena kawəl] 'examine (tr.)': impf. = معاينه کوم [māyena kawam] 'I examine', معاينه کوي [māyena kawi] 'he/she examines'",
+        "نږدې کيدل [nizdé kedəl] 'approach (intr.)': impf. = نږدې کيږم [nizdé kegam] 'I approach', نږدې کيږي [nizdé kegi] 'he/she approaches'",
+        "PRESENT PERFECTIVE — forms use a SHORTENED AUXILIARY:",
+        "Transitive: BASE + ک- [k-] (shortened from کول): پخول → پخ ک- [pax k-]",
+        "BUT if the BASE is an ADJECTIVE with M/F forms, the perfective shows AGREEMENT:",
+        "پخ کول 'cook (masc. food)': perfective = پخ ک- [pax k-] (M) ◆ پخه ک- [paxe k-] (F) ◆ پخي ک- [paxi k-] (pl)",
+        "Intransitive: BASE + ش- [sh-] / س- [s-] (shortened from کيدل):",
+        "نږدې کيدل 'approach (intr.)': perfective = نږدې ش- [nizdé sh-] / نږدې س- [nizdé s-]",
+        "واوږيدل 'turn (intr.)': perfective = واوږ ش- [wāwg sh-] / واوږ س- [wāwg s-]",
+        "IMPORTANT NOTE on adjective-base agreement in the perfective:",
+        "When the base adjective has gender forms, the PERFECTIVE derivative verb agrees with the DIRECT OBJECT (for transitive) or the SUBJECT (for intransitive).",
+        "پخ کول 'to cook' — object is food:",
+        "'Cook the kabob (M)!' → کباب پخ که [kabāb pax ka] (M base form پخ)",
+        "'Cook the food (ډوډۍ F)!' → ډوډۍ پخه که [ḍoḍay paxe ka] (F base form پخه)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "The Four-Cell Paradigm — Derivative Verb Master Table",
+      "lines": [
+        "For any derivative verb, you need four forms. Here is the complete paradigm for three representative examples.",
+        "VERB 1: پخول [paxawəl] 'to cook' (TRANSITIVE — base پخ/پخه [pax/paxe] is an adjective with M/F forms)",
+        "Present Imperfective: پخوم [paxawam] (1sg) ◆ پخوي [paxawi] (3sg) ◆ پخوئ [paxawāy] (2pl)",
+        "Present Perfective (M object): پخ کوم [pax kawam] (1sg) ◆ پخ کوي [pax kawi] (3sg)",
+        "Present Perfective (F object): پخه کوم [paxe kawam] (1sg) ◆ پخه کوي [paxe kawi] (3sg)",
+        "Positive command (M, sg): پخ که [pax ka] ◆ Positive command (F, sg): پخه که [paxe ka]",
+        "Negative command (sg): مه پخوه [ma paxawa] ← imperfective, not perfective",
+        "Future (M object): کباب به پخ کم [kabāb ba pax kam] — 'I will cook the kabob.'",
+        "Future (F object): ډوډۍ به پخه کم [ḍoḍay ba paxe kam] — 'I will cook the food.'",
+        "VERB 2: معاينه کول [māyena kawəl] 'to examine' (TRANSITIVE — vowel-final base, invariable)",
+        "Present Imperfective: معاينه کوم [māyena kawam] ◆ معاينه کوي [māyena kawi]",
+        "Present Perfective: معاينه ک- [māyena k-] + endings: معاينه کوم [māyena kawam] → after به [ba]: ناروغه به معاينه کم [nārogha ba māyena kam]",
+        "Positive command (sg): معاينه که [māyena ka] ◆ Positive command (pl): معاينه کئ [māyena kāy]",
+        "Negative command (sg): مه معاينه کوه [ma māyena kawa] ← imperfective auxiliary",
+        "VERB 3: واوږيدل [wāwgédəl] 'to turn' (INTRANSITIVE — base ends in consonant)",
+        "Present Imperfective: واوږيږم [wāwgégam] ◆ واوږيږي [wāwgégi] ◆ واوږيږئ [wāwgégāy]",
+        "Present Perfective: واوږ ش-/واوږ س- [wāwg sh-/wāwg s-] + endings: واوږ شم [wāwg sham] (1sg)",
+        "Positive command (sg): واوږ شه [wāwg sha] ← 'Turn!' ◆ Positive command (pl): واوږ شئ [wāwg shāy]",
+        "Negative command (sg): مه واوږيږه [ma wāwgéga] ◆ Future: پهـ ؤيارم کوڅه کې به واوږ شم [pa tsalorm kuče ke ba wāwg sham] — 'I will turn at the fourth street.'"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ Derivative Verbs in Commands and Futures",
+      "lines": [
+        "The same command rules from Lesson 7 apply to derivative verbs — just with the shortened auxiliary forms:",
+        "POSITIVE COMMANDS use the PERFECTIVE form of derivative verbs:",
+        "Transitive (کول type): BASE (± agreement) + ک- [k-] + -ه [-a] (sg) or -ئ [-ay] (pl):",
+        "ډوډۍ پخه که! [ḍoḍay paxe ka!] — 'Cook the food!' (sg, F agreement with ډوډۍ)",
+        "کباب پخ کئ! [kabāb pax kāy!] — 'Cook the kabob!' (pl, M agreement)",
+        "Intransitive (کيدل type): BASE + ش-/س- [sh-/s-] + -ه/-ئ:",
+        "واوږ شه! [wāwg sha!] — 'Turn!' (sg) ◆ واوږ شئ! [wāwg shāy!] — 'Turn!' (pl)",
+        "نږدې شه! [nizdé sha!] — 'Come closer!' (sg)",
+        "NEGATIVE COMMANDS use the IMPERFECTIVE auxiliary — note مه [ma] goes BEFORE THE FIRST ELEMENT:",
+        "مه پخوه! [ma paxawa!] — 'Don't cook!' (sg) ◆ مه معاينه کوه! [ma māyena kawa!] — 'Don't examine!' (sg)",
+        "FUTURES use به [ba] + perfective form — نه [na] goes BETWEEN base and auxiliary (not before the whole verb!):",
+        "ډوډۍ به پخه کم. — 'I will cook the food.' ◆ ډوډۍ به پخه نه کم. — 'I will NOT cook the food.' ← نه between پخه and کم",
+        "DIALECT NOTE 🔁: The shortened transitive perfective auxiliary ک- [k-] is pronounced [k-] in Kabuli and [kr-] in some other dialects. The intransitive ش-/س- [sh-/s-] varies between [sh-] and [s-] even within Kabul. Both are acceptable."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "DIRECTION & NAVIGATION NOUNS:",
+        "نخه [naxa] — direction / instruction (F1 class) [naxa]",
+        "پل [pəl] — bridge (M, irregular oblique: پله [pəla]) [pəl]",
+        "لور [lor] — side / direction (M2 class) [lor]",
+        "لاس [lās] — hand / side (M2 class) [lās]",
+        "مارکيټ [mārkit] — shopping mall (M2 class) [mārkit]",
+        "کلا [kalā] — compound / fortified village (F3 class) [kalā]",
+        "کلی [kalay] — village (M3 class) [kalay]",
+        "ORDINAL-RELATED VOCABULARY:",
+        "لومړی / لومړۍ [lomṛay / lomṛay] — first (M / F forms differ in script) [lomṛay]",
+        "COOKING & FOOD NOUNS:",
+        "مصاله [masāla] — spice / spice blend (F1 class) [masāla]",
+        "چار مصاله [čār masāla] — four-spice blend (cardamom, cinnamon, cloves, cumin) [čār masāla]",
+        "هيل [hel] — cardamom (M2 class) [hel]",
+        "دارچيني [dārčini] — cinnamon (F1 class) [dārčini]",
+        "لوغ [logh] — cloves (M2 class) [logh]",
+        "زيره [zira] — cumin (F1 class) [zira]",
+        "زنجبيل [zanjabil] — ginger (M2 class) [zanjabil]",
+        "کوفته [kofta] — minced/ground meat (F3 class) [kofta]",
+        "ADJECTIVES (derivative verb bases):",
+        "تيار [tayār] — ready (Class 4) [tayār] ◆ پاک [pāk] — clean (Class 1) [pāk] ◆ صاف [sāf] — tidy/clear (Class 1) [sāf] ◆ تود [tod] — warm (irregular) [tod] ◆ خوند [xwand] — taste/flavour (noun as base) [xwand]",
+        "VERBS — New derivative verbs this lesson:",
+        "روانيدل [rawānedəl] — to set out / to start a journey (intr.) [rawānedəl]",
+        "سپيندل [spendəl] — to spend (time) [spendəl]",
+        "تمه کول [tama kawəl] — to make a stop / to pause [tama kawəl]",
+        "ADJECTIVES from reading context:",
+        "خبر [xabar] — aware / informed (Class 1) [xabar] ◆ زروری [zaruray] — necessary (Class 2) [zaruray] ◆ کم [kam] — rare / few / little (Class 1) [kam]",
+        "CONJUNCTIONS:",
+        "که [ka] — if [ka] ◆ لکه [laka] — like / as [laka] ◆ يا [yā] — or [yā] ◆ يا...يا [yā...yā] — either...or",
+        "ADVERBS / PHRASES:",
+        "هلته [halta] — there [halta] ◆ لږ تر لږه [lag tar laga] — at least [lag tar laga] ◆ لنډه دا چې [lənḍa da če] — in short / in brief ◆ خپله يې [xpala ye] — they themselves"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Reading: د لوګر سفر (A Trip to Logar)",
+      "lines": [
+        "Asad is describing a journey from Kabul to visit relatives in Logar Province. The reading uses ordinals for sequencing and derivative verbs for actions along the route. Script only — identify every ordinal and every derivative verb.",
+        "اسد د پلار ملګرو سره د لوګر ولايت ته سفر کوي. هغوي د خانه نه روانيږي.",
+        "لومړی د حليم پل نه تيريږي. هغه پل ستر دی.",
+        "دويم کلي ته رسيږي. هلته د يو ملګري سره تمه کوي.",
+        "ترېم کلی کوټه خيل دی. هلته مل خوري او اوبه سکي.",
+        "ؤيارم مرحله کې لار تنګه کيږي. مزل وروسته بنديږي.",
+        "اسد د لوګر سره د ورور ورور سره ناست وي. هغوي خبرې کوي.",
+        "READING GLOSSARY:",
+        "سفر کوي [safar kawi] — travels (derivative: سفر + کول) ◆ روانيږي [rawānegi] — sets out (intr. derivative) ◆ حليم پل [halim pəl] — Halim Bridge (a landmark on the Logar road) ◆ تيريږي [teregi] — passes through (intr. derivative) ◆ رسيږي [rasegi] — arrives (intr. derivative) ◆ تمه کوي [tama kawi] — makes a stop (derivative: تمه + کول) ◆ مرحله [marhala] — stage / stop (F1 class) ◆ تنګه کيږي [tanga kegi] — becomes narrow (intr. derivative: تنګ + کيدل) ◆ بنديږي [bandegi] — gets blocked (intr. derivative: بند + کيدل) ◆ مزل [mazal] — road/journey (M2 class) ◆ خبرې کوي [xabre kawi] — talks / has a conversation (derivative)",
+        "COMPREHENSION QUESTIONS (answer in Pashto script):",
+        "① اسد چا سره د لوګر ته ځي؟ — With whom does Asad go to Logar?",
+        "② دويم کلي کې هغوي تمه کوي؟ — Do they stop in the second village?",
+        "③ ؤيارم مرحله کې لار ددي کيږي؟ — What happens to the road at the fourth stage?",
+        "VERB IDENTIFICATION EXERCISE (complete in pairs):",
+        "From the reading, find: (a) two transitive derivative verbs, (b) three intransitive derivative verbs, (c) one simple verb. Write each with its base and auxiliary."
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🌍 Cultural Spotlight: د سفر ادب — Travel Culture in Afghanistan",
+      "lines": [
+        "Travel in Afghanistan, especially between provinces, carries deep cultural meaning rooted in Pashtunwali's مهمان‌نوازي [mehmān-nawāzi] (hospitality) and نانوتی [nānawatay] (right of asylum/refuge).",
+        "STOPPING AT RELATIVES: Long-distance travel traditionally involves stopping at the homes of relatives, known acquaintances, or even strangers who offer hospitality. A traveller who arrives at a village or home is entitled to shelter and food — the host's honour (ناموس [nāmus]) requires it.",
+        "THE KHYBER PASS CONTEXT: The Logar-Kandahar route and other traditional Afghan roads have historically been managed by specific tribes who provided security, hospitality, and local knowledge for travellers. The reading's کوټه خيل [kuṭa xel] — 'Kuta Khel' — is a Pashtun tribal designation, reflecting the tribal territorial map of rural Afghanistan.",
+        "ROAD VOCABULARY IN CONTEXT: تنګه کيږي [tanga kegi] 'becomes narrow' and بنديږي [bandegi] 'gets blocked' are two derivative verbs that describe authentic road conditions in mountainous Afghan terrain — narrow passes, seasonal road closures, and difficult terrain are realities of rural Afghan travel. These verb forms are not academic exercises; they describe lived experience.",
+        "د پختنه پوښتنه سره مکه ته رسيږي [da paxtana puxtana sara maka ta rasegi] — 'By asking, a Pashtun man can reach Mecca.' ← The Diversion proverb below connects travel, asking for guidance, and the goal-directed perseverance valued in Pashtun culture."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — Diversion: پښتو متل — Asking the Way (د لارې پوښتنه)",
+      "lines": [
+        "پهـ پوښتنه سره سړی مکه ته رسيږي.",
+        "[pa puxtana sara saṛay maka ta rasegi.]",
+        "Translation: 'By asking, a man can get as far as Mecca.'",
+        "WORD-FOR-WORD GLOSS:",
+        "پهـ پوښتنه سره [pa puxtana sara] — 'by means of / through asking' (پوښتنه [puxtana] 'question/asking' F1, in oblique as object of پهـ...سره) ◆ سړی [saṛay] — 'a man / person' (M3 class DSg) ◆ مکه [maka] — 'Mecca' (F3 class) ◆ ته [ta] — 'to' (postposition) ◆ رسيږي [rasegi] — 'arrives / reaches' (3sg present imperfective of رسيدل [rasedəl] — an intransitive DERIVATIVE verb: رس- [ras-] + کيدل!)",
+        "GRAMMAR SPOTLIGHT: رسيږي [rasegi] is the 3sg present imperfective of the derivative verb رسيدل [rasedəl] 'to arrive'. Its perfective form is رس شي [ras shi] / وررسي [warrasi]. This proverb is thus not only culturally meaningful but grammatically apt — it showcases a derivative intransitive verb in a completely authentic Pashto context.",
+        "CULTURAL COMMENTARY: This proverb encapsulates the Pashtun epistemology of knowledge-through-asking. In a culture where oral knowledge transmission is paramount and literacy was historically limited, asking questions of elders, travellers, and locals was the primary means of navigation — literal and metaphorical. Mecca is used as the ultimate destination (the Hajj being the furthest journey most Muslims contemplate), making the proverb's scope maximally ambitious: even the most distant, sacred, challenging journey can be achieved simply by asking the way at each step.",
+        "CONNECTION TO THIS LESSON: The lesson has taught you how to ask for directions (dialogue), how to use ordinals to sequence steps (Section 2), and how to use derivative verbs for movement and change (Sections 3-4). The proverb ties them together: رسيدل [rasedəl] 'to arrive' is the destination-achievement verb that completes every direction-giving sequence. And پوښتنه کول [puxtana kawəl] 'to ask questions' — a derivative verb you can now form yourself — is the means of getting there."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 8 before attempting the quiz:",
+        "✓ Ordinal suffix: cardinal + -ام [-am]. لومړی [lomṛay] 'first' is completely irregular.",
+        "✓ Two ordinal adjective patterns: consonant-final root → Class 1 paradigm; vowel-final root → own paradigm.",
+        "✓ Ordinals are FULLY INFLECTING adjectives — they agree in gender, number, and case with their noun.",
+        "✓ Derivative verb system: BASE + کول [kawəl] = transitive ('make/do X') ◆ BASE + کيدل [kedəl] = intransitive ('become X').",
+        "✓ If BASE ends in consonant: [k] of auxiliary drops in present imperfective, base+auxiliary fuse.",
+        "✓ If BASE ends in vowel: auxiliary remains separate word in present imperfective.",
+        "✓ Perfective: transitive = BASE + ک- [k-]; intransitive = BASE + ش- [sh-] / س- [s-].",
+        "✓ If base is an adjective with M/F forms, the perfective form AGREES with the object (transitive) or subject (intransitive).",
+        "✓ Commands: positive = perfective forms; negative = مه [ma] + imperfective auxiliary — مه goes BEFORE the first element.",
+        "✓ Future negative: نه [na] goes BETWEEN the base and the auxiliary (not before the whole verb).",
+        "✓ رسيدل [rasedəl] 'to arrive' is a derivative intransitive verb: رس- + کيدل."
+      ]
     },
     {
       "type": "quiz",
-      "question": "If you want to say that you are actively cleaning a room (making it clean), which light verb should you combine with the adjective 'pāk' (clean)?",
+      "question": "What is the ordinal form of 'fourth' in Pashto, and how is it formed?",
       "options": [
-        "pāk kedəl (پاک کېدل)",
-        "pāk kawəl (پاک کول)",
-        "pāk shaway (پاک شوی)",
-        "pāk am (پاک ام)"
+        "لومړی [lomṛay] — the same irregular word used for 'first'.",
+        "ؤيارم [tsalorm] — formed by adding -ام [-am] to the cardinal root ؤيار- [tsalor-].",
+        "ؤيارلسم [tsarolasm] — formed by adding -ام to the full cardinal ؤيارلس [tsalarlas].",
+        "ؤيارمی [tsalormy] — Class 2 adjective formed like نوی [naway]."
       ],
       "correctIndex": 1,
-      "explanation": "To express an active, transitive action (making something clean), you must use the light verb 'kawəl' (to do/make). Using 'kedəl' would mean the room is becoming clean on its own[cite: 42]."
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "paragraph",
-      "heading": "Module 3: Afghan Cuisine & Recipes",
-      "lines": [
-        "Our reading for this unit immerses you in Afghan food culture[cite: 42]. You will read a recipe entirely in Pashto script!",
-        "Essential Recipe Vocabulary: [mashāla] (مصالح) 'spices', [kum] (زیره) 'cumin', [zanjabīl] (زنجبیل) 'ginger', [morch] (مرچ) 'pepper', [pakhawəl] (پخول) 'to cook (tr.)'[cite: 42].",
-        "We will be studying the traditional 'Char Masala' spice blend, a staple in Qandahari cooking[cite: 42]."
-      ]
-    },
-    {
-      "type": "callout",
-      "text": "Cultural Context: Afghan meals are highly communal affairs[cite: 42]. The centrality of bread ([nān] نان) cannot be overstated—it is used to scoop food and is deeply respected[cite: 42]. Additionally, offering tea ([chai] چای) is the bedrock of Afghan hospitality; it is always served to guests before and after meals[cite: 42]."
+      "explanation": "ؤيارم [tsalorm] is 'fourth', formed by adding -ام [-am] to the ordinal root ؤيار- [tsalor-] of the cardinal ؤيارلس [tsalor] 'four'. All ordinals from second onward follow this pattern: cardinal root + -ام [-am]. The result is fully inflecting adjective: M DSg ؤيارم [tsalorm], F DSg ؤيارمه [tsalorma], F OSg ؤيارمې [tsalorme]. لومړی [lomṛay] 'first' is the sole exception — an irregular word unrelated to يو [yaw] 'one'. Ordinals are always written in full, never with numerals."
     },
     {
       "type": "quiz",
-      "question": "In the context of the Afghan recipe reading, how do you correctly form the ordinal number 'third' using the standard suffix?",
+      "question": "What is the difference between تود کول [tod kawəl] and تود کيدل [tod kedəl]?",
       "options": [
-        "dre-yam (دریم)",
-        "dre-kawəl (درې کول)",
-        "dre-kedəl (درې کېدل)",
-        "dre-shaway (درې شوی)"
+        "Both mean 'to become warm' — they are interchangeable synonyms.",
+        "تود کول [tod kawəl] is past tense; تود کيدل [tod kedəl] is present tense.",
+        "تود کول [tod kawəl] is TRANSITIVE — 'to warm something'; تود کيدل [tod kedəl] is INTRANSITIVE — 'to become warm'.",
+        "تود کول [tod kawəl] is formal Kabuli; تود کيدل [tod kedəl] is Kandahari dialect."
       ],
-      "correctIndex": 0,
-      "explanation": "Ordinal numbers are formed by adding the suffix '-am' to the cardinal number[cite: 42]. Therefore, 'dre' (three) becomes 'dre-yam' (third)[cite: 42]."
+      "correctIndex": 2,
+      "explanation": "تود کول [tod kawəl] is TRANSITIVE — it expresses causing an external change: 'to warm (something) up / to heat (something)'. An agent acts on a patient: کور تود کوم [kor tod kawam] 'I warm the house.' تود کيدل [tod kedəl] is INTRANSITIVE — it expresses a change of state that the subject itself undergoes: 'to become warm / to warm up'. No external object: کور تود کيږي [kor tod kegi] 'The house is warming up.' This transitive/intransitive distinction, marked by کول vs. کيدل, is the defining feature of the derivative verb system and applies to ALL adjective and noun bases."
+    },
+    {
+      "type": "quiz",
+      "question": "In the present imperfective, how does the derivative verb پخول [paxawəl] 'to cook' form its stem, and why?",
+      "options": [
+        "پخ کوم [pax kawam] — the base and auxiliary are always written as two separate words.",
+        "پخوم [paxawam] — the [k] of کول drops because the base پخ [pax] ends in a consonant, and the elements fuse.",
+        "پخيږم [paxegam] — the intransitive auxiliary is used in the imperfective for all derivative verbs.",
+        "وپخ کوم [wupax kawam] — the perfective prefix و- [wu-] is added in the imperfective."
+      ],
+      "correctIndex": 1,
+      "explanation": "When the first element (base) of a derivative verb ends in a CONSONANT, the [k] of the auxiliary کول or کيدل drops in the present imperfective, and the base fuses with the remaining auxiliary to form one word. پخ [pax] ends in the consonant [x], so: پخ + کول → [k] drops → پخ + -اول → پخوم [paxawam] (1sg), پخوي [paxawi] (3sg). When the base ends in a VOWEL (like معاينه [māyena]), the auxiliary remains separate: معاينه کوم [māyena kawam]. In the resulting fused form, the verb is indistinguishable in the imperfective from a simple verb."
+    },
+    {
+      "type": "quiz",
+      "question": "How do you say 'Cook the kabob!' (singular positive command) vs. 'Don't cook the kabob!' (singular negative command) using پخول [paxawəl]?",
+      "options": [
+        "Positive: کباب پخ که [kabāb pax ka] ◆ Negative: کباب مه پخ که [kabāb ma pax ka]",
+        "Positive: کباب پخ که [kabāb pax ka] ◆ Negative: کباب مه پخوه [kabāb ma paxawa]",
+        "Positive: کباب پخوه [kabāb paxawa] ◆ Negative: کباب نه پخ که [kabāb na pax ka]",
+        "Positive: کباب پخ شه [kabāb pax sha] ◆ Negative: کباب مه پخيږه [kabāb ma paxega]"
+      ],
+      "correctIndex": 1,
+      "explanation": "Positive: کباب پخ که [kabāb pax ka] — uses the PERFECTIVE form: base پخ [pax] (M, agreeing with کباب which is masculine) + shortened auxiliary ک- [k-] + singular command ending -ه [-a]. Negative: کباب مه پخوه [kabāb ma paxawa] — uses the IMPERFECTIVE form: مه [ma] + imperfective base پخو- [paxaw-] + singular ending -ه [-a]. Note that مه [ma] goes BEFORE THE FIRST ELEMENT of the verb (before پخوه). Option A incorrectly uses مه with the perfective ک- form. Option C uses the wrong auxiliary for the positive (intransitive ش- instead of transitive ک-). The M/F agreement in the positive command: کباب (M) → پخ که; ډوډۍ (F) → پخه که."
+    },
+    {
+      "type": "quiz",
+      "question": "In the future sentence ډوډۍ به پخه نه کم [ḍoḍay ba paxe na kam] — 'I will NOT cook the food' — where is نه [na] placed, and why?",
+      "options": [
+        "نه comes at the very beginning of the sentence: نه ډوډۍ به پخه کم.",
+        "نه comes immediately before the whole verb phrase: ډوډۍ به نه پخه کم.",
+        "نه comes BETWEEN the base پخه [paxe] and the auxiliary کم [kam]: ډوډۍ به پخه نه کم — splitting the derivative verb.",
+        "نه comes after به [ba]: ډوډۍ به نه پخه کم — always after the future particle."
+      ],
+      "correctIndex": 2,
+      "explanation": "In negative future expressions with derivative verbs, نه [na] goes BETWEEN the first component (the base) and the auxiliary. So ډوډۍ به پخه نه کم [ḍoḍay ba paxe na kam] — نه splits پخه [paxe] from کم [kam]. This follows a systematic rule: negation in derivative verb futures always inserts between the lexical base and the grammatical auxiliary. Compare with simple verbs (Lesson 7) where نه goes between و- prefix and root: به و نه خوري [ba wa na xori] 'won't eat'. The parallel structure reinforces the same principle: negate by breaking the grammatical bond between the content element and the functional element."
+    },
+    {
+      "type": "quiz",
+      "question": "The proverb پهـ پوښتنه سره سړی مکه ته رسيږي contains رسيږي [rasegi]. What type of verb is this?",
+      "options": [
+        "A simple verb — رسيدل [rasedəl] is an irregular simple verb with no auxiliary.",
+        "A transitive derivative verb formed from رس- [ras-] + کول [kawəl].",
+        "An intransitive derivative verb formed from رس- [ras-] + کيدل [kedəl], meaning 'to arrive / to reach a destination'.",
+        "A doubly irregular verb whose perfective is completely suppletive."
+      ],
+      "correctIndex": 2,
+      "explanation": "رسيږي [rasegi] is the 3rd person singular present imperfective of رسيدل [rasedəl] — an INTRANSITIVE DERIVATIVE verb formed from the base رس- [ras-] (from Arabic رسيدن 'to reach/arrive') + the intransitive auxiliary کيدل [kedəl] 'to become'. The contracted form رسيدل follows the consonant-final base rule: [k] drops, base and auxiliary fuse → رسيږ- [raseg-] as the imperfective stem. 'To arrive' is inherently intransitive (the subject arrives — nothing is acted upon), so the کيدل auxiliary is correct. Its perfective form: رس شه [ras sha] / رس شم [ras sham]. This makes رسيدل a perfect miniature example of the entire derivative verb system."
     }
   ]
 }

@@ -1,89 +1,406 @@
 {
-  "id": "L13",
-  "title": "Lesson 13: The Past Perfective Tense & Transitive Verb Agreement — The Ergative Construction   تیر کامل زمان او د متعدي کریا مطابقت — اِرکتیف جوړښت",
-  "category": "Beginning Pashto",
-  "description": "Conquer the most challenging and remarkable feature of Pashto grammar: the split-ergative system. Learn to narrate completed events, write formal correspondence, and discover traditional Landai poetry[cite: 60, 61, 62].",
-  "duration": "Textbook pp. 147–159 (approx. 10-15 pages of instruction) [cite: 60, 63]",
-  "level": "Intermediate-Mid → Intermediate-High (ILR 2+) [cite: 60]",
+  "id": "pashto-l13",
+  "title": "Lesson 13: Past Perfective Tense & The Ergative Construction",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "The culminating grammar of Beginning Pashto: the FULL ergative-absolutive construction in past perfective transitive sentences. Every transitive verb in the past perfective requires (1) the subject/agent in the OBLIQUE case and (2) the verb agreeing with the OBJECT/patient — the exact reverse of present-tense alignment. The lesson covers all six subject-case shifts, object agreement in all persons and genders, weak-pronoun behaviour (agents kept, direct-object pronouns drop), double agreement in derivative transitive verbs, and the historical origin of ergativity from a passive participial construction. Communicative context: Afghan national dress, regional clothing traditions, and Eid preparations.",
+  "duration": "10-15 hours",
+  "level": "Intermediate-High (ILR 2+)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: The Ergative Pivot",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 13! You are about to learn the most linguistically complex and typologically remarkable feature of Pashto grammar: the ergative-absolutive alignment in past transitive sentences[cite: 62].",
-        "Until now, your verbs have always agreed with the subject. However, in the past perfective tense, Pashto transitive verbs DO NOT agree with the subject[cite: 62].",
-        "Instead, the verb agrees with the direct object (the patient) in person and number, while the subject (the agent) takes the oblique case[cite: 62].",
-        "This split-ergative system (present = nominative-accusative, past transitive = ergative-absolutive) is the single most challenging structural feature for English speakers[cite: 62]."
+        "By the end of this lesson you will be able to: produce all past perfective sentences for ALL verb classes in both intransitive and transitive frames.",
+        "You will apply the ERGATIVE ALIGNMENT in past perfective transitive sentences: subject/agent in OBLIQUE case, verb agreeing with OBJECT/patient in person, number, and gender.",
+        "You will execute the full set of subject oblique-case shifts: زه→ما [za→mā], ته→تا [tā→tā] (stress-distinguished), and the no-change cases for 3rd person and plurals.",
+        "You will handle WEAK PRONOUN OBJECTS correctly — direct-object pronouns DROP in past transitive (verb ending encodes them) while agent pronouns in the oblique are retained.",
+        "You will describe Afghan national and regional dress using past tense verbs of wearing, buying, and giving in ergative constructions."
       ]
-    },
-    {
-      "type": "callout",
-      "text": "Morphology Hack: When the subject is forced into the oblique case, its form changes! For example, masculine nouns in the oblique case often lose their final consonant or take an [ə] ending[cite: 63]. Be extremely careful to match the verb ending to the OBJECT of your sentence, not the subject."
-    },
-    {
-      "type": "paragraph",
-      "heading": "Present vs. Past Perfective Contrast",
-      "lines": [
-        "Let's look at a direct contrast to see this system in action[cite: 62].",
-        "Present (Nominative): دا کتاب لیکي. [Dā kitāb liki.] (He writes the book. -> Verb agrees with 'He' [Dā])[cite: 62].",
-        "Past Perfective (Ergative): ده کتاب ولیکلو. [Dā yā kitāb wəlikəl.] (He wrote the book. -> The subject becomes oblique [Dā yā], and the verb [wəlikəl] agrees with the object, 'book' [kitāb])[cite: 62]."
-      ]
-    },
-    {
-      "type": "quiz",
-      "question": "In a Pashto past perfective transitive sentence (like 'She ate the apple'), which word does the verb grammatically agree with? [cite: 62]",
-      "options": [
-        "The subject ('She')",
-        "The direct object ('the apple')",
-        "Neither, the verb remains in the infinitive form",
-        "The preposition"
-      ],
-      "correctIndex": 1,
-      "explanation": "Due to Pashto's ergative-absolutive alignment in the past perfective tense, transitive verbs agree with the direct object in person and number, while the subject takes the oblique case[cite: 62]."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 2: Epistolary Register & Correspondence",
+      "heading": "Section 1 — Dialogue: نوي جامې (New Clothes)",
       "lines": [
-        "Our communicative context for this unit introduces the epistolary (letter-writing) register, a new formal genre[cite: 62].",
-        "Correspondence Vocabulary: [līk] (لیک) 'letter', [likəl] (لیکل) 'to write', [lēgawa] (لیږل) 'to send', [ākhistəl] (اخیستل) 'to receive/take', [warkawa] (ورکول) 'to give', [paysāge] (ټاپه/پسته) 'stamp'[cite: 62].",
-        "Root-change verb paradigms (past perfective forms to memorize): [tləl → lāṛ shəw], [rātləl → rāghəl], [lēdəl → wəlīd-], [wiyəl → wəwayi-][cite: 62]."
+        "Amān and Layla's children are dressing for Eid. The dialogue contrasts intransitive sentences (child goes/comes — no ergative) with transitive sentences (parent bought/gave — full ergative). This contrast is the pedagogical spine of the lesson.",
+        "ليلا: مشتاق، نوي خميس دې واغوست؟ [layla: mushtāq, nawi xamis de wāghost?] — Layla: Mushtaq, did you put on your new tunic? ← واغوست [wāghost] = past perf. 3sg M transitive — agrees with خميس [xamis] M object; دې [de] = oblique 2sg agent 'you'",
+        "مشتاق: نه، لا نه مې واغوستل. [mushtāq: na, lā na me wāghostəl.] — Mushtaq: No, I haven't put it on yet. ← نه مې واغوستل = negative past perf. transitive; مې [me] = 1sg oblique agent",
+        "ليلا: بيا يې واغوند! [layla: byā ye wāghoṇd!] — Layla: Then put it on! ← يې [ye] = weak pronoun object 'it' in the command",
+        "امان: اسپينه، مور دې د عيد لپاره نوی کاميز واخيست. [amān: aspina, mor de da id lapāra nawi kāmiz wāxist.] — Amān: Aspina, your mother bought a new dress for Eid. ← واخيست [wāxist] = past perf. 3sg M transitive — agrees with کاميز [kāmiz] M object",
+        "اسپينه: واقعاً؟ ما ونه ليدل. [aspina: wāqaan? mā wuna lidəl.] — Aspina: Really? I haven't seen it. ← ما [mā] = oblique 1sg agent; ونه ليدل = negative past perf.",
+        "ليلا: دلته ده. د سور جامي سره يې اغوند. [layla: delta da. da sur jāmi sara ye aghoṇd.] — Layla: It's here. Wear it with the red skirt.",
+        "امان: ما تاسو ته جرابې هم واخيستي. [amān: mā tāso ta jarābe ham wāxisti.] — Amān: I also bought you all socks. ← ما [mā] = oblique 1sg agent; واخيستي [wāxisti] = 3pl F — agrees with جرابې [jarābe] F pl object",
+        "اسپينه: مننه، پلاره! ته ګران پلار يې! [aspina: manana, plāra! tā garān plār ye!] — Aspina: Thank you, father! You are a dear father!",
+        "KEY GRAMMAR ANNOTATIONS:",
+        "① واغوست [wāghost] — past perfective 3sg M of اغوندل [aghoṇdəl] 'to wear': agrees with OBJECT خميس [xamis] (M sg → suffix drops for 3sg M). Agent دې [de] is oblique 2sg.",
+        "② ما [mā] — oblique case of زه [za] 'I'. Used whenever 'I' is the agent of a past transitive verb. The most reliable ergative signal in Pashto.",
+        "③ واخيستي [wāxisti] — ending -ي [-i] = 3pl FEMININE agreement with جرابې [jarābe] 'socks' (F pl object)."
       ]
     },
     {
       "type": "callout",
-      "text": "Cultural Protocol: Formal Afghan letter-writing conventions are highly structured. You must use formal openings like [muhtaram] (محترم - 'honoured'), closing formulas, and traditional Islamic blessings[cite: 62]. Also, note that for stress-shift verbs like [rāwṛ-] (bring), the entire verb complex shifts stress in the ergative past! [cite: 63]"
+      "heading": "👗 Cultural Spotlight: Afghan National & Regional Dress",
+      "lines": [
+        "Afghan clothing is one of the most vivid expressions of regional and ethnic identity. Pashto speakers wear specific styles that differ by region, gender, age, and occasion.",
+        "PASHTUN MALE DRESS (کالي [kāli]): خميس [xamis] — long tunic paired with پرتوګ [partog] loose trousers — the standard everyday male outfit. پکول [pekol] — the flat woollen Pashtun cap, now a pan-Afghan symbol. چپن [čapan] — striped cloak worn over everything in winter. پوستين [postin] — sheepskin coat for mountain winters.",
+        "PASHTUN FEMALE DRESS: کرتی [kurtay] — fitted tunic (F2 class). لامان [lāmān] — long skirt (F1 class). Elaborate embroidered دresses for Eid.",
+        "EID CLOTHING: The tradition of wearing new clothes for عيد [id] (both Eids) is pan-Islamic but takes particular force in Pashtun communities. The dialogue's context — Amān buying Eid clothes for his children — is a scene replicated in millions of Afghan households before every Eid.",
+        "CHADRI NOTE: چادري [čādari] — the full-body covering — varies dramatically by region, urban/rural divide, and family practice. Kabul women in professional contexts often wear a headscarf rather than the chadri. These materials do not prescribe or proscribe any practice.",
+        "MAIWAND REFERENCE in the reading: ميوند [Maiwand] refers to the 1880 Battle of Maiwand — a famous Afghan victory where the legendary Malalai encouraged fighters using her veil as a flag. Clothing has historically been a site of Afghan resistance and identity assertion."
+      ]
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 3: Diversion — Classical Landai Poetry",
+      "heading": "Section 2 — The Ergative Construction: Core Explanation",
       "lines": [
-        "This unit's cultural diversion introduces traditional Pashto oral folk poetry through the 'landai' (لنډۍ) or 'charbait' form[cite: 62].",
-        "A landai is a strictly 22-syllable oral two-line poem. It is uniquely and primarily composed by Pashtun women, making it a highly significant cultural tradition that addresses themes of love, war, grief, and honour[cite: 62].",
-        "Textbook Assignment: You will read and translate one landai in Pashto script (with gloss commentary) to practice reading poetic register[cite: 62, 63]."
+        "The ERGATIVE ALIGNMENT is the most famous grammatical feature of Pashto — and the lesson you have been building toward since Lesson 12.",
+        "WHAT IS ERGATIVITY? English treats the subject of a transitive verb ('I bought') and the subject of an intransitive verb ('I went') identically — both appear as 'I'. Pashto treats them DIFFERENTLY in the past tense.",
+        "PAST TENSE INTRANSITIVE — Subject stays DIRECT; verb agrees with SUBJECT:",
+        "زه ولاړ شوم. [za walāṛ shwam.] — 'I went.' ← زه [za] stays direct; شوم [shwam] = 1sg agreement with subject",
+        "رابيا راغله. [rābya rāghla.] — 'Rābya came.' ← subject رابيا direct; راغله [rāghla] = 3sg F agreement with subject",
+        "PAST TENSE TRANSITIVE — Agent moves to OBLIQUE; verb agrees with OBJECT:",
+        "ما کتاب ولوست. [mā kitāb wulwost.] — 'I read the book (M).' ← agent ما [mā] OBLIQUE of زه; verb ولوست [wulwost] = 3sg M — agrees with کتاب [kitāb] M sg object",
+        "ما جامې واخيستي. [mā jāme wāxisti.] — 'I bought clothes (F pl).' ← ما [mā] oblique; واخيستي [wāxisti] = F pl agreement with جامې [jāme]",
+        "THE 2×2 CONTRAST TABLE — commit this to memory:",
+        "Present Transitive: زه + DIRECT + verb agrees with SUBJECT → زه کتاب لولم [za kitāb lolam] 'I read books'",
+        "Present Intransitive: زه + DIRECT + verb agrees with SUBJECT → زه ځم [za dzam] 'I go'",
+        "Past Transitive: ما + OBLIQUE + verb agrees with OBJECT → ما کتاب ولوست [mā kitāb wulwost] 'I read the book'",
+        "Past Intransitive: زه + DIRECT + verb agrees with SUBJECT → زه ولاړ شوم [za walāṛ shwam] 'I went'",
+        "THE HISTORICAL ORIGIN: The Pashto ergative construction historically descends from a PASSIVE PARTICIPIAL construction. ما کتاب ولوست originally meant 'The book was read by me' — a passive. Over centuries this became the standard transitive past, but the grammatical skeleton — patient controlling agreement, agent in oblique — was preserved. You are speaking a living grammatical fossil."
       ]
     },
     {
       "type": "callout",
-      "text": "Sociolinguistic Taboo: Landai poetry has historically been a powerful medium for female resistance and emotional expression. Because of this, many landais touch on intimate or rebellious themes. In formal classroom or professional contexts, it is crucial to select war or homeland-themed landais and strictly avoid examples touching on sexual themes to maintain cultural sensitivity[cite: 62]."
+      "heading": "🎯 The Six Agent Case Shifts — All Persons",
+      "lines": [
+        "In PAST TENSE TRANSITIVE sentences, pronoun agents shift from DIRECT to OBLIQUE case:",
+        "1sg: زه [za] → ما [mā] — Most visible shift; the single most reliable ergative signal.",
+        "2sg: ته [tā] → تا [tā] — SAME spelling, different stress in careful speech. زه vs. ما is the cleaner diagnostic.",
+        "3sg M/F: هغه [agha] → هغه [agha] — NO CHANGE. Identical forms.",
+        "1pl: مونږ [mung] → مونږ [mung] — NO CHANGE.",
+        "2pl: تاسو [tāso] → تاسو [tāso] — NO CHANGE.",
+        "3pl: هغوي [aghoyi] → هغوي [aghoyi] — NO CHANGE.",
+        "PRACTICAL RESULT: For pronouns, only 1sg (زه→ما) and to a lesser extent 2sg visibly signal the ergative. For 3rd person and all plurals, the agent LOOKS IDENTICAL in both frames. The VERB AGREEMENT with the object is your primary diagnostic in those cases.",
+        "NOUN AGENTS: 3rd-person nouns like امان [amān] or رابيا [rābya] do not visibly shift to an oblique form in the subject/agent slot. Again, the VERB AGREEMENT is the ergative signal.",
+        "SHORTCUT: Whenever you see ما [mā] before a past tense verb, you are almost certainly in a past transitive ergative sentence. ما is the clearest surface marker of ergativity in Pashto."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — Verb Agreement with Objects (د موضوع سره موافقت)",
+      "lines": [
+        "In past transitive sentences, the verb agrees with the OBJECT in person, number, and gender. Study these patterns for each object person.",
+        "OBJECT = 1sg (me M): ending -م [-am]",
+        "هغه ما ته بوتم. [hagha mā ta botam.] — 'He took me (M).' ← بوتم [botam] = 1sg agreement; note: agent هغه [hagha] stays same",
+        "OBJECT = 1sg (me F): also -م [-am] but context signals F gender if relevant",
+        "OBJECT = 2sg (you): ending -ې [-e]",
+        "ما دې ووليده. [mā de wulidə.] — 'I saw you.' ← -ه [-e]/[-a] ending; agent ما [mā] oblique",
+        "OBJECT = 3sg M (him/it M): suffix DROPS — bare stem",
+        "ما کتاب ولوست. [mā kitāb wulwost.] — 'I read the book (M sg).' ← ولوست [wulwost] bare stem = 3sg M",
+        "OBJECT = 3sg F (her/it F): ending -ه [-a]",
+        "ما جامه وليده. [mā jāma wulida.] — 'I saw the dress (F sg).' ← وليده [wulida] + -ه [-a] for F sg",
+        "OBJECT = 1pl (us): ending -و [-u]",
+        "هغه مونږ بوتو. [hagha mung botu.] — 'He took us.' ← بوتو [botu] = 1pl",
+        "OBJECT = 2pl (you all): ending -ئ [-ay]",
+        "ما تاسو وليدلئ. [mā tāso wulidəlay.] — 'I saw you all.' ← -ئ [-ay] = 2pl",
+        "OBJECT = 3pl M (them M): suffix -ل [-əl] or drops",
+        "ما کتابونه وليدل. [mā kitābune wulidəl.] — 'I saw the books (M pl).' ← -ل [-əl] = 3pl M",
+        "OBJECT = 3pl F (them F): ending -ي [-i]",
+        "ما جرابې واخيستي. [mā jarābe wāxisti.] — 'I bought the socks (F pl).' ← -ي [-i] = 3pl F",
+        "OBJECT AGREEMENT SUMMARY TABLE:",
+        "1sg: -م ◆ 2sg: -ې ◆ 3sg M: drops ◆ 3sg F: -ه ◆ 1pl: -و ◆ 2pl: -ئ ◆ 3pl M: -ل ◆ 3pl F: -ي"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Weak Pronouns in Past Transitive Sentences",
+      "lines": [
+        "Weak pronouns behave DIFFERENTLY as AGENTS vs. OBJECTS in past transitive sentences.",
+        "RULE 1 — WEAK PRONOUN DIRECT OBJECTS DROP: The verb ending encodes the object's information — the weak object pronoun is redundant and must be omitted.",
+        "WRONG: ما يې وليد. [mā ye wulid.] ← يې [ye] as direct object is redundant — drop it",
+        "CORRECT: ما وليد. [mā wulid.] — 'I saw him.' ← verb bare stem = 3sg M agreement; يې [ye] dropped",
+        "CORRECT: ما وليده. [mā wulida.] — 'I saw her.' ← -ه [-a] suffix encodes 3sg F; weak pronoun dropped",
+        "CORRECT: ما وليدل. [mā wulidəl.] — 'I saw them (M).' ← -ل [-əl] encodes 3pl M; pronoun dropped",
+        "RULE 2 — WEAK PRONOUN AGENTS ARE RETAINED: The oblique weak pronoun marking the AGENT stays in its normal floating position after the first stressed element.",
+        "هغه مې وليد. [hagha me wulid.] — 'I saw him.' ← مې [me] = 1sg AGENT oblique pronoun; stays; verb encodes 3sg M object",
+        "This is equivalent to: ما هغه وليد. [mā hagha wulid.] — using strong oblique ما [mā]",
+        "DISAMBIGUATION: If يې [ye] appears in a past transitive sentence, it is ALWAYS the oblique AGENT pronoun ('by him/her'), NOT a direct object pronoun. Direct object يې would be dropped.",
+        "رابيا يې وليده. [rābya ye wulida.] — 'He saw Rābya.' ← يې [ye] = 3sg oblique agent 'by him'; وليده [wulida] = -ه [-a] agrees with F object رابيا",
+        "SUMMARY TABLE: | Role | Weak Pronoun | Fate in Past Transitive |",
+        "Agent (oblique) | مې، دې، يې، مو | STAY — needed to identify who did the action",
+        "Direct Object | مې، دې، يې، مو (same forms) | DROP — verb ending is sufficient"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ Why the Ergative Exists — The Historical Passive",
+      "lines": [
+        "Understanding WHY the ergative exists makes it much easier to remember HOW it works.",
+        "The Pashto past perfective transitive construction descends from a PASSIVE PARTICIPIAL construction. In an early form: 'The book [was] read (M sg) by-me (oblique).' The BOOK was the subject-like entity controlling agreement; 'by me' was the oblique instrument.",
+        "Over centuries this passive-origin construction was reanalysed as the standard transitive past — but the syntactic skeleton survived: PATIENT controls agreement (because it was the original subject); AGENT takes oblique (because it was the original oblique instrument).",
+        "ENGLISH PARALLEL: 'I have eaten the apple' — in older analyses, this perfect descends from a passive 'the apple has been eaten by me'. English obscured this history; Pashto preserves it transparently.",
+        "WIDER TYPOLOGICAL CONTEXT: Ergative or ergative-influenced constructions appear in Hindi/Urdu, Kurdish, Georgian, Tibetan, Basque, and many other languages. In nearly every case, the historical source is a past passive participle reanalysed as active. Pashto is part of a vast cross-linguistic phenomenon.",
+        "SPLIT-ERGATIVITY: Pashto is SPLIT-ERGATIVE — ergative only in the past tense. Present tense is fully accusative (verb agrees with subject). The split follows tense: present = accusative; past = ergative. This is the most common type of split-ergativity cross-linguistically.",
+        "DIALECT NOTE 🔁: The ergative pattern is identical in Kabuli and Kandahari Pashto. The Kandahari perfective prefix وا- [wā-] vs. Kabuli و- [wu-] applies in both tenses, but the ergative agreement rules are the same across all Pashto dialects."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — Full Paradigms: All Verb Classes in Past Perfective",
+      "lines": [
+        "SIMPLE INTRANSITIVE — ودرېدل [wudarédəl] 'to stop/wait' (past stem: ودرېد- [wudaréd-]):",
+        "ودرېدلم [wudarédəlam] — I stopped ◆ ودرېدلې [wudarédəle] — You stopped ◆ ودرېد [wudaréd] — He stopped (drops) ◆ ودرېده [wudaréda] — She stopped ◆ ودرېدلو [wudarédəlu] — We stopped ◆ ودرېدلئ [wudarédəlay] — You all stopped ◆ ودرېدل [wudarédəl] — They (M) stopped ◆ ودرېدلې [wudarédəle] — They (F) stopped",
+        "DERIVATIVE INTRANSITIVE — کوز کيدل [koz kedəl] 'to get off (vehicle)' (base: کوز/کوزه [koz/koza] M/F):",
+        "Note: intransitive — BASE agrees with SUBJECT:",
+        "کوز شوم [koz shwam] — I (M) got off ◆ کوزه شوم [koza shwam] — I (F) got off ◆ کوز شوې [koz shwe] — You (M) got off ◆ کوزه شوه [koza shwa] — She got off ◆ کوز شو [koz shwo] — He got off ◆ کوز شول [koz shwəl] — They (M) got off ◆ کوزې شوې [koze shwe] — They (F) got off",
+        "SIMPLE TRANSITIVE — ولېژل [wulegəl] 'to send' (object-agreement; agent oblique not shown):",
+        "ولېږدلم [wulegədəlam] — sent me ◆ ولېږدلې [wulegədəle] — sent you ◆ ولېږد [wuleged] — sent him (drops) ◆ ولېږده [wulegeda] — sent her ◆ ولېږدلو [wulegədəlu] — sent us ◆ ولېږدلئ [wulegədəlay] — sent you all ◆ ولېږدل [wulegədəl] — sent them (M) ◆ ولېږدلې [wulegədəle] — sent them (F)",
+        "DERIVATIVE TRANSITIVE — تود کول [tod kawəl] 'to warm' (M object base: تود [tod]; F object base: تاوده [tāwda]):",
+        "M objects: تود کړم [tod kaṛam] — warmed me ◆ تود کړ [tod kaṛ] — warmed him (drops) ◆ تود کړو [tod kaṛu] — warmed us ◆ تود کړل [tod kaṛəl] — warmed them (M)",
+        "F objects: تاوده کړم [tāwda kaṛam] — warmed me (F) ◆ تاوده کړه [tāwda kaṛa] — warmed her ◆ تاوده کړو [tāwda kaṛu] — warmed us (F) ◆ تاوده کړې [tāwda kaṛe] — warmed them (F)",
+        "DOUBLY IRREGULAR INTRANSITIVE — راتلل [rātləl] 'to come' (Class B, root change):",
+        "راغلم [rāghlam] — I came ◆ راغلې [rāghle] — You came ◆ راغی [rāghay] / راغل [rāghl] — He came ◆ راغله [rāghla] — She came ◆ راغلو [rāghlu] — We came ◆ راغلئ [rāghlay] — You all came ◆ راغلل [rāghləl] — They (M) came ◆ راغلې [rāghle] — They (F) came",
+        "DOUBLY IRREGULAR TRANSITIVE — بيول [byoyəl] 'to take away' (Class B, object-agreement):",
+        "بوتم [botam] — took me ◆ بوتې [bote] — took you ◆ بوت [bot] — took him (drops) ◆ بوته [bota] — took her ◆ بوتو [botu] — took us ◆ بوتئ [botay] — took you all ◆ بوتل [botəl] — took them (M) ◆ بوتې [bote] — took them (F)",
+        "DOUBLY IRREGULAR TRANSITIVE — راوستل [rāwastəl] 'to bring' (Class A stress-shift, object-agreement):",
+        "راوستم [rāwastam] — brought me ◆ راوستې [rāwaste] — brought you ◆ راوست [rāwast] — brought him (drops) ◆ راوسته [rāwasta] — brought her ◆ راوستو [rāwastu] — brought us ◆ راوستل [rāwastəl] — brought them (M) ◆ راوستې [rāwaste] — brought them (F)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Negative Past Perfective and Questions",
+      "lines": [
+        "NEGATIVE PAST PERFECTIVE — نه [na] placement follows the same morphological-seam rule from Lessons 7–9:",
+        "Simple verbs: و + نه + stem: ونه ليدم [wuna lidam] — 'I did not see (him/3sg M object).'",
+        "ما کتاب ونه ولوست. [mā kitāb wuna wulwost.] — 'I did not read the book.'",
+        "Derivative verbs: base + نه + auxiliary: پخه نه کړه [paxa na kaṛa] — 'did not cook (F object).'",
+        "Doubly irregular (intransitive): لاړ نه شوم [lāṛ na shwam] — 'I did not go.' ◆ نه راغله [na rāghla] — 'She did not come.'",
+        "POST-POSED NEGATION: نه [na] may also follow the entire verb: هغه راغله نه [hagha rāghla na] — 'She did not come.' Both positions are grammatical.",
+        "QUESTIONS — same word order as statements, rising intonation or question particle:",
+        "ته پرون پوهنتون ته ولاړ شوې؟ [tā prun pohantun ta walāṛ shwe?] — 'Did you go to the university yesterday?' ← intransitive, subject 2sg stays direct",
+        "ته ددي واغوست؟ [tā tse wāghost?] — 'What did you put on?' ← transitive question; ته [tā] here stays direct because it is a question with an understood object ('what')",
+        "CONTRAST DRILL — present vs. past alignment:",
+        "Present transitive: هغه کتاب لولي. [hagha kitāb lwani.] — 'He reads a book.' ← هغه [hagha] direct subject, verb agrees with subject 3sg",
+        "Past transitive: هغه کتاب ولوست. [hagha kitāb wulwost.] — 'He read the book.' ← هغه [hagha] as 3sg agent has same form (no visible shift for 3sg!); verb still agrees with object کتاب M sg (drops suffix); the ONLY signal is verb agreement",
+        "Past intransitive: هغه ولاړ شو. [hagha walāṛ shwo.] — 'He went.' ← verb agrees with subject هغه 3sg M"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "💡 Diagnostic Summary: Recognising Ergative Constructions",
+      "lines": [
+        "Use these four checks whenever you encounter a past tense sentence:",
+        "CHECK 1 — Is the verb PAST TENSE? Past-time adverbs (پرون/بيګا/تير) or past verb forms signal this. If NO → no ergative applies.",
+        "CHECK 2 — Is the verb TRANSITIVE? Does it take a direct object? If NO → intransitive; subject stays direct, verb agrees with subject.",
+        "CHECK 3 — Is ما [mā] present? ما [mā] = oblique 1sg agent. This is the clearest ergative signal. If YES and the verb is past → almost certainly ergative transitive.",
+        "CHECK 4 — What does the VERB ENDING agree with? Count person/number/gender of subject vs. object. If the verb matches the OBJECT, you are in an ergative sentence.",
+        "COMMON MISTAKE 1: Applying ergative to INTRANSITIVE verbs. 'She came' = هغه راغله [hagha rāghla] — NOT ما راغله. The agent of 'come' does NOT shift to oblique because 'come' is intransitive.",
+        "COMMON MISTAKE 2: Leaving weak object pronouns in. ما يې وليد [mā ye wulid] is WRONG for 'I saw him'. Say ما وليد [mā wulid] — the verb ending encodes 3sg M.",
+        "COMMON MISTAKE 3: Forgetting gender agreement when the object changes. ما کميزه وليده [mā kamiza wulida] (F sg object) vs. ما کميزونه وليدل [mā kamizune wulidəl] (M pl object) — always check the object's gender and number."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "MALE CLOTHING:",
+        "خميس [xamis] — long tunic / shirt (M2 class) [xamis]",
+        "پرتوګ [partog] — trousers (plural irregular) [partog]",
+        "پکول [pekol] — flat Pashtun woollen cap (M2 class) [pekol]",
+        "واسکوت [wāskot] — vest / waistcoat (M2 class) [wāskot]",
+        "چپن [čapan] — striped cloak (M2 class) [čapan]",
+        "پوستين [postin] — sheepskin coat (M2 class) [postin]",
+        "کوت [kot] — winter coat (M2 class) [kot]",
+        "ساعت [sāat] — watch / clock (M2 class) [sāat]",
+        "زنجير [zanjir] — chain / necklace (M2 class) [zanjir]",
+        "FEMALE CLOTHING:",
+        "کرتی [kurtay] — fitted tunic (F2 class) [kurtay]",
+        "لامان [lāmān] — long skirt (F1 class) [lāmān]",
+        "خوالی [xwālay] — headscarf / skullcap (F2 class) [xwālay]",
+        "چادري [čādari] — full-body covering (F irregular) [čādari]",
+        "پيزار [pezār] — shoe / sandal (F2 class) [pezār]",
+        "بوټ [boṭ] — boot (M2 class) [boṭ]",
+        "بيله [bila] — slipper (F1 class) [bila]",
+        "جراب [jarāb] — sock; plural جرابې [jarābe] (F pl agreement!) [jarāb]",
+        "WEARING VERBS:",
+        "اغوندل [aghoṇdəl] — to wear (tr.); imp. stem: اغوند- [aghoṇd-]; past stem: اغوست- [aghost-] [aghoṇdəl]",
+        "ايستل [istəl] — to take off (clothes) (tr.) [istəl]",
+        "جوړول [jorəwəl] — to make / to sew (tr.) [jorəwəl]",
+        "TEXTILE & COLOUR ADJECTIVES:",
+        "سپين [spin] — white (Class 1) [spin] ◆ تور [tor] — black (Class 1) [tor] ◆ سور [sur] — red (Class 1) [sur] ◆ شين [shin] — blue/green (Class 1) [shin] ◆ زيری [zeray] — gold-coloured (Class 2) [zeray]",
+        "وړوکی [waṛokay] — small (irregular Class 2) [waṛokay] ◆ لوی [loy] — big (Class 1) [loy]",
+        "PAST-TIME ADVERBIALS:",
+        "بيګا ماښام [bega māxam] — last evening ◆ وورمه ورځ [worma wradz] — day before yesterday ◆ تيره اونۍ [tira awney] — last week ◆ تير مياشت [tir myāsht] — last month ◆ تير کال [tir kāl] — last year ◆ X ورځې مخکې [X wradze makhke] — X days ago ◆ لږه مخکې [laga makhke] — a little while ago",
+        "DISCOURSE ADVERBS:",
+        "لا [lā] — still / yet ◆ لا نه [lā na] — not yet ◆ نور [nor] — anymore ◆ اصلاً [aslan] — at all / basically ◆ بيا هم [byā ham] — even so"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Reading: د افغانستان کالي (Afghan Clothing)",
+      "lines": [
+        "This reading is in Pashto script only. It describes Afghan regional and national dress, mixing present and past tenses. Identify every past tense verb and classify each as ergative (transitive) or non-ergative (intransitive or present).",
+        "د افغانستان خلک مختلف جامې اغوندي. هر قوم خپل کالي لري.",
+        "پښتانه نارينه خميس او پرتوګ اغوندي. د ژمي پهـ موسم کې چپن هم اغوندي.",
+        "د کابل ښار خلکو تيرو کلونو کې غربي جامې هم واغوستي. ځوانانو ته يې ډيرې خوښې وې.",
+        "د نورستان او هزارستان خلک خپل بيل جامې لري. د وړو نه جوړ شوي کالي يې مشهور دي.",
+        "ميرمنو لپاره د عيد جامې ډيرې مهمې دي. پيسې مو ورته راټولي کړي.",
+        "د تيرو جنګونو کې ډير خلکو د خپل کالي سره د وطن دفاع وکړه.",
+        "READING GLOSSARY:",
+        "مختلف [muxtalif] — various (Class 4) ◆ قوم [qom] — ethnic group (M2) ◆ د ژمي موسم [da žmi mosam] — winter season ◆ تيرو کلونو کې [tiro kalonoke] — in past years (oblique pl) ◆ ځوانانو [dzwānāno] — young people (M OPl) ◆ خوښې وې [xwaxe we] — were pleasing (F pl adj + 3pl F past 'be') ◆ وړو [waṛo] — wool (oblique) ◆ مشهور [mashur] — famous (Class 4) ◆ راټولي کړي [rāṭoli kaṛi] — saved up (F pl agreement) ◆ دفاع وکړه [dafā wukaṛa] — defended (F sg agreement with دفاع F)",
+        "ERGATIVE IDENTIFICATION EXERCISE:",
+        "① واغوستي [wāghosti] — agent: خلکو [xlako] (oblique pl noun); object: غربي جامې [gharbi jāme] (F pl) → -ي [-i] = 3pl F agreement ← ERGATIVE",
+        "② راټولي کړي [rāṭoli kaṛi] — agent: مو [mo] (1pl oblique 'we'); object: پيسې [payse] (F pl) → F pl agreement ← ERGATIVE",
+        "③ دفاع وکړه [dafā wukaṛa] — agent: خلکو [xlako] (oblique pl); object: دفاع [dafā] (F sg) → -ه [-a] = F sg agreement ← ERGATIVE",
+        "④ اغوندي [aghoṇdi] — present imperfective, NOT ergative",
+        "⑤ لري [lari] — present imperfective, NOT ergative",
+        "COMPREHENSION QUESTIONS:",
+        "① د پښتنو نارينه ددي جامې اغوندي؟ — What clothes do Pashtun men wear?",
+        "② پهـ تيرو کلونو کې د کابل خلکو ددي واغوستي؟ — What did Kabul people wear in past years?",
+        "③ د وطن دفاع چا وکړه؟ — Who defended the country?"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🌍 Cultural Note: Afghan Dress as Identity",
+      "lines": [
+        "Afghan clothing is not merely functional — it is a rich system of cultural signalling encoding ethnicity, region, religiosity, and political orientation.",
+        "REGIONAL DRESS MARKERS: پکول [pekol] (flat cap) = Pashtun/pan-Afghan symbol. کلاه [kolā] (round embroidered cap) = Tajik/Hazara. عماميه [amāmiya] (turban) = religious scholar. قراکل [qarākul] (Karakul lambskin hat) = high-status urban/northern Afghan.",
+        "DRESS AND HISTORY: The reading's reference to people wearing 'Western clothes in past years' reflects the relative openness of Kabul during 2001–2021. The Taliban period (1996–2001 and 2021–present) enforced specific clothing requirements. Clothing in Afghanistan has always been politically marked.",
+        "THE MAIWAND VEIL: The Battle of Maiwand (1880) produced legendary images of Afghan women — including Malalai [ملالی] — using veils as battle flags to encourage fighters. The veil, an item of clothing, became a symbol of resistance. This is why the reading includes a reference to defending وطن [watan] 'homeland' alongside کالي [kāli] 'clothing' — in Afghan cultural memory, they are not separate."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — Diversion: د ملا نصرالدين قصه — نوي جامې (New Clothes)",
+      "lines": [
+        "THE STORY: Mullah Nasruddin's wife told him: 'Mullah, I need new clothes for Eid. All the neighbours' wives have new dresses. I am ashamed.' The Mullah replied: 'Wife, last year I bought you new clothes. The year before that I bought you new clothes.' The wife said: 'Mullah, you bought me nothing last year! Or the year before!' The Mullah replied: 'Then God has been providing for two years already — I am sure He will manage a third.'",
+        "GRAMMAR SPOTLIGHT — Ergative sentences in the story:",
+        "ما تاته نوي جامې واخيستي. [mā tāta nawi jāme wāxisti.] — 'I bought you new clothes.' ← ما [mā] oblique 1sg agent; واخيستي [wāxisti] = F pl agreement with جامې [jāme] F pl object",
+        "نوي جامې دې نه واخيستي. [nawi jāme de na wāxisti.] — '(You) did not buy new clothes.' ← دې [de] oblique 2sg agent; negative past perf. with F pl agreement",
+        "الله به وارکي. [allāh ba wārki.] — 'God will give (them).' ← future, not past; not ergative — present-future = accusative",
+        "VOCABULARY FROM THE STORY:",
+        "شرم [sharm] — shame / embarrassment (M2 class) [sharm]",
+        "شرميدل [sharmédəl] — to be ashamed (intr. derivative) [sharmédəl]",
+        "توکل [tawakul] — reliance on God / resignation to fate (M2 class) [tawakul]",
+        "الله وارکي [allāh wārki] — 'God will provide' (lit. 'God will give') — common Afghan expression of providence [allāh wārki]",
+        "CULTURAL COMMENTARY: The Mullah's punchline — deflecting to divine providence after being caught in a fabrication — illustrates توکل [tawakul] (reliance on God) taken to comic extremes. This is both a critique of passive fatalism and an affectionate depiction of Afghan resigned humour in the face of material difficulty.",
+        "THE ERGATIVE PAYOFF: Notice how naturally the story uses ما [mā] as agent with -ي [-i] feminine plural endings: ما واخيستي [mā wāxisti]. The ergative construction is not an academic exercise — it is the grammar of every story about what people did in the past. You now understand why the Mullah says ما واخيستي [mā wāxisti] and not *زه واخيستم [za wāxistam]."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 13 before attempting the quiz:",
+        "✓ PAST TRANSITIVE (ergative): AGENT → OBLIQUE; VERB agrees with OBJECT.",
+        "✓ PAST INTRANSITIVE (absolutive): SUBJECT stays DIRECT; VERB agrees with SUBJECT.",
+        "✓ Subject oblique shifts: زه→ما (1sg only visibly different); ته→تا (subtle); all 3rd person and plurals = NO CHANGE.",
+        "✓ Object agreement endings: 1sg -م ◆ 2sg -ې ◆ 3sg M drops ◆ 3sg F -ه ◆ 1pl -و ◆ 2pl -ئ ◆ 3pl M -ل ◆ 3pl F -ي",
+        "✓ Derivative transitive past: BASE adjective agrees with object (M or F form) AND auxiliary کړ- + object-agreement ending — DOUBLE agreement.",
+        "✓ DIRECT OBJECT weak pronouns DROP in past transitive (verb ending is sufficient).",
+        "✓ AGENT weak pronouns STAY in past transitive (مې، دې، يې، مو in oblique role).",
+        "✓ Negative past perf. simple: و + نه + stem. Derivative: base + نه + auxiliary. Irregular intr.: at morphological seam.",
+        "✓ Pashto is SPLIT-ERGATIVE: past tense = ergative; present tense = accusative.",
+        "✓ Historical origin: ergative descends from passive participial construction — patient controlled agreement as original subject.",
+        "✓ ما [mā] before a past verb = almost certain ergative signal.",
+        "✓ Clothing vocabulary: خميس [xamis] tunic ◆ پرتوګ [partog] trousers ◆ چپن [čapan] cloak ◆ اغوندل [aghoṇdəl] to wear (past stem اغوست-)."
+      ]
     },
     {
       "type": "quiz",
-      "question": "Which of the following best describes the traditional Pashto 'landai'? [cite: 62]",
+      "question": "Translate 'I bought the red scarf' into Pashto past perfective. سال [sāl] 'scarf' is FEMININE in Pashto.",
       "options": [
-        "A 50-line epic poem written exclusively by male scholars in Kabul.",
-        "A 22-syllable oral two-line poem primarily composed by Pashtun women, addressing themes like war and honour.",
-        "A formal prose letter written to government officials.",
-        "A modern, free-verse poem popular only in standard broadcast media."
+        "زه سور سال واخيست. [za sur sāl wāxist.] — subject زه direct, verb 3sg M.",
+        "ما سوره سال واخيسته. [mā sura sāl wāxista.] — agent ما oblique; verb -ه for 3sg F object; adj سوره F form.",
+        "ما سور سال واخيستل. [mā sur sāl wāxistəl.] — agent ما, but -ل is 3pl M ending, wrong for F sg.",
+        "ما سور سال واخيستم. [mā sur sāl wāxistam.] — agent ما, but -م means object is 1sg 'me', not the scarf."
       ],
       "correctIndex": 1,
-      "explanation": "The landai is a profound Pashtun oral tradition consisting of a 22-syllable two-line verse, historically and primarily composed by women to express grief, love, war, and honour[cite: 62]."
+      "explanation": "ما سوره سال واخيسته [mā sura sāl wāxista]. Ergative construction: (1) agent 'I' → oblique ما [mā]; (2) verb agrees with OBJECT سال — which is FEMININE SINGULAR → 3sg F ending -ه [-a] → واخيسته [wāxista]; (3) adjective سور [sur] 'red' → feminine form سوره [sura] agreeing with F noun سال. Option A keeps زه (direct case) — wrong for past transitive agent. Option C uses -ل [-əl] = 3pl M — wrong for F sg. Option D uses -م [-am] = 1sg object agreement, meaning 'bought me' not 'bought the scarf'."
+    },
+    {
+      "type": "quiz",
+      "question": "What does the -ي [-i] ending on واخيستي [wāxisti] in ما جرابې واخيستي [mā jarābe wāxisti] tell you?",
+      "options": [
+        "The -ي [-i] ending marks 2sg object — 'I bought you'.",
+        "The -ي [-i] ending marks 3pl FEMININE object — because جرابې [jarābe] 'socks' is feminine plural.",
+        "The -ي [-i] ending marks 3pl masculine object — multiple items.",
+        "The -ي [-i] ending is the standard past tense marker with no gender/person information."
+      ],
+      "correctIndex": 1,
+      "explanation": "The -ي [-i] ending in واخيستي [wāxisti] is the 3rd person PLURAL FEMININE past agreement ending. جرابې [jarābe] 'socks' is FEMININE PLURAL — جراب [jarāb] is M2 singular, and its plural جرابې [jarābe] triggers F pl verb agreement. In the ergative construction, the verb agrees with the OBJECT in person, number, and gender. F pl object → -ي [-i] ending. Compare: M pl objects use -ل [-əl] (suffix) or the bare stem drops. The oblique agent ما [mā] also signals this is an ergative sentence."
+    },
+    {
+      "type": "quiz",
+      "question": "Why is ما يې وليد [mā ye wulid] WRONG for 'I saw him', and what is the correct form?",
+      "options": [
+        "يې [ye] cannot co-occur with ما [mā] in any sentence — they are mutually exclusive.",
+        "The correct form is ما هغه وليدل [mā hagha wulidəl] — strong pronoun هغه must be used, not يې.",
+        "يې [ye] as DIRECT OBJECT weak pronoun DROPS in past transitive (verb ending encodes it). Correct: ما وليد [mā wulid] — bare stem = 3sg M object agreement.",
+        "The verb is wrong — it should be ما يې ليدل [mā ye lidəl] using the past imperfective form."
+      ],
+      "correctIndex": 2,
+      "explanation": "In past tense TRANSITIVE sentences, WEAK PRONOUN DIRECT OBJECTS are DROPPED because the verb's agreement ending already encodes the object's person/number/gender. For 'I saw him': agent ما [mā] (oblique 1sg), object 'him' (3sg M). The verb وليد [wulid] = bare past perfective stem with 3sg M agreement (suffix drops). The يې [ye] direct object is REDUNDANT and ungrammatical. Correct: ما وليد [mā wulid]. Note: يې [ye] CAN appear as the AGENT weak pronoun — هغه يې وليد [hagha ye wulid] = 'He saw him' (يې = oblique 3sg agent 'by him'). AGENT pronouns stay; OBJECT pronouns drop."
+    },
+    {
+      "type": "quiz",
+      "question": "Translate 'She came yesterday' (past perfective, intransitive) — and explain why the ergative does NOT apply.",
+      "options": [
+        "پرون ما راغله. [prun mā rāghla.] — agent ما oblique, verb F form.",
+        "پرون هغه راغله. [prun hagha rāghla.] — subject هغه stays DIRECT; verb راغله agrees with 3sg F SUBJECT. Ergative does not apply because 'come' is intransitive.",
+        "پرون هغوي راغلل. [prun haghwi rāghləl.] — plural form used for politeness.",
+        "پرون هغه راغل. [prun hagha rāghl.] — bare stem used regardless of gender."
+      ],
+      "correctIndex": 1,
+      "explanation": "پرون هغه راغله [prun hagha rāghla] — 'She came yesterday.' راتلل [rātləl] 'to come' is INTRANSITIVE — it takes no direct object. In intransitive past sentences, the ERGATIVE ALIGNMENT DOES NOT APPLY. The subject stays in the DIRECT case (هغه [agha], unchanged) and the verb AGREES WITH THE SUBJECT. هغه (3sg F) → راغله [rāghla] with -ه [-a] for 3sg F subject agreement. Option A incorrectly applies the ergative (ما [mā] oblique) to an intransitive verb. This is the most common ergative error: over-applying ergative agreement to intransitive past sentences. Only TRANSITIVE past verbs trigger the ergative pattern."
+    },
+    {
+      "type": "quiz",
+      "question": "In تاوده کړه [tāwda kaṛa] — 'warmed her/it (F)' — what grammatical features explain BOTH تاوده [tāwda] and the -ه [-a] on کړه?",
+      "options": [
+        "تاوده is a feminine adverb; -ه marks 3sg F subject agreement for the agent.",
+        "Both تاوده (F form of base adjective تود [tod]) and -ه on کړه agree with the OBJECT (3sg F entity being warmed) — double agreement in past transitive derivative verbs.",
+        "تاوده is an irregular past stem; -ه is a Kandahari past marker.",
+        "Only کړه agrees with the object; تاوده [tāwda] is invariable."
+      ],
+      "correctIndex": 1,
+      "explanation": "In past tense TRANSITIVE DERIVATIVE sentences with an adjective base, BOTH elements agree with the OBJECT: (1) the BASE ADJECTIVE takes the form matching the object's gender — تود [tod] (M form) → تاوده [tāwda] (F form of 'warm'); AND (2) the AUXILIARY کړ- [kaṛ-] + object-agreement ending → کړه [kaṛa] (-ه [-a] for 3sg F object). This DOUBLE AGREEMENT (base AND auxiliary both matching the object's gender) is specific to adjective-based derivative transitive verbs in the Pashto past. Compare: تود کړ [tod kaṛ] = 'warmed him (M sg)' — both تود and کړ are masculine/unsuffixed. The ergative agent (whoever did the warming) is in oblique case and typically identified by context or an explicit ما [mā]/pronoun."
+    },
+    {
+      "type": "quiz",
+      "question": "Pashto is called 'split-ergative' — what is the split, and what determines which alignment applies?",
+      "options": [
+        "The split is based on animacy: ergative applies to animate objects, accusative to inanimate.",
+        "The split is random — speakers choose based on register or emphasis.",
+        "The split follows TENSE: PAST tense uses ERGATIVE alignment (agent oblique, verb agrees with object); PRESENT tense uses ACCUSATIVE alignment (subject direct, verb agrees with subject). Intransitive verbs are always absolutive regardless of tense.",
+        "The split follows GENDER: ergative applies to feminine subjects, accusative to masculine."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pashto is split-ergative based on TENSE-ASPECT. The split is perfectly regular: PRESENT TENSE (imperfective and perfective) → ACCUSATIVE: زه کتاب لولم [za kitāb lolam] 'I read books' — زه [za] direct, verb agrees with 1sg subject. PAST TENSE TRANSITIVE → ERGATIVE: ما کتاب ولوست [mā kitāb wulwost] 'I read the book' — ما [mā] oblique, verb agrees with M sg object. INTRANSITIVE verbs in any tense → ABSOLUTIVE: subject direct, verb agrees with subject. This tense-based split is the most common type of split-ergativity cross-linguistically, shared with Hindi/Urdu, many Iranian languages, Tibetan, and others. Historically, it arises from past passive participles being reanalysed as active constructions."
     }
   ]
 }

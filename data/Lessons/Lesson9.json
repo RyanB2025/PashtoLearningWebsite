@@ -1,91 +1,460 @@
 {
-  "id": "L9",
-  "title": "Lesson 9: Doubly Irregular Verbs & Extended Future Expressions   دوه-اړخیزه بې-قاعدې کریاوې او پراخه راتلونکی وخت",
-  "category": "Beginning Pashto",
-  "description": "Master the most fundamental spatial displacement concepts in Pashto. You will tackle doubly irregular verbs with suppletive stems, extended future expressions, and essential travel vocabulary.",
-  "duration": "Textbook pp. 103–112 (approx. 10-15 pages of primary instruction plus Workbook exercises) [cite: 44, 47]",
-  "level": "Intermediate-Low → Intermediate-Mid (ILR 2) [cite: 44]",
+  "id": "pashto-l09",
+  "title": "Lesson 9: Doubly Irregular Verbs & Extended Future Expressions",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "Doubly irregular verbs are the highest-frequency Pashto verbs — 'go', 'come', 'give', 'be/become', 'sit', 'get up', 'take' — whose perfective forms do not follow the regular و- [wu-] prefix rule. Three sub-classes: (1) stress-shift only: same written form, different spoken stress marks the imperfective/perfective distinction; (2) root change only: entirely different perfective stem; (3) stress shift + root change: both simultaneously. Extended future constructions with modal auxiliaries and directional particles. Communicative context: Pashtun hospitality culture, travel and transportation, prospective planning. Pashto script primary throughout.",
+  "duration": "10–15 hours",
+  "level": "Intermediate-Low → Intermediate-Mid (ILR 2)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: Doubly Irregular Verbs (Suppletion)",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 9! As you transition to Intermediate-Mid, you must confront 'doubly irregular' verbs[cite: 44, 46].",
-        "Unlike regular verbs that add a prefix to form the perfective, these high-frequency verbs use completely unrelated roots (suppletive stems) for their imperfective and perfective forms[cite: 46].",
-        "Because these verbs express fundamental movement, they appear in almost every dialogue and must be overlearned[cite: 46].",
-        "Key verbs to memorize[cite: 46]:",
-        "1. 'To go': [tləl] (تلل - imperfective) / [lāṛ shawəl] or [wṛāwəl] (لاړ شول - perfective)",
-        "2. 'To come': [rātləl] (راتلل - imperfective) / [rāwṛəl] or [rāghəl] (راغلل - perfective)",
-        "3. 'To bring': [wistəl] (ویستل - imperfective) / [biyāwəl] (بیول - perfective)",
-        "4. 'To take (away)': [yosal] (یوړل - imperfective) / [wərowəl] (وړل - perfective)"
+        "By the end of this lesson you will be able to: recognise and produce the three classes of doubly irregular verbs — stress-shift only, root-change only, and both combined.",
+        "You will conjugate the core irregular verbs کيدل [kedəl] 'to be/become', تلل [tləl] 'to go', راتلل [rātləl] 'to come', کول [kawəl] 'to make/do', وارکول [wārkawəl] 'to give', کيناستل [kenāstəl] 'to sit down', پاڅيدل [pātsedəl] 'to get up', and بيول [byoyəl] 'to take/transport' in both imperfective and perfective forms.",
+        "You will form future expressions and negative future expressions for all doubly irregular verbs, applying the correct negation placement for each sub-class.",
+        "You will describe Pashtun hospitality customs — distinguishing treatment of invited vs. uninvited guests — using these high-frequency verbs in connected discourse.",
+        "You will use directionality prefixes: را- [rā-] (toward speaker) vs. ور- [war-] (away from speaker) as lexically and semantically distinct elements."
       ]
-    },
-    {
-      "type": "callout",
-      "text": "Phonetics & Meaning Pro-Tip: Pay close attention to directionality prefixes! The prefix [rā-] (را) always indicates movement *toward* the speaker, while [wr-] (ور) indicates movement *away* from the speaker. These are phonologically and semantically distinct—do not mix them up! [cite: 47]"
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 2: Travel & Transportation Vocabulary",
+      "heading": "Section 1 — Dialogue: د کور کې (At Home — A Guest Arrives)",
       "lines": [
-        "Let's ground these mobility verbs in travel vocabulary[cite: 46].",
-        "Vehicles: [māshīn] (ماشین) 'car/vehicle', [baṭ] (بس/بټ) 'bus', [hawāyi jahāz] (هوایی جهاز) 'airplane', [rēl] (ریل) 'train'[cite: 46].",
-        "Navigation: [xwa] (خوا) 'side/direction', [lar] (لار) 'path/way', [rāskand] (راکوز) 'come down'[cite: 46]."
+        "Paṭang has travelled from his home province to visit his friend Amān in Kabul. Amān receives him with the full Pashtun hospitality protocol. The dialogue is saturated with doubly irregular verbs — every line is a teaching moment.",
+        "پټانګ: السلام عليکم! [paṭāng: as-salāmu alaykum!]",
+        "امان: وعليکم السلام! پهـ خير راغلئ! [amān: wa-alaykum as-salām! pa xayr rāghle!] — Amān: And upon you peace! You came in health/safety! ← راغلئ [rāghle] = doubly irregular past perfective of راتلل 'come'",
+        "پټانګ: پهـ خير وسئ! [paṭāng: pa xayr wosāy!] — Paṭang: Live in health! ← وسئ [wosāy] = perfective imperative plural of اوسيدل",
+        "امان: راشه! کينه! [amān: rāsha! kenā!] — Amān: Come in! Sit down! ← راشه = perfective of راتلل; کينه = perfective command of کيناستل",
+        "پټانګ: مننه. [paṭāng: manana.] — Paṭang: Thank you.",
+        "امان: پهـ کور کې خيريات دی؟ [amān: pa kor ke xayryāt da?] — Amān: Is everything all right at home?",
+        "پټانګ: هو. ټول ښه دي. ته ددی يې؟ [paṭāng: haw. ṭol xa di. tā da da ye?] — Paṭang: Yes. All are well. How are you?",
+        "امان: ښه يم. کوک درکوم. [amān: xa yam. kok darkawam.] — Amān: I'm fine. I'll give you a Coke. ← درکوم [darkawam] = 'I give to you' — doubly irregular دارکول",
+        "پټانګ: مننه. سفر ګران شوی دی. [paṭāng: manana. safar garān shaway da.] — Paṭang: Thank you. The journey has become difficult. ← ګران شوی دی = 'has become heavy/difficult' — doubly irregular کيدل perfective",
+        "امان: هو، د کابل لار اوږده ده. [amān: haw, da kābul lār ugda da.] — Amān: Yes, the Kabul road is long.",
+        "پټانګ: اسد هم راځي؟ [paṭāng: asad ham rādzi?] — Paṭang: Is Asad coming too? ← راځي [rādzi] = imperfective 3sg of راتلل",
+        "امان: هو. ماښام به راشي. [amān: haw. māxam ba rāshi.] — Amān: Yes. He will come in the evening. ← به راشي = future perfective of راتلل",
+        "پټانګ: ښه. شپه به مونږ سره وي؟ [paṭāng: xa. shpa ba mung sara wi?] — Paṭang: Good. Will he be with us for the night? ← به وي = future perfective of کيدل/وي",
+        "امان: هو. شپه به يې درکوم. [amān: haw. shpa ba ye darkawam.] — Amān: Yes. I will give him the night (host him overnight). ← درکوم with weak pronoun يې [ye]",
+        "DIALOGUE GRAMMAR NOTES:",
+        "① پهـ خير راغلئ [pa xayr rāghle] — 'You came in health' — the traditional ARRIVAL GREETING used by the host. راغلئ [rāghle] is the past perfective 2pl of راتلل 'to come' — a doubly irregular verb covered in this lesson.",
+        "② درکوم [darkawam] — 'I give to you' — the verb دارکول [dārkawəl] uses the directional prefix دار- [dār-] meaning 'to you'. Compare: وارکوم [wārkawam] 'I give to him/her'. These directional prefixes encode the recipient's position relative to the speaker.",
+        "③ ګران شوی دی [garān shaway da] — 'has become difficult' — the perfective of کيدل 'to become' with a resultative sense. شوی [shaway] is the past participial form previewing Lesson 12."
       ]
     },
     {
-      "type": "paragraph",
-      "heading": "Sentence Structures: Imperfective vs. Perfective",
+      "type": "callout",
+      "heading": "🏠 Cultural Spotlight: د مهمانيه — The Pashtun Hospitality System",
       "lines": [
-        "Let's see how these suppletive roots alternate in strict SOV sentences[cite: 46].",
-        "Habitual (Imperfective): احمد کابل ته ځي. [Ahmad kābul ta tli.] (Ahmad goes to Kabul.) [cite: 46]",
-        "Prospective Future (Perfective): سبا احمد کابل ته لاړ شي. [sābā ahmad kābul ta lāṛ shi.] (Tomorrow Ahmad will go to Kabul.) [cite: 46]",
-        "Habitual 'Come': دا نن راځي. [Da nna rātli.] (He comes today.) [cite: 46]",
-        "Completed 'Come': دا راغی. [Da rāghəy.] (He came / He will come.) [cite: 46]"
+        "Pashtun hospitality (مهمان‌نوازي [mehmān-nawāzi]) is one of the most elaborate and socially binding hospitality cultures in the world. The dialogue you just read reflects this precisely.",
+        "INVITED vs. UNINVITED GUESTS — a critical distinction in Pashtun culture:",
+        "بلل شوی مهمان [balal shaway mehmān] — 'invited guest': receives lavish hospitality, is honoured with the best food, given the best sleeping space, and treated as a blessing to the household.",
+        "نه‌بلل شوی مهمان [na balal shaway mehmān] — 'uninvited guest': ALSO receives hospitality — Pashtunwali requires it — but the treatment is subtly different. The uninvited guest is a social obligation, not a joy. The Diversion proverbs below capture this distinction perfectly.",
+        "THE HOST'S OBLIGATIONS: کوربه [korba] — 'host' — must provide at minimum: a place to sit, tea, a meal, and if the guest stays overnight, شپه وارکول [shpa wārkawəl] 'giving the night' — providing sleeping accommodation. Refusing these is an honour violation (بيحيايي [behayāyi]).",
+        "TRAVELLER STATUS: مسافر [mosāfer] — 'traveller' — has a special protected status in Pashtun society. Even an unknown traveller who asks for shelter at a Pashtun home must be received. The concept of نانوتی [nānawatay] (right of refuge) extends this to enemies seeking shelter — even an enemy asking for protection must be sheltered for three days.",
+        "GRAMMAR CONNECTION: شپه وارکول [shpa wārkawəl] 'to give the night / to host overnight' is built on the doubly irregular verb وارکول [wārkawəl] 'to give' — the second major verb this lesson teaches. Hospitality culture and irregular verb morphology are inseparable in Pashto."
       ]
-    },
-    {
-      "type": "quiz",
-      "question": "Which of the following demonstrates the correct perfective (prospective) form of the verb 'to go' when saying 'Ahmad will go to Kabul'?",
-      "options": [
-        "Ahmad kābul ta wə-tli. (احمد کابل ته وځي)",
-        "Ahmad kābul ta lāṛ shi. (احمد کابل ته لاړ شي)",
-        "Ahmad kābul ta rātli. (احمد کابل ته راځي)",
-        "Ahmad kābul ta rāghəy. (احمد کابل ته راغی)"
-      ],
-      "correctIndex": 1,
-      "explanation": "The verb 'to go' is doubly irregular (suppletive). Its perfective root changes completely to 'lāṛ sh-' rather than simply taking a 'wə-' prefix[cite: 46, 47]."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 3: Cultural Context of Travel",
+      "heading": "Section 2 — Doubly Irregular Verbs: Overview",
       "lines": [
-        "Travel in Afghanistan is rich with historical and social significance[cite: 46].",
-        "When traveling, you will frequently encounter checkpoints, making this mobility vocabulary highly authentic for real-world navigation[cite: 46].",
-        "Historically, movement routes like the Khyber Pass have been central to Afghan trade and history, and you will still see the seasonal nomadic movement patterns of the Kuchi people today[cite: 46]."
+        "WHAT MAKES A VERB 'DOUBLY IRREGULAR'? These verbs do not form their perfective by adding the regular و- [wu-] prefix. Instead, they use one or more of three irregular strategies — and they are called 'doubly' irregular because many use TWO strategies simultaneously.",
+        "WHY ARE THEY HIGH-FREQUENCY? The most common, everyday verbs in any language tend to be the most irregular. 'Go', 'come', 'give', 'be' — these fundamental verbs were used so constantly that they resisted regularisation. Learning them is non-negotiable.",
+        "THE THREE SUB-CLASSES:",
+        "CLASS A — STRESS SHIFT ONLY: The imperfective and perfective have the SAME written form. The ONLY difference is where stress falls. In the imperfective, stress falls on the FINAL syllable. In the perfective, stress shifts to the FIRST syllable. Example: کيناستل [kenāstəl] 'to sit down'",
+        "Imperfective: کينم [ke-NĀM] 'I sit down' (stress on second syllable نام [nām])",
+        "Perfective (command): کينه [KĒ-na] 'Sit down!' (stress on first syllable کين [kēn])",
+        "Written identically — only spoken stress distinguishes them. This is a learner trap: کيناي [kenāy] = 'you all sit down' (impf.) vs. کيناي [KĒnay] = 'Sit down! (pl.)' (perf.)",
+        "CLASS B — ROOT CHANGE ONLY: The perfective uses a completely different root — not the regular و- prefix. Example: کيدل/وي [kedəl/wi] 'to be/become'",
+        "Imperfective: وي [wi] / کيږي [kegi] ← one root",
+        "Perfective: ش- [sh-] / س- [s-] ← completely different root (suppletive)",
+        "CLASS C — STRESS SHIFT + ROOT CHANGE: Both strategies combined. Example: کول [kawəl] 'to make/do' and all directional give/come/go verbs.",
+        "Imperfective: کوم [KA-wam] ← imperfective root کو- [kaw-]",
+        "Perfective: وک- [WUK-] ← different root + stress on first syllable"
       ]
     },
     {
       "type": "callout",
-      "text": "Sociolinguistic Taboo: When structuring dialogues or roleplays, be aware of strict gender norms regarding travel. It is generally culturally inappropriate for women to travel long distances alone in traditional settings. Always frame travel dialogues with this social reality in mind to maintain cultural authenticity[cite: 46]."
+      "heading": "🎯 Directionality Prefixes: را- [rā-] vs. ور- [war-]",
+      "lines": [
+        "Before studying the individual verbs, understand the directionality system that runs through many of Pashto's most important irregular verbs.",
+        "را- [rā-] = TOWARD THE SPEAKER: movement coming to where the speaker is, or actions directed at the speaker.",
+        "ور- [war-] = AWAY FROM THE SPEAKER: movement going away from the speaker, or actions directed at a third party.",
+        "دار- [dār-] = TOWARD YOU (the addressee): actions directed specifically at the person being spoken to.",
+        "APPLIED TO MOTION VERBS:",
+        "راتلل [rātləl] — 'to come (toward me/here)' ← را- + تلل [tləl] 'go'",
+        "ورتلل [wortləl] — 'to go (over there/toward them)' ← ور- + تلل",
+        "APPLIED TO GIVE VERBS:",
+        "راکول [rākawəl] — 'to give (to me)' ← را- + کول [kawəl]",
+        "وارکول [wārkawəl] — 'to give (to him/her/them)' ← ور- + کول",
+        "دارکول [dārkawəl] — 'to give (to you)' ← دار- + کول",
+        "APPLIED TO BRING/TAKE VERBS:",
+        "راوستل [rāwastəl] — 'to bring (to me/here)': راوله! [rāwla!] — 'Bring (it)!'",
+        "بيول [byoyəl] — 'to take (away from here)': بوزه! [boza!] — 'Take (it away)!'",
+        "This system is highly productive. Once you understand را- vs. ور-, you can predict the meaning of many new compound verbs you encounter."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — Class A: Stress-Shift Verbs (د فشار بدلون کریاوې)",
+      "lines": [
+        "These verbs have IDENTICAL written forms for imperfective and perfective. Only the spoken stress position differs.",
+        "STRESS RULE: Imperfective = stress on FINAL syllable. Perfective = stress on FIRST syllable.",
+        "VERB 1: کيناستل [kenāstəl] — 'to sit down'",
+        "Imperfective stem: کين- [ken-] → کينم [ke-NĀM] (I sit) / کينې [ke-NĒ] (you sit) / کيني [ke-NĪ] (he/she sits) / کينو [ke-NŪ] (we sit) / کينئ [ke-NĀY] (you all sit) / کيني [ke-NĪ] (they sit)",
+        "Perfective stem: کين- [KĒN-] (same spelling, stress shifts) → کينم [KĒN-am]",
+        "Command (positive, sg): کينه [KĒ-na] — 'Sit down!' ← perfective, stress first syllable",
+        "Command (negative, sg): مه کينه [ma ke-NA] — 'Don't sit down!' ← imperfective, stress on کينه [ke-NA]",
+        "VERB 2: پاڅيدل [pātsedəl] — 'to get up / to stand up'",
+        "Imperfective stem: پاڅيږ- [pātség-] → پاڅيږم [pāt-SĒG-am] (I get up) / پاڅيږي [pāt-SĒG-i] (he/she gets up)",
+        "Perfective stem: پاڅيږ- [PĀT-seg-] → command: پاڅيږه [PĀT-se-ga] — 'Get up!'",
+        "Command (negative, sg): مه پاڅيږه [ma pāt-SĒ-ga] — 'Don't get up!'",
+        "VERB 3: راوستل [rāwastəl] — 'to bring (to me / here)'",
+        "Imperfective stem: راو- [rāw-] → راوم [rā-WĀM] (I bring) / راوي [rā-WĪ] (he/she brings)",
+        "Perfective stem: راو- [RĀ-w-] → command: راوله [RĀ-wla] — 'Bring (it)!'",
+        "VERB 4: ورستل [warastəl] — 'to take (away / toward him)'",
+        "Imperfective stem: ورو- [warw-] → ورواوي [war-WĀ-wi] (he/she takes to him)",
+        "Perfective stem: ورو- [WAR-w-] → command: وروله [WAR-wla] — 'Take (it) to him!'",
+        "STRESS DRILL — these four sentences are WRITTEN identically but mean different things:",
+        "دلته کينم. [dal-TA ke-NĀM.] — 'I sit down here.' (imperfective — habitual/ongoing)",
+        "دلته کينم. [DAL-ta KĒN-am.] — 'I'll sit down here.' (perfective — prospective) ← SAME SPELLING!"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — Class B: Root-Change Verbs (د ريښې بدلون کریاوې)",
+      "lines": [
+        "These verbs use a completely different stem in the perfective — a true suppletive alternation. No prefix trick will help; these must be memorised as separate forms.",
+        "VERB 1: کيدل [kedəl] / وي [wi] — 'to be / to become'",
+        "This is arguably the most important doubly irregular verb — the copula and the 'become' verb share the same paradigm.",
+        "Imperfective stem: کيږ- [keg-] (for 'become') / وي [wi] (for copular 'is/are habitually')",
+        "کيږم [kegam] — 'I become' ◆ کيږي [kegi] — 'He/She becomes' ◆ کيږي [kegi] — 'They become'",
+        "Perfective stem: ش-/س- [sh-/s-] (completely different root!)",
+        "شم [sham] — 'I become/will become' ◆ شي [shi] — 'He/She becomes/will become' ◆ شو [sho] — 'We become' ◆ شئ [shāy] — 'You all become' ◆ شي [shi] — 'They become'",
+        "Future: هغه به شي. [hagha ba shi.] — 'He/She will become.' ◆ هغوي به شي. [haghwi ba shi.] — 'They will become.' (3sg and 3pl same form)",
+        "Negative future: هغه به و نه شي. [hagha ba wa na shi.] — 'He/She will not become.'",
+        "VERB 2: تلل [tləl] — 'to go'",
+        "Imperfective stem: ځ- [dz-] → ځم [dzam] 'I go', ځې [dze] 'you go', ځي [dzi] 'he/she goes', ځو [dzo] 'we go', ځئ [dzāy] 'you all go', ځي [dzi] 'they go'",
+        "Perfective stem: لاړ ش- [lāṛ sh-] → 'I will go' = لاړ شم [lāṛ sham] ◆ 'He/She will go' = لاړ شي [lāṛ shi]",
+        "Command (sg): لاړ شه! [lāṛ sha!] — 'Go!' ◆ Command (pl): لاړ شئ! [lāṛ shāy!] — 'Go!'",
+        "Negative command: مه ځه! [ma dza!] — 'Don't go!' ← IMPERFECTIVE root ځ- [dz-], NOT لاړ",
+        "Future: اسد به لاړ شي. [asad ba lāṛ shi.] — 'Asad will go.'",
+        "Negative future: اسد به لاړ نه شي. [asad ba lāṛ na shi.] — 'Asad will not go.' ← نه between لاړ and شي",
+        "VERB 3: راتلل [rātləl] — 'to come (toward speaker)'",
+        "Imperfective stem: راځ- [rādz-] → راځم [rādzam] 'I come', راځي [rādzi] 'he/she comes'",
+        "Perfective stem: راغل- [rāghl-] → 'He/She came' = راغی [rāghay] (past — preview Lesson 12), 'He/She will come' = راشي [rāshi]",
+        "Command (sg): راشه! [rāsha!] — 'Come!' ◆ Command (pl): راشئ! [rāshāy!] — 'Come!'",
+        "Negative command: مه راځه! [ma rādza!] — 'Don't come!' ← imperfective راځ- [rādz-]",
+        "Future: هغه به راشي. [hagha ba rāshi.] — 'He/She will come.'",
+        "CONTRAST PAIR — the directionality distinction:",
+        "راځي [rādzi] — 'He/She is coming (toward me/here)' ← را- prefix marks direction toward speaker",
+        "ورځي [wardzi] — 'He/She is going (over there/toward them)' ← ور- prefix marks direction away from speaker",
+        "راشه! [rāsha!] — 'Come (here to me)!' vs. ورشه! [warsha!] — 'Go (over there)!'"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ The Motion Verb Suppletive Pairs — Memory Framework",
+      "lines": [
+        "The go/come pair in Pashto is the most important suppletive alternation in the language. These forms must be learned as FROZEN PARADIGM PAIRS — do not try to derive the perfective from the imperfective.",
+        "تلل [tləl] 'GO' — The imperfective/perfective split:",
+        "Imperfective stem: ځ- [dz-] ← think of 'DZ' as the present-tense 'go' sound",
+        "Perfective stem: لاړ ش- [lāṛ sh-] ← think of 'LĀṚ SH' as the future/command 'go' sound",
+        "راتلل [rātləl] 'COME' — The imperfective/perfective split:",
+        "Imperfective stem: راځ- [rādz-] ← present tense 'come' = رادز [rādz]",
+        "Perfective stem: راش- [rāsh-] ← future/command 'come' = راش [rāsh]",
+        "MNEMONIC FOR GO/COME COMMANDS: The two most important commands in Pashto navigation:",
+        "لاړ شه! [lāṛ sha!] — 'Go!' ← L-Ā-Ṛ for 'Leave'",
+        "راشه! [rāsha!] — 'Come!' ← R-Ā for 'Return' / 'Arrive'",
+        "DIALECT NOTE 🔁: The imperfective stem ځ- [dz-] for 'go' is Kabuli. In Kandahari, the equivalent is ځ- [dz-] as well for some speakers, but other southern dialect speakers use a different stem. The perfective لاړ شه [lāṛ sha] is pan-dialectal."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 5 — Class C: Stress Shift + Root Change (د فشار بدلون او ريښې بدلون)",
+      "lines": [
+        "These verbs use both strategies simultaneously — the hardest class morphologically, but containing the most important verbs in the language.",
+        "VERB 1: کول [kawəl] — 'to make / to do'",
+        "Imperfective stem: کو- [kaw-] → کوم [kawam] 'I do', کوي [kawi] 'he/she does' ← stress on ending",
+        "Perfective stem: وک-/لک- [wuk-/lak-] → وکوم [wu-KUM] or لکوم [la-KUM] ← DIFFERENT ROOT + stress shifts",
+        "Commands: وکه! [wuka!] (sg) / وکئ! [wukāy!] (pl) — 'Do (it)!'",
+        "Negative command: مه کوه! [ma kawa!] — 'Don't do (it)!'",
+        "Future: هغه به وکي. [hagha ba wuki.] — 'He/She will do (it).'",
+        "Negative future: هغه به و نه کي. [hagha ba wa na ki.] — 'He/She will not do (it).'",
+        "VERB 2: راکول [rākawəl] — 'to give (to me)' [directional: toward speaker]",
+        "Imperfective stem: راکو- [rākaw-] → راکوم [rākawam] 'He/She gives (to me)'",
+        "Perfective stem: راک- [rāk-] → command: راکه! [rāka!] — 'Give (it to me)!'",
+        "Negative command: مه راکوه! [ma rākawa!] — 'Don't give (it to me)!'",
+        "VERB 3: وارکول [wārkawəl] — 'to give (to him/her/them)' [directional: away from speaker]",
+        "Imperfective: ماښام هغه درسونه وارکوي. [māxam hagha darsune wārkawi.] — 'In the evening he gives lessons.'",
+        "Perfective: نن ماښام به درسونه وارکي. [nan māxam ba darsune wārki.] — 'This evening he will give lessons.'",
+        "Commands: وارکه! [wārka!] (sg) / وارکئ! [wārkāy!] (pl) — 'Give (to him)!'",
+        "Negative future: هغه به درسونه و نه وارکي. [hagha ba darsune wa na wārki.] — 'He won't give lessons.'",
+        "VERB 4: دارکول [dārkawəl] — 'to give (to you)' [directional: toward addressee]",
+        "درکوم [darkawam] — 'I give to you' ◆ درکي [dārki] — 'He/She gives to you'",
+        "Perfective / future: به درکم [ba darkam] — 'I will give (to you)'",
+        "Command: درکه! [dārka!] — 'Give (to him/her)!' [addressed to someone to pass to a third party]",
+        "VERB 5: بيول [byoyəl] — 'to take (away from here / transport)'",
+        "Imperfective stem: بيو- [byoy-] → بيوم [byoyam] 'I take', بيوي [byoyi] 'he/she takes'",
+        "Perfective stem: بوز- [boz-] → 'He/She will take' = بوزي [bozi]",
+        "Commands: بوزه! [boza!] (sg) / بوزئ! [bozāy!] (pl) — 'Take (it away)!'",
+        "Negative command: مه بيوه! [ma byoya!] — 'Don't take (it)!'",
+        "Future: پټانګ به يې بوزي. [paṭāng ba ye bozi.] — 'Paṭang will take him/her/it.'"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "Complete Doubly Irregular Verb Summary Table",
+      "lines": [
+        "REFERENCE TABLE — all doubly irregular verbs in this lesson. Format: [English] | [Imperfective stem] | [Perfective stem] | [Command sg] | [Negative command sg]",
+        "sit down | کين- [ken-] | کين- [KĒN-] (stress shift) | کينه! [KĒna!] | مه کينه! [ma keNA!]",
+        "get up | پاڅيږ- [pātség-] | پاڅيږ- [PĀTseg-] (stress shift) | پاڅيږه! [PĀTsega!] | مه پاڅيږه! [ma pātSĒga!]",
+        "bring (to me) | راو- [rāw-] | راو- [RĀw-] (stress shift) | راوله! [RĀwla!] | مه راوله! [ma rĀWla!]",
+        "be/become | کيږ-/وي [keg-/wi] | ش-/س- [sh-/s-] (root change) | ← no command for 'be' | —",
+        "go | ځ- [dz-] | لاړ ش- [lāṛ sh-] (root change) | لاړ شه! [lāṛ sha!] | مه ځه! [ma dza!]",
+        "come (here) | راځ- [rādz-] | راش- [rāsh-] (root change) | راشه! [rāsha!] | مه راځه! [ma rādza!]",
+        "go (there) | ورځ- [wardz-] | ورش- [warsh-] (root change) | ورشه! [warsha!] | مه ورځه! [ma wardza!]",
+        "make/do | کو- [kaw-] | وک- [wuk-] (shift + root) | وکه! [wuka!] | مه کوه! [ma kawa!]",
+        "give (to me) | راکو- [rākaw-] | راک- [rāk-] (shift + root) | راکه! [rāka!] | مه راکوه! [ma rākawa!]",
+        "give (to him) | وارکو- [wārkaw-] | وارک- [wārk-] (shift + root) | وارکه! [wārka!] | مه وارکوه! [ma wārkawa!]",
+        "give (to you) | درکو- [darkaw-] | درک- [dark-] (shift + root) | درکه! [dārka!] | مه درکوه! [ma darkawa!]",
+        "take (away) | بيو- [byoy-] | بوز- [boz-] (root change) | بوزه! [boza!] | مه بيوه! [ma byoya!]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Future Expressions with Doubly Irregular Verbs",
+      "lines": [
+        "The same به [ba] particle rules from Lesson 7 apply to doubly irregular verbs. However, the negation placement differs by subclass.",
+        "CLASS A (Stress-shift) — NEGATIVE FUTURE: نه [na] goes between the prefix syllable and the rest of the verb root.",
+        "دلته به کينم. [delta ba KĒnam.] — 'I will sit down here.' (positive)",
+        "دلته به کينه نه نم. [delta ba ke na NĀM.] — 'I won't sit down here.' ← نه between کين and نم (stress on نه and نم)",
+        "وخته به پاڅيږم. [waxta ba PĀTsegam.] — 'I will get up early.'",
+        "وخته به پا نه څيږم. [waxta ba pa na tsegam.] — 'I won't get up early.' ← نه between پا and څيږم",
+        "CLASS B (Root change) — NEGATIVE FUTURE: نه [na] goes before the (new) perfective root or auxiliary, same as simple verbs.",
+        "اسد به لاړ شي. [asad ba lāṛ shi.] — 'Asad will go.'",
+        "اسد به لاړ نه شي. [asad ba lāṛ na shi.] — 'Asad will not go.' ← نه before شي",
+        "رابيا به راشي. [rābya ba rāshi.] — 'Rābya will come.'",
+        "رابيا به نه راشي. [rābya ba na rāshi.] — 'Rābya will not come.' ← نه before راشي",
+        "هغه به شي. [hagha ba shi.] — 'He/She will become.'",
+        "هغه به نه شي. [hagha ba na shi.] — 'He/She will not become.'",
+        "CLASS C (Shift + root change) — NEGATIVE FUTURE: نه [na] goes between the prefixed root syllable and the rest.",
+        "هغه به اتن وکي. [hagha ba atan wuki.] — 'They will do the atan / dance the atan.'",
+        "هغه به اتن و نه کي. [hagha ba atan wa na ki.] — 'They will not dance the atan.' ← نه between و and کي",
+        "پټانګ ته به کوک وارکي. [paṭāng ta ba kok wārki.] — 'He will give Paṭang a Coke.'",
+        "پټانګ ته به کوک و نه وارکي. [paṭāng ta ba kok war na ki.] — 'He will not give Paṭang a Coke.' ← نه between وار and کي"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "💡 Negative Future Placement — The Three-Way Rule",
+      "lines": [
+        "Negative placement in doubly irregular futures follows a consistent principle: نه [na] always goes BETWEEN the two morphological parts of the perfective form, splitting them.",
+        "For CLASS A (stress-shift): The perfective is one word with stress on the first syllable. نه splits the first syllable (prefix) from the rest: کينه → کين + نه + نم [ke + na + nām]",
+        "For CLASS B (root change): The perfective is sometimes two words (لاړ شي [lāṛ shi]). نه goes between them: لاړ + نه + شي [lāṛ + na + shi]",
+        "For CLASS C (shift + root): The perfective prefix و- [wu-/wa-] fuses with the new root. نه splits the prefix from the new root: وکي → و + نه + کي [wu + na + ki] / وارکي → وار + نه + کي [wār + na + ki]",
+        "SUMMARY RULE: No matter the class, نه ALWAYS splits the grammatical perfective form at its natural morphological seam.",
+        "Compare across all three lesson types:",
+        "Simple verb (L7): به و نه خوري [ba wa na xori] — splits و and خوري",
+        "Derivative verb (L8): به پخه نه کي [ba paxa na ki] — splits base and auxiliary",
+        "Doubly irregular (L9): به و نه کي [ba wa na ki] — splits prefix و and new root کي",
+        "The underlying logic is always the same: NEGATE by splitting the verbal complex at its seam."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "HOSPITALITY & SOCIAL NOUNS:",
+        "مهمانيه [mehmaniya] — hospitality / act of hosting (F1 class) [mehmaniya]",
+        "مفهوم [mafhum] — concept / idea (M2 class) [mafhum]",
+        "کوربه [korba] — host (M, irregular oblique: کوربه [korba]) [korba]",
+        "ورتګ [wartag] — arrival (M2 class) [wartag]",
+        "دښمن [daxman] — enemy (M, irregular) [daxman]",
+        "مسافر [mosāfer] — traveller (M1 class) [mosāfer]",
+        "جنګ [jang] — fighting / war (M2 class) [jang]",
+        "خبره [xabara] — word / news / matter (F1 class) [xabara]",
+        "صحت [sehat] — health (M2 class) [sehat]",
+        "کوک [kok] — Coke / cola (F class, borrowed) [kok]",
+        "وطن [watan] — country / homeland (M, irregular) [watan]",
+        "خط [xat] — letter (written correspondence, M2 class) [xat]",
+        "ADJECTIVES:",
+        "ګران [garān] — heavy / difficult / dear (Class 1) [garān]",
+        "خبر [xabar] — aware / informed (Class 1) ← also noun 'news'",
+        "زروری [zaruray] — necessary (Class 2) [zaruray]",
+        "کم [kam] — rare / few / little (Class 1) [kam]",
+        "NEW VERBS (doubly irregular perfective stems given):",
+        "راکول [rākawəl] — to give (to me); perf. راک- [rāk-]",
+        "وارکول [wārkawəl] — to give (to him/her); perf. وارک- [wārk-]",
+        "دارکول [dārkawəl] — to give (to you); perf. دارک- [dārk-]",
+        "بيول [byoyəl] — to take (away); perf. بوز- [boz-]",
+        "رساول [rasāwəl] — to cause to arrive / transport to; simple verb [rasāwəl]",
+        "DERIVATIVE VERBS (hospitality reading context):",
+        "پيښيدل [pexedəl] — to happen (intr. derivative) [pexedəl]",
+        "چمتو کول [čamto kawəl] — to prepare (derivative: چمتو + کول) [čamto kawəl]",
+        "خبريدل [xabaredəl] — to hear / to become aware (derivative) [xabaredəl]",
+        "CONJUNCTIONS & IDIOMS:",
+        "که [ka] — if [ka] ◆ که [ke] — or (in choices) [ke] ◆ لکه [laka] — like / as [laka]",
+        "يا...يا [yā...yā] — either...or ◆ بل خبر دا چې [bal xabar da če] — 'another thing is that...' (discourse connector)",
+        "لږ تر لږه [lag tar laga] — at least [lag tar laga]",
+        "خپله يې [xpala ye] — they themselves (reflexive emphasis)",
+        "شپه وارکول [shpa wārkawəl] — to host overnight (lit. 'to give the night')",
+        "عزت کول [izat kawəl] — to show respect / to honour (derivative)"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 8 — Reading: د مهمانيه مفهوم (The Concept of Hospitality)",
+      "lines": [
+        "This reading is in Pashto script only. Topic: the Pashtun concept of مهمانيه [mehmaniya] — hospitality — and the distinction between invited and uninvited guests. Identify every doubly irregular verb form.",
+        "پهـ پښتني ټولنه کې مهمانيه يو مهم مفهوم دی. کوربه بايد مهمان ته درناوی وکي.",
+        "که مهمان بلل شوی وي، کوربه ورته ورشي او ورته ووايي: راشه! کينه! ډوډۍ وخوره!",
+        "که مهمان نه‌بلل شوی وي، هغه هم ورشي، خو سلوک يو لږ بيل وي.",
+        "لږ تر لږه کوربه ورته چای راکي او ويي چې: پهـ خير راغلئ!",
+        "مسافر يو بل ډول مهمان دی. که چا کور ته راشي — دوست يا دښمن — کوربه يې داخل کوي.",
+        "دا د پښتنو ريښتينی عزت دی. هغوي خپله يې مهمانيه ادا کوي.",
+        "READING GLOSSARY:",
+        "پښتني ټولنه [paxtani ṭolana] — Pashtun society (F1) ◆ درناوی کول [darnāway kawəl] — to show respect / venerate (derivative) ◆ بلل شوی [balal shaway] — invited (past participial passive — preview of future lessons) ◆ ورشي [warshi] — goes to him/her (perfective 3sg of ورتلل) ◆ ووايي [wuwāyi] — says/tells (perfective of ويل) ◆ سلوک [sōluk] — treatment / conduct (M2) ◆ بيل [bel] — different / separate (Class 1) ◆ داخل کول [dāxil kawəl] — to take inside / to receive (derivative: داخل + کول) ◆ ريښتينی [rixtinay] — true / genuine (Class 2) ◆ ادا کول [adā kawəl] — to perform / to fulfil (derivative: ادا + کول)",
+        "VERB ANALYSIS — classify each highlighted verb form:",
+        "① وکي [wuki] — perfective 3sg of کول (Class C doubly irregular)",
+        "② ورشي [warshi] — perfective 3sg of ورتلل (Class B doubly irregular, directional)",
+        "③ ووايي [wuwāyi] — perfective 3sg of ويل 'to say' (simple verb perfective)",
+        "④ راغلئ [rāghle] — past perfective 2pl of راتلل (Class B doubly irregular — past tense preview!)",
+        "⑤ راکي [rāki] — perfective 3sg of راکول (Class C doubly irregular, give-to-me)",
+        "COMPREHENSION QUESTIONS (answer in Pashto script):",
+        "① پهـ پښتني ټولنه کې مهمانيه ددي مفهوم دی؟ — What is the concept of hospitality in Pashtun society?",
+        "② که مهمان نه‌بلل شوی وي، کوربه هغه ته ددي راکي؟ — What does the host give to an uninvited guest, at minimum?",
+        "③ مسافر ته د پښتنو وظيفه ددي ده؟ — What is the Pashtun duty toward a traveller?"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🌍 Cultural Deep-Dive: The Three Hospitality Proverbs",
+      "lines": [
+        "The Diversion for Unit 9 contains three proverbs about hospitality — among the most culturally revealing texts in the Beginning Pashto curriculum. Each one illuminates a different facet of Pashtun social norms.",
+        "① بيـ وخته مهمه د اسمان چک دی. [be waxta melme da asmān čak da.] — 'An uninvited guest is a thunderbolt from the sky.'",
+        "Commentary: This is harsh but honest — the uninvited guest causes disruption, arrives unexpectedly like a bolt of lightning. And yet — just as you cannot refuse a thunderbolt, you cannot refuse the guest. The proverb acknowledges the burden while implicitly affirming the obligation.",
+        "② سل بلالي ځايږي، يو نه‌بلالي نه ځايږي. [sel balāli dzāyegi, yaw na-balālay na dzāyegi.] — 'There is room for a hundred invited guests; there is no room for one uninvited guest.'",
+        "Commentary: Not about physical space — about psychological and social space. The invited guest fits into the pre-planned hospitality; the uninvited one disrupts it. A hundred invited guests each have a role; one uninvited guest has none, and thus paradoxically takes up more space.",
+        "③ يو چا پهـ کلي کې نه پريښودا، دا وايي چې اسه مې د خان کاره وتاړائ. [yaw čā pa keli ke na prexoda, da wayeli āse me da xān kāra wutāṛāy.] — 'No one in the village will have him, but he wants his horse kept in the khān's stable!'",
+        "Commentary: About social pretension — a person so unwelcome no one will receive him still expects the honours of a great guest. This proverb uses بيول [byoyəl]'s cousin construction and the doubly irregular ووايي [wuwāyi] 'says'.",
+        "GRAMMAR IN THE PROVERBS: ځايږي [dzāyegi] = 3sg/pl present imperfective of ځايوتل [dzāyotəl] 'to fit/have room' (derivative) ◆ پريښودا [prexoda] = past imperfective of پريښودل [prexodəl] 'to leave/put down' ◆ وتاړائ [wutāṛāy] = perfective command pl. of تاړل [tāṛəl] 'to tie/keep' — these are preview forms of upcoming lessons!"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 9 before attempting the quiz:",
+        "✓ Doubly irregular verbs do NOT use the regular و- [wu-] prefix for their perfectives.",
+        "✓ Class A (stress-shift only): same written form, different spoken stress. Impf = stress on FINAL syllable; Perf = stress on FIRST syllable. Example: کينم [ke-NĀM] (impf.) vs. [KĒN-am] (perf.)",
+        "✓ Class B (root change only): completely different perfective stem. GO: ځ- → لاړ ش-; COME: راځ- → راش-; BE/BECOME: کيږ-/وي → ش-/س-",
+        "✓ Class C (both): shift + root change. DO/MAKE: کو- → وک-; GIVE-TO-HIM: وارکو- → وارک-",
+        "✓ Directionality: را- [rā-] = toward speaker; ور- [war-] = away from speaker; دار- [dār-] = toward you",
+        "✓ Future negation by class: Class A = نه splits first syllable from rest; Class B = نه before perfective root; Class C = نه between و prefix and new root",
+        "✓ GO commands: لاړ شه! [lāṛ sha!] (sg) / لاړ شئ! [lāṛ shāy!] (pl) ← perfective",
+        "✓ GO negative command: مه ځه! [ma dza!] (sg) ← imperfective ځ- [dz-]",
+        "✓ COME commands: راشه! [rāsha!] (sg) / راشئ! [rāshāy!] (pl) ← perfective",
+        "✓ COME negative command: مه راځه! [ma rādza!] (sg) ← imperfective راځ- [rādz-]",
+        "✓ بيول [byoyəl] 'take (away)': impf. بيو- [byoy-]; perf. بوز- [boz-]; command بوزه! [boza!]"
+      ]
     },
     {
       "type": "quiz",
-      "question": "When designing a culturally authentic travel roleplay in a rural Afghan setting, what is a key sociolinguistic factor to consider?",
+      "question": "What makes doubly irregular verbs 'doubly' irregular, and what are the three strategies they use?",
       "options": [
-        "Women frequently travel long distances alone via train.",
-        "Travelers always use English at rural checkpoints.",
-        "It is considered inappropriate for women to travel long distances unaccompanied.",
-        "Nomadic Kuchi people travel exclusively by airplane."
+        "They are irregular in BOTH masculine and feminine forms — they agree differently from regular adjectives.",
+        "They use TWO separate auxiliary verbs instead of one, combining کول and کيدل.",
+        "Their perfective forms do not use the regular و- [wu-] prefix — instead using stress shift only, root change only, or both simultaneously.",
+        "They require TWO negation particles — both نه [na] and مه [ma] — in all negative forms."
       ],
       "correctIndex": 2,
-      "explanation": "In traditional and rural Afghan contexts, it is a sociolinguistic taboo and culturally inappropriate for women to travel long distances alone[cite: 46]."
+      "explanation": "Doubly irregular verbs are called 'doubly irregular' because many of them combine TWO irregularity strategies: stress shift AND root change. The three strategies are: (1) STRESS SHIFT ONLY — same written form, but spoken stress moves from final syllable (imperfective) to first syllable (perfective), e.g., کيناستل [kenāstəl] 'sit down'; (2) ROOT CHANGE ONLY — the perfective uses a completely different stem, e.g., ځ- [dz-] → لاړ ش- [lāṛ sh-] for 'go'; (3) BOTH — stress shift plus a new root, e.g., کو- [kaw-] → وک- [wuk-] for 'make/do'. These verbs tend to be the highest-frequency words in the language."
+    },
+    {
+      "type": "quiz",
+      "question": "In the stress-shift verb کيناستل [kenāstəl] 'to sit down', how do you distinguish the imperfective from the perfective command كيناي when reading Pashto script?",
+      "options": [
+        "You cannot — the imperfective and perfective are completely identical and only context reveals which is meant.",
+        "The imperfective adds a ي [y] suffix while the perfective does not: کيني (impf.) vs. کينه (perf. command).",
+        "Both forms are written identically as کيناي — spoken stress on the FINAL syllable marks imperfective (ke-NĀY 'you all sit'), while stress on the FIRST syllable marks perfective command (KĒN-ay 'Sit down!-pl.').",
+        "The perfective adds the prefix و- [wu-] in writing: وکينه vs. کينه."
+      ],
+      "correctIndex": 2,
+      "explanation": "For stress-shift verbs like کيناستل, the WRITTEN form is identical for imperfective and perfective. کيناي [ke-NĀY] (stress on final syllable نای) means 'you all sit down' (2pl present imperfective). The SAME written form کيناي [KĒN-ay] (stress on first syllable کين) means 'Sit down!' (positive plural command, perfective). Only spoken stress distinguishes them. This is why audio learning is essential for these verbs — the distinction is purely phonological, invisible in text. Native readers use syntactic context to disambiguate when reading aloud."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the positive singular command for 'Go!' and the negative singular command for 'Don't go!', and why do they use different stems?",
+      "options": [
+        "Positive: ځه! [dza!] ◆ Negative: مه لاړ شه! [ma lāṛ sha!] — both use the same stem family.",
+        "Positive: لاړ شه! [lāṛ sha!] ◆ Negative: مه ځه! [ma dza!] — positive uses the perfective stem لاړ ش-; negative uses the imperfective stem ځ-.",
+        "Positive: وځه! [wudza!] — using the regular perfective prefix و-. Negative: مه ځه! [ma dza!].",
+        "Positive: تله! [tla!] — using the infinitive stem. Negative: مه تله! [ma tla!]."
+      ],
+      "correctIndex": 1,
+      "explanation": "Positive command: لاړ شه! [lāṛ sha!] — uses the PERFECTIVE stem لاړ ش- [lāṛ sh-], which is the perfective form of تلل [tləl] 'to go' (a root-change doubly irregular verb). The imperfective root is ځ- [dz-]. Negative command: مه ځه! [ma dza!] — uses مه [ma] + the IMPERFECTIVE root ځ- [dz-] + singular ending -ه [-a]. This follows the same rule as all Pashto commands: positive commands use the PERFECTIVE; negative commands use the IMPERFECTIVE. Because تلل has a completely different perfective root, the positive and negative commands look nothing like each other: لاړ شه! vs. مه ځه!"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the semantic difference between راکول [rākawəl], وارکول [wārkawəl], and دارکول [dārkawəl]?",
+      "options": [
+        "They all mean 'to give' but differ in formality level: راکول is informal, وارکول is neutral, دارکول is formal.",
+        "They differ in the gender of the recipient: راکول is for female recipients, وارکول for male, دارکول for plural.",
+        "They differ in the DIRECTION of giving relative to the speaker: راکول = give to ME (toward speaker); وارکول = give to HIM/HER (away from speaker); دارکول = give to YOU (toward addressee).",
+        "They differ in the type of object given: راکول for liquids, وارکول for solids, دارکول for abstract things."
+      ],
+      "correctIndex": 2,
+      "explanation": "All three verbs mean 'to give' but encode the DIRECTION of the gift relative to the speaker: راکول [rākawəl] = 'give to ME' — the prefix را- [rā-] signals movement toward the speaker. وارکول [wārkawəl] = 'give to HIM/HER/THEM' — the prefix ور- [war-] signals movement away from the speaker toward a third party. دارکول [dārkawəl] = 'give to YOU' — the prefix دار- [dār-] signals movement toward the addressee. This directional encoding is a systematic feature of Pashto: the same base کول [kawəl] 'do/make' receives different directional prefixes to create different 'give' verbs. In the dialogue: کوک درکوم [kok darkawam] = 'I give you a Coke' (درکوم uses دار- = to you)."
+    },
+    {
+      "type": "quiz",
+      "question": "In the negative future هغه به اتن و نه کي [hagha ba atan wa na ki] — 'They will not dance the atan' — where is نه placed, and which class of doubly irregular verb explains this placement?",
+      "options": [
+        "نه comes before the entire verb: هغه به اتن نه وکي — standard pre-verbal negation.",
+        "نه comes after به [ba]: هغه به نه اتن وکي — be and na always appear together.",
+        "نه comes between the prefix و [wa] and the new perfective root ک [k]: هغه به اتن و + نه + کي — Class C (stress shift + root change) verb کول [kawəl].",
+        "نه comes at the very end of the sentence: هغه به اتن وکي نه — sentence-final negation."
+      ],
+      "correctIndex": 2,
+      "explanation": "کول [kawəl] 'to make/do' is a Class C doubly irregular verb (stress shift + root change). Its perfective form splits into the prefix و- [wa-] + the new root ک- [k-] + personal ending -ي [-i]: وکي [wuki]. For Class C verbs, نه [na] is inserted BETWEEN the prefix element و [wa] and the root: و + نه + کي = و نه کي [wa na ki]. Full sentence: هغه به اتن و نه کي [hagha ba atan wa na ki] — 'They will not dance the atan.' This parallels simple verb negation (Lesson 7: به و نه خوري) where نه also split و from the root — the same principle applies."
+    },
+    {
+      "type": "quiz",
+      "question": "The proverb سل بلالي ځايږي، يو نه‌بلالي نه ځايږي — what does it reveal about Pashtun hospitality culture, and what does ځايږي [dzāyegi] mean grammatically?",
+      "options": [
+        "It reveals that Pashtuns prefer small gatherings; ځايږي [dzāyegi] is the simple verb 'to go' in 3pl form.",
+        "It reveals that invited guests always outnumber uninvited ones; ځايږي is the past tense of ځيدل.",
+        "It reveals the psychological distinction between invited and uninvited guests — invited guests 'fit' into preplanned hospitality; uninvited ones disrupt it. ځايږي [dzāyegi] means 'fits / there is room for' — 3sg/pl present imperfective of a derivative intransitive verb ځايوتل.",
+        "It reveals that Pashtuns only allow family members as houseguests; ځايږي means 'they sit' — from کيناستل."
+      ],
+      "correctIndex": 2,
+      "explanation": "The proverb 'There is room for a hundred invited guests; there is no room for one uninvited guest' is not about physical space — it is about social and psychological space. Invited guests (بلالي [balāli]) fit into the pre-planned framework of hospitality; each has a role and a place. The uninvited guest (نه‌بلالي [na-balālay]) has no assigned role and thus paradoxically takes up more 'space'. ځايږي [dzāyegi] is the 3rd person present imperfective of the derivative intransitive verb ځايوتل meaning 'to fit / to find room / to be accommodated' — built from ځای [dzāy] 'place' + کيدل [kedəl] 'to become'. So: سل بلالي ځايږي = 'a hundred invited guests find room' (lit. 'become-placed') — a perfect miniature of the derivative verb system from Lesson 8."
     }
   ]
 }

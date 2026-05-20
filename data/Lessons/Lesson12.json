@@ -1,89 +1,477 @@
 {
-  "id": "L12",
-  "title": "Lesson 12: The Past Tense: 'Be' & All Verb Classes   تیر زمان: 'وي' او ټولې کریاوې",
-  "category": "Beginning Pashto",
-  "description": "Cross a major grammatical milestone by mastering the Pashto Past Tense. You will learn the past forms of the verb 'to be', all verb classes, and essential medical vocabulary grounded in the cultural tradition of visiting the sick.",
-  "duration": "Textbook pp. 136–146 (approx. 10-15 pages of instruction)",
+  "id": "pashto-l12",
+  "title": "Lesson 12: The Past Tense — 'Be' & All Verb Classes",
+  "category": "Beginning Pashto (Kabul Dialect)",
+  "description": "A major grammatical milestone: the introduction of the Pashto past tense across ALL verb classes simultaneously. Covers (1) the highly irregular past paradigm of the copula 'be'; (2) past imperfective and past perfective of simple verbs, derivative verbs, and doubly irregular verbs; (3) the critical difference in verb agreement between intransitive sentences (verb agrees with SUBJECT) and transitive sentences (verb agrees with OBJECT, subject goes oblique — a preview of the full ergative system). Communicative context: visiting the sick (marīzpursi), body parts, medical expressions. Learners produce the 4-column master paradigm table anchoring the rest of the curriculum.",
+  "duration": "10–15 hours",
   "level": "Intermediate-Mid (ILR 2)",
   "content": [
     {
       "type": "paragraph",
-      "heading": "Module 1: The Past Tense of 'To Be'",
+      "heading": "Communicative Objectives",
       "lines": [
-        "Welcome to Unit 12! This unit introduces a major grammatical milestone: the Pashto Past Tense[cite: 58].",
-        "We begin with the past form of the copula 'to be', which has both an imperfective form ([wəw-]) and a perfective form ([wəw-]), alongside a highly irregular paradigm[cite: 58].",
-        "The past tense introduces an entirely new set of personal endings for the 3rd person[cite: 58]. Unlike the present tense, the past tense 3rd person endings are: masculine singular [a], plural [a]; feminine singular [a], plural [e][cite: 58].",
-        "Sentence Examples: احمد په کور کې وو. [Ahmad kor ke wəw.] (Ahmad was at home.)[cite: 58].",
-        "Negative Past: احمد په کور کې نه وو. [Ahmad kor ke nəwəw.] (Ahmad was not at home.)[cite: 58]."
+        "By the end of this lesson you will be able to: narrate past events using all four Pashto tense-aspect combinations — past imperfective and past perfective — for simple verbs, derivative verbs, and doubly irregular verbs.",
+        "You will produce the complete past paradigm of the copula 'be' — وم [wam], وې [we], وو [wo]/وه [wa], وو [wu], وئ [way], وو [wi]/وې [we] — and use it in past location and state sentences.",
+        "You will apply the critical AGREEMENT SPLIT in past tense: intransitive verbs agree with the SUBJECT; transitive verbs agree with the OBJECT (with the subject moving to oblique case).",
+        "You will name body parts — سر [sar] 'head', غوږ [ghwag] 'ear', سترګه [sterga] 'eye', etc. — and use medical expressions to describe pain, illness, and injury.",
+        "You will describe past medical situations and narrate a visit to a sick person using culturally appropriate Pashtun visiting customs."
       ]
-    },
-    {
-      "type": "callout",
-      "text": "Phonetics Hack: When pronouncing the past tense of the copula [wəw-], note that the initial [wə-] is the past marker itself, NOT the perfective prefix you learned in Unit 7[cite: 59]. Also, a key morphophonological rule to remember: the past suffix [əl] reduces to [əw] for the 3rd person singular masculine[cite: 59]."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 2: Medical & Body Vocabulary",
+      "heading": "Section 1 — Dialogue: د روغتيا پوښتنه (Visiting the Sick)",
       "lines": [
-        "Our communicative context for learning the past tense is narrating past events and visiting a sick person[cite: 57, 58].",
-        "Body Parts: [sər] (سر) 'head', [stərga] (سترګه) 'eye', [ghwag] (غوږ) 'ear', [puza] (پوزه) 'nose', [khwla] (خوله) 'mouth', [lās] (لاس) 'hand', [pxa] (پښه) 'foot/leg', [zṛa] (زړه) 'heart', [geḍa] (ګیډه) 'stomach', [shā] (شا) 'back'[cite: 58].",
-        "Illness Vocabulary: [māriz] (مریض) 'sick', [tāb] (تبه) 'fever', [dard] (درد) 'pain', [rogh] (روغ) 'healthy', [dawāy] (دوایي) 'medicine'[cite: 58].",
-        "Essential Diagnostic Phrase: چېرې درد کوي؟ [čere dard kawe] (Where does it hurt?)[cite: 58]."
+        "Dāwud and Rābya are university friends. Last night Rābya was in a car accident and is now in the hospital. Dāwud comes to visit. The dialogue is saturated with past tense forms — identifying each one is the core exercise for this lesson.",
+        "داود: رابيا! پهـ تا ددي شول؟ [dāwud: rābya! pa tā da tse shwel?] — Dāwud: Rābya! What happened to you?",
+        "رابيا: بيګا ماښام تکر وشو. [rābya: bega māxam takar washo.] — Rābya: Last evening there was an accident. ← وشو [washo] = past perfective 3sg M of کيدل [kedəl] 'become'",
+        "داود: آه! ته چېره وې؟ [dāwud: āh! tā čere we?] — Dāwud: Oh! Where were you? ← وې [we] = past 2sg of 'be'",
+        "رابيا: د پوهنتون لارې روانه وم. ماشين مې ووهل. [rābya: da pohantun lāre rawāna wam. māshin me wohəl.] — Rābya: I was on the way to the university. A car hit me. ← وم [wam] = past 1sg of 'be'; ووهل [wohəl] = past perfective 3sg transitive — agrees with object!",
+        "داود: د روغتيا خبره غوښتم. پهـ کور کې خيريات دی؟ [dāwud: da roghtyā xabara ghwāxtam.] — Dāwud: I wanted to inquire about your health. Is everything all right at home?",
+        "رابيا: هو. پلار او مور مې پرون راغلل. [rābya: haw. plār aw mor me prun rāghləl.] — Rābya: Yes. My father and mother came yesterday. ← راغلل [rāghləl] = past perfective 3pl of راتلل [rātləl] 'come'",
+        "داود: ښه. ته ددي درد لرې؟ [dāwud: xa. tā tse dard lare?] — Dāwud: Good. What pain do you have?",
+        "رابيا: شا مې ډيره درديږي. پښه مې هم زخمي ده. [rābya: shā me dera dardegi. paxa me ham zaxmi da.] — Rābya: My back hurts a lot. My foot/leg is also injured.",
+        "داود: سترګې دې ښې دي؟ [dāwud: sterge de xa di?] — Dāwud: Are your eyes alright?",
+        "رابيا: هو. ډاکټر مې وليدل. هغه وو چې شا مې د عکس نيولو اړتيا ده. [rābya: haw. ḍākṭar me walidəl. hagha wo če shā me da aks niwalo aṛtiyā da.] — Rābya: Yes. The doctor examined me. He said my back needs an x-ray. ← وليدل [walidəl] = past perf. transitive agreeing with object ډاکټر [ḍākṭar]; وو [wo] = past 3sg M of 'be'",
+        "داود: اميدوار يم چې ژر روغه شې. الله دې ودي روغه کړي. [dāwud: omidwār yam če žar rogha she. allāh de wudi rogha kaṛi.] — Dāwud: I hope you recover soon. May God make you healthy.",
+        "رابيا: مننه. ته مرستيال يې. [rābya: manana. tā mrastiyāl ye.] — Rābya: Thank you. You are a helper.",
+        "DIALOGUE GRAMMAR NOTES:",
+        "① وشو [washo] — past perfective 3sg of کيدل [kedəl]: This is the doubly irregular 'be/become' verb in past perfective. The root changes to ش- [sh-] + past suffix -و [-o].",
+        "② ووهل [wohəl] — past perfective transitive: ووهل = 'hit/struck' — the verb agrees with the OBJECT (subject ماشين [māshin] has hit رابيا; but the OBJECT رابيا [rābya] determines agreement). Transitive past agreement means the PATIENT controls the verb ending.",
+        "③ راغلل [rāghləl] — past perfective 3pl of راتلل [rātləl] 'to come': The doubly irregular 'come' verb uses the suppletive past root راغل- [rāghl-] + past suffix -ل [-əl] + 3pl masculine ending -ل [-əl] → راغلل [rāghləl]."
       ]
     },
     {
       "type": "callout",
-      "text": "Cultural Protocol: In Pashtun culture, visiting the sick (known as marīzpursi) is not just a nice gesture; it is an obligatory community duty[cite: 58]. Visitors traditionally bring food and recite Quranic du'a (prayers) for the ill person[cite: 58]. Sociolinguistic Taboo: Strict gender norms apply—women visit women, and men visit men, with exceptions made only for close family[cite: 58]."
-    },
-    {
-      "type": "quiz",
-      "question": "You are invited to participate in 'marīzpursi' (visiting the sick) for a colleague in a traditional Afghan community. What is a critical cultural and sociolinguistic rule you must follow?",
-      "options": [
-        "You must speak only in the past perfective tense.",
-        "You should bring medicine and administer it yourself.",
-        "You must observe traditional gender norms, meaning men visit men and women visit women unless they are close family.",
-        "You should avoid asking where it hurts to respect their privacy."
-      ],
-      "correctIndex": 2,
-      "explanation": "Marīzpursi is a socially mandatory practice that strictly adheres to gender norms; women visit women, and men visit men, except for close family[cite: 58]."
+      "heading": "🏥 Cultural Spotlight: د مريضپرسۍ — Visiting the Sick",
+      "lines": [
+        "مريضپرسی [marīzpursi] — visiting the sick — is not a personal choice in Pashtun culture. It is an OBLIGATORY community duty governed by Pashtunwali. Failing to visit a sick neighbour, relative, or friend is a social failure (بيحيايي [behayāyi]) that damages one's reputation.",
+        "THE VISIT PROTOCOL:",
+        "(1) Arrive with خواراکي [xwārāki] — food offerings: fruits, sweets, or prepared dishes.",
+        "(2) Open with the health inquiry greeting: پهـ خير ياست؟ [pa xayr yāst?] 'Are you well?' or پهـ تا ددي شول؟ [pa tā tse shwel?] 'What happened to you?'",
+        "(3) Recite a Quranic du'a (prayer) for the ill — even if informal: الله دې روغ کړي [allāh de rogh kaṛi] 'May God make you healthy.'",
+        "(4) Inquire about the family: د کور خلک ښه دي؟ [da kor khalk xa di?]",
+        "(5) Do NOT overstay — a visit should be brief (15-30 minutes) unless the patient invites longer conversation.",
+        "GENDER NORMS: In traditional Pashtun settings, women visit women, men visit men — except close family members (spouse, parents, children) who visit regardless. Hospital settings in Kabul tend to be more mixed, but visitors should follow the patient's family's preferences.",
+        "GRAMMAR CONNECTION: The entire مريضپرسی dialogue is in the PAST TENSE — describing what happened, what the doctor said, what tests were done. This makes medical visiting one of the most rich contexts for practicing the past tense system you are about to learn."
+      ]
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "heading": "Module 3: Past Tense Across Verb Classes",
+      "heading": "Section 2 — Body Vocabulary (د بدن غړي)",
       "lines": [
-        "Now we will apply the past tense to regular, derivative, and irregular verbs[cite: 58].",
-        "Regular simple past: ده کتاب ووایه. [Da kitāb wəwayəl.] (He read the book — past perfective)[cite: 58].",
-        "Derivative past: کور تود کړی. [Kor tōd kṛəy.] (The house was warmed)[cite: 58].",
-        "Irregular Past Stems: Many simple verbs have suppletive roots in the past tense that are completely unrelated to their present stems[cite: 58].",
-        "Examples: [tləl] (to go) becomes [lāṛ shəw-]; [rātləl] (to come) becomes [rāghəl-]; [kṛāwəl] becomes [wakər-][cite: 58]."
+        "Learn body parts in Pashto to express where something hurts: چېره درد کوي؟ [čere dard kawi?] 'Where does it hurt?' (lit. 'Where does pain do?')",
+        "HEAD REGION:",
+        "سر [sar] — head (M2 class) [sar]",
+        "سترګه [sterga] — eye (F1 class, plural: سترګې [sterge]) [sterga]",
+        "غوږ [ghwag] — ear (M2 class, plural: غوږونه [ghwagune]) [ghwag]",
+        "پوزه [poza] — nose (F1 class) [poza]",
+        "خوله [xwala] — mouth (F1 class) [xwala]",
+        "غاښ [ghāx] — tooth (M2 class, plural: غاښونه [ghāxune]) [ghāx]",
+        "ژبه [žaba] — tongue (F1 class) [žaba]",
+        "مخ [makh] — face (M2 class) [makh]",
+        "غاړه [ghāṛa] — neck (F1 class) [ghāṛa]",
+        "وختر [waxtar] — hair (M1 class, usually plural: وختران [waxtarān]) [waxtar]",
+        "TRUNK AND LIMBS:",
+        "لاس [lās] — hand / arm (M2 class) [lās]",
+        "پښه [paxa] — foot / leg (F1 class) [paxa]",
+        "شا [shā] — back (F3 class) [shā]",
+        "زړه [zṛa] — heart (M2 class) [zṛa]",
+        "ګيډه [geḍa] — stomach / belly (F1 class) [geḍa]",
+        "سينه [sina] — chest (M2 class) [sina]",
+        "وږه [waga] — shoulder (F1 class) [waga]",
+        "PAIN AND MEDICAL VOCABULARY:",
+        "درد [dard] — pain (M2 class) [dard]",
+        "درديږي [dardegi] — hurts / aches (3sg pres. impf. of دردول [dardawəl] derivative) [dardegi]",
+        "تاب [tāb] — fever (M2 class) [tāb]",
+        "ناروغ [nārogh] — sick / ill (Class 1 adjective) [nārogh]",
+        "روغ [rogh] — healthy (Class 1 adjective) [rogh]",
+        "داوی [dāway] — medicine (M2 class) [dāway]",
+        "زخمي [zaxmi] — injured / wounded (Class 4, invariable) [zaxmi]",
+        "عکس [aks] — x-ray / picture (M2 class) [aks]",
+        "روغتون [roghṭun] — hospital (M2 class, review) [roghṭun]",
+        "EXPRESSING PAIN — key sentence patterns:",
+        "سر مې درديږي. [sar me dardegi.] — 'My head aches.' ← weak possessive مې after سر",
+        "پهـ شا کې درد لرم. [pa shā ke dard laram.] — 'I have pain in my back.'",
+        "چېره درد کوي؟ [čere dard kawi?] — 'Where does it hurt?' ← medical question formula"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 3 — The Past Form of 'Be' (د 'وي' تير زمان)",
+      "lines": [
+        "The past tense of the copula 'be' is highly irregular — it must be memorised as a complete paradigm. It does NOT use the regular past suffix -ل [-əl].",
+        "PAST 'BE' PARADIGM — full forms:",
+        "1sg: وم [wam] — 'I was'",
+        "2sg: وې [we] — 'You were'",
+        "3sg masculine: وو [wo] — 'He was'",
+        "3sg feminine: وه [wa] — 'She was' ← DIFFERENT from masculine: وو vs. وه",
+        "1pl: وو [wu] — 'We were'",
+        "2pl: وئ [way] — 'You all were'",
+        "3pl masculine: وو [wi] — 'They (m) were' ← Same spelling as 1pl but different vowel!",
+        "3pl feminine: وې [we] — 'They (f) were' ← Same spelling as 2sg!",
+        "NEGATIVE PAST 'BE' — add نه [na] directly before the verb form:",
+        "نه وم [na wam] — 'I was not' ◆ نه وو [na wo] — 'He was not' ◆ نه وه [na wa] — 'She was not'",
+        "نه وو [na wu] — 'We were not' ◆ نه وئ [na way] — 'You all were not' ◆ نه وو [na wi] — 'They (m) were not'",
+        "PRONUNCIATION GUIDE — distinguishing the identical spellings:",
+        "3sg M وو [wo] — short /o/ vowel: 'He was' ← stress on the vowel",
+        "1pl وو [wu] — short /u/ vowel: 'We were' ← stress on the vowel",
+        "3pl M وو [wi] — short /i/ vowel: 'They were' ← stress on the vowel",
+        "These three are spelled identically in many writing systems but pronounced differently. Audio practice is ESSENTIAL for these forms.",
+        "USAGE EXAMPLES in past sentences:",
+        "احمد پهـ کور کې وو. [ahmad pa kor ke wo.] — 'Ahmad was at home.' ← 3sg M وو [wo]",
+        "رابيا پهـ روغتون کې وه. [rābya pa roghṭun ke wa.] — 'Rābya was in the hospital.' ← 3sg F وه [wa]",
+        "مونږ پهـ پوهنتون کې وو. [mung pa pohantun ke wu.] — 'We were at the university.' ← 1pl وو [wu]",
+        "هغوي ناست وو. [haghwi nāst wi.] — 'They (m) were sitting.' ← 3pl M وو [wi]",
+        "احمد پهـ کور کې نه وو. [ahmad pa kor ke na wo.] — 'Ahmad was NOT at home.' ← negative"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "⚙️ The Spelling Collision — Three وو Forms",
+      "lines": [
+        "One of the most notorious features of written Pashto is that THREE different past 'be' forms are spelled identically as وو — but pronounced differently:",
+        "وو [wo] = 'he was' (3sg masculine) — pronounced with short /o/",
+        "وو [wu] = 'we were' (1pl) — pronounced with short /u/",
+        "وو [wi] = 'they (m) were' (3pl masculine) — pronounced with short /i/",
+        "Only CONTEXT — the subject of the sentence — tells the reader which form is intended. This is why Pashto learners must develop strong contextual reading skills and cannot rely on spelling alone.",
+        "The feminine forms are distinct: وه [wa] (3sg F 'she was') and وې [we] (2sg 'you were' AND 3pl F 'they (f) were') — creating a second collision between 2sg and 3pl feminine.",
+        "MEMORY STRATEGY: Rather than memorising the spelling ambiguities, memorise the SUBJECT-VERB PAIRS as frozen combinations:",
+        "Ahmad / هغه (M) + وو [wo] ◆ Rābya / هغه (F) + وه [wa] ◆ مونږ + وو [wu] ◆ هغوي (M) + وو [wi] ◆ هغوي (F) + وې [we]"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 4 — Past Tense Personal Endings (د تير زمان شخصي پايونه)",
+      "lines": [
+        "The past tense uses a DIFFERENT set of personal endings from the present tense. Most importantly, the 3rd person endings now mark GENDER — masculine vs. feminine singular and plural.",
+        "PAST TENSE PERSONAL ENDINGS (added to the past stem):",
+        "1sg: -م [-am] — 'I' ← same as present",
+        "2sg: -ې [-e] — 'You' ← same as present",
+        "3sg masculine: -∅ or -و [-a] — 'He' ← the suffix -ل [-əl] DROPS with 3sg masculine; often just the bare stem remains",
+        "3sg feminine: -ه [-a] — 'She' ← feminine marker added",
+        "1pl: -و [-u] — 'We' ← same as present",
+        "2pl: -ئ [-ay] — 'You all' ← same as present",
+        "3pl masculine: -ل or -و [-a] — 'They (m)' ← parallel to 3sg M: suffix often drops",
+        "3pl feminine: -ې [-e] — 'They (f)' ← feminine plural marker",
+        "THE KEY GENDER DISTINCTION IN 3RD PERSON:",
+        "Masculine sg/pl: suffix -ل [-əl] tends to DROP → bare stem appears",
+        "Feminine sg: add -ه [-a] → پاڅيدله [pātsedəla] 'she got up'",
+        "Feminine pl: add -ې [-e] → پاڅيدلې [pātsedəle] 'they (f) got up'",
+        "INTRANSITIVE VERBS: verb agrees with the SUBJECT (same as present tense agreement)",
+        "TRANSITIVE VERBS: verb agrees with the OBJECT — and the SUBJECT goes to OBLIQUE case. This is the split-ergative system previewed here and fully explained in Lesson 13.",
+        "For this lesson: focus on forming correct past endings. Lesson 13 covers the ergative agreement in full."
       ]
     },
     {
       "type": "paragraph",
-      "heading": "The Master Paradigm Table",
+      "heading": "Section 5 — Past Tense of Simple Verbs (د ساده کریاوو تير زمان)",
       "lines": [
-        "In your textbook, you will find a critical 4-column master paradigm table comparing: Present Imperfective | Present Perfective | Past Imperfective | Past Perfective[cite: 58].",
-        "This table covers regular verbs, derivative verbs, and 5 key irregular verbs[cite: 58].",
-        "Note: In accordance with our script policy, this master paradigm table is presented exclusively in full Pashto script[cite: 59]. This is the reference anchor for the rest of your curriculum[cite: 58]."
+        "FORMATION: Past stem + personal endings. The past stem = present imperfective root + past suffix -ل [-əl] (for regular verbs). The perfective prefix و- [wu-] is added for past perfective.",
+        "FOUR-COLUMN MASTER TABLE — Regular Simple Verb: لېژل [legəl] 'to send'",
+        "Present Imperfective | Present Perfective | Past Imperfective | Past Perfective",
+        "لېږم [legam] | ولېږم [wulegam] | لېږدلم [legədəlam] | ولېږدلم [wulegədəlam]",
+        "3sg M: لېږي [legi] | ولېږي [wulegi] | لېږده [legeda] | ولېږد [wuleged] (suffix drops with 3sg M!)",
+        "FOUR-COLUMN MASTER TABLE — Simple Verb with Irregular Past Stem: اخستل [axistəl] 'to take/receive'",
+        "Present Imperfective | Present Perfective | Past Imperfective | Past Perfective",
+        "اخلم [axlam] | واخلم [wāxlam] | اخستم [axistam] | واخستم [wāxistam]",
+        "Past stem changes: اخستل → past stem اخست- [axist-] (NOT اخل- [axl-]!)",
+        "COMMON IRREGULAR PAST STEMS — memorise these pairs (present impf. stem → past stem):",
+        "اخل- [axl-] → اخست- [axist-] 'take/receive' ◆ وين- [win-] → ليد- [lid-] 'see/meet'",
+        "وي- [way-] → وي- [way-] 'say' (same) ◆ خوړ- [xoṛ-] → خوړ- [xoṛ-] 'eat' (same)",
+        "لول- [lwān-] → لوست- [lwast-] 'read' ◆ ليک- [lik-] → ليک- [lik-] 'write' (same)",
+        "کت- [gor-] → کت- [kat-] 'look/see' ◆ غوند- [aghoṇd-] → اغوست- [aghost-] 'wear'",
+        "PAST PERFECTIVE EXAMPLES — intransitive (agrees with subject):",
+        "پرون زه بيرته راغلم. [prun za berta rāghlam.] — 'Yesterday I came back.' ← 1sg M راغلم [rāghlam]",
+        "رابيا بيرته راغله. [rābya berta rāghla.] — 'Rābya came back.' ← 3sg F راغله [rāghla]",
+        "هغوي بيرته راغلل. [haghwi berta rāghləl.] — 'They (m) came back.' ← 3pl M راغلل [rāghləl]"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "🎯 The Most Important Rule: Transitive Past — Subject Goes Oblique",
+      "lines": [
+        "This is the preview of the ERGATIVE ALIGNMENT that makes Pashto famous among linguists — and the most important grammar rule in the past tense.",
+        "In PAST TENSE TRANSITIVE sentences: the VERB AGREES WITH THE OBJECT (not the subject!), and the SUBJECT takes the OBLIQUE CASE.",
+        "PRESENT TENSE (no ergative): زه کتاب لولم. [za kitāb lolam.] — 'I read a book.' Verb لولم [lolam] agrees with subject زه [za] 'I' (1sg) ← standard nominative agreement",
+        "PAST TENSE TRANSITIVE (ergative): ما کتاب ولوست. [mā kitāb wulwost.] — 'I read the book.' Verb ولوست [wulwost] agrees with object کتاب [kitāb] 'book' (M 3sg) ← ergative agreement; subject ما [mā] is oblique case of زه!",
+        "SUBJECT CASE SHIFT: زه [za] (direct case, subject of intransitive/present) → ما [mā] (oblique case, subject of past transitive)",
+        "ته [tā] → ستا [stā] ◆ هغه [hagha] → هغه [hagha] (same form) ◆ مونږ [mung] → مونږ [mung] (same form)",
+        "LESSON 12 APPROACH: Learn the past endings correctly for all verb types. The full ERGATIVE SYSTEM with all its implications is the central focus of Lesson 13. For now, follow the paradigm examples carefully — the agreement pattern will become clearer in the next lesson.",
+        "WEAK PRONOUN OBJECTS DROP in past transitive: ما ليد [mā lid] — 'He saw me' — the object weak pronoun مې [me] 'me' is DROPPED because the verb ending itself encodes the object. This is one of the most learner-friendly features of the past tense system."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 6 — Past Tense of Derivative and Doubly Irregular Verbs",
+      "lines": [
+        "DERIVATIVE VERBS — INTRANSITIVE past (agrees with subject):",
+        "بنديدل [bandedəl] 'to get blocked' (intr.) — past stem changes کيږ- [keg-] → کيد- [ked-] + past suffix:",
+        "Past Imperfective: بنديدم [bandedəlam] (1sg M), بنديده [bandedəla] (3sg F), بنديدل [bandedəl] (3pl M drop -ل)",
+        "Past Perfective: بنده شوم [banda shwam] (1sg), بنده شو [banda shwa] (3sg M), بنده شوه [banda shwa] (3sg F)",
+        "DERIVATIVE VERBS — TRANSITIVE past (agrees with object; adjective base also agrees):",
+        "تود کول [tod kawəl] 'to warm (tr.)' — past perfective agrees with OBJECT in gender:",
+        "Object is MASCULINE: تود کړ [tod kaṛ] — 'warmed (him/it, M)' ← base تود [tod] M form",
+        "Object is FEMININE: تاوده کړه [tāwda kaṛa] — 'warmed (her/it, F)' ← base تاوده [tāwda] F form",
+        "Object is M plural: تود کړل [tod kaṛəl] — 'warmed (them, M pl)'",
+        "Object is F plural: تاوده کړې [tāwda kaṛe] — 'warmed (them, F pl)'",
+        "معاينه کول [māyena kawəl] 'to examine' (tr., vowel-final base — invariable):",
+        "Past perfective: معاينه کړم [māyena kaṛam] (1sg) ◆ معاينه کړ [māyena kaṛ] (3sg M object) ◆ معاينه کړه [māyena kaṛa] (3sg F object)",
+        "DOUBLY IRREGULAR VERBS — past (all must be memorised individually):",
+        "کيناستل [kenāstəl] 'sit down' (STRESS-SHIFT, intr.) — past stem: کينست- [kenast-]:",
+        "Past Imperfective: کينستم [kenastəlam] (1sg), کينستل [kenastəl] (3pl M — suffix drops)",
+        "Past Perfective: کينستم [kanastəlam] (1sg), کينست [kanast] (3sg M)",
+        "پاڅيدل [pātsedəl] 'get up' (STRESS-SHIFT, intr.) — past stem: پاڅيد- [pātsed-]:",
+        "Past Imperfective: پاڅيدم [pātsedəlam] (1sg), پاڅيده [pātsedəla] (3sg F)",
+        "Past Perfective: پاڅيدم [pātsedəlam] (1sg), پاڅيد [pātsed] (3sg M — suffix drops)",
+        "تلل [tləl] 'go' (ROOT-CHANGE, intr.) — past stem: لاړ- [lāṛ-]:",
+        "Past Imperfective: تلم [tləlam] (1sg), تلله [tləla] (3sg F), تلل [tləl] (3pl M)",
+        "Past Perfective: لاړم [lāṛam] (1sg), لاړ [lāṛ] (3sg M — suffix drops), لاړه [lāṛa] (3sg F), لاړل [lāṛəl] (3pl M)",
+        "راتلل [rātləl] 'come' (ROOT-CHANGE + STRESS-SHIFT, intr.) — past stem: راغل- [rāghl-]:",
+        "Past Imperfective: راتلم [rātləlam] (1sg), راتله [rātləla] (3sg F)",
+        "Past Perfective: راغلم [rāghlam] (1sg), راغل [rāghl] (3sg M), راغله [rāghla] (3sg F), راغلل [rāghləl] (3pl M)",
+        "بيول [byoyəl] 'take away' (ROOT-CHANGE, tr.) — past stem: بوت- [bot-]:",
+        "Past Perfective: بوتم [botam] (1sg, agrees with 1sg object), بوت [bot] (agrees with 3sg M object), بوته [bota] (3sg F object), بوتل [botəl] (3pl M object)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "heading": "The Four-Column Master Paradigm Table",
+      "lines": [
+        "This is the ANCHOR TABLE for the entire Pashto tense-aspect system. Memorise it for at least one simple verb, one derivative verb, and one irregular verb.",
+        "SIMPLE VERB: لېژل [legəl] 'to send'",
+        "Pres. Impf.: لېږم [legam] / لېږي [legi] / لېږي [legi]",
+        "Pres. Perf.: ولېږم [wulegam] / ولېږي [wulegi]",
+        "Past Impf.: لېږدلم [legədəlam] / لېږده [legeda] (3sg F) / لېږد [leged] (3sg M, suffix drops)",
+        "Past Perf.: ولېږدلم [wulegədəlam] / ولېږد [wuleged] (3sg M) / ولېږده [wulegeda] (3sg F)",
+        "DERIVATIVE INTRANSITIVE: نږدې کيدل [nizdé kedəl] 'to approach'",
+        "Pres. Impf.: نږدې کيږم [nizdé kegam] / نږدې کيږي [nizdé kegi]",
+        "Pres. Perf.: نږدې شم [nizdé sham] / نږدې شي [nizdé shi]",
+        "Past Impf.: نږدې کيدم [nizdé kedəlam] / نږدې کيده [nizdé kedəla] (3sg F)",
+        "Past Perf.: نږدې شوم [nizdé shwam] / نږدې شو [nizdé shwo] (3sg M) / نږدې شوه [nizdé shwa] (3sg F)",
+        "DERIVATIVE TRANSITIVE: پخول [paxawəl] 'to cook'",
+        "Pres. Impf.: پخوم [paxawam] / پخوي [paxawi]",
+        "Pres. Perf. (M obj): پخ کوم [pax kawam] / پخ کوي [pax kawi]",
+        "Past Impf. (M obj): پخوله [paxawəla] (3sg, object M sg) / Past (F obj): پخوله [paxe kawəla]",
+        "Past Perf. (M obj): پخ کړ [pax kaṛ] (3sg M object) / (F obj): پخه کړه [paxe kaṛa] (3sg F object)",
+        "IRREGULAR INTRANSITIVE: راتلل [rātləl] 'to come'",
+        "Pres. Impf.: راځم [rādzam] / راځي [rādzi]",
+        "Pres. Perf.: راشم [rāsham] / راشي [rāshi]",
+        "Past Impf.: راتلم [rātləlam] / راتله [rātləla] (3sg F) / راتل [rātəl] (3sg M)",
+        "Past Perf.: راغلم [rāghlam] / راغل [rāghl] (3sg M) / راغله [rāghla] (3sg F) / راغلل [rāghləl] (3pl M)"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 7 — New Vocabulary (نوي ټکي)",
+      "lines": [
+        "MEDICAL & HEALTH NOUNS:",
+        "ناروغ [nārogh] — sick person / patient (M1 class as noun) [nārogh]",
+        "وظيفه [wazifa] — duty (F1 class) [wazifa]",
+        "خپلوان [xpalwān] — relatives (M plural, collective) [xpalwān]",
+        "دوست [dost] — friend (M1 class) [dost]",
+        "مشر [masher] — elder (M1 class) [masher]",
+        "تاب [tāb] — fever (M2 class) [tāb]",
+        "نتيجه [natija] — result (F1 class) [natija]",
+        "تکر [takar] — accident (M2 class) [takar]",
+        "عکس [aks] — x-ray / picture (M2 class) [aks]",
+        "اميد [omid] — hope (M2 class) [omid]",
+        "ADJECTIVES:",
+        "زخمي [zaxmi] — injured (Class 4) [zaxmi] ◆ خطرناک [xatarnāk] — dangerous (Class 1) [xatarnāk] ◆ زوبال [zobal] — injured / hurt (Class 1) [zobal] ◆ معلوم [malum] — known / obvious (Class 4) [malum]",
+        "PAST-TENSE TIME ADVERBIALS (essential for past tense sentences):",
+        "پرون [prun] — yesterday [prun]",
+        "بيګا [bega] — last night [bega]",
+        "پرون ماسپخين [prun māspaxin] — yesterday afternoon [prun māspaxin]",
+        "وورمه ورځ [worma wradz] — the day before yesterday [worma wradz]",
+        "تيره اونۍ [tira awney] — last week [tira awney]",
+        "تير مياشت [tir myāsht] — last month [tir myāsht]",
+        "تير کال [tir kāl] — last year [tir kāl]",
+        "مخکې [makhke] — before / earlier [makhke]",
+        "بعد [bad] — afterwards [bad]",
+        "MEDICAL VERBS (derivative):",
+        "دردول [dardawəl] — to hurt/cause pain (tr. derivative) [dardawəl]",
+        "درديدل [dardedəl] — to ache (intr. derivative) [dardedəl]",
+        "زوبلاول [zobawəl] — to injure (tr. derivative) [zobawəl]",
+        "زوبيدل [zobedəl] — to be hurt/injured (intr. derivative) [zobedəl]",
+        "درمله کول [darmala kawəl] — to treat / to apply medicine (derivative) [darmala kawəl]",
+        "CONJUNCTIONS & DISCOURSE MARKERS:",
+        "کله چې [kāla če] — whenever [kāla če] ◆ ماګر [māgar] — however / but [māgar]",
+        "ولې چې [wale če] — because [wale če] ◆ ددي [dade] — so that / in order that"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 8 — Reading: مريضپرسي (Visiting the Sick)",
+      "lines": [
+        "This reading is in Pashto script only. Topic: the Pashtun custom of visiting the sick — مريضپرسي [marīzpursi] — described in the past tense. Identify every past tense verb form and classify it (intransitive or transitive, imperfective or perfective).",
+        "پرون زه او اسد د ناروغ سره ولاړ شو. هغه زوبالی وو.",
+        "اسد خواراکي واخيست — مڼې او کيلې. ما يو ساعت وروسته ورغلم.",
+        "پهـ روغتون کې ملګري مو ليدل. هغوي ناست وو.",
+        "مريضه د کور د خلکو نه پوشتنه وکړه. مونږ ورته ووايل چې ټول ښه دي.",
+        "ډاکټر راغی. ناروغه يې معاينه کړه. نتيجه يې ورته ووايله.",
+        "موږ ولاړ شو. ناروغ مو سلام ووکړ. بيا کور ته راغلو.",
+        "READING GLOSSARY:",
+        "زوبالی [zobālay] — injured (past participial adjective, M) ◆ خواراکي واخيست [xwārāki wāxist] — bought food offerings ← واخيست = past perf. 3sg M transitive (agreeing with object خواراکي M3) ◆ وروسته [wrusta] — afterwards / later ◆ ورغلم [worghəlam] — I went to him ← ور- directional + past of تلل ◆ ليدل [lidəl] — saw ← past perfective transitive (agreeing with object ملګري) ◆ پوشتنه وکړه [pušhtana wukṛa] — asked ← wukṛa = past perf. 3sg F transitive (agreeing with پوشتنه which is F!) ◆ ووايل [wowāyəl] — told/said (past perf. 1pl intransitive: we said) ◆ راغی [rāghay] — came (3sg M past perf. of راتلل: stress-shift, راغل → راغی alternative form) ◆ معاينه کړه [māyena kaṛa] — examined (past perf. 3sg F transitive — agreeing with F object ناروغه) ◆ ووايله [wowāyla] — told her (past perf. transitive agreeing with F object) ◆ سلام ووکړ [salām wukṛ] — greeted (past perf. 3sg M transitive)",
+        "VERB ANALYSIS EXERCISE — classify each highlighted verb:",
+        "① واخيست [wāxist] — Past _____ (impf./perf.) _____ (intr./tr.) → agrees with _____",
+        "② ولاړ شو [walāṛ shwo] — Past _____ of تلل, _____ (intr./tr.) → agrees with _____",
+        "③ معاينه کړه [māyena kaṛa] — Past _____ of معاينه کول, _____ → -ه ending because object ناروغه is _____",
+        "COMPREHENSION QUESTIONS:",
+        "① چوک زوبالی وو؟ — Who was injured?",
+        "② اسد ددي واخيست؟ — What did Asad buy?",
+        "③ ډاکټر هغه ته ددي ووايله؟ — What did the doctor tell him/her?"
+      ]
+    },
+    {
+      "type": "callout",
+      "heading": "📚 Pashtun Folk Medicine & Traditional Healing",
+      "lines": [
+        "The reading and unit context touch on medical care — an area where Pashtun traditional knowledge (خلکي طب [xalki ṭab] 'folk medicine') intersects with modern healthcare.",
+        "Traditional Pashtun responses to illness include:",
+        "تعويذ [tawidh] — amulet: a piece of paper with Quranic verses, folded and worn on the body. Believed to provide protection and healing, especially for children's illnesses.",
+        "دم [dam] — breath/recitation: a healer recites prayers over water or oil which the patient then drinks or applies. Common for fever (تاب [tāb]) and pain.",
+        "کاروبار [kārobār] — herbal remedies: aniseed (سپرکی [spərkay]), cumin (زيره [zira]), and other spices are used medicinally for stomach complaints (د ناجوړ ګيډه [da nājwara geḍa]).",
+        "HEPATITIS (زخاوی [zaxāway]) is particularly common in rural Afghanistan and mentioned in the lesson's vocabulary — it is treated with dietary restrictions and traditional remedies alongside modern medicine.",
+        "CULTURAL TENSION: Modern medicine (ناروغتيا [nāroghtyā]) coexists with traditional healing in urban Afghan settings. Educated Afghans may use both simultaneously — visiting a hospital while also wearing a تعويذ [tawidh]. This is not contradiction but complementarity in Pashtun cosmology.",
+        "VOCABULARY NOTE: ناروغ [nārogh] functions as both adjective ('sick') and noun ('sick person/patient') — context determines the role. A M1 noun when meaning 'patient': د ناروغ پوشتنه [da nārogh pušhtana] 'inquiry about the sick person's health'."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Section 9 — Diversion: لنډۍ — A Landai on Health",
+      "lines": [
+        "پهـ روغ سورت پاچاهي کول",
+        "[pa rogh surāt pāčāhi kawəl]",
+        "Translation: 'To have a healthy body is to live royally.'",
+        "SECOND COUPLET:",
+        "پاس پهـ بنګله کې زاری خيژي",
+        "يا ددي ناروغ دی يا مينه له ملک ځي",
+        "[pās pa bangla ke zāri xeži",
+        "yā da di nārogh da yā mina la malk dzi]",
+        "Translation: 'From upstairs in the bungalow there is the sound of crying. Either someone is sick, or a lover is leaving the country.'",
+        "WORD-FOR-WORD GLOSS of the second couplet:",
+        "پاس [pās] — upstairs / above ◆ پهـ بنګله کې [pa bangla ke] — in the bungalow / in the house (بنګله = colonial-era borrowed term for 'house') ◆ زاری [zāri] — crying / wailing (F3 noun) ◆ خيژي [xeži] — rises / comes from (3sg pres. impf. of خيژيدل [xejedəl] 'to rise') ◆ يا...يا [yā...yā] — either...or ◆ مينه [mina] — love / beloved (F1) ◆ له ملک ځي [la malk dzi] — is going from the country ← ځي = 3sg pres. impf. of تلل [tləl] 'to go'",
+        "CULTURAL COMMENTARY: This landai captures two occasions that produce the same sound — crying. Illness and departure of a loved one are both occasions of intense sorrow in Pashtun life. The poem is elegant precisely in its refusal to specify which: the ambiguity IS the meaning. From a distance, you cannot tell the difference between grief for the sick and grief for the departing.",
+        "HEALTH IN PASHTUN PROVERB TRADITION: پهـ روغ سورت پاچاهي [pa rogh surāt pāčāhi] — 'royal living with a healthy body' — reflects the Pashtun understanding that health is the foundation of all other goods. A healthy person is, in effect, a king — not because of wealth but because of the capacity to act, move, work, and live fully.",
+        "GRAMMAR NOTE: ځي [dzi] is the 3sg present imperfective of تلل [tləl] 'to go' — one of the irregular verbs you have studied. Finding it in authentic folk poetry confirms that the 'difficult' irregular verbs are not academic exercises but living language."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "heading": "Knowledge Check — Review Before the Quiz",
+      "lines": [
+        "Review these key points from Lesson 12 before attempting the quiz:",
+        "✓ Past 'be': وم [wam] (1sg), وې [we] (2sg), وو [wo] (3sg M), وه [wa] (3sg F), وو [wu] (1pl), وئ [way] (2pl), وو [wi] (3pl M), وې [we] (3pl F).",
+        "✓ Three forms spelled وو but pronounced differently: [wo] 3sg M / [wu] 1pl / [wi] 3pl M.",
+        "✓ Past tense personal endings: 3sg M DROPS the -ل suffix (or adds -و). 3sg F: -ه [-a]. 3pl F: -ې [-e].",
+        "✓ INTRANSITIVE past: verb agrees with SUBJECT (same as present).",
+        "✓ TRANSITIVE past: verb agrees with OBJECT; SUBJECT takes OBLIQUE case. زه → ما, ته → ستا.",
+        "✓ WEAK PRONOUN OBJECTS DROP in past transitive — verb ending encodes them.",
+        "✓ Derivative intransitive past: کيږ- → کيد- [ked-] in imperfective; ش- [sh-] in perfective.",
+        "✓ Derivative transitive past: adjective base AGREES with object in perfective — gender-variable.",
+        "✓ Irregular past 'go': تلل past perf. = لاړم [lāṛam] (1sg), لاړ [lāṛ] (3sg M), لاړه [lāṛa] (3sg F).",
+        "✓ Irregular past 'come': راتلل past perf. = راغلم [rāghlam] (1sg), راغل [rāghl] (3sg M), راغله [rāghla] (3sg F).",
+        "✓ Medical phrases: چېره درد کوي؟ [čere dard kawi?] 'Where does it hurt?' ◆ الله دې روغ کړي 'May God make you healthy'.",
+        "✓ پرون [prun] = yesterday ◆ بيګا [bega] = last night ◆ تير کال [tir kāl] = last year."
       ]
     },
     {
       "type": "quiz",
-      "question": "When constructing sentences in the Pashto past tense, what entirely new set of endings must you use for the 3rd person (he/she/it/they) compared to the present tense?",
+      "question": "What are the past tense forms of 'be' for 3rd person singular masculine and 3rd person singular feminine?",
       "options": [
-        "Masculine takes [ay], feminine takes [a], and plural takes [i].",
-        "Masculine singular takes [a], plural takes [a]; feminine singular takes [a], plural takes [e].",
-        "The endings do not change; only the past prefix [wə-] is added.",
-        "All 3rd person past tense forms end in [əl]."
+        "Both are وو [wi] — the same form is used regardless of gender.",
+        "Masculine: وو [wo] ◆ Feminine: وه [wa] — different pronunciation AND spelling.",
+        "Masculine: وه [wa] ◆ Feminine: وو [wo] — reversed from what you might expect.",
+        "Both are وي [wi] — the same form used in the present tense."
       ],
       "correctIndex": 1,
-      "explanation": "The past tense introduces a distinct personal ending set in the 3rd person: masculine singular [a], plural [a]; feminine singular [a], plural [e][cite: 58]."
+      "explanation": "3sg M past 'be' = وو [wo] (pronounced with /o/): هغه پهـ کور کې وو [hagha pa kor ke wo] 'He was at home.' 3sg F past 'be' = وه [wa] (pronounced with /a/): رابيا پهـ روغتون کې وه [rābya pa roghṭun ke wa] 'Rābya was in the hospital.' These two forms are BOTH spelled با waw (و) but with different following letters and different vowels. This gender distinction in the past copula is one of the clearest signals that Pashto encodes gender in its verbal system, unlike the present tense where دی/ده [da] covers both genders with the same pronunciation."
+    },
+    {
+      "type": "quiz",
+      "question": "In the sentence ما کتاب ولوست [mā kitāb wulwost] — 'I read the book' — why is the subject ما [mā] instead of زه [za]?",
+      "options": [
+        "ما [mā] and زه [za] are free variants — either can be used with any verb.",
+        "ما [mā] is used only with past tense verbs as a formal register marker.",
+        "ما [mā] is the OBLIQUE CASE of زه [za] 'I'. In past tense TRANSITIVE sentences, the SUBJECT takes the oblique case — a preview of the ergative alignment fully explained in Lesson 13.",
+        "ما [mā] is the strong emphatic pronoun, used here for emphasis on the identity of the reader."
+      ],
+      "correctIndex": 2,
+      "explanation": "ما [mā] is the OBLIQUE CASE of the 1sg pronoun زه [za] 'I'. In Pashto past tense TRANSITIVE sentences, the subject (the agent who performs the action) takes the OBLIQUE CASE. This is the ergative pattern: past transitive verbs agree with the OBJECT (کتاب [kitāb] 'book', M 3sg → verb ولوست [wulwost] takes 3sg M form) while the SUBJECT appears in the oblique case (ما [mā]). In present tense or past intransitive sentences, the subject stays in the DIRECT case (زه [za]). This contrast — زه [za] (direct/intransitive) vs. ما [mā] (oblique/past-transitive) — is the surface manifestation of Pashto's split-ergative system, fully covered in Lesson 13."
+    },
+    {
+      "type": "quiz",
+      "question": "What ending does the 3rd person masculine singular take in the past tense, and what does it look like with the verb لاړل [lāṛəl] 'to go'?",
+      "options": [
+        "The 3sg M ending is -ي [-i], producing لاړي [lāṛi] 'he went'.",
+        "The 3sg M ending is -ه [-a], producing لاړه [lāṛa] 'he went'.",
+        "The 3sg M ending causes the -ل [-əl] suffix to DROP, leaving the bare stem: لاړ [lāṛ] 'he went'.",
+        "The 3sg M ending is -ل [-əl], the same as the infinitive: لاړل [lāṛəl] 'he went'."
+      ],
+      "correctIndex": 2,
+      "explanation": "In the Pashto past tense, the 3rd person masculine singular (and often 3rd masculine plural) causes the past suffix -ل [-əl] to DROP, leaving just the bare past stem. For لاړل [lāṛəl] 'to go': 1sg = لاړم [lāṛam] (add -م [-am]), 3sg M = لاړ [lāṛ] (suffix drops — bare stem only), 3sg F = لاړه [lāṛa] (add -ه [-a]). Similarly for راتلل [rātləl] 'to come': راغلم [rāghlam] (1sg), راغل [rāghl] (3sg M — suffix drops), راغله [rāghla] (3sg F). This suffix-dropping rule with 3sg M and irregular verbs makes these forms difficult to identify in text."
+    },
+    {
+      "type": "quiz",
+      "question": "In the past perfective sentence پخه يې کړه [paxe ye kaṛa] — 'She cooked it (F)' — what grammatical features explain the form پخه [paxe] and the ending -ه [-a] on کړه [kaṛa]?",
+      "options": [
+        "پخه [paxe] is the feminine form of the base adjective because the SUBJECT (she) is feminine, and -ه is the 3sg F subject agreement ending.",
+        "Both پخه [paxe] and the -ه [-a] ending on کړه agree with the OBJECT (a feminine noun), because in past transitive sentences the verb and its base agree with the OBJECT — not the subject.",
+        "پخه [paxe] is an adverb meaning 'completely', and -ه [-a] is a question marker in some dialects.",
+        "The form is incorrect — the masculine form پخ کړ [pax kaṛ] should be used regardless of the object's gender."
+      ],
+      "correctIndex": 1,
+      "explanation": "In past tense TRANSITIVE derivative sentences with an adjective base, BOTH the base adjective AND the auxiliary agree with the OBJECT (not the subject). If the object is FEMININE (3sg F), then: (1) the adjective base پخ [pax] 'cooked (M)' → پخه [paxe] (F form), AND (2) the auxiliary کړ [kaṛ] → کړه [kaṛa] (adding -ه [-a] for F object). So پخه يې کړه [paxe ye kaṛa] = 'she/he cooked it (feminine object)' — both پخه and کړه are feminine because the FOOD/THING COOKED is feminine. The subject (she/he) is in the oblique case and encoded by يې [ye] weak pronoun clitic. This double-feminine agreement is a crucial feature of the Pashto ergative system."
+    },
+    {
+      "type": "quiz",
+      "question": "How do you say 'My head aches' in Pashto, using the body vocabulary and درديدل [dardedəl] 'to ache'?",
+      "options": [
+        "زما سر ددريږي. [zmā sar dardegi.] — using the strong possessive زما [zmā].",
+        "سر مې درديږي. [sar me dardegi.] — using the weak possessive مې [me] after the first stressed element سر [sar].",
+        "زه سر دردوم. [za sar dardawam.] — using the transitive verb دردول [dardawəl] with a subject pronoun.",
+        "پهـ سر کې درد کوم. [pa sar ke dard kawam.] — the only correct construction for pain expressions."
+      ],
+      "correctIndex": 1,
+      "explanation": "سر مې درديږي [sar me dardegi] — 'My head aches.' This sentence uses the WEAK POSSESSIVE pronoun مې [me] 'my' docked after the first stressed element سر [sar] 'head' — exactly the Lesson 4 rule. The verb درديږي [dardegi] is the 3sg present imperfective of the derivative intransitive verb درديدل [dardedəl] (stem: دردیږ- [dardeg-]). The intransitive verb agrees with its subject سر [sar] (M3 → 3sg form). Option A uses the strong possessive زما [zmā] — grammatically possible but would carry emphasis (MY head, not someone else's). Option C incorrectly uses the transitive form. Option D is also correct but more formal/complex."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the cultural obligation expressed by the concept مريضپرسي [marīzpursi], and what verb form in Pashto expresses 'May God make you healthy'?",
+      "options": [
+        "مريضپرسي is an optional social visit; 'May God make you healthy' = الله ته روغ کوي [allāh ta rogh kawi] (present imperfective).",
+        "مريضپرسي is the OBLIGATORY duty to visit the sick in Pashtun society; 'May God make you healthy' = الله دې روغ کړي [allāh de rogh kaṛi] — a wish/subjunctive construction using the perfective کړي [kaṛi].",
+        "مريضپرسي is a funeral tradition; the expression is الله دې بخښه [allāh de baxša] 'May God forgive you'.",
+        "مريضپرسي is optional; 'May God make you healthy' uses the past tense الله دې روغ کړ [allāh de rogh kaṛ]."
+      ],
+      "correctIndex": 1,
+      "explanation": "مريضپرسي [marīzpursi] is the OBLIGATORY Pashtun duty to visit sick community members — neighbours, relatives, friends. It is not optional; failing to visit a sick person is a serious social failure under Pashtunwali's community solidarity code. 'May God make you healthy' = الله دې روغ کړي [allāh de rogh kaṛi]. This construction uses: الله [allāh] 'God' (subject) + دې [de] (weak pronoun 'you' — the sick person) + روغ [rogh] 'healthy' (adjective base) + کړي [kaṛi] (3sg perfective of کول [kawəl] 'to make') — a wish/prayer construction using the perfective form to express a desired completed action. The دې [de] weak pronoun docks after the first stressed element الله following the standard floating rule."
     }
   ]
 }
