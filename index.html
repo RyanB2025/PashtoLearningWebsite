@@ -44,11 +44,17 @@
       </div>
 
       <div class="header-progress" aria-live="polite">
-        <span class="progress-label">Progress</span>
-        <div class="progress-bar-wrap" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-          <div class="progress-bar-fill" id="global-progress-bar"></div>
+        <div class="stats-badges">
+          <span class="stat-badge streak-badge" id="streak-display" title="Daily Streak">🔥 0</span>
+          <span class="stat-badge xp-badge" id="xp-display" title="Experience Points">⭐ 0 XP</span>
         </div>
-        <span class="progress-text" id="global-progress-text">0 / 0</span>
+        <div class="progress-container" style="display:flex; align-items:center; gap:12px; width:100%;">
+          <span class="progress-label">Progress</span>
+          <div class="progress-bar-wrap" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="progress-bar-fill" id="global-progress-bar"></div>
+          </div>
+          <span class="progress-text" id="global-progress-text">0 / 0</span>
+        </div>
       </div>
     </div>
 
